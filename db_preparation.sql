@@ -26,3 +26,4 @@ DELETE FROM rating;
 DELETE FROM rating_entity;
 DELETE FROM review_entity;
 DELETE FROM review_status;
+DELETE FROM tax_class;
