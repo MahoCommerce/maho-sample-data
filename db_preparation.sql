@@ -1,0 +1,5 @@
+DELETE FROM catalog_category_entity;
+DELETE FROM catalog_eav_attribute;
+DELETE FROM catalog_product_link_attribute;
+DELETE FROM catalog_product_link_type;
+DELETE FROM cataloginventory_stock;
