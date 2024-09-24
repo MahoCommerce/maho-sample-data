@@ -4,7 +4,6 @@ DELETE FROM catalog_product_link_attribute;
 DELETE FROM catalog_product_link_type;
 DELETE FROM cataloginventory_stock;
 DELETE FROM cms_page;
-DELETE FROM core_resource;
 DELETE FROM core_store;
 DELETE FROM core_store_group;
 DELETE FROM core_website;
