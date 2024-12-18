@@ -581,7 +581,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `core_config_data` WRITE;
 /*!40000 ALTER TABLE `core_config_data` DISABLE KEYS */;
-INSERT INTO `core_config_data` (scope,scope_id,path,value) VALUES('default',0,'design/head/demonotice','1'),('default',0,'design/footer/copyright','&copy; Sample Shop. All Rights Reserved.'),('stores',2,'general/locale/code','fr_FR'),('stores',3,'general/locale/code','de_DE'),('default',0,'configswatches/general/enabled', 1),('default',0,'configswatches/general/swatch_attributes', 92),('default',0,'configswatches/general/product_list_attribute', 92);
+INSERT INTO `core_config_data` (scope,scope_id,path,value) VALUES('default',0,'design/head/demonotice','1'),('default',0,'design/footer/copyright','&copy; Sample Shop. All Rights Reserved.'),('stores',2,'general/locale/code','fr_FR'),('stores',3,'general/locale/code','de_DE'),('default',0,'configswatches/general/enabled', 1),('default',0,'configswatches/general/swatch_attributes', '92,180'),('default',0,'configswatches/general/product_list_attribute', 92);
 /*!40000 ALTER TABLE `core_config_data` ENABLE KEYS */;
 UNLOCK TABLES;
 
