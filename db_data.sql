@@ -621,7 +621,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `core_store` WRITE;
 /*!40000 ALTER TABLE `core_store` DISABLE KEYS */;
-INSERT INTO `core_store` VALUES (0,'admin',0,0,'Admin',0,1),(1,'en',1,1,'English',0,1),(2,'fr',1,1,'French',0,1),(3,'de',1,1,'German',0,1);
+INSERT INTO `core_store` VALUES (0,'admin',0,0,'Admin',0,1),(1,'en',1,1,'EN',0,1),(2,'fr',1,1,'FR',0,1),(3,'de',1,1,'DE',0,1);
 /*!40000 ALTER TABLE `core_store` ENABLE KEYS */;
 UNLOCK TABLES;
 
