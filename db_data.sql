@@ -1507,36 +1507,6 @@ INSERT INTO `salesrule_website` VALUES (6,1),(7,1),(9,1),(10,1),(11,1),(14,1),(1
 UNLOCK TABLES;
 
 --
--- Dumping data for table `tag`
---
-
-LOCK TABLES `tag` WRITE;
-/*!40000 ALTER TABLE `tag` DISABLE KEYS */;
-INSERT INTO `tag` VALUES (1,'Perfect',1,NULL,1),(2,'Good',1,NULL,1),(3,'One',1,NULL,1),(4,'Awesomeee',1,NULL,1),(5,'cxcxcxc',1,NULL,1),(6,'test',1,NULL,1),(7,'red',1,NULL,1),(8,'bag',1,NULL,1),(9,'two',1,NULL,1),(10,'three',1,NULL,1),(11,'Really',1,NULL,1),(12,'Comfortable',1,NULL,1),(13,'superb',1,NULL,1),(14,'check2',1,NULL,1),(15,'soya',1,NULL,1),(16,'suberb',1,NULL,1),(17,'white',1,135,1),(18,'shirt' ,1,135,1),(19,'grey',1,135,1),(20,'suit',1,135,1);
-/*!40000 ALTER TABLE `tag` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Dumping data for table `tag_relation`
---
-
-LOCK TABLES `tag_relation` WRITE;
-/*!40000 ALTER TABLE `tag_relation` DISABLE KEYS */;
-INSERT INTO `tag_relation` VALUES (30,17,135,402,1,1,'2023-05-29 13:49:16'),(31,18,135,402,1,1,'2023-05-29 13:49:16'),(32,19,135,405,1,1,'2023-05-29 13:49:41'),(33,20,135,405,1,1,'2023-05-29 13:49:41');
-/*!40000 ALTER TABLE `tag_relation` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Dumping data for table `tag_summary`
---
-
-LOCK TABLES `tag_summary` WRITE;
-/*!40000 ALTER TABLE `tag_summary` DISABLE KEYS */;
-INSERT INTO `tag_summary` VALUES (17,0,1,1,0,0,1,0),(17,1,1,1,0,0,1,0),(18,0,1,1,0,0,1,0),(18,1,1,1,0,0,1,0),(19,0,1,1,0,0,1,0),(19,1,1,1,0,0,1,0),(20,0,1,1,0,0,1,0),(20,1,1,1,0,0,1,0);
-/*!40000 ALTER TABLE `tag_summary` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Dumping data for table `tax_calculation`
 --
 
