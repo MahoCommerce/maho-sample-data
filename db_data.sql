@@ -10,6 +10,38 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Dumping data for table `core_store`
+--
+
+/*!40000 ALTER TABLE `core_store` DISABLE KEYS */;
+REPLACE INTO `core_store` VALUES (0,'admin',0,0,'Admin',0,1),(1,'en',1,1,'EN',0,1),(2,'fr',1,1,'FR',0,1),(3,'de',1,1,'DE',0,1);
+/*!40000 ALTER TABLE `core_store` ENABLE KEYS */;
+
+--
+-- Dumping data for table `core_store_group`
+--
+
+/*!40000 ALTER TABLE `core_store_group` DISABLE KEYS */;
+REPLACE INTO `core_store_group` VALUES (0,0,'Default',0,0),(1,1,'Main Store',2,1);
+/*!40000 ALTER TABLE `core_store_group` ENABLE KEYS */;
+
+--
+-- Dumping data for table `core_website`
+--
+
+/*!40000 ALTER TABLE `core_website` DISABLE KEYS */;
+REPLACE INTO `core_website` VALUES (0,'admin','Admin',0,0,0),(1,'base','Main Website',0,1,1);
+/*!40000 ALTER TABLE `core_website` ENABLE KEYS */;
+
+--
+-- Dumping data for table `core_config_data`
+--
+
+/*!40000 ALTER TABLE `core_config_data` DISABLE KEYS */;
+REPLACE INTO `core_config_data` (scope,scope_id,path,value) VALUES('default',0,'design/head/demonotice','1'),('default',0,'design/footer/copyright','&copy; Sample Shop. All Rights Reserved.'),('stores',2,'general/locale/code','fr_FR'),('stores',3,'general/locale/code','de_DE'),('default',0,'configswatches/general/enabled', 1),('default',0,'configswatches/general/swatch_attributes', '92,180'),('default',0,'configswatches/general/product_list_attribute', 92);
+/*!40000 ALTER TABLE `core_config_data` ENABLE KEYS */;
+
+--
 -- Dumping data for table `catalog_category_entity`
 --
 
@@ -456,63 +488,6 @@ REPLACE INTO `cms_page` VALUES (1,'404 Not Found','one_column','Page keywords','
 /*!40000 ALTER TABLE `cms_page_store` DISABLE KEYS */;
 REPLACE INTO `cms_page_store` VALUES (4,0),(5,0),(6,0),(7,0),(8,0),(10,0),(1,1),(2,1),(3,1),(4,1),(6,1),(9,1),(10,1),(1,2),(2,2),(3,2),(4,2),(6,2),(10,2),(1,3),(2,3),(3,3),(4,3),(6,3),(10,3);
 /*!40000 ALTER TABLE `cms_page_store` ENABLE KEYS */;
-
---
--- Dumping data for table `core_config_data`
---
-
-/*!40000 ALTER TABLE `core_config_data` DISABLE KEYS */;
-REPLACE INTO `core_config_data` (scope,scope_id,path,value) VALUES('default',0,'design/head/demonotice','1'),('default',0,'design/footer/copyright','&copy; Sample Shop. All Rights Reserved.'),('stores',2,'general/locale/code','fr_FR'),('stores',3,'general/locale/code','de_DE'),('default',0,'configswatches/general/enabled', 1),('default',0,'configswatches/general/swatch_attributes', '92,180'),('default',0,'configswatches/general/product_list_attribute', 92);
-/*!40000 ALTER TABLE `core_config_data` ENABLE KEYS */;
-
---
--- Dumping data for table `core_flag`
---
-
-/*!40000 ALTER TABLE `core_flag` DISABLE KEYS */;
-REPLACE INTO `core_flag` VALUES (1,'admin_notification_survey',0,'a:1:{s:13:\"survey_viewed\";b:1;}','2024-11-17 15:27:59'),(2,'catalog_product_flat',0,'a:5:{s:8:\"is_built\";b:1;s:16:\"is_store_built_1\";b:1;s:16:\"is_store_built_2\";b:1;s:16:\"is_store_built_3\";b:1;s:16:\"is_store_built_4\";b:1;}','2023-04-29 06:37:00'),(3,'catalog_rules_dirty',0,NULL,'2024-11-24 10:31:14'),(4,'report_order_aggregated',0,NULL,'2023-05-17 04:00:04'),(5,'report_shipping_aggregated',0,NULL,'2023-05-17 04:00:04'),(6,'report_invoiced_aggregated',0,NULL,'2023-05-17 04:00:05'),(7,'report_refunded_aggregated',0,NULL,'2023-05-17 04:00:05'),(8,'report_bestsellers_aggregated',0,NULL,'2023-05-17 04:00:05'),(9,'report_coupons_aggregated',0,NULL,'2023-05-17 04:00:06'),(10,'report_tax_aggregated',0,NULL,'2023-05-17 04:00:06'),(11,'log_rotation',0,'i:1368770463;','2023-05-17 06:01:03');
-/*!40000 ALTER TABLE `core_flag` ENABLE KEYS */;
-
---
--- Dumping data for table `core_layout_link`
---
-
-/*!40000 ALTER TABLE `core_layout_link` DISABLE KEYS */;
-REPLACE INTO `core_layout_link` VALUES (9,0,'frontend','rwd','default',63);
-/*!40000 ALTER TABLE `core_layout_link` ENABLE KEYS */;
-
---
--- Dumping data for table `core_layout_update`
---
-
-/*!40000 ALTER TABLE `core_layout_update` DISABLE KEYS */;
-REPLACE INTO `core_layout_update` VALUES (63,'checkout_cart_index','<reference name=\"content\"><block type=\"cms/widget_block\" name=\"4f94604914e09642543ae665f9cbcf42\" template=\"cms/widget/static_block/default.phtml\"><action method=\"setData\"><name>block_id</name><value>20</value></action></block></reference>',0);
-/*!40000 ALTER TABLE `core_layout_update` ENABLE KEYS */;
-
---
--- Dumping data for table `core_store`
---
-
-/*!40000 ALTER TABLE `core_store` DISABLE KEYS */;
-REPLACE INTO `core_store` VALUES (0,'admin',0,0,'Admin',0,1),(1,'en',1,1,'EN',0,1),(2,'fr',1,1,'FR',0,1),(3,'de',1,1,'DE',0,1);
-/*!40000 ALTER TABLE `core_store` ENABLE KEYS */;
-
---
--- Dumping data for table `core_store_group`
---
-
-/*!40000 ALTER TABLE `core_store_group` DISABLE KEYS */;
-REPLACE INTO `core_store_group` VALUES (0,0,'Default',0,0),(1,1,'Main Store',2,1);
-/*!40000 ALTER TABLE `core_store_group` ENABLE KEYS */;
-
---
--- Dumping data for table `core_website`
---
-
-/*!40000 ALTER TABLE `core_website` DISABLE KEYS */;
-
-REPLACE INTO `core_website` VALUES (0,'admin','Admin',0,0,0),(1,'base','Main Website',0,1,1);
-/*!40000 ALTER TABLE `core_website` ENABLE KEYS */;
 
 --
 -- Dumping data for table `coupon_aggregated`
