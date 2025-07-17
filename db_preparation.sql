@@ -1,0 +1,15 @@
+DELETE FROM catalog_category_entity;
+DELETE FROM catalog_product_entity;
+DELETE FROM eav_attribute WHERE entity_type_id=4;
+DELETE FROM catalog_compare_item;
+DELETE FROM catalog_eav_attribute;
+DELETE FROM catalog_product_link;
+DELETE FROM catalog_product_link_attribute;
+DELETE FROM catalog_product_link_type;
+DELETE FROM cataloginventory_stock_status;
+DELETE FROM cataloginventory_stock_status_idx;
+DELETE FROM cataloginventory_stock_status_tmp;
+DELETE FROM cms_block;
+DELETE FROM cms_page;
+DELETE FROM downloadable_link_purchased;
+DELETE FROM downloadable_link_purchased_item;
