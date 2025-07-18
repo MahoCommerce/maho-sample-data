@@ -362,7 +362,6 @@ VALUES
 	(162,3,48,0,22,NULL),
 	(163,3,51,0,22,'PRODUCTS'),
 	(164,3,60,0,22,NULL),
-	(165,3,63,0,22,'two_columns_right'),
 	(166,3,59,1,22,'home-decor/books-music.html'),
 	(167,3,59,0,22,'home-decor/books-music.html'),
 	(168,3,43,0,23,'Bed & Bath'),
@@ -451,7 +450,6 @@ VALUES
 	(739,3,48,0,40,NULL),
 	(740,3,51,0,40,'PRODUCTS'),
 	(741,3,60,0,40,NULL),
-	(742,3,63,0,40,'two_columns_right'),
 	(743,3,59,1,40,'men/blazers.html'),
 	(744,3,59,0,40,'men/blazers.html'),
 	(1045,3,59,2,6,'accessories.html');
