@@ -10,7 +10,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`, `updated_at`)
-VALUES ('default', '0', 'configswatches/general/product_list_attribute', '94', NULL),('default', '0', 'configswatches/general/swatch_attributes', '195,94,191,210,187,181', NULL),('default', '0', 'configswatches/general/enabled', '1', NULL),('default', '0', 'catalog/frontend/grid_per_page', '12', NULL),('default', '0', 'catalog/frontend/list_mode', 'grid', NULL);
+VALUES ('default', '0', 'configswatches/general/product_list_attribute', '94', NULL),('default', '0', 'configswatches/general/swatch_attributes', '195,94,191,210,187,181', NULL),('default', '0', 'configswatches/general/enabled', '1', NULL),('default', '0', 'catalog/frontend/grid_per_page', '12', NULL),('default', '0', 'catalog/frontend/list_mode', 'grid', NULL),('default', '0', 'catalog/advanced_search/enabled', '0', NULL);
 
 INSERT INTO `catalog_category_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `parent_id`, `created_at`, `updated_at`, `path`, `position`, `level`, `children_count`)
 VALUES
