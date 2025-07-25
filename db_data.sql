@@ -20,7 +20,8 @@ VALUES
     ('default', '0', 'catalog/advanced_search/enabled', '0', NULL),
     ('default', '0', 'catalog/recently_products/enabled_product_compare', '0', NULL),
     ('default', '0', 'catalog/recently_products/enabled_recently_viewed', '0', NULL),
-    ('default', '0', 'catalog/frontend/enable_addtocart_in_product_listings', '0', NULL);
+    ('default', '0', 'catalog/frontend/enable_addtocart_in_product_listings', '0', NULL),
+    ('default', '0', 'design/head/demonotice', '1', NULL);
 
 INSERT INTO `catalog_category_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `parent_id`, `created_at`, `updated_at`, `path`, `position`, `level`, `children_count`)
 VALUES
