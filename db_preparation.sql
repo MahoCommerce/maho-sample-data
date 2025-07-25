@@ -13,3 +13,7 @@ DELETE FROM cms_block;
 DELETE FROM cms_page;
 DELETE FROM downloadable_link_purchased;
 DELETE FROM downloadable_link_purchased_item;
+DELETE FROM tax_calculation;
+DELETE FROM tax_calculation_rate;
+DELETE FROM tax_calculation_rule;
+DELETE FROM tax_class;
