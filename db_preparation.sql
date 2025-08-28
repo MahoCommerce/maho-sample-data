@@ -17,3 +17,5 @@ DELETE FROM tax_calculation;
 DELETE FROM tax_calculation_rate;
 DELETE FROM tax_calculation_rule;
 DELETE FROM tax_class;
+
+UPDATE eav_attribute SET attribute_id=attribute_id+200 WHERE attribute_id>133;
