@@ -1,20 +1,13 @@
-DELETE FROM catalog_category_entity;
-DELETE FROM catalog_product_entity;
-UPDATE eav_attribute SET attribute_id=attribute_id+200 WHERE attribute_id>133;
-DELETE FROM eav_attribute WHERE entity_type_id=4 AND attribute_id<300;
-DELETE FROM catalog_compare_item;
-DELETE FROM catalog_eav_attribute;
-DELETE FROM catalog_product_link;
-DELETE FROM catalog_product_link_attribute;
-DELETE FROM catalog_product_link_type;
-DELETE FROM cataloginventory_stock_status;
-DELETE FROM cataloginventory_stock_status_idx;
-DELETE FROM cataloginventory_stock_status_tmp;
-DELETE FROM cms_block;
-DELETE FROM cms_page;
-DELETE FROM downloadable_link_purchased;
-DELETE FROM downloadable_link_purchased_item;
-DELETE FROM tax_calculation;
-DELETE FROM tax_calculation_rate;
-DELETE FROM tax_calculation_rule;
-DELETE FROM tax_class;
+INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`, `updated_at`)
+VALUES
+    ('default', '0', 'configswatches/general/product_list_attribute', '94', NULL),
+    ('default', '0', 'configswatches/general/swatch_attributes', '195,94,191,210,187,181', NULL),
+    ('default', '0', 'configswatches/general/enabled', '1', NULL),
+    ('default', '0', 'catalog/frontend/grid_per_page', '12', NULL),
+    ('default', '0', 'catalog/frontend/grid_per_page_values', '12', NULL),
+    ('default', '0', 'catalog/frontend/list_mode', 'grid', NULL),
+    ('default', '0', 'catalog/advanced_search/enabled', '0', NULL),
+    ('default', '0', 'catalog/recently_products/enabled_product_compare', '0', NULL),
+    ('default', '0', 'catalog/recently_products/enabled_recently_viewed', '0', NULL),
+    ('default', '0', 'catalog/frontend/enable_addtocart_in_product_listings', '0', NULL),
+    ('default', '0', 'design/head/demonotice', '1', NULL);
