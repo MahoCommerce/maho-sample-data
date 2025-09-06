@@ -1,6 +1,7 @@
 DELETE FROM catalog_category_entity;
 DELETE FROM catalog_product_entity;
-DELETE FROM eav_attribute WHERE entity_type_id=4;
+UPDATE eav_attribute SET attribute_id=attribute_id+200 WHERE attribute_id>133;
+DELETE FROM eav_attribute WHERE entity_type_id=4 AND attribute_id<300;
 DELETE FROM catalog_compare_item;
 DELETE FROM catalog_eav_attribute;
 DELETE FROM catalog_product_link;
@@ -17,5 +18,3 @@ DELETE FROM tax_calculation;
 DELETE FROM tax_calculation_rate;
 DELETE FROM tax_calculation_rule;
 DELETE FROM tax_class;
-
-UPDATE eav_attribute SET attribute_id=attribute_id+200 WHERE attribute_id>133;
