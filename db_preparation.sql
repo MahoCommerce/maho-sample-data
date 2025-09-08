@@ -11,3 +11,7 @@ VALUES
     ('default', '0', 'catalog/recently_products/enabled_recently_viewed', '0', NULL),
     ('default', '0', 'catalog/frontend/enable_addtocart_in_product_listings', '0', NULL),
     ('default', '0', 'design/head/demonotice', '1', NULL);
+
+INSERT INTO `permission_block` (block_name, is_allowed)
+VALUES
+    ('cms/block', 1);
