@@ -29,7 +29,9 @@ body .catblocks li { position: relative; list-style: none; margin: 0; border: 1p
 .catblocks li:hover { border-color: var(--maho-color-primary) }
 .catblocks li img { width: 100%; display: block }
 .catblocks li a span { position: absolute; inset: auto 0 0; padding: 5px 10px; background: var(--maho-color-background-dark); color: var(--maho-color-background); font-weight: bold; text-transform: uppercase; text-align: center }
-@media (min-width: 771px) { .slideshow { max-height: 400px } .slideshow ul li { height: 400px } .slideshow ul li a { display: block; height: 100% } }
+.slideshow ul li { width: 100% }
+.slideshow ul li a { display: block }
+@media (min-width: 771px) { .slideshow { max-height: 400px } .slideshow ul li { height: 400px } .slideshow ul li a { height: 100% } }
 </style>', NULL);
 
 INSERT INTO `permission_block` (block_name, is_allowed)
