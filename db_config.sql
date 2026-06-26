@@ -33,7 +33,9 @@ body .catblocks li { position: relative; list-style: none; margin: 0; border: 1p
 .slideshow ul li a { display: block }
 @media (min-width: 771px) { .slideshow { max-height: 400px } .slideshow ul li { height: 400px } .slideshow ul li a { height: 100% } }
 </style>', NULL),
-    ('default', '0', 'revocation/general/enabled', '1', NULL);
+    ('default', '0', 'revocation/general/enabled', '1', NULL),
+    ('stores', '2', 'general/locale/code', 'fr_FR', NULL),
+    ('stores', '3', 'general/locale/code', 'de_DE', NULL);
 
 INSERT INTO `permission_block` (block_name, is_allowed)
 VALUES
