@@ -776,7 +776,7 @@ VALUES
 	(78,NULL,2,1,0,0,0,0,0,0,0,1,0,1,'simple,configurable,virtual,bundle,downloadable',0,0,0,1),
 	(79,NULL,2,1,0,0,0,0,0,0,0,1,0,1,'simple,configurable,virtual,bundle,downloadable',0,0,0,0),
 	(80,NULL,2,1,0,0,0,0,0,0,0,1,0,1,'simple,configurable,virtual,bundle,downloadable',0,0,0,0),
-	(81,NULL,2,1,0,0,0,0,0,0,0,0,0,1,'virtual,downloadable',0,0,0,0),
+	(81,NULL,2,1,0,0,0,0,0,0,0,0,0,1,'simple,virtual,downloadable',0,0,0,0),
 	(82,NULL,1,1,0,0,0,0,0,0,0,0,0,1,'simple,bundle',0,0,0,0),
 	(83,NULL,1,1,1,1,1,0,0,0,0,0,0,1,'simple',1,0,0,0),
 	(84,NULL,0,1,0,0,0,0,0,0,0,0,0,1,NULL,0,0,0,0),
