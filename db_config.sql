@@ -32,10 +32,27 @@ body .catblocks li { position: relative; list-style: none; margin: 0; border: 1p
 .slideshow ul li { width: 100% }
 .slideshow ul li a { display: block }
 @media (min-width: 771px) { .slideshow { max-height: 400px } .slideshow ul li { height: 400px } .slideshow ul li a { height: 100% } }
+/* Brand marquee on the home page (see SECTIONS.md, recipe 11) */
+.marquee { margin: 2.5rem 0; overflow: hidden; mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent) }
+.marquee-track { display: flex; width: max-content; align-items: center; animation: marquee 45s linear infinite }
+.marquee-track > * { margin: 0; flex-shrink: 0 }
+.marquee:hover .marquee-track { animation-play-state: paused }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none } }
+@keyframes marquee { to { transform: translateX(-50%) } }
 </style>', NULL),
     ('default', '0', 'revocation/general/enabled', '1', NULL),
     ('stores', '2', 'general/locale/code', 'fr_FR', NULL),
     ('stores', '3', 'general/locale/code', 'de_DE', NULL);
+
+INSERT INTO `core_config_data` (`scope`, `scope_id`, `path`, `value`, `updated_at`)
+VALUES
+    ('default', '0', 'general/store_information/name', 'Maison Maho', NULL),
+    ('default', '0', 'design/head/default_title', 'Maison Maho', NULL),
+    ('default', '0', 'design/header/logo_alt', 'Maison Maho', NULL),
+    ('default', '0', 'design/footer/copyright', '&copy; Maison Maho. All rights reserved.', NULL),
+    ('default', '0', 'trans_email/ident_general/name', 'Maison Maho', NULL),
+    ('default', '0', 'trans_email/ident_sales/name', 'Maison Maho', NULL),
+    ('default', '0', 'trans_email/ident_support/name', 'Maison Maho', NULL);
 
 INSERT INTO `permission_block` (block_name, is_allowed)
 VALUES
