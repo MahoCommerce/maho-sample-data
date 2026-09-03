@@ -13,15 +13,8 @@ VALUES
     ('default', '0', 'design/head/demonotice', '1', NULL),
     ('default', '0', 'design/head/includes', '<style>
 body.cms-home .main-container { padding-top: 0 }
-.promos { display: grid; gap: 20px; padding: 0; margin: 0 0 10px }
-@media (min-width: 771px) { .promos { grid-template-columns: repeat(3, 1fr) } }
-body .promos > li { list-style: none; margin: 0; user-select: none }
-.promos img { width: 100% }
-.promos a:hover { opacity: 0.8 }
 .cms-index-index .products-grid :is(.ratings, .actions),
 .cms-index-noroute .products-grid :is(.ratings, .actions) { display: none }
-.cms-index-index h2.subtitle { padding: 6px 0; text-align: center; color: var(--maho-color-primary); font-weight: 600; border-block: 1px solid var(--maho-color-border) }
-.cms-index-noroute h2.subtitle { display: none }
 .catblocks { display: grid; gap: 10px; padding-bottom: 20px }
 @media (min-width: 480px) { .catblocks { grid-template-columns: repeat(2, 1fr) } }
 @media (min-width: 771px) { .catblocks { grid-template-columns: repeat(4, 1fr) } }
@@ -29,9 +22,6 @@ body .catblocks li { position: relative; list-style: none; margin: 0; border: 1p
 .catblocks li:hover { border-color: var(--maho-color-primary) }
 .catblocks li img { width: 100%; display: block }
 .catblocks li a span { position: absolute; inset: auto 0 0; padding: 5px 10px; background: var(--maho-color-background-dark); color: var(--maho-color-background); font-weight: bold; text-transform: uppercase; text-align: center }
-.slideshow ul li { width: 100% }
-.slideshow ul li a { display: block }
-@media (min-width: 771px) { .slideshow { max-height: 400px } .slideshow ul li { height: 400px } .slideshow ul li a { height: 100% } }
 /* Brand marquee on the home page (see SECTIONS.md, recipe 11) */
 .marquee { margin: 2.5rem 0; overflow: hidden; mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent) }
 .marquee-track { display: flex; width: max-content; align-items: center; animation: marquee 45s linear infinite }
