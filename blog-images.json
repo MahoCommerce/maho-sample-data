@@ -1,0 +1,157 @@
+{
+  "model": "gpt-image-2",
+  "output_dir": "media/blog",
+  "style": "Editorial lifestyle photograph for the journal of Maison Maho, a travel-wear and lifestyle brand. Bright natural light, crisp shadows, fresh airy palette of white, ivory, sand, sea blue, terracotta and olive. Shot on 35mm film, shallow depth of field, natural skin, candid and unposed. Mediterranean coastal setting. Wide horizontal composition: the subject sits in the middle band of the frame with clear room above the head and below the feet, and the top and bottom fifths of the frame hold only background, because the picture is cropped to a 5:2 banner. No text, no lettering, no logos, no watermark, no borders.",
+  "images": [
+    {
+      "file": "spring-fashion-trends",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a lavender oversized linen blazer over a mint green dress walking past a whitewashed wall with blooming almond branches, early spring morning."
+    },
+    {
+      "file": "sustainable-fashion",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Close-up of hands holding a folded undyed organic cotton shirt and a hemp tote bag on a wooden table, olive branches and a spool of natural thread beside them, sunlit atelier."
+    },
+    {
+      "file": "summer-wardrobe",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Flat lay on a white linen sheet: a sand linen dress, a white cotton shirt, a straw hat, tan leather sandals, tortoiseshell sunglasses and a sea blue swimsuit, bright overhead sunlight."
+    },
+    {
+      "file": "autumn-styling",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman layering an olive knit cardigan over a white shirt and a terracotta scarf, standing on a stone terrace with vine leaves turning gold, soft autumn afternoon light."
+    },
+    {
+      "file": "winter-coats",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a long camel wool coat with a chunky ivory scarf walking along a windswept harbour wall under a pale winter sky, sea behind her."
+    },
+    {
+      "file": "minimalist-fashion",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a plain white cotton shirt and straight sand trousers standing in front of a bare whitewashed wall, one hand in a pocket, minimal composition with lots of empty space."
+    },
+    {
+      "file": "vintage-style",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a high-waisted 1970s style terracotta skirt and a tucked white blouse with a silk headscarf, leaning against a vintage cream scooter in a whitewashed lane."
+    },
+    {
+      "file": "street-style",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A young man in a white tee, olive overshirt, relaxed sand trousers and white sneakers crossing a sunlit cobbled square, seen from across the street, candid."
+    },
+    {
+      "file": "casual-outfits",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a sea blue linen shirt tucked into white jeans with tan leather loafers, sitting at a cafe table by the sea with a coffee, relaxed and put together."
+    },
+    {
+      "file": "formal-wear",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A man in an ivory linen suit with a white shirt and a woman in a long sea blue silk dress standing together on the steps of a whitewashed chapel in golden evening light."
+    },
+    {
+      "file": "denim-trends",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Close-up of three pairs of jeans in light, mid and dark indigo folded on a sunlit wooden bench beside a white cotton shirt, crisp shadows."
+    },
+    {
+      "file": "color-coordination",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Flat lay of an outfit in a harmonious palette: a terracotta linen shirt, sand trousers, an olive belt and a sea blue scarf arranged on white linen, overhead view."
+    },
+    {
+      "file": "accessories-guide",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A wooden table by the sea set with a tan leather belt, tortoiseshell sunglasses, a slim steel watch, a woven bracelet and a straw hat, bright direct sunlight."
+    },
+    {
+      "file": "shoe-trends",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A row of shoes on sun-warmed terracotta tiles: tan leather sandals, white canvas espadrilles, ivory leather loafers and a pair of slim sea blue heels, low angle."
+    },
+    {
+      "file": "bag-collection",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Four leather bags in tan, ivory, olive and black, a tote, a crossbody, a clutch and a weekender, arranged on a whitewashed step in bright sunlight."
+    },
+    {
+      "file": "jewelry-styling",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Close-up of a woman's neck and hands with layered fine gold necklaces, small hoop earrings and two thin rings, white linen shirt, sunlit whitewashed wall behind."
+    },
+    {
+      "file": "layering-guide",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman wearing a white tee under an ivory knit vest under an open sand linen shirt jacket, adjusting the collar, standing by a stone wall in cool late autumn light."
+    },
+    {
+      "file": "pattern-mixing",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a sea blue and white striped shirt with a small terracotta floral print skirt, standing in a sunlit doorway with a patterned tiled floor."
+    },
+    {
+      "file": "fashion-week",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A model walking on an open-air runway laid along a whitewashed seaside terrace, wearing a flowing ivory linen dress, guests seated on both sides out of focus, bright daylight."
+    },
+    {
+      "file": "budget-fashion",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in a simple white cotton shirt, sand trousers and a woven belt looking elegant while browsing a sunlit market stall with folded linen, candid."
+    },
+    {
+      "file": "wardrobe-essentials",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "An open wooden wardrobe in a whitewashed room holding a white shirt, a navy blazer, sand chinos, a camel coat and a pair of tan loafers, bright window light."
+    },
+    {
+      "file": "plus-size-fashion",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A confident plus-size woman in a sea blue linen wrap dress and tan sandals laughing on a sunlit harbour promenade, straw bag over her shoulder."
+    },
+    {
+      "file": "teen-fashion",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "Two teenagers, a girl in a white tee and light denim shorts and a boy in an olive tee and sand trousers, sitting on a whitewashed wall with the sea behind them, laughing."
+    },
+    {
+      "file": "business-casual",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A man in a light blue linen shirt, navy chinos and tan loafers and a woman in an ivory blouse and sand trousers talking on a sunlit terrace with laptops closed on the table."
+    },
+    {
+      "file": "fashion-tips",
+      "size": "2560x1440",
+      "ratio": "5:2",
+      "prompt": "A woman in front of a tall mirror in a bright whitewashed room, adjusting the cuff of a white linen shirt, a rack of linen dresses in sand and sea blue beside her."
+    }
+  ]
+}

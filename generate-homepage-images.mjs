@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-// Generates the homepage pictures listed in homepage-images.json through the
-// NanoGPT API, crops each one to its slot ratio and writes WebP files.
+// Generates the pictures listed in a manifest (homepage-images.json by default)
+// through the NanoGPT API, crops each one to its slot ratio and writes WebP files.
 //
-// Usage: node generate-homepage-images.mjs [--only name,name] [--force]
+// Usage: node generate-homepage-images.mjs [--manifest file.json] [--only name,name] [--force]
+// A manifest entry may set "dir" to write outside the manifest's output_dir.
 // Needs: NANOGPT_API_KEY in the environment (falls back to the nanogpt MCP
 // entry in ~/.claude.json) and ImageMagick (`magick`) on the PATH.
 
@@ -13,8 +14,9 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
-const manifest = JSON.parse(readFileSync(join(root, 'homepage-images.json'), 'utf8'));
 const args = process.argv.slice(2);
+const manifestFile = args.includes('--manifest') ? args[args.indexOf('--manifest') + 1] : 'homepage-images.json';
+const manifest = JSON.parse(readFileSync(join(root, manifestFile), 'utf8'));
 const force = args.includes('--force');
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1].split(',') : null;
 
@@ -30,12 +32,16 @@ if (!apiKey) {
     process.exit(1);
 }
 
-const outDir = join(root, manifest.output_dir);
-mkdirSync(outDir, { recursive: true });
+const dirOf = (image) => {
+    const dir = join(root, image.dir ?? manifest.output_dir);
+    mkdirSync(dir, { recursive: true });
+    return dir;
+};
 
 const ratioOf = (r) => r.split(':').map(Number).reduce((a, b) => a / b);
 
 async function generate(image) {
+    const outDir = dirOf(image);
     const target = join(outDir, `${image.file}.webp`);
     if (existsSync(target) && !force) {
         console.log(`skip ${image.file} (exists)`);
@@ -89,11 +95,21 @@ let failures = 0;
 await Promise.all(Array.from({ length: concurrency }, async () => {
     while (queue.length) {
         const image = queue.shift();
-        try {
-            await generate(image);
-        } catch (e) {
-            failures++;
-            console.error(`FAIL ${e.message}`);
+        let attempt = 0;
+        while (true) {
+            try {
+                await generate(image);
+                break;
+            } catch (e) {
+                if (++attempt < 4 && /fetch failed|HTTP 5\d\d|aborted/.test(e.message)) {
+                    console.error(`retry ${image.file} (${attempt}): ${e.message.slice(0, 80)}`);
+                    await new Promise((r) => setTimeout(r, 30000 * attempt));
+                    continue;
+                }
+                failures++;
+                console.error(`FAIL ${image.file}: ${e.message}`);
+                break;
+            }
         }
     }
 }));

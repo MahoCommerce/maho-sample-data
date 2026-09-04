@@ -15,13 +15,6 @@ VALUES
 body.cms-home .main-container { padding-top: 0 }
 .cms-index-index .products-grid :is(.ratings, .actions),
 .cms-index-noroute .products-grid :is(.ratings, .actions) { display: none }
-.catblocks { display: grid; gap: 10px; padding-bottom: 20px }
-@media (min-width: 480px) { .catblocks { grid-template-columns: repeat(2, 1fr) } }
-@media (min-width: 771px) { .catblocks { grid-template-columns: repeat(4, 1fr) } }
-body .catblocks li { position: relative; list-style: none; margin: 0; border: 1px solid var(--maho-color-border) }
-.catblocks li:hover { border-color: var(--maho-color-primary) }
-.catblocks li img { width: 100%; display: block }
-.catblocks li a span { position: absolute; inset: auto 0 0; padding: 5px 10px; background: var(--maho-color-background-dark); color: var(--maho-color-background); font-weight: bold; text-transform: uppercase; text-align: center }
 /* Brand marquee on the home page (see SECTIONS.md, recipe 11) */
 .marquee { margin: 2.5rem 0; overflow: hidden; mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent) }
 .marquee-track { display: flex; width: max-content; align-items: center; animation: marquee 45s linear infinite }
