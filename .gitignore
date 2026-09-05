@@ -3,3 +3,4 @@ bakeoff/
 *.raw.png
 wip/
 .idea/
+specs/__pycache__/
