@@ -34,8 +34,22 @@ def home_html(S):
     </div>
 ''' for cat in cats[:4])
     features = ''.join(f'''    <div data-type="maho-column">
-        <p>{{{{icon name="{icon}" size="32"}}}}</p>
-        <p><strong>{title}</strong><br />{text}</p>
+        <table style="min-width: 50px;">
+            <colgroup>
+                <col style="min-width: 25px;" />
+                <col style="min-width: 25px;" />
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td colspan="1" rowspan="1" style="width: 1%; padding-right: 0.75rem; vertical-align: middle;">
+                        <p>{{{{icon name="{icon}" size="32"}}}}</p>
+                    </td>
+                    <td colspan="1" rowspan="1" style="vertical-align: middle;">
+                        <p><strong>{title}</strong><br />{text}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 ''' for icon, title, text in S.FEATURES)
     names = {cat['path']: cat['name'] for cat in cats}
