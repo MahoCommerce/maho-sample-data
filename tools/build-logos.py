@@ -4,7 +4,7 @@
 Run with tools/.venv (fonttools, brotli, uharfbuzz): tools/.venv/bin/python tools/build-logos.py
 Font files come from fonts.bunny.net and are cached under tools/.fonts.
 """
-import io, os, sys, urllib.request
+import io, os, re, sys, urllib.request
 import uharfbuzz as hb
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -13,33 +13,27 @@ from fontTools.pens.transformPen import TransformPen
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = os.path.join(ROOT, 'tools', '.fonts')
 
-# code: (name, font slug, weight, colour, dark colour, glyph)
+# code: (name, font slug, weight, icon colour, dark icon colour, text colour, dark text colour, Tabler icon)
 STORES = {
-    'fashion': ('Maison Maho', 'instrument-serif', 400, '#131312', '#f4f2ee', 'ring'),
-    'electronics': ('Voltline', 'geist', 600, '#0668cf', '#79b8ff', 'bolt'),
-    'food': ('Harvest & Hearth', 'bricolage-grotesque', 700, '#c53f21', '#f0875e', 'leaf'),
-    'books': ('Folio', 'literata', 600, '#12727a', '#7fc4c9', 'book'),
-    'jewelry': ('Aurelie', 'bodoni-moda', 500, '#1e1a13', '#efe9dc', 'gem'),
-    'beauty': ('Glow Atelier', 'newsreader', 500, '#a94a64', '#dd8fa8', 'drop'),
-    'home': ('Hearthstone', 'schibsted-grotesk', 600, '#a04620', '#d18a60', 'house'),
-    'sports': ('Stride', 'archivo', 800, '#101214', '#e9ecec', 'chevron'),
-    'kids': ('Little Lark', 'fredoka', 600, '#c43f1e', '#f2a07f', 'sun'),
-    'garden': ('Greenhaven', 'alegreya', 500, '#3c6a26', '#93c274', 'sprout'),
+    'fashion': ('Maison Maho', 'instrument-serif', 400, '#131312', '#f4f2ee', '#131312', '#f4f2ee', 'hanger'),
+    'electronics': ('Voltline', 'geist', 600, '#0668cf', '#79b8ff', '#1d1d1f', '#f2f2f4', 'bolt'),
+    'food': ('Harvest & Hearth', 'bricolage-grotesque', 700, '#c53f21', '#f0875e', '#2e2a22', '#f5f0e6', 'wheat'),
+    'books': ('Folio', 'literata', 600, '#12727a', '#7fc4c9', '#26221a', '#f3eee4', 'book-2'),
+    'jewelry': ('Aurelie', 'bodoni-moda', 500, '#1e1a13', '#efe9dc', '#1e1a13', '#efe9dc', 'diamond'),
+    'beauty': ('Glow Atelier', 'newsreader', 500, '#a94a64', '#dd8fa8', '#352b28', '#f6eeea', 'droplet'),
+    'home': ('Hearthstone', 'schibsted-grotesk', 600, '#a04620', '#d18a60', '#26211a', '#f4efe8', 'home-2'),
+    'sports': ('Stride', 'archivo', 800, '#101214', '#e9ecec', '#101214', '#e9ecec', 'run'),
+    'kids': ('Little Lark', 'fredoka', 600, '#c43f1e', '#f2a07f', '#33302a', '#f7f2ea', 'balloon'),
+    'garden': ('Greenhaven', 'alegreya', 500, '#3c6a26', '#93c274', '#262c1f', '#eef2e6', 'plant-2'),
 }
 
-# glyphs are drawn in a 100 x 100 box, stroke width 9, and scaled to the cap height
-GLYPHS = {
-    'ring': '<circle cx="50" cy="50" r="38" fill="none" stroke="{c}" stroke-width="9"/>',
-    'bolt': '<path d="M58 4 22 56h26l-8 40 38-52H52z" fill="{c}"/>',
-    'leaf': '<path d="M14 86C14 40 40 14 88 12c2 48-24 76-70 76zM14 86 66 34" fill="none" stroke="{c}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>',
-    'book': '<path d="M50 24c-10-8-24-10-38-8v66c14-2 28 0 38 8 10-8 24-10 38-8V16c-14-2-28 0-38 8zM50 24v66" fill="none" stroke="{c}" stroke-width="9" stroke-linejoin="round"/>',
-    'gem': '<path d="M26 12h48l20 26-44 54L6 38zM6 38h88M26 12l24 26 24-26M50 38v54" fill="none" stroke="{c}" stroke-width="8" stroke-linejoin="round"/>',
-    'drop': '<path d="M50 8c22 30 34 46 34 62a34 34 0 0 1-68 0c0-16 12-32 34-62z" fill="none" stroke="{c}" stroke-width="9" stroke-linejoin="round"/>',
-    'house': '<path d="M10 48 50 12l40 36M22 40v48h56V40M42 88V60h16v28" fill="none" stroke="{c}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>',
-    'chevron': '<path d="M14 12 52 50 14 88M50 12l38 38-38 38" fill="none" stroke="{c}" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>',
-    'sun': '<circle cx="50" cy="50" r="18" fill="{c}"/><path d="M50 6v14M50 80v14M6 50h14M80 50h14M19 19l10 10M71 71l10 10M81 19 71 29M29 71 19 81" fill="none" stroke="{c}" stroke-width="9" stroke-linecap="round"/>',
-    'sprout': '<path d="M50 92V44M50 44C50 24 36 12 14 12c0 22 14 34 36 32zM50 60c0-18 14-30 36-30 0 20-14 32-36 30z" fill="none" stroke="{c}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>',
-}
+# Tabler outline icons from the maho checkout (mahocommerce/icons), 24 unit box, stroke 2
+ICONS = os.environ.get('MAHO_ICONS', os.path.join(os.path.dirname(ROOT), 'maho', 'vendor', 'mahocommerce', 'icons', 'icons', 'outline'))
+
+
+def icon_body(name):
+    svg = open(os.path.join(ICONS, f'{name}.svg')).read()
+    return re.search(r'<svg[^>]*>(.*)</svg>', svg, re.S).group(1).strip()
 
 
 def font_bytes(slug, weight):
@@ -81,21 +75,20 @@ def wordmark(text, data):
 
 
 def build(code):
-    name, slug, weight, colour, dark, glyph = STORES[code]
+    name, slug, weight, icon_colour, icon_dark, text_colour, text_dark, icon = STORES[code]
     d, width, upem, cap = wordmark(name, font_bytes(slug, weight))
-    # layout in font units: the glyph box is one cap height tall, then a gap, then the text on the baseline at y = 0
-    box = cap
-    gap = int(cap * 0.35)
-    pad = int(upem * 0.08)
+    # layout in font units: the icon box is 1.3 cap heights tall and sits on the baseline, then a gap, then the text
+    box = int(cap * 1.3)
+    gap = int(cap * 0.3)
+    pad = int(upem * 0.06)
     total_w = box + gap + width + 2 * pad
-    top = -int(upem * 0.85)
-    total_h = int(upem * 1.1)
-    scale = box / 100
-    icon = GLYPHS[glyph].format(c=colour).replace('fill="none"', 'fill="none" class="s"').replace(f'fill="{colour}"', f'fill="{colour}" class="f"')
+    top = -int(upem * 0.9)
+    total_h = int(upem * 1.15)
+    scale = box / 24
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="{-pad} {top} {total_w} {total_h}" width="{round(total_w / upem * 40)}" height="{round(total_h / upem * 40)}" role="img" aria-label="{name.replace('&', '&amp;')}">
-  <style>@media (prefers-color-scheme: dark){{.f{{fill:{dark}}}.s{{stroke:{dark}}}}}</style>
-  <g transform="translate(0 {-cap}) scale({scale:.4f})">{icon}</g>
-  <path class="f" transform="translate({box + gap} 0)" fill="{colour}" d="{d}"/>
+  <style>@media (prefers-color-scheme: dark){{.i{{stroke:{icon_dark}}}.t{{fill:{text_dark}}}}}</style>
+  <g class="i" transform="translate(0 {-box + int(cap * 0.08)}) scale({scale:.4f})" fill="none" stroke="{icon_colour}" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">{icon_body(icon)}</g>
+  <path class="t" transform="translate({box + gap} 0)" fill="{text_colour}" d="{d}"/>
 </svg>
 '''
     out = os.path.join(ROOT, 'media', 'wysiwyg', code, 'logo.svg')

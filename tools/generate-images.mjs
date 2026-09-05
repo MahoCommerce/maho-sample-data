@@ -59,7 +59,7 @@ async function generate(image) {
             prompt: `${image.prompt} ${image.style ?? manifest.style}`,
             n: 1,
             size: image.size,
-            response_format: 'url',
+            response_format: 'b64_json',
         }),
         signal: controller.signal,
     }).finally(() => clearTimeout(timer));
