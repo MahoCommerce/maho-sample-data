@@ -184,7 +184,7 @@ def home(codes):
         <p><strong>{who}</strong><br />Verified buyer, {where}</p>
     </div>
 ''' for text, who, where in quotes(codes))
-    return f'''<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    return f'''<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="auto auto" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; auto &#34;a c&#34; auto / 2fr 1fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="#stores" title="Choose a store"><img src="{{{{media url="wysiwyg/store/hero-main.webp"}}}}" alt="Ten stores on one street" /></a></p>
     </div>
