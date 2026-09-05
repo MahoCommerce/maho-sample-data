@@ -289,9 +289,10 @@
     {
       "file": "cleansers",
       "dir": "packs/beauty/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A frosted glass bottle of cleanser and a folded white face cloth on marble with a citrus slice. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A frosted glass bottle of cleanser and a folded white face cloth on marble with a citrus slice. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-serums",
@@ -303,9 +304,10 @@
     {
       "file": "serums",
       "dir": "packs/beauty/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Three small glass dropper bottles with pale gold serum on a pale pink surface. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Three small glass dropper bottles with pale gold serum on a pale pink surface. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-moisturisers",
@@ -317,9 +319,10 @@
     {
       "file": "moisturisers",
       "dir": "packs/beauty/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A frosted glass jar of white cream with the lid beside it on linen. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A frosted glass jar of white cream with the lid beside it on linen. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-body",
@@ -331,9 +334,10 @@
     {
       "file": "body",
       "dir": "packs/beauty/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A bottle of body oil and a bar of soap on a wooden bath tray with a linen towel. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A bottle of body oil and a bar of soap on a wooden bath tray with a linen towel. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-fragrance",
@@ -345,9 +349,10 @@
     {
       "file": "fragrance",
       "dir": "packs/beauty/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A small glass perfume bottle with a wooden cap on marble beside dried flowers. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A small glass perfume bottle with a wooden cap on marble beside dried flowers. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-sets",
@@ -359,9 +364,10 @@
     {
       "file": "sets",
       "dir": "packs/beauty/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A linen pouch with small travel size bottles spilling out on a pale surface. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A linen pouch with small travel size bottles spilling out on a pale surface. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "the-order-of-a-routine",

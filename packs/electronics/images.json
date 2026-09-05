@@ -445,9 +445,10 @@
     {
       "file": "audio",
       "dir": "packs/electronics/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-computing",
@@ -459,9 +460,10 @@
     {
       "file": "computing",
       "dir": "packs/electronics/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cameras",
@@ -473,9 +475,10 @@
     {
       "file": "cameras",
       "dir": "packs/electronics/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-smart-home",
@@ -487,9 +490,10 @@
     {
       "file": "smart-home",
       "dir": "packs/electronics/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-wearables",
@@ -501,9 +505,10 @@
     {
       "file": "wearables",
       "dir": "packs/electronics/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-accessories",
@@ -515,9 +520,10 @@
     {
       "file": "accessories",
       "dir": "packs/electronics/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-we-measure-headphones",

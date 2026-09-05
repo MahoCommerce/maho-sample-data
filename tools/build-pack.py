@@ -23,6 +23,7 @@ def put(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, 'w').write(text.rstrip() + '\n')
 
+BANNER = ' A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.'
 STARS = ' '.join(['{{icon name="star" variant="filled" size="18"}}'] * 5)
 
 def home_html(S):
@@ -292,7 +293,7 @@ def build(spec_path):
     ]
     for cat in S.CATEGORIES:
         scene.append({'file': f'tile-{slug(cat["path"])}', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'prompt': cat['scene']})
-        scene.append({'file': slug(cat['path']), 'dir': f'packs/{c}/media/catalog/category', 'size': '2048x768', 'ratio': '8:3', 'prompt': cat['scene'] + ' Wide banner composition.'})
+        scene.append({'file': slug(cat['path']), 'dir': f'packs/{c}/media/catalog/category', 'size': '1536x512', 'ratio': '3:1', 'model': 'ideogram-v3-turbo', 'prompt': cat['scene'] + BANNER})
     for title, body, prompt in S.POSTS:
         scene.append({'file': slug(title), 'dir': f'media/blog/{c}', 'size': '1536x1024', 'ratio': '3:2', 'prompt': prompt})
     for s in scene:

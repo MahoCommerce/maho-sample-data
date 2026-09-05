@@ -331,9 +331,10 @@
     {
       "file": "pantry",
       "dir": "packs/food/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-bakery",
@@ -345,9 +346,10 @@
     {
       "file": "bakery",
       "dir": "packs/food/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cheese-charcuterie",
@@ -359,9 +361,10 @@
     {
       "file": "cheese-charcuterie",
       "dir": "packs/food/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-coffee-tea",
@@ -373,9 +376,10 @@
     {
       "file": "coffee-tea",
       "dir": "packs/food/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-drinks",
@@ -387,9 +391,10 @@
     {
       "file": "drinks",
       "dir": "packs/food/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-gift-boxes",
@@ -401,9 +406,10 @@
     {
       "file": "gift-boxes",
       "dir": "packs/food/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-to-taste-olive-oil",

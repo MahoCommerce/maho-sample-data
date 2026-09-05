@@ -493,9 +493,10 @@
     {
       "file": "toys",
       "dir": "packs/kids/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-clothing",
@@ -507,9 +508,10 @@
     {
       "file": "clothing",
       "dir": "packs/kids/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-books",
@@ -521,9 +523,10 @@
     {
       "file": "books",
       "dir": "packs/kids/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A low shelf of picture books with a small chair and a soft toy. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A low shelf of picture books with a small chair and a soft toy. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-nursery",
@@ -535,9 +538,10 @@
     {
       "file": "nursery",
       "dir": "packs/kids/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-outdoor",
@@ -549,9 +553,10 @@
     {
       "file": "outdoor",
       "dir": "packs/kids/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-gifts",
@@ -563,9 +568,10 @@
     {
       "file": "gifts",
       "dir": "packs/kids/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "toys-by-age-without-the-noise",

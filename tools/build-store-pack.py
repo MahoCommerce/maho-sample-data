@@ -9,8 +9,6 @@ Usage: tools/build-store-pack.py
 """
 import csv
 import os
-import shutil
-import subprocess
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PACKS = os.path.join(ROOT, 'packs')
@@ -46,21 +44,13 @@ def industries():
     return [(r['website_code'], r['root_category']) for r in rows]
 
 
-def banner(source, target):
-    """Category pictures are wide bands above the product grid, never squares: 8:3, cropped from the centre."""
-    subprocess.run(['magick', source, '-gravity', 'center', '-crop', '1024x384+0+0', '+repage', '-quality', '82', target], check=True)
-
-
 def categories(codes):
     rows = [dict(root=ROOT_CATEGORY, path='', name=ROOT_CATEGORY, is_active=1, include_in_menu=1, is_anchor=1,
                  description='Every product of the ten Maho demo stores, on the default theme.')]
     for position, (code, name) in enumerate(codes, 1):
-        tile = os.path.join(ROOT, 'media', 'wysiwyg', 'store', f'tile-{code}.webp')
-        image = ''
-        if os.path.exists(tile):
-            image = f'store-{code}.webp'
-            os.makedirs(os.path.join(STORE, 'media', 'catalog', 'category'), exist_ok=True)
-            banner(tile, os.path.join(STORE, 'media', 'catalog', 'category', image))
+        image = f'store-{code}.webp'
+        if not os.path.exists(os.path.join(STORE, 'media', 'catalog', 'category', image)):
+            image = ''
         rows.append(dict(root=ROOT_CATEGORY, path=code, name=name, is_active=1, include_in_menu=1, is_anchor=1,
                          position=position, display_mode='PRODUCTS', image=image))
         for sub in read(os.path.join(PACKS, code, 'categories.csv')):

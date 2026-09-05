@@ -517,9 +517,10 @@
     {
       "file": "furniture",
       "dir": "packs/home/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-seating",
@@ -531,9 +532,10 @@
     {
       "file": "seating",
       "dir": "packs/home/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-bedding",
@@ -545,9 +547,10 @@
     {
       "file": "bedding",
       "dir": "packs/home/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-kitchen",
@@ -559,9 +562,10 @@
     {
       "file": "kitchen",
       "dir": "packs/home/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-lighting",
@@ -573,9 +577,10 @@
     {
       "file": "lighting",
       "dir": "packs/home/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-decor",
@@ -587,9 +592,10 @@
     {
       "file": "decor",
       "dir": "packs/home/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "caring-for-oiled-wood",

@@ -535,9 +535,10 @@
     {
       "file": "running",
       "dir": "packs/sports/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cycling",
@@ -549,9 +550,10 @@
     {
       "file": "cycling",
       "dir": "packs/sports/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-gym",
@@ -563,9 +565,10 @@
     {
       "file": "gym",
       "dir": "packs/sports/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-yoga",
@@ -577,9 +580,10 @@
     {
       "file": "yoga",
       "dir": "packs/sports/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-hiking",
@@ -591,9 +595,10 @@
     {
       "file": "hiking",
       "dir": "packs/sports/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-swimming",
@@ -605,9 +610,10 @@
     {
       "file": "swimming",
       "dir": "packs/sports/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-we-fit-shoes-by-video",

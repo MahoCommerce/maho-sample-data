@@ -391,9 +391,10 @@
     {
       "file": "houseplants",
       "dir": "packs/garden/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-outdoor-plants",
@@ -405,9 +406,10 @@
     {
       "file": "outdoor-plants",
       "dir": "packs/garden/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-seeds",
@@ -419,9 +421,10 @@
     {
       "file": "seeds",
       "dir": "packs/garden/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-pots",
@@ -433,9 +436,10 @@
     {
       "file": "pots",
       "dir": "packs/garden/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-tools",
@@ -447,9 +451,10 @@
     {
       "file": "tools",
       "dir": "packs/garden/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-furniture",
@@ -461,9 +466,10 @@
     {
       "file": "furniture",
       "dir": "packs/garden/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "which-window",

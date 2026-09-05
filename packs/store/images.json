@@ -68,6 +68,86 @@
       "size": "1024x1024",
       "ratio": "1:1",
       "prompt": "Terracotta pots with herbs on a sunlit potting bench with a trowel"
+    },
+    {
+      "file": "store-fashion",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A rail of linen shirts and dresses in natural colours in a bright boutique with a wooden floor. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-electronics",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A long dark wooden desk with black headphones, a closed laptop, a small speaker and a coiled cable in a row, warm lamp light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-food",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A market counter with loaves of bread, wedges of cheese, jars of jam and bottles of olive oil in a row. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-books",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A long wooden shelf of clothbound books with a brass lamp and a cup of tea at one end. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-jewelry",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Thin gold rings, a pearl strand and small hoop earrings laid in a row on dark velvet. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-beauty",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Frosted glass bottles and jars of skincare in a row on white marble with a sprig of eucalyptus. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-home",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A linen sofa, a wool throw and a stoneware vase in a calm living room with a large window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-sports",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Running shoes, a water bottle and a rolled yoga mat in a row on a wooden floor by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-kids",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Wooden toys, a stacking tower, a felt rabbit and small folded clothes in a row on a pale shelf. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "store-garden",
+      "dir": "packs/store/media/catalog/category",
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "Terracotta pots with herbs and a trowel in a row on a potting bench in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
     }
   ]
 }

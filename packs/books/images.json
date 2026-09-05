@@ -313,9 +313,10 @@
     {
       "file": "fiction",
       "dir": "packs/books/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-crime",
@@ -327,9 +328,10 @@
     {
       "file": "crime",
       "dir": "packs/books/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-science",
@@ -341,9 +343,10 @@
     {
       "file": "science",
       "dir": "packs/books/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-history",
@@ -355,9 +358,10 @@
     {
       "file": "history",
       "dir": "packs/books/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cooking",
@@ -369,9 +373,10 @@
     {
       "file": "cooking",
       "dir": "packs/books/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-children",
@@ -383,9 +388,10 @@
     {
       "file": "children",
       "dir": "packs/books/media/catalog/category",
-      "size": "2048x768",
-      "ratio": "8:3",
-      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x512",
+      "ratio": "3:1",
+      "model": "ideogram-v3-turbo",
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-we-choose-the-shelf",
