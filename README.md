@@ -1,6 +1,6 @@
 # Maho Sample Data
 
-Demo content for [Maho](https://mahocommerce.com): the Maho Store on the default theme plus ten industry stores, one per storefront theme, on a single installation. The Maho Store is website 1, serves the root URL, sells every product of every industry, and its home page links to the ten stores. Every entity is a CSV file, with page bodies in HTML files and pictures next to them.
+Demo content for [Maho](https://mahocommerce.com): the Maho Store on the default theme plus ten industry stores, one per storefront theme, on a single installation. The Maho Store is website 1, serves the root URL without a store code (`web/url/use_store` is 0 at its store scope, so `/default/` never appears in its links), sells every product of every industry, and its home page links to the ten stores. Every entity is a CSV file, with page bodies in HTML files and pictures next to them.
 
 `./maho install --sample_data 1` downloads the branch that matches the Maho version and imports it. `./maho sample-data:install --path /path/to/this/checkout` imports a local checkout, and `--pack fashion,food` limits the run to some packs. Every import is idempotent: run it again and it updates instead of duplicating.
 

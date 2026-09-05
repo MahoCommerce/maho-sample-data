@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Sample data for Maho: eleven websites on one installation, everything as CSV packs under `packs/`. Website 1 is the Maho Store on the maho/default theme, with every product of every industry, and serves the root URL. The ten industry stores follow, one per storefront theme. Read `README.md` for the layout and the install order.
+Sample data for Maho: eleven websites on one installation, everything as CSV packs under `packs/`. Website 1 is the Maho Store on the maho/default theme, with every product of every industry, and serves the root URL without the `/default/` prefix (its store scope turns `web/url/use_store` off). The ten industry stores follow, one per storefront theme. Read `README.md` for the layout and the install order.
 
 ## Rules
 
