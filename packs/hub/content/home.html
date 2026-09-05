@@ -1,60 +1,64 @@
-<div class="hero min-h-96" style="background-image: url({{media url="wysiwyg/hub/hero.webp"}});">
-    <div class="hero-overlay"></div>
-    <div class="hero-content text-center">
-        <div class="max-w-2xl">
+<div data-preset="feature-left" data-areas="&#039;a b&#039;" data-columns="3fr 2fr" data-rows="1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr / 3fr 2fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><img src="{{media url="wysiwyg/hub/hero.webp"}}" alt="One Maho, ten stores" /></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Demo</span></p>
             <h1>One Maho, ten stores</h1>
             <p>Every store below runs on the same installation. Each one is a website of its own, with its own catalog, content and theme. Pick one to see the theme at work.</p>
+            <p><a class="btn btn-primary" href="{{store url="" _store="fashion"}}">Start with fashion</a></p>
         </div>
     </div>
 </div>
 <h2>Choose a store</h2>
-<div data-preset="5-equal" data-gap="medium" data-style="none" data-type="maho-columns">
-    <div data-type="maho-column">
+<div data-preset="custom" data-areas="&#39;a b c d e&#39; &#39;f g h i j&#39;" data-columns="1fr 1fr 1fr 1fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="cards" data-type="maho-bento" style="grid-template: &#34;a b c d e&#34; 1fr &#34;f g h i j&#34; 1fr / 1fr 1fr 1fr 1fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="fashion"}}" title="Visit Maison Maho"><img src="{{media url="wysiwyg/hub/tile-fashion.webp"}}" alt="Maison Maho" /></a></p>
         <h3><a href="{{store url="" _store="fashion"}}">Maison Maho</a></h3>
         <p>Fashion store, on the maho/fashion theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
         <p><a href="{{store url="" _store="electronics"}}" title="Visit Voltline"><img src="{{media url="wysiwyg/hub/tile-electronics.webp"}}" alt="Voltline" /></a></p>
         <h3><a href="{{store url="" _store="electronics"}}">Voltline</a></h3>
         <p>Electronics store, on the maho/electronics theme</p>
     </div>
-    <div data-type="maho-column">
-        <p><a href="{{store url="" _store="food"}}" title="Visit Harvest & Hearth"><img src="{{media url="wysiwyg/hub/tile-food.webp"}}" alt="Harvest & Hearth" /></a></p>
-        <h3><a href="{{store url="" _store="food"}}">Harvest & Hearth</a></h3>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="" _store="food"}}" title="Visit Harvest & Hearth"><img src="{{media url="wysiwyg/hub/tile-food.webp"}}" alt="Harvest &amp; Hearth" /></a></p>
+        <h3><a href="{{store url="" _store="food"}}">Harvest &amp; Hearth</a></h3>
         <p>Food store, on the maho/food theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="d" data-type="maho-bento-cell" style="grid-area: d;">
         <p><a href="{{store url="" _store="books"}}" title="Visit Folio"><img src="{{media url="wysiwyg/hub/tile-books.webp"}}" alt="Folio" /></a></p>
         <h3><a href="{{store url="" _store="books"}}">Folio</a></h3>
         <p>Books store, on the maho/books theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="e" data-type="maho-bento-cell" style="grid-area: e;">
         <p><a href="{{store url="" _store="jewelry"}}" title="Visit Aurelie"><img src="{{media url="wysiwyg/hub/tile-jewelry.webp"}}" alt="Aurelie" /></a></p>
         <h3><a href="{{store url="" _store="jewelry"}}">Aurelie</a></h3>
         <p>Jewelry store, on the maho/jewelry theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="f" data-type="maho-bento-cell" style="grid-area: f;">
         <p><a href="{{store url="" _store="beauty"}}" title="Visit Glow Atelier"><img src="{{media url="wysiwyg/hub/tile-beauty.webp"}}" alt="Glow Atelier" /></a></p>
         <h3><a href="{{store url="" _store="beauty"}}">Glow Atelier</a></h3>
         <p>Beauty store, on the maho/beauty theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="g" data-type="maho-bento-cell" style="grid-area: g;">
         <p><a href="{{store url="" _store="home"}}" title="Visit Hearthstone"><img src="{{media url="wysiwyg/hub/tile-home.webp"}}" alt="Hearthstone" /></a></p>
         <h3><a href="{{store url="" _store="home"}}">Hearthstone</a></h3>
         <p>Home store, on the maho/home theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="h" data-type="maho-bento-cell" style="grid-area: h;">
         <p><a href="{{store url="" _store="sports"}}" title="Visit Stride"><img src="{{media url="wysiwyg/hub/tile-sports.webp"}}" alt="Stride" /></a></p>
         <h3><a href="{{store url="" _store="sports"}}">Stride</a></h3>
         <p>Sports store, on the maho/sports theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="i" data-type="maho-bento-cell" style="grid-area: i;">
         <p><a href="{{store url="" _store="kids"}}" title="Visit Little Lark"><img src="{{media url="wysiwyg/hub/tile-kids.webp"}}" alt="Little Lark" /></a></p>
         <h3><a href="{{store url="" _store="kids"}}">Little Lark</a></h3>
         <p>Kids store, on the maho/kids theme</p>
     </div>
-    <div data-type="maho-column">
+    <div data-area="j" data-type="maho-bento-cell" style="grid-area: j;">
         <p><a href="{{store url="" _store="garden"}}" title="Visit Greenhaven"><img src="{{media url="wysiwyg/hub/tile-garden.webp"}}" alt="Greenhaven" /></a></p>
         <h3><a href="{{store url="" _store="garden"}}">Greenhaven</a></h3>
         <p>Garden store, on the maho/garden theme</p>
