@@ -1,0 +1,566 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/fashion/media/import",
+  "style": "Studio product photograph of a single item on a plain white seamless background, soft even light, no model, no props, no text, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "w-linen-shirt-white",
+      "prompt": "a relaxed-fit white linen button-up shirt for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-linen-shirt-ivory",
+      "prompt": "a relaxed-fit ivory linen button-up shirt for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-linen-shirt-blue-light",
+      "prompt": "a relaxed-fit blue light linen button-up shirt for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-silk-blouse-ivory",
+      "prompt": "a ivory silk blouse with a concealed placket, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-silk-blouse-black",
+      "prompt": "a black silk blouse with a concealed placket, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-silk-blouse-salmon",
+      "prompt": "a salmon silk blouse with a concealed placket, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-knit-tank-black",
+      "prompt": "a black ribbed cotton tank top with a square neck, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-knit-tank-oatmeal",
+      "prompt": "a oatmeal ribbed cotton tank top with a square neck, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-knit-tank-green",
+      "prompt": "a green ribbed cotton tank top with a square neck, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-wrap-top",
+      "prompt": "a terracotta crinkled cotton wrap top for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-stripe-tee-blue",
+      "prompt": "a blue and white breton stripe boat neck tee for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-stripe-tee-red",
+      "prompt": "a red and white breton stripe boat neck tee for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-wide-trouser-oatmeal",
+      "prompt": "a pair of oatmeal high-waisted wide-leg linen trousers for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-wide-trouser-black",
+      "prompt": "a pair of black high-waisted wide-leg linen trousers for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-wide-trouser-khaki",
+      "prompt": "a pair of khaki high-waisted wide-leg linen trousers for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-straight-jean-blue-jean",
+      "prompt": "a pair of blue jean straight-leg jeans for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-straight-jean-blue-dark",
+      "prompt": "a pair of blue dark straight-leg jeans for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-straight-jean-black",
+      "prompt": "a pair of black straight-leg jeans for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-crop-pant",
+      "prompt": "a pair of sage green cropped cotton chino trousers for women, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-denim-short",
+      "prompt": "a pair of light wash relaxed denim shorts for women with a raw hem, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-linen-dress-ivory",
+      "prompt": "a sleeveless ivory linen midi dress with a square neck on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-linen-dress-black",
+      "prompt": "a sleeveless black linen midi dress with a square neck on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-linen-dress-blue",
+      "prompt": "a sleeveless blue linen midi dress with a square neck on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-slip-dress-black",
+      "prompt": "a bias-cut black silk slip dress on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-slip-dress-salmon",
+      "prompt": "a bias-cut salmon silk slip dress on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-shirt-dress",
+      "prompt": "a white cotton poplin belted shirt dress on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-pleat-skirt-black",
+      "prompt": "a black knife-pleated satin midi skirt, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-pleat-skirt-oatmeal",
+      "prompt": "a oatmeal knife-pleated satin midi skirt, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "w-denim-skirt",
+      "prompt": "a mid wash A-line denim mini skirt with patch pockets, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-linen-shirt-white",
+      "prompt": "a white washed linen button-up shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-linen-shirt-blue-light",
+      "prompt": "a blue light washed linen button-up shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-linen-shirt-khaki",
+      "prompt": "a khaki washed linen button-up shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-oxford-shirt-white",
+      "prompt": "a white button-down oxford shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-oxford-shirt-blue",
+      "prompt": "a blue button-down oxford shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-camp-shirt",
+      "prompt": "a sea blue short-sleeved camp collar shirt for men with a woven texture, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-flannel-shirt",
+      "prompt": "a muted green and grey check brushed flannel overshirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-crew-tee-white",
+      "prompt": "a plain white heavyweight crew neck t-shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-crew-tee-black",
+      "prompt": "a plain black heavyweight crew neck t-shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-crew-tee-charcoal",
+      "prompt": "a plain charcoal heavyweight crew neck t-shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-crew-tee-green",
+      "prompt": "a plain green heavyweight crew neck t-shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-pique-polo-blue-dark",
+      "prompt": "a blue dark pique polo shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-pique-polo-white",
+      "prompt": "a white pique polo shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-pique-polo-red",
+      "prompt": "a red pique polo shirt for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-merino-crew-grey",
+      "prompt": "a grey fine knit merino wool crew neck sweater for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-merino-crew-blue-dark",
+      "prompt": "a blue dark fine knit merino wool crew neck sweater for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-merino-crew-brown",
+      "prompt": "a brown fine knit merino wool crew neck sweater for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-cardigan",
+      "prompt": "an oatmeal chunky knit shawl collar cardigan for men with horn buttons, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-henley",
+      "prompt": "a charcoal waffle knit long sleeve henley for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-chino-khaki",
+      "prompt": "a pair of khaki slim tapered cotton chino trousers for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-chino-blue-dark",
+      "prompt": "a pair of blue dark slim tapered cotton chino trousers for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-chino-oatmeal",
+      "prompt": "a pair of oatmeal slim tapered cotton chino trousers for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-selvedge-jean-blue-dark",
+      "prompt": "a pair of blue dark raw selvedge jeans for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-selvedge-jean-indigo",
+      "prompt": "a pair of indigo raw selvedge jeans for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-linen-trouser",
+      "prompt": "a pair of sand colored drawstring linen trousers for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-cargo-short",
+      "prompt": "a pair of olive ripstop cotton cargo shorts for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-linen-blazer-oatmeal",
+      "prompt": "a oatmeal unstructured linen blazer for men with patch pockets on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-linen-blazer-blue-dark",
+      "prompt": "a blue dark unstructured linen blazer for men with patch pockets on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-knit-blazer",
+      "prompt": "a charcoal knit jersey blazer for men on a ghost mannequin",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-field-jacket-green",
+      "prompt": "a green four-pocket waxed cotton field jacket for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "m-field-jacket-tan",
+      "prompt": "a tan four-pocket waxed cotton field jacket for men, laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-round-sun-brown",
+      "prompt": "a pair of brown round tortoiseshell acetate sunglasses",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-round-sun-black",
+      "prompt": "a pair of black round tortoiseshell acetate sunglasses",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-aviator",
+      "prompt": "a pair of gold wire aviator sunglasses with green lenses",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-square-sun-black",
+      "prompt": "a pair of bold black square acetate sunglasses",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-square-sun-ivory",
+      "prompt": "a pair of bold ivory square acetate sunglasses",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-reading",
+      "prompt": "a pair of thin tortoiseshell panto reading glasses",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-chain-neck",
+      "prompt": "a slim gold curb chain necklace coiled on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-signet-ring-silver",
+      "prompt": "a silver square signet ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-signet-ring-yellow",
+      "prompt": "a yellow square signet ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-hoop-ear",
+      "prompt": "a pair of medium hammered gold hoop earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-bracelet-blue-dark",
+      "prompt": "a braided blue dark nylon rope bracelet with a steel shackle clasp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-bracelet-red",
+      "prompt": "a braided red nylon rope bracelet with a steel shackle clasp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-bracelet-green",
+      "prompt": "a braided green nylon rope bracelet with a steel shackle clasp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-leather-sandal-tan",
+      "prompt": "a pair of tan flat leather two-strap sandals",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-leather-sandal-black",
+      "prompt": "a pair of black flat leather two-strap sandals",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-canvas-sneaker-white",
+      "prompt": "a pair of white low top canvas sneakers with a white rubber sole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-canvas-sneaker-blue-dark",
+      "prompt": "a pair of blue dark low top canvas sneakers with a white rubber sole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-canvas-sneaker-green",
+      "prompt": "a pair of green low top canvas sneakers with a white rubber sole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-loafer-brown",
+      "prompt": "a pair of brown full grain leather penny loafers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-loafer-black",
+      "prompt": "a pair of black full grain leather penny loafers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-espadrille",
+      "prompt": "a pair of natural canvas espadrilles with a jute sole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-chelsea",
+      "prompt": "a pair of tan suede chelsea boots with a crepe sole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-weekender",
+      "prompt": "a tan full grain leather weekender bag with brass zip",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-crossbody-tan",
+      "prompt": "a compact tan leather crossbody bag with a flap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-crossbody-black",
+      "prompt": "a compact black leather crossbody bag with a flap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-crossbody-green",
+      "prompt": "a compact green leather crossbody bag with a flap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-tote-oatmeal",
+      "prompt": "a oatmeal heavy canvas tote bag with leather handles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-tote-blue-dark",
+      "prompt": "a blue dark heavy canvas tote bag with leather handles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-cabin-case-silver",
+      "prompt": "a silver hard shell cabin suitcase with four wheels",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-cabin-case-black",
+      "prompt": "a black hard shell cabin suitcase with four wheels",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-cabin-case-green",
+      "prompt": "a green hard shell cabin suitcase with four wheels",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "a-backpack",
+      "prompt": "a khaki recycled nylon daypack with a laptop sleeve",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "tile-sale",
+      "dir": "media/wysiwyg/fashion",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A pile of folded linen shirts and trousers in white, sand and sea blue on a whitewashed step, bright Mediterranean sunlight, no text, no logos."
+    }
+  ]
+}

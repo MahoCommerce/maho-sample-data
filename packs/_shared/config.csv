@@ -1,0 +1,141 @@
+path,value,scope,scope_code
+web/url/use_store,1,default,
+customer/account_share/scope,0,default,
+catalog/frontend/list_mode,grid,default,
+catalog/frontend/grid_per_page,12,default,
+catalog/frontend/grid_per_page_values,"12,24,36",default,
+catalog/frontend/enable_addtocart_in_product_listings,0,default,
+catalog/recently_products/enabled_product_compare,0,default,
+catalog/recently_products/enabled_recently_viewed,0,default,
+catalog/advanced_search/enabled,0,default,
+configswatches/general/enabled,1,default,
+configswatches/general/swatch_attributes,"{{attribute_ids:color,size}}",default,
+configswatches/general/product_list_attribute,{{attribute_id:color}},default,
+design/package/name,maho,default,
+design/head/demonotice,1,default,
+general/region/display_all,1,default,
+general/region/state_required,"AT,CA,CH,DE,EE,ES,FI,FR,LT,LV,RO,US",default,
+advanced/modules_disable_output/Mage_Backup,1,default,
+revocation/general/enabled,1,default,
+checkout/options/redirect_register,0,default,
+design/theme/default,,websites,hub
+general/store_information/name,Maho Demo,websites,hub
+design/head/default_title,Maho Demo,websites,hub
+design/header/logo_alt,Maho Demo,websites,hub
+design/footer/copyright,&copy; Maho Demo. All rights reserved.,websites,hub
+trans_email/ident_general/name,Maho Demo,websites,hub
+trans_email/ident_sales/name,Maho Demo,websites,hub
+trans_email/ident_support/name,Maho Demo,websites,hub
+web/default/cms_home_page,home,stores,hub
+sitemap/file/name,sitemap-hub.xml,stores,hub
+design/theme/default,fashion,websites,fashion
+general/store_information/name,Maison Maho,websites,fashion
+design/head/default_title,Maison Maho,websites,fashion
+design/header/logo_alt,Maison Maho,websites,fashion
+design/footer/copyright,&copy; Maison Maho. All rights reserved.,websites,fashion
+trans_email/ident_general/name,Maison Maho,websites,fashion
+trans_email/ident_sales/name,Maison Maho,websites,fashion
+trans_email/ident_support/name,Maison Maho,websites,fashion
+web/default/cms_home_page,home,stores,fashion
+sitemap/file/name,sitemap-fashion.xml,stores,fashion
+design/theme/default,electronics,websites,electronics
+general/store_information/name,Voltline,websites,electronics
+design/head/default_title,Voltline,websites,electronics
+design/header/logo_alt,Voltline,websites,electronics
+design/footer/copyright,&copy; Voltline. All rights reserved.,websites,electronics
+trans_email/ident_general/name,Voltline,websites,electronics
+trans_email/ident_sales/name,Voltline,websites,electronics
+trans_email/ident_support/name,Voltline,websites,electronics
+web/default/cms_home_page,home,stores,electronics
+sitemap/file/name,sitemap-electronics.xml,stores,electronics
+design/theme/default,food,websites,food
+general/store_information/name,Harvest & Hearth,websites,food
+design/head/default_title,Harvest & Hearth,websites,food
+design/header/logo_alt,Harvest & Hearth,websites,food
+design/footer/copyright,&copy; Harvest & Hearth. All rights reserved.,websites,food
+trans_email/ident_general/name,Harvest & Hearth,websites,food
+trans_email/ident_sales/name,Harvest & Hearth,websites,food
+trans_email/ident_support/name,Harvest & Hearth,websites,food
+web/default/cms_home_page,home,stores,food
+sitemap/file/name,sitemap-food.xml,stores,food
+design/theme/default,books,websites,books
+general/store_information/name,Folio,websites,books
+design/head/default_title,Folio,websites,books
+design/header/logo_alt,Folio,websites,books
+design/footer/copyright,&copy; Folio. All rights reserved.,websites,books
+trans_email/ident_general/name,Folio,websites,books
+trans_email/ident_sales/name,Folio,websites,books
+trans_email/ident_support/name,Folio,websites,books
+web/default/cms_home_page,home,stores,books
+sitemap/file/name,sitemap-books.xml,stores,books
+design/theme/default,jewelry,websites,jewelry
+general/store_information/name,Aurelie,websites,jewelry
+design/head/default_title,Aurelie,websites,jewelry
+design/header/logo_alt,Aurelie,websites,jewelry
+design/footer/copyright,&copy; Aurelie. All rights reserved.,websites,jewelry
+trans_email/ident_general/name,Aurelie,websites,jewelry
+trans_email/ident_sales/name,Aurelie,websites,jewelry
+trans_email/ident_support/name,Aurelie,websites,jewelry
+web/default/cms_home_page,home,stores,jewelry
+sitemap/file/name,sitemap-jewelry.xml,stores,jewelry
+design/theme/default,beauty,websites,beauty
+general/store_information/name,Glow Atelier,websites,beauty
+design/head/default_title,Glow Atelier,websites,beauty
+design/header/logo_alt,Glow Atelier,websites,beauty
+design/footer/copyright,&copy; Glow Atelier. All rights reserved.,websites,beauty
+trans_email/ident_general/name,Glow Atelier,websites,beauty
+trans_email/ident_sales/name,Glow Atelier,websites,beauty
+trans_email/ident_support/name,Glow Atelier,websites,beauty
+web/default/cms_home_page,home,stores,beauty
+sitemap/file/name,sitemap-beauty.xml,stores,beauty
+design/theme/default,home,websites,home
+general/store_information/name,Hearthstone,websites,home
+design/head/default_title,Hearthstone,websites,home
+design/header/logo_alt,Hearthstone,websites,home
+design/footer/copyright,&copy; Hearthstone. All rights reserved.,websites,home
+trans_email/ident_general/name,Hearthstone,websites,home
+trans_email/ident_sales/name,Hearthstone,websites,home
+trans_email/ident_support/name,Hearthstone,websites,home
+web/default/cms_home_page,home,stores,home
+sitemap/file/name,sitemap-home.xml,stores,home
+design/theme/default,sports,websites,sports
+general/store_information/name,Stride,websites,sports
+design/head/default_title,Stride,websites,sports
+design/header/logo_alt,Stride,websites,sports
+design/footer/copyright,&copy; Stride. All rights reserved.,websites,sports
+trans_email/ident_general/name,Stride,websites,sports
+trans_email/ident_sales/name,Stride,websites,sports
+trans_email/ident_support/name,Stride,websites,sports
+web/default/cms_home_page,home,stores,sports
+sitemap/file/name,sitemap-sports.xml,stores,sports
+design/theme/default,kids,websites,kids
+general/store_information/name,Little Lark,websites,kids
+design/head/default_title,Little Lark,websites,kids
+design/header/logo_alt,Little Lark,websites,kids
+design/footer/copyright,&copy; Little Lark. All rights reserved.,websites,kids
+trans_email/ident_general/name,Little Lark,websites,kids
+trans_email/ident_sales/name,Little Lark,websites,kids
+trans_email/ident_support/name,Little Lark,websites,kids
+web/default/cms_home_page,home,stores,kids
+sitemap/file/name,sitemap-kids.xml,stores,kids
+design/theme/default,garden,websites,garden
+general/store_information/name,Greenhaven,websites,garden
+design/head/default_title,Greenhaven,websites,garden
+design/header/logo_alt,Greenhaven,websites,garden
+design/footer/copyright,&copy; Greenhaven. All rights reserved.,websites,garden
+trans_email/ident_general/name,Greenhaven,websites,garden
+trans_email/ident_sales/name,Greenhaven,websites,garden
+trans_email/ident_support/name,Greenhaven,websites,garden
+web/default/cms_home_page,home,stores,garden
+sitemap/file/name,sitemap-garden.xml,stores,garden
+design/head/includes,"<style>
+body.cms-home .main-container { padding-top: 0 }
+.cms-index-index .products-grid :is(.ratings, .actions),
+.cms-index-noroute .products-grid :is(.ratings, .actions) { display: none }
+.marquee { margin: 2.5rem 0; overflow: hidden; mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent) }
+.marquee-track { display: flex; width: max-content; align-items: center; animation: marquee 45s linear infinite }
+.marquee-track > * { margin: 0; flex-shrink: 0 }
+.marquee:hover .marquee-track { animation-play-state: paused }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none } }
+@keyframes marquee { to { transform: translateX(-50%) } }
+</style>",websites,fashion

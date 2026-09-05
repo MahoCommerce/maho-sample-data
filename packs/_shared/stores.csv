@@ -1,0 +1,12 @@
+website_code,website_name,website_sort_order,website_is_default,website_previous_code,group_name,root_category,store_code,store_previous_code,store_name,store_is_active,store_sort_order,store_is_default
+hub,Maho Demo,0,,,Maho Demo,Hub,hub,,Maho Demo,1,0,
+fashion,Maison Maho,10,1,base,Maison Maho,Fashion,fashion,default,Maison Maho,1,10,1
+electronics,Voltline,20,,,Voltline,Electronics,electronics,,Voltline,1,20,
+food,Harvest & Hearth,30,,,Harvest & Hearth,Food,food,,Harvest & Hearth,1,30,
+books,Folio,40,,,Folio,Books,books,,Folio,1,40,
+jewelry,Aurelie,50,,,Aurelie,Jewelry,jewelry,,Aurelie,1,50,
+beauty,Glow Atelier,60,,,Glow Atelier,Beauty,beauty,,Glow Atelier,1,60,
+home,Hearthstone,70,,,Hearthstone,Home,home,,Hearthstone,1,70,
+sports,Stride,80,,,Stride,Sports,sports,,Stride,1,80,
+kids,Little Lark,90,,,Little Lark,Kids,kids,,Little Lark,1,90,
+garden,Greenhaven,100,,,Greenhaven,Garden,garden,,Greenhaven,1,100,

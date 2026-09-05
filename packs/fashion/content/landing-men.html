@@ -1,0 +1,36 @@
+<div data-type="maho-bento" data-preset="feature-left" data-gap="medium" data-style="none" style="grid-template-areas: 'a b' 'a c'; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr">
+    <div data-type="maho-bento-cell" style="grid-area: a">
+        <p><a href="{{store url="men/new-arrivals"}}" title="Shop new arrivals"><img src="{{media url="wysiwyg/fashion/men-hero.webp"}}" alt="A man in a sea blue linen shirt walking along a stone pier"></a></p>
+    </div>
+    <div data-type="maho-bento-cell" style="grid-area: b" class="card card-border">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Summer edit</span></p>
+            <h2>Packed light, worn well</h2>
+            <p>Shirts that dry overnight, trousers that hold their line, and knits for the evening breeze.</p>
+            <p><a class="btn btn-primary" href="{{store url="men/new-arrivals"}}">Shop new arrivals</a></p>
+        </div>
+    </div>
+    <div data-type="maho-bento-cell" style="grid-area: c">
+        <p><img src="{{media url="wysiwyg/fashion/men-side.webp"}}" alt="A man in a white linen shirt beside a whitewashed wall"></p>
+    </div>
+</div>
+
+<h2>Shop by category</h2>
+<div data-type="maho-columns" data-preset="4-equal" data-gap="small" data-style="none">
+    <div data-type="maho-column">
+        <p><a href="{{store url="men/new-arrivals"}}" title="Shop new arrivals"><img src="{{media url="wysiwyg/fashion/men-new-arrivals.webp"}}" alt="New arrivals"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/men/new-arrivals}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="men/shirts"}}" title="Shop shirts"><img src="{{media url="wysiwyg/fashion/men-shirts.webp"}}" alt="Shirts"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/men/shirts}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="men/tees-knits-and-polos"}}" title="Shop tees, knits and polos"><img src="{{media url="wysiwyg/fashion/men-tees-knits-polos.webp"}}" alt="Tees, knits and polos"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/men/tees-knits-and-polos}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="men/pants-denim"}}" title="Shop pants and denim"><img src="{{media url="wysiwyg/fashion/men-pants-denim.webp"}}" alt="Pants and denim"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/men/pants-denim}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>

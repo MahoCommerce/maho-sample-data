@@ -1,0 +1,21 @@
+email,_website,_store,firstname,lastname,group_id,password,_address_firstname,_address_lastname,_address_street,_address_city,_address_region,_address_country_id,_address_postcode,_address_telephone,_address_default_billing_,_address_default_shipping_
+ada.fashion@example.com,fashion,fashion,Ada,Demo,1,Password123!,Ada,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+ben.fashion@example.com,fashion,fashion,Ben,Demo,1,Password123!,,,,,,,,,,
+chloe.electronics@example.com,electronics,electronics,Chloe,Demo,1,Password123!,Chloe,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+dev.electronics@example.com,electronics,electronics,Dev,Demo,1,Password123!,,,,,,,,,,
+elena.food@example.com,food,food,Elena,Demo,1,Password123!,Elena,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+femi.food@example.com,food,food,Femi,Demo,1,Password123!,,,,,,,,,,
+greta.books@example.com,books,books,Greta,Demo,1,Password123!,Greta,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+hugo.books@example.com,books,books,Hugo,Demo,1,Password123!,,,,,,,,,,
+iris.jewelry@example.com,jewelry,jewelry,Iris,Demo,1,Password123!,Iris,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+jonas.jewelry@example.com,jewelry,jewelry,Jonas,Demo,1,Password123!,,,,,,,,,,
+kira.beauty@example.com,beauty,beauty,Kira,Demo,1,Password123!,Kira,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+leo.beauty@example.com,beauty,beauty,Leo,Demo,1,Password123!,,,,,,,,,,
+maya.home@example.com,home,home,Maya,Demo,1,Password123!,Maya,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+noor.home@example.com,home,home,Noor,Demo,1,Password123!,,,,,,,,,,
+oscar.sports@example.com,sports,sports,Oscar,Demo,1,Password123!,Oscar,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+priya.sports@example.com,sports,sports,Priya,Demo,1,Password123!,,,,,,,,,,
+quinn.kids@example.com,kids,kids,Quinn,Demo,1,Password123!,Quinn,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+rosa.kids@example.com,kids,kids,Rosa,Demo,1,Password123!,,,,,,,,,,
+sam.garden@example.com,garden,garden,Sam,Demo,1,Password123!,Sam,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+tessa.garden@example.com,garden,garden,Tessa,Demo,1,Password123!,,,,,,,,,,

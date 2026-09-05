@@ -1,0 +1,35 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="women/new-arrivals"}}" title="Shop new arrivals"><img src="{{media url="wysiwyg/fashion/women-hero.webp"}}" alt="A woman in a sand linen dress walking along a sunlit harbour" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Summer edit</span></p>
+            <h2>Dressed for the journey</h2>
+            <p>Linen, cotton and knits that pack flat and come out ready to wear. Cut for long days and warm evenings.</p>
+            <p><a class="btn btn-primary" href="{{store url="women/new-arrivals"}}">Shop new arrivals</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><img src="{{media url="wysiwyg/fashion/women-side.webp"}}" alt="A woman in a white linen shirt sitting on a whitewashed step" /></p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="women/new-arrivals"}}" title="Shop new arrivals"><img src="{{media url="wysiwyg/fashion/women-new-arrivals.webp"}}" alt="New arrivals" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/women/new-arrivals}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="women/tops-blouses"}}" title="Shop tops and blouses"><img src="{{media url="wysiwyg/fashion/women-tops-blouses.webp"}}" alt="Tops and blouses" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/women/tops-blouses}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="women/pants-denim"}}" title="Shop pants and denim"><img src="{{media url="wysiwyg/fashion/women-pants-denim.webp"}}" alt="Pants and denim" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/women/pants-denim}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="women/dresses-skirts"}}" title="Shop dresses and skirts"><img src="{{media url="wysiwyg/fashion/women-dresses-skirts.webp"}}" alt="Dresses and skirts" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/women/dresses-skirts}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>

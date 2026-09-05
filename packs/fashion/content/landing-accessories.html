@@ -1,0 +1,36 @@
+<div data-type="maho-bento" data-preset="feature-left" data-gap="medium" data-style="none" style="grid-template-areas: 'a b' 'a c'; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr">
+    <div data-type="maho-bento-cell" style="grid-area: a">
+        <p><a href="{{store url="accessories/bags-luggage"}}" title="Shop bags and luggage"><img src="{{media url="wysiwyg/fashion/accessories-hero.webp"}}" alt="A leather bag, sunglasses, a watch and a straw hat on a cafe table by the sea"></a></p>
+    </div>
+    <div data-type="maho-bento-cell" style="grid-area: b" class="card card-border">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Travel essentials</span></p>
+            <h2>The small things that carry the trip</h2>
+            <p>Bags that fit under the seat, sunglasses that survive the beach, and jewelry that goes from ferry to dinner.</p>
+            <p><a class="btn btn-primary" href="{{store url="accessories/bags-luggage"}}">Shop bags and luggage</a></p>
+        </div>
+    </div>
+    <div data-type="maho-bento-cell" style="grid-area: c">
+        <p><img src="{{media url="wysiwyg/fashion/accessories-side.webp"}}" alt="Hands fastening a tan leather belt bag"></p>
+    </div>
+</div>
+
+<h2>Shop by category</h2>
+<div data-type="maho-columns" data-preset="4-equal" data-gap="small" data-style="none">
+    <div data-type="maho-column">
+        <p><a href="{{store url="accessories/eyewear"}}" title="Shop eyewear"><img src="{{media url="wysiwyg/fashion/accessories-eyewear.webp"}}" alt="Eyewear"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/accessories/eyewear}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="accessories/jewelry"}}" title="Shop jewelry"><img src="{{media url="wysiwyg/fashion/accessories-jewelry.webp"}}" alt="Jewelry"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/accessories/jewelry}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="accessories/shoes"}}" title="Shop shoes"><img src="{{media url="wysiwyg/fashion/accessories-shoes.webp"}}" alt="Shoes"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/accessories/shoes}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="accessories/bags-luggage"}}" title="Shop bags and luggage"><img src="{{media url="wysiwyg/fashion/accessories-bags-luggage.webp"}}" alt="Bags and luggage"></a></p>
+        <p style="text-align: center">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Fashion/accessories/bags-luggage}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
