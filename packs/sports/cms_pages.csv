@@ -1,4 +1,4 @@
 identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
 home,sports,Stride,one_column,home.html,1,1,"Stride: running shoes, cycling kit, gym gear, yoga mats and hiking equipment, tested on the road and the trail."
-about,sports,About Stride,two_columns_left,about.html,1,0,
-customer-service,sports,Customer Service,two_columns_left,customer-service.html,1,0,
+about,sports,About Stride,one_column,about.html,1,0,
+customer-service,sports,Customer Service,one_column,customer-service.html,1,0,

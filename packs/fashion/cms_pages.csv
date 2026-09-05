@@ -1,5 +1,5 @@
 identifier,stores,title,root_template,content_file,is_active,is_home,meta_keywords,meta_description
 home,fashion,Maison Maho,one_column,home.html,1,1,,
-about-maho-demo-store,fashion,About Us,two_columns_left,about.html,1,0,,
-customer-service,fashion,Customer Service,two_columns_left,customer-service.html,1,0,,
+about-maho-demo-store,fashion,About Us,one_column,about.html,1,0,,
+customer-service,fashion,Customer Service,one_column,customer-service.html,1,0,,
 no-route,fashion,404 Not Found,one_column,no-route.html,1,0,,

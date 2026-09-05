@@ -221,6 +221,39 @@ def home(codes):
 '''
 
 
+ABOUT = '''<div data-type="maho-columns" data-preset="2-equal" data-gap="large" data-style="none">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/store/hero-side.webp"}}" alt="Bread, olive oil and tomatoes in a wooden crate"></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">About</span></p>
+        <h2>One installation, eleven websites</h2>
+        <p>The Maho Store is the front door of the Maho sample data. It runs on the default theme and sells the full catalog of the ten demo shops, from linen shirts to trail shoes to terracotta pots.</p>
+        <p>Each of the ten shops is also a website of its own on the same installation, with its own theme, categories, content and reviews. Use the store switcher in the corner to jump between them.</p>
+        <p>Every product, picture, review and article is generated demo data. Nothing here is for sale, and no order is processed.</p>
+    </div>
+</div>
+'''
+
+SERVICE = '''<h1>Customer Service</h1>
+<h2>Shipping and delivery</h2>
+<p>Orders placed before noon on a weekday ship the same day. Standard delivery takes two to four working days. Express delivery arrives the next working day. Plants, food and fragile items travel in their own packaging.</p>
+<h2>Returns</h2>
+<p>You can return an unused item within 30 days of delivery. Start the return from your account page and print the prepaid label. Refunds reach the original payment method within five working days of receipt. Food, plants and personalised jewelry cannot be returned.</p>
+<h2>Payment</h2>
+<p>We accept cards, PayPal and bank transfer. Every payment page is encrypted. We never store card numbers.</p>
+<h2>Contact</h2>
+<p>Write to us through the <a href="{{store url="contacts"}}">contact page</a>. We answer within one working day.</p>
+'''
+
+NO_ROUTE = '''<h1 style="text-align: center">Oops!</h1>
+<p style="text-align: center"><strong>404 Page not found.</strong> Check the address, or head back to the <a href="{{store url=""}}">home page</a>.</p>
+<h2 style="text-align: center">Were you looking for something else?</h2>
+<p style="text-align: center">Here is what arrived this week.</p>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="5" template="catalog/product/widget/new/content/new_grid.phtml"}}
+'''
+
+
 def main():
     codes = industries()
     write(os.path.join(STORE, 'categories.csv'), categories(codes),
@@ -229,11 +262,15 @@ def main():
     write(os.path.join(STORE, 'reviews.csv'), reviews(codes), ['sku', 'store_code', 'nickname', 'title', 'detail', 'rating', 'created_at'])
     write(os.path.join(STORE, 'cms_pages.csv'),
           [dict(identifier='home', stores=STORE_CODE, title='Maho Store', root_template='one_column', content_file='home.html', is_active=1, is_home=1,
-                meta_description='Ten demo stores on one Maho installation, one per industry theme, and every product in one store.')],
+                meta_description='Ten demo stores on one Maho installation, one per industry theme, and every product in one store.'),
+           dict(identifier='about-maho-demo-store', stores=STORE_CODE, title='About the Maho Store', root_template='one_column', content_file='about.html', is_active=1, is_home=0, meta_description=''),
+           dict(identifier='customer-service', stores=STORE_CODE, title='Customer Service', root_template='one_column', content_file='customer-service.html', is_active=1, is_home=0, meta_description=''),
+           dict(identifier='no-route', stores=STORE_CODE, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0, meta_description='')],
           ['identifier', 'stores', 'title', 'root_template', 'content_file', 'is_active', 'is_home', 'meta_description'])
     os.makedirs(os.path.join(STORE, 'content'), exist_ok=True)
-    with open(os.path.join(STORE, 'content', 'home.html'), 'w') as f:
-        f.write(home(codes))
+    for name, body in {'home.html': home(codes), 'about.html': ABOUT, 'customer-service.html': SERVICE, 'no-route.html': NO_ROUTE}.items():
+        with open(os.path.join(STORE, 'content', name), 'w') as f:
+            f.write(body)
     print(f'store pack: {len(codes)} industries')
 
 

@@ -1,2 +1,5 @@
 identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
 home,default,Maho Store,one_column,home.html,1,1,"Ten demo stores on one Maho installation, one per industry theme, and every product in one store."
+about-maho-demo-store,default,About the Maho Store,one_column,about.html,1,0,
+customer-service,default,Customer Service,one_column,customer-service.html,1,0,
+no-route,default,404 Not Found,one_column,no-route.html,1,0,

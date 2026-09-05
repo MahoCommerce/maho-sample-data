@@ -206,8 +206,8 @@ def build(spec_path):
     put(f'{root}/content/about.html', about_html(S))
     put(f'{root}/content/customer-service.html', CUSTOMER_SERVICE)
     pages = [dict(identifier='home', stores=c, title=S.STORE_NAME, root_template='one_column', content_file='home.html', is_active=1, is_home=1, meta_description=S.META_DESCRIPTION),
-             dict(identifier='about', stores=c, title=f'About {S.STORE_NAME}', root_template='two_columns_left', content_file='about.html', is_active=1, is_home=0),
-             dict(identifier='customer-service', stores=c, title='Customer Service', root_template='two_columns_left', content_file='customer-service.html', is_active=1, is_home=0)]
+             dict(identifier='about', stores=c, title=f'About {S.STORE_NAME}', root_template='one_column', content_file='about.html', is_active=1, is_home=0),
+             dict(identifier='customer-service', stores=c, title='Customer Service', root_template='one_column', content_file='customer-service.html', is_active=1, is_home=0)]
     write_csv(f'{root}/cms_pages.csv', pages, ['identifier', 'stores', 'title', 'root_template', 'content_file', 'is_active', 'is_home', 'meta_description'])
     # products
     cols = ['sku', '_attribute_set', '_type', '_product_websites', '_root_category', '_category', 'name', 'price', 'special_price', 'status', 'visibility', 'tax_class_id', 'weight', 'description', 'short_description', 'qty', 'is_in_stock'] + S.ATTRIBUTE_COLUMNS + ['_media_image', 'image', 'small_image', 'thumbnail', 'url_key', '_super_products_sku', '_super_attribute_code', '_super_attribute_option', '_associated_sku', '_associated_default_qty', '_associated_position']
