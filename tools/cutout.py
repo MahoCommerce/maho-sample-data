@@ -4,7 +4,7 @@
 # re-computes true edge colors so semi-transparent edge pixels don't keep the
 # old background mixed in (no halo on colored/dark theme tiles).
 #
-# Usage: python remove-bg.py <images-root>
+# Usage: python tools/cutout.py <images-root> (tools/cutout.sh runs it inside its venv)
 #
 # - .webp files are replaced with transparent webp, quality 85
 # - .png files are replaced with transparent png

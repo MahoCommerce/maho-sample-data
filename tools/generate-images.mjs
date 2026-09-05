@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const args = process.argv.slice(2);
-const manifestFile = args.includes('--manifest') ? args[args.indexOf('--manifest') + 1] : 'packs/hub/images.json';
+const manifestFile = args.includes('--manifest') ? args[args.indexOf('--manifest') + 1] : 'packs/store/images.json';
 const manifest = JSON.parse(readFileSync(join(root, manifestFile), 'utf8'));
 const force = args.includes('--force');
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1].split(',') : null;
