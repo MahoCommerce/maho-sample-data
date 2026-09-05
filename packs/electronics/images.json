@@ -502,7 +502,7 @@
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "audio",
+      "file": "electronics-audio",
       "dir": "packs/electronics/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -520,7 +520,7 @@
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "computing",
+      "file": "electronics-computing",
       "dir": "packs/electronics/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -538,7 +538,7 @@
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "cameras",
+      "file": "electronics-cameras",
       "dir": "packs/electronics/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -556,7 +556,7 @@
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "smart-home",
+      "file": "electronics-smart-home",
       "dir": "packs/electronics/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -574,7 +574,7 @@
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "wearables",
+      "file": "electronics-wearables",
       "dir": "packs/electronics/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -592,7 +592,7 @@
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "accessories",
+      "file": "electronics-accessories",
       "dir": "packs/electronics/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

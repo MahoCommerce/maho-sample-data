@@ -574,7 +574,7 @@
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "furniture",
+      "file": "home-furniture",
       "dir": "packs/home/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -592,7 +592,7 @@
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "seating",
+      "file": "home-seating",
       "dir": "packs/home/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -610,7 +610,7 @@
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "bedding",
+      "file": "home-bedding",
       "dir": "packs/home/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -628,7 +628,7 @@
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "kitchen",
+      "file": "home-kitchen",
       "dir": "packs/home/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -646,7 +646,7 @@
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "lighting",
+      "file": "home-lighting",
       "dir": "packs/home/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -664,7 +664,7 @@
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "decor",
+      "file": "home-decor",
       "dir": "packs/home/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

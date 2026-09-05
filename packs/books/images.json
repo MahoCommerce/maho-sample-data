@@ -370,7 +370,7 @@
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "fiction",
+      "file": "books-fiction",
       "dir": "packs/books/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -388,7 +388,7 @@
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "crime",
+      "file": "books-crime",
       "dir": "packs/books/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -406,7 +406,7 @@
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "science",
+      "file": "books-science",
       "dir": "packs/books/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -424,7 +424,7 @@
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "history",
+      "file": "books-history",
       "dir": "packs/books/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -442,7 +442,7 @@
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "cooking",
+      "file": "books-cooking",
       "dir": "packs/books/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -460,7 +460,7 @@
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "children",
+      "file": "books-children",
       "dir": "packs/books/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

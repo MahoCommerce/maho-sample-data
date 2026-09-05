@@ -550,7 +550,7 @@
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "toys",
+      "file": "kids-toys",
       "dir": "packs/kids/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -568,7 +568,7 @@
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "clothing",
+      "file": "kids-clothing",
       "dir": "packs/kids/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -586,7 +586,7 @@
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "books",
+      "file": "kids-books",
       "dir": "packs/kids/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -604,7 +604,7 @@
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "nursery",
+      "file": "kids-nursery",
       "dir": "packs/kids/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -622,7 +622,7 @@
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "outdoor",
+      "file": "kids-outdoor",
       "dir": "packs/kids/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -640,7 +640,7 @@
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "gifts",
+      "file": "kids-gifts",
       "dir": "packs/kids/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

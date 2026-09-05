@@ -388,7 +388,7 @@
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "pantry",
+      "file": "food-pantry",
       "dir": "packs/food/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -406,7 +406,7 @@
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "bakery",
+      "file": "food-bakery",
       "dir": "packs/food/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -424,7 +424,7 @@
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "cheese-charcuterie",
+      "file": "food-cheese-charcuterie",
       "dir": "packs/food/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -442,7 +442,7 @@
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "coffee-tea",
+      "file": "food-coffee-tea",
       "dir": "packs/food/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -460,7 +460,7 @@
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "drinks",
+      "file": "food-drinks",
       "dir": "packs/food/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -478,7 +478,7 @@
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "gift-boxes",
+      "file": "food-gift-boxes",
       "dir": "packs/food/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

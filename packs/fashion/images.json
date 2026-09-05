@@ -563,7 +563,7 @@
       "prompt": "A pile of folded linen shirts and trousers in white, sand and sea blue on a whitewashed step, bright Mediterranean sunlight, no text, no logos."
     },
     {
-      "file": "women",
+      "file": "fashion-women",
       "dir": "packs/fashion/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -571,7 +571,7 @@
       "prompt": "Linen dresses and blouses in ivory and sand on wooden hangers along a rail in a sunlit boutique. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
     },
     {
-      "file": "men",
+      "file": "fashion-men",
       "dir": "packs/fashion/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -579,7 +579,7 @@
       "prompt": "Linen shirts, chinos and a blazer in natural tones folded and hung along a wooden shelf in a bright shop. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
     },
     {
-      "file": "accessories",
+      "file": "fashion-accessories",
       "dir": "packs/fashion/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -587,7 +587,7 @@
       "prompt": "Sunglasses, a leather weekender, canvas sneakers and a gold chain laid in a row on a whitewashed ledge by the sea. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
     },
     {
-      "file": "sale",
+      "file": "fashion-sale",
       "dir": "packs/fashion/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

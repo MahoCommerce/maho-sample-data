@@ -448,7 +448,7 @@
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "houseplants",
+      "file": "garden-houseplants",
       "dir": "packs/garden/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -466,7 +466,7 @@
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "outdoor-plants",
+      "file": "garden-outdoor-plants",
       "dir": "packs/garden/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -484,7 +484,7 @@
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "seeds",
+      "file": "garden-seeds",
       "dir": "packs/garden/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -502,7 +502,7 @@
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "pots",
+      "file": "garden-pots",
       "dir": "packs/garden/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -520,7 +520,7 @@
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "tools",
+      "file": "garden-tools",
       "dir": "packs/garden/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -538,7 +538,7 @@
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "furniture",
+      "file": "garden-furniture",
       "dir": "packs/garden/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

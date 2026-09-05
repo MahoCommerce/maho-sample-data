@@ -592,7 +592,7 @@
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "running",
+      "file": "sports-running",
       "dir": "packs/sports/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -610,7 +610,7 @@
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "cycling",
+      "file": "sports-cycling",
       "dir": "packs/sports/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -628,7 +628,7 @@
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "gym",
+      "file": "sports-gym",
       "dir": "packs/sports/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -646,7 +646,7 @@
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "yoga",
+      "file": "sports-yoga",
       "dir": "packs/sports/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -664,7 +664,7 @@
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "hiking",
+      "file": "sports-hiking",
       "dir": "packs/sports/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -682,7 +682,7 @@
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
-      "file": "swimming",
+      "file": "sports-swimming",
       "dir": "packs/sports/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

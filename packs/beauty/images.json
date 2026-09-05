@@ -346,7 +346,7 @@
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "cleansers",
+      "file": "beauty-cleansers",
       "dir": "packs/beauty/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -364,7 +364,7 @@
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "serums",
+      "file": "beauty-serums",
       "dir": "packs/beauty/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -382,7 +382,7 @@
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "moisturisers",
+      "file": "beauty-moisturisers",
       "dir": "packs/beauty/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -400,7 +400,7 @@
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "body",
+      "file": "beauty-body",
       "dir": "packs/beauty/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -418,7 +418,7 @@
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "fragrance",
+      "file": "beauty-fragrance",
       "dir": "packs/beauty/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",
@@ -436,7 +436,7 @@
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
-      "file": "sets",
+      "file": "beauty-sets",
       "dir": "packs/beauty/media/catalog/category",
       "size": "1536x512",
       "ratio": "3:1",

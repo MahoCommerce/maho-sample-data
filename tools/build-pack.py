@@ -225,7 +225,7 @@ def build(spec_path):
     for i, cat in enumerate(S.CATEGORIES):
         block = f'landing-{slug(cat["path"])}'
         cats.append(dict(root=S.ROOT, path=cat['path'], name=cat['name'], is_active=1, include_in_menu=1, is_anchor=1, position=i + 1,
-                         display_mode='PRODUCTS_AND_PAGE', landing_page=block, image=f'{slug(cat["path"])}.webp', description='',
+                         display_mode='PRODUCTS_AND_PAGE', landing_page=block, image=f'{c}-{slug(cat["path"])}.webp', description='',
                          meta_title=f"{cat['name']} | {S.STORE_NAME}", meta_description=cat['description']))
         for j, sub in enumerate(cat.get('children', [])):
             cats.append(dict(root=S.ROOT, path=f"{cat['path']}/{sub['path']}", name=sub['name'], is_active=1, include_in_menu=1, is_anchor=1, position=j + 1, description=sub.get('description', '')))
@@ -338,7 +338,7 @@ def build(spec_path):
         scene.append({'file': f'gallery-{area}', 'dir': f'media/wysiwyg/{c}', 'size': size, 'ratio': ratio, 'model': HOME, 'prompt': S.GALLERY['abcde'.index(area)][0]})
     for cat in S.CATEGORIES:
         scene.append({'file': f'tile-{slug(cat["path"])}', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'model': HOME, 'prompt': cat['scene']})
-        scene.append({'file': slug(cat['path']), 'dir': f'packs/{c}/media/catalog/category', 'size': '1536x512', 'ratio': '3:1', 'model': 'ideogram-v3-turbo', 'prompt': cat['scene'] + BANNER})
+        scene.append({'file': f'{c}-{slug(cat["path"])}', 'dir': f'packs/{c}/media/catalog/category', 'size': '1536x512', 'ratio': '3:1', 'model': 'ideogram-v3-turbo', 'prompt': cat['scene'] + BANNER})
     for title, body, prompt in S.POSTS:
         scene.append({'file': slug(title), 'dir': f'media/blog/{c}', 'size': '2560x1440', 'ratio': '5:2', 'model': HOME, 'prompt': prompt + BANNER})
     for s in scene:

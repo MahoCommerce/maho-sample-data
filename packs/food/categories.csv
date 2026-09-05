@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Food,,Food,1,1,1,,,,,Small-batch food from farms and makers we know by name.,,
-Food,pantry,Pantry,1,1,1,1,PRODUCTS_AND_PAGE,landing-pantry,pantry.webp,,Pantry | Harvest & Hearth,"Olive oil, pasta, grains and preserves for every day."
-Food,bakery,Bakery,1,1,1,2,PRODUCTS_AND_PAGE,landing-bakery,bakery.webp,,Bakery | Harvest & Hearth,"Bread and pastries baked before dawn, shipped the same day."
-Food,cheese-charcuterie,Cheese & Charcuterie,1,1,1,3,PRODUCTS_AND_PAGE,landing-cheese-charcuterie,cheese-charcuterie.webp,,Cheese & Charcuterie | Harvest & Hearth,Aged cheeses and cured meats from small dairies and farms.
-Food,coffee-tea,Coffee & Tea,1,1,1,4,PRODUCTS_AND_PAGE,landing-coffee-tea,coffee-tea.webp,,Coffee & Tea | Harvest & Hearth,"Single-origin coffee and loose leaf tea, roasted and packed weekly."
-Food,drinks,Drinks,1,1,1,5,PRODUCTS_AND_PAGE,landing-drinks,drinks.webp,,Drinks | Harvest & Hearth,"Craft sodas, juices, wine and spirits from small producers."
-Food,gift-boxes,Gift Boxes,1,1,1,6,PRODUCTS_AND_PAGE,landing-gift-boxes,gift-boxes.webp,,Gift Boxes | Harvest & Hearth,"Curated boxes for tables, birthdays and thank-yous."
+Food,pantry,Pantry,1,1,1,1,PRODUCTS_AND_PAGE,landing-pantry,food-pantry.webp,,Pantry | Harvest & Hearth,"Olive oil, pasta, grains and preserves for every day."
+Food,bakery,Bakery,1,1,1,2,PRODUCTS_AND_PAGE,landing-bakery,food-bakery.webp,,Bakery | Harvest & Hearth,"Bread and pastries baked before dawn, shipped the same day."
+Food,cheese-charcuterie,Cheese & Charcuterie,1,1,1,3,PRODUCTS_AND_PAGE,landing-cheese-charcuterie,food-cheese-charcuterie.webp,,Cheese & Charcuterie | Harvest & Hearth,Aged cheeses and cured meats from small dairies and farms.
+Food,coffee-tea,Coffee & Tea,1,1,1,4,PRODUCTS_AND_PAGE,landing-coffee-tea,food-coffee-tea.webp,,Coffee & Tea | Harvest & Hearth,"Single-origin coffee and loose leaf tea, roasted and packed weekly."
+Food,drinks,Drinks,1,1,1,5,PRODUCTS_AND_PAGE,landing-drinks,food-drinks.webp,,Drinks | Harvest & Hearth,"Craft sodas, juices, wine and spirits from small producers."
+Food,gift-boxes,Gift Boxes,1,1,1,6,PRODUCTS_AND_PAGE,landing-gift-boxes,food-gift-boxes.webp,,Gift Boxes | Harvest & Hearth,"Curated boxes for tables, birthdays and thank-yous."
