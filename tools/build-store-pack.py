@@ -254,6 +254,19 @@ NO_ROUTE = '''<h1 style="text-align: center">Oops!</h1>
 '''
 
 
+PRIVACY = '''<p><span class="badge badge-warning">Demo store</span></p>
+<p>This is a demonstration store. It exists to show what Maho can do, not to sell anything, and this page is a placeholder rather than a legal document.</p>
+<h2>What this demo does with your data</h2>
+<p>Nothing that lasts. The store runs on a test installation that is reset from time to time. Anything you type into a form here, an account, an address, a review, a newsletter sign up, is demo data. It is not read by a person, not shared with anyone, and it disappears with the next reset.</p>
+<h2>Cookies</h2>
+<p>The store sets the session and preference cookies that every Maho installation needs to keep a cart, a login or a store choice between two pages. There is no analytics, advertising or tracking cookie on this demo.</p>
+<h2>Orders and payments</h2>
+<p>No order placed here is processed, shipped or charged. Do not enter a real card number anywhere on this site.</p>
+<h2>Your own store</h2>
+<p>When you run Maho for real, replace this page with a privacy policy that describes what your store collects and why. The page lives under CMS pages in the admin, and the cookie notice below it comes from the cookie restriction setting.</p>
+'''
+
+
 def main():
     codes = industries()
     write(os.path.join(STORE, 'categories.csv'), categories(codes),
@@ -265,10 +278,11 @@ def main():
                 meta_description='Ten demo stores on one Maho installation, one per industry theme, and every product in one store.'),
            dict(identifier='about-maho-demo-store', stores=STORE_CODE, title='About the Maho Store', root_template='one_column', content_file='about.html', is_active=1, is_home=0, meta_description=''),
            dict(identifier='customer-service', stores=STORE_CODE, title='Customer Service', root_template='one_column', content_file='customer-service.html', is_active=1, is_home=0, meta_description=''),
-           dict(identifier='no-route', stores=STORE_CODE, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0, meta_description='')],
+           dict(identifier='no-route', stores=STORE_CODE, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0, meta_description=''),
+           dict(identifier='privacy-policy-cookie-restriction-mode', stores='', title='Privacy Policy', root_template='one_column', content_file='privacy-policy.html', is_active=1, is_home=0, meta_description='')],
           ['identifier', 'stores', 'title', 'root_template', 'content_file', 'is_active', 'is_home', 'meta_description'])
     os.makedirs(os.path.join(STORE, 'content'), exist_ok=True)
-    for name, body in {'home.html': home(codes), 'about.html': ABOUT, 'customer-service.html': SERVICE, 'no-route.html': NO_ROUTE}.items():
+    for name, body in {'home.html': home(codes), 'about.html': ABOUT, 'customer-service.html': SERVICE, 'no-route.html': NO_ROUTE, 'privacy-policy.html': PRIVACY}.items():
         with open(os.path.join(STORE, 'content', name), 'w') as f:
             f.write(body)
     print(f'store pack: {len(codes)} industries')
