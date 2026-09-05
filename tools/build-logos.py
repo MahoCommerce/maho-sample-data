@@ -45,8 +45,9 @@ def font_bytes(slug, weight):
     return open(path, 'rb').read()
 
 
-def wordmark(text, data):
-    """Shape the text with HarfBuzz and return (svg path data, width) in font units."""
+def wordmark(text, data, tracking=0.0):
+    """Shape the text with HarfBuzz and return (svg path data, width, units per em, cap height) in font units.
+    tracking adds that fraction of an em after every glyph."""
     ttf = TTFont(io.BytesIO(data))
     ttf.flavor = None  # HarfBuzz reads plain SFNT, not WOFF2
     raw = io.BytesIO()
@@ -63,40 +64,144 @@ def wordmark(text, data):
     hb.shape(font, buf, {'kern': True, 'liga': True})
     x = 0
     parts = []
+    extra = int(upem * tracking)
     for info, pos in zip(buf.glyph_infos, buf.glyph_positions):
         pen = SVGPathPen(glyph_set)
         glyph_set[order[info.codepoint]].draw(TransformPen(pen, (1, 0, 0, -1, x + pos.x_offset, -pos.y_offset)))
         d = pen.getCommands()
         if d:
             parts.append(d)
-        x += pos.x_advance
-    cap = ttf['OS/2'].sCapHeight if hasattr(ttf['OS/2'], 'sCapHeight') and ttf['OS/2'].sCapHeight else int(upem * 0.7)
+        x += pos.x_advance + extra
+    x -= extra
+    cap = ttf['OS/2'].sCapHeight if getattr(ttf['OS/2'], 'sCapHeight', 0) else int(upem * 0.7)
     return ' '.join(parts), x, upem, cap
 
 
-def build(code):
+# typographic treatment per store: caps with tracking, or mixed case; the accent is a coloured glyph
+TYPE = {
+    'fashion': dict(caps=True, tracking=0.16),
+    'jewelry': dict(caps=True, tracking=0.22),
+    'beauty': dict(caps=False, tracking=0.02),
+    'books': dict(caps=False, tracking=0.0),
+    'garden': dict(caps=False, tracking=0.01),
+    'electronics': dict(caps=True, tracking=0.06),
+    'food': dict(caps=False, tracking=0.0, accent='&'),
+    'home': dict(caps=False, tracking=0.0),
+    'sports': dict(caps=True, tracking=0.04),
+    'kids': dict(caps=False, tracking=0.0),
+}
+SHAPE = {'fashion': 'circle', 'jewelry': 'diamond', 'beauty': 'circle', 'books': 'square', 'garden': 'circle',
+         'electronics': 'square', 'food': 'circle', 'home': 'square', 'sports': 'square', 'kids': 'circle'}
+MONOGRAM = {'fashion': 'MM', 'electronics': 'V', 'food': 'H', 'books': 'F', 'jewelry': 'A', 'beauty': 'G', 'home': 'H', 'sports': 'S', 'kids': 'LL', 'garden': 'G'}
+
+
+def shape_path(kind, size):
+    r = size / 2
+    if kind == 'circle':
+        return f'<circle cx="{r:.0f}" cy="{r:.0f}" r="{r:.0f}"/>'
+    if kind == 'diamond':
+        return f'<path d="M{r:.0f} 0L{size:.0f} {r:.0f}L{r:.0f} {size:.0f}L0 {r:.0f}Z"/>'
+    return f'<rect width="{size:.0f}" height="{size:.0f}" rx="{size * 0.22:.0f}"/>'
+
+
+def text_parts(code, data):
+    """Shape the store name; with an accent glyph the name is shaped in three pieces so the accent can take the icon colour."""
+    name = STORES[code][0]
+    t = TYPE[code]
+    text = name.upper() if t['caps'] else name
+    if not t.get('accent'):
+        d, width, upem, cap = wordmark(text, data, t['tracking'])
+        return d, width, upem, cap, None
+    i = text.index(t['accent'])
+    before, width_b, upem, cap = wordmark(text[:i], data, t['tracking'])
+    a, width_a, _, _ = wordmark(t['accent'], data, t['tracking'])
+    after, width_c, _, _ = wordmark(text[i + 1:], data, t['tracking'])
+    gap = int(upem * t['tracking'])
+    d = f'{before} {shift(after, width_b + gap + width_a + gap)}'
+    return d, width_b + width_a + width_c + 2 * gap, upem, cap, (a, width_b + gap)
+
+
+def shift(d, dx):
+    """Move absolute SVG path data along x (fontTools writes absolute commands only)."""
+    out = []
+    for token in re.findall(r'[MLCQZHV]|-?\d+\.?\d*', d):
+        out.append(token)
+    result = []
+    i = 0
+    cmd = None
+    while i < len(out):
+        tok = out[i]
+        if tok.isalpha():
+            cmd = tok
+            result.append(tok)
+            i += 1
+            continue
+        if cmd == 'V':
+            result.append(tok)
+            i += 1
+        elif cmd == 'H':
+            result.append(str(round(float(tok) + dx)))
+            i += 1
+        else:
+            result.append(str(round(float(tok) + dx)))
+            result.append(out[i + 1])
+            i += 2
+    return ' '.join(result)
+
+
+def build_svg(code, style):
     name, slug, weight, icon_colour, icon_dark, text_colour, text_dark, icon = STORES[code]
-    d, width, upem, cap = wordmark(name, font_bytes(slug, weight))
-    # layout in font units: the icon box is 1.3 cap heights tall and sits on the baseline, then a gap, then the text
-    box = int(cap * 1.3)
-    gap = int(cap * 0.3)
+    data = font_bytes(slug, weight)
+    d, width, upem, cap, accent = text_parts(code, data)
     pad = int(upem * 0.06)
-    total_w = box + gap + width + 2 * pad
     top = -int(upem * 0.9)
     total_h = int(upem * 1.15)
-    scale = box / 24
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="{-pad} {top} {total_w} {total_h}" width="{round(total_w / upem * 40)}" height="{round(total_h / upem * 40)}" role="img" aria-label="{name.replace('&', '&amp;')}">
-  <style>@media (prefers-color-scheme: dark){{.i{{stroke:{icon_dark}}}.t{{fill:{text_dark}}}}}</style>
-  <g class="i" transform="translate(0 {-box + int(cap * 0.08)}) scale({scale:.4f})" fill="none" stroke="{icon_colour}" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">{icon_body(icon)}</g>
-  <path class="t" transform="translate({box + gap} 0)" fill="{text_colour}" d="{d}"/>
-</svg>
-'''
-    out = os.path.join(ROOT, 'media', 'wysiwyg', code, 'logo.svg')
+    mark = ''
+    mark_w = 0
+    if style in ('badge', 'monogram'):
+        size = int(cap * 1.45)
+        y = -int((size - cap) / 2) - cap
+        if style == 'badge':
+            sc = size * 0.62 / 24
+            inner = ('<g transform="translate(%.0f %.0f) scale(%.4f)" fill="none" stroke="#ffffff" stroke-width="1.9" '
+                     'stroke-linecap="round" stroke-linejoin="round">%s</g>') % (size * 0.19, size * 0.19, sc, icon_body(icon))
+        else:
+            m, mw, _, mcap = wordmark(MONOGRAM[code], data)
+            ms = size * 0.5 / mcap if len(MONOGRAM[code]) == 1 else size * 0.72 / mw
+            inner = '<path transform="translate(%.0f %.0f) scale(%.4f)" fill="#ffffff" d="%s"/>' % ((size - mw * ms) / 2, (size + mcap * ms) / 2, ms, m)
+        mark = ('<g class="m" transform="translate(0 %d)" fill="%s">%s</g><g transform="translate(0 %d)">%s</g>'
+                % (y, icon_colour, shape_path(SHAPE[code], size), y, inner))
+        mark_w = size + int(cap * 0.38)
+    accent_svg = ''
+    if accent:
+        a, offset = accent
+        accent_svg = '<path class="m" transform="translate(%d 0)" fill="%s" d="%s"/>' % (mark_w + offset, icon_colour, a)
+    total_w = mark_w + width + 2 * pad
+    return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="%d %d %d %d" width="%d" height="%d" role="img" aria-label="%s">\n'
+            '  <style>@media (prefers-color-scheme: dark){.m{fill:%s}.t{fill:%s}}</style>\n'
+            '  %s\n'
+            '  <path class="t" transform="translate(%d 0)" fill="%s" d="%s"/>\n'
+            '  %s\n'
+            '</svg>\n') % (-pad, top, total_w, total_h, round(total_w / upem * 40), round(total_h / upem * 40), name.replace('&', '&amp;'),
+                           icon_dark, text_dark, mark, mark_w, text_colour, d, accent_svg)
+
+
+STYLE = {code: 'type' for code in STORES}
+
+
+def build(code, style=None, out=None):
+    svg = build_svg(code, style or STYLE[code])
+    out = out or os.path.join(ROOT, 'media', 'wysiwyg', code, 'logo.svg')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w').write(svg)
-    print(f'{code}: {name} in {slug} {weight}, {len(svg)} bytes')
+    print('%s: %s, %d bytes' % (code, style or STYLE[code], len(svg)))
 
 
 if __name__ == '__main__':
-    for code in (sys.argv[1:] or STORES):
-        build(code)
+    if len(sys.argv) > 2 and sys.argv[1] == '--preview':
+        for code in STORES:
+            for style in ('badge', 'monogram', 'type'):
+                build(code, style, os.path.join(sys.argv[2], '%s-%s.svg' % (code, style)))
+    else:
+        for code in (sys.argv[1:] or STORES):
+            build(code)
