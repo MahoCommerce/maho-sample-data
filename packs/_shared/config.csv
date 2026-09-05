@@ -32,6 +32,7 @@ design/theme/default,fashion,websites,fashion
 general/store_information/name,Maison Maho,websites,fashion
 design/head/default_title,Maison Maho,websites,fashion
 design/header/logo_alt,Maison Maho,websites,fashion
+design/header/logo_src,media/wysiwyg/fashion/logo.svg,websites,fashion
 design/footer/copyright,&copy; Maison Maho. All rights reserved.,websites,fashion
 trans_email/ident_general/name,Maison Maho,websites,fashion
 trans_email/ident_sales/name,Maison Maho,websites,fashion
@@ -42,6 +43,7 @@ design/theme/default,electronics,websites,electronics
 general/store_information/name,Voltline,websites,electronics
 design/head/default_title,Voltline,websites,electronics
 design/header/logo_alt,Voltline,websites,electronics
+design/header/logo_src,media/wysiwyg/electronics/logo.svg,websites,electronics
 design/footer/copyright,&copy; Voltline. All rights reserved.,websites,electronics
 trans_email/ident_general/name,Voltline,websites,electronics
 trans_email/ident_sales/name,Voltline,websites,electronics
@@ -52,6 +54,7 @@ design/theme/default,food,websites,food
 general/store_information/name,Harvest & Hearth,websites,food
 design/head/default_title,Harvest & Hearth,websites,food
 design/header/logo_alt,Harvest & Hearth,websites,food
+design/header/logo_src,media/wysiwyg/food/logo.svg,websites,food
 design/footer/copyright,&copy; Harvest & Hearth. All rights reserved.,websites,food
 trans_email/ident_general/name,Harvest & Hearth,websites,food
 trans_email/ident_sales/name,Harvest & Hearth,websites,food
@@ -62,6 +65,7 @@ design/theme/default,books,websites,books
 general/store_information/name,Folio,websites,books
 design/head/default_title,Folio,websites,books
 design/header/logo_alt,Folio,websites,books
+design/header/logo_src,media/wysiwyg/books/logo.svg,websites,books
 design/footer/copyright,&copy; Folio. All rights reserved.,websites,books
 trans_email/ident_general/name,Folio,websites,books
 trans_email/ident_sales/name,Folio,websites,books
@@ -72,6 +76,7 @@ design/theme/default,jewelry,websites,jewelry
 general/store_information/name,Aurelie,websites,jewelry
 design/head/default_title,Aurelie,websites,jewelry
 design/header/logo_alt,Aurelie,websites,jewelry
+design/header/logo_src,media/wysiwyg/jewelry/logo.svg,websites,jewelry
 design/footer/copyright,&copy; Aurelie. All rights reserved.,websites,jewelry
 trans_email/ident_general/name,Aurelie,websites,jewelry
 trans_email/ident_sales/name,Aurelie,websites,jewelry
@@ -82,6 +87,7 @@ design/theme/default,beauty,websites,beauty
 general/store_information/name,Glow Atelier,websites,beauty
 design/head/default_title,Glow Atelier,websites,beauty
 design/header/logo_alt,Glow Atelier,websites,beauty
+design/header/logo_src,media/wysiwyg/beauty/logo.svg,websites,beauty
 design/footer/copyright,&copy; Glow Atelier. All rights reserved.,websites,beauty
 trans_email/ident_general/name,Glow Atelier,websites,beauty
 trans_email/ident_sales/name,Glow Atelier,websites,beauty
@@ -92,6 +98,7 @@ design/theme/default,home,websites,home
 general/store_information/name,Hearthstone,websites,home
 design/head/default_title,Hearthstone,websites,home
 design/header/logo_alt,Hearthstone,websites,home
+design/header/logo_src,media/wysiwyg/home/logo.svg,websites,home
 design/footer/copyright,&copy; Hearthstone. All rights reserved.,websites,home
 trans_email/ident_general/name,Hearthstone,websites,home
 trans_email/ident_sales/name,Hearthstone,websites,home
@@ -102,6 +109,7 @@ design/theme/default,sports,websites,sports
 general/store_information/name,Stride,websites,sports
 design/head/default_title,Stride,websites,sports
 design/header/logo_alt,Stride,websites,sports
+design/header/logo_src,media/wysiwyg/sports/logo.svg,websites,sports
 design/footer/copyright,&copy; Stride. All rights reserved.,websites,sports
 trans_email/ident_general/name,Stride,websites,sports
 trans_email/ident_sales/name,Stride,websites,sports
@@ -112,6 +120,7 @@ design/theme/default,kids,websites,kids
 general/store_information/name,Little Lark,websites,kids
 design/head/default_title,Little Lark,websites,kids
 design/header/logo_alt,Little Lark,websites,kids
+design/header/logo_src,media/wysiwyg/kids/logo.svg,websites,kids
 design/footer/copyright,&copy; Little Lark. All rights reserved.,websites,kids
 trans_email/ident_general/name,Little Lark,websites,kids
 trans_email/ident_sales/name,Little Lark,websites,kids
@@ -122,6 +131,7 @@ design/theme/default,garden,websites,garden
 general/store_information/name,Greenhaven,websites,garden
 design/head/default_title,Greenhaven,websites,garden
 design/header/logo_alt,Greenhaven,websites,garden
+design/header/logo_src,media/wysiwyg/garden/logo.svg,websites,garden
 design/footer/copyright,&copy; Greenhaven. All rights reserved.,websites,garden
 trans_email/ident_general/name,Greenhaven,websites,garden
 trans_email/ident_sales/name,Greenhaven,websites,garden

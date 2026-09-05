@@ -22,3 +22,4 @@ Sample data for Maho: eleven websites on one installation, everything as CSV pac
 ## Check
 
 `tools/validate.sh /path/to/maho` before a pull request. It must pass twice in a row (the second run is an update).
+- Each industry store has its own SVG wordmark in `media/wysiwyg/<code>/logo.svg`, written by `tools/build-logos.py` (run it with `tools/.venv/bin/python`, a venv with fonttools, brotli and uharfbuzz). The mark uses the display font and the primary colour of the theme, with the text shaped by HarfBuzz and converted to paths, so no font loads at runtime. `design/header/logo_src` points at it per website; the Maho Store keeps the Maho logo.
