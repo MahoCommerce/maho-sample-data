@@ -274,7 +274,7 @@
       "file": "hero-side",
       "dir": "media/wysiwyg/books",
       "size": "2048x1152",
-      "ratio": "16:9",
+      "ratio": "21:9",
       "model": "gpt-image-2",
       "prompt": "A close up of a hand holding an open book with a cup of tea beside it on a wooden table.",
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."

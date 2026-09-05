@@ -328,7 +328,7 @@ def build(spec_path):
     HOME = 'gpt-image-2'
     scene = [
         {'file': 'hero-main', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '16:9', 'model': HOME, 'prompt': S.SCENES['hero-main']},
-        {'file': 'hero-side', 'dir': f'media/wysiwyg/{c}', 'size': '2048x1152', 'ratio': '16:9', 'model': HOME, 'prompt': S.SCENES['hero-side']},
+        {'file': 'hero-side', 'dir': f'media/wysiwyg/{c}', 'size': '2048x1152', 'ratio': '21:9', 'model': HOME, 'prompt': S.SCENES['hero-side']},
         {'file': 'editorial', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '5:4', 'model': HOME, 'prompt': S.SCENES['editorial']},
         {'file': 'about', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '5:4', 'model': HOME, 'prompt': S.SCENES['about']},
         {'file': 'banner-a', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '3:1', 'model': HOME, 'prompt': S.CATEGORIES[4]['scene']},

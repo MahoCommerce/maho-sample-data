@@ -352,7 +352,7 @@
       "file": "hero-side",
       "dir": "media/wysiwyg/garden",
       "size": "2048x1152",
-      "ratio": "16:9",
+      "ratio": "21:9",
       "model": "gpt-image-2",
       "prompt": "A close up of hands potting a fern into a terracotta pot with dark compost.",
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."

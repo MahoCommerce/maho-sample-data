@@ -292,7 +292,7 @@
       "file": "hero-side",
       "dir": "media/wysiwyg/food",
       "size": "2048x1152",
-      "ratio": "16:9",
+      "ratio": "21:9",
       "model": "gpt-image-2",
       "prompt": "A ceramic bowl of fresh pasta dusted with flour beside a small pile of eggs on a wooden board.",
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."

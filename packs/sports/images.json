@@ -496,7 +496,7 @@
       "file": "hero-side",
       "dir": "media/wysiwyg/sports",
       "size": "2048x1152",
-      "ratio": "16:9",
+      "ratio": "21:9",
       "model": "gpt-image-2",
       "prompt": "A close up of running shoes on a wet running track with water droplets, low angle.",
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
