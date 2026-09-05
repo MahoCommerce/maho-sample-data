@@ -4,9 +4,9 @@
     </div>
     <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
         <div class="card-body">
-            <p><span class="badge badge-primary">Maho demo</span></p>
-            <h1>Ten stores, one installation</h1>
-            <p>This is the sample data of Maho, the open source ecommerce platform. This store runs on the default theme and sells the full catalog of the ten shops. Each shop is a website of the same installation, with its own theme, catalog and content.</p>
+            <p><span class="badge badge-primary">Ten stores, one street</span></p>
+            <h1>Everything from ten shops, in one basket</h1>
+            <p>This store carries the full catalog of the ten Maho demo shops. Each shop is also a website of its own, with its own theme. Pick one below, or shop it all here.</p>
             <p><a class="btn btn-primary" href="#stores">Choose a store</a> <a class="btn btn-ghost" href="#new">New arrivals</a></p>
         </div>
     </div>
@@ -17,19 +17,19 @@
 <div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
     <div data-type="maho-column">
         <p>{{icon name="building-store" size="32"}}</p>
-        <p><strong>Eleven websites</strong><br />One installation, one admin, eleven storefronts.</p>
+        <p><strong>One installation</strong><br />Eleven websites, one admin.</p>
     </div>
     <div data-type="maho-column">
         <p>{{icon name="shopping-cart" size="32"}}</p>
-        <p><strong>Every product, one cart</strong><br />This store sells the catalog of all ten shops.</p>
+        <p><strong>Every product</strong><br />The whole catalog, one cart.</p>
     </div>
     <div data-type="maho-column">
         <p>{{icon name="palette" size="32"}}</p>
-        <p><strong>Ten themes</strong><br />Each shop runs its own storefront theme.</p>
+        <p><strong>Ten themes</strong><br />Each shop has its own look.</p>
     </div>
     <div data-type="maho-column">
         <p>{{icon name="code" size="32"}}</p>
-        <p><strong>Open source</strong><br />Maho is free software. The data is CSV.</p>
+        <p><strong>Open source</strong><br />Maho is free software.</p>
     </div>
 </div>
 <h2 id="stores">Choose a store</h2>
@@ -77,7 +77,7 @@
     </a>
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="3fr 2fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 3fr 2fr;">
+<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 3fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; auto &#34;a c&#34; 1fr / 2fr 3fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="fashion"}}" title="Visit Maison Maho"><img src="{{media url="wysiwyg/store/section-fashion.webp"}}" alt="Maison Maho" /></a></p>
     </div>
@@ -85,7 +85,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Fashion</span></p>
             <h2>Dressed for the journey</h2>
-            <p>Travel-wear and lifestyle pieces for the journey.</p>
+            <p>Travel-wear and lifestyle pieces for the journey. Linen that packs flat, denim that breaks in, and the bag to carry it.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="fashion"}}">Visit Maison Maho</a> <a class="btn btn-ghost" href="{{store url="fashion"}}">Shop fashion here</a></p>
         </div>
     </div>
@@ -93,7 +93,7 @@
         {{widget type="catalog/product_widget_list" title="Fashion picks" category_id="{{category_id:Default Category/fashion}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="2fr 3fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; 1fr &#34;c a&#34; 1fr / 2fr 3fr;">
+<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="3fr 2fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; auto &#34;c a&#34; 1fr / 3fr 2fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="electronics"}}" title="Visit Voltline"><img src="{{media url="wysiwyg/store/section-electronics.webp"}}" alt="Voltline" /></a></p>
     </div>
@@ -101,7 +101,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Electronics</span></p>
             <h2>Gear that earns its place</h2>
-            <p>Audio, computing, cameras and smart home gear, tested by people who use it.</p>
+            <p>Audio, computing, cameras and smart home gear, tested by people who use it. Nothing on the shelf that we would not keep ourselves.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="electronics"}}">Visit Voltline</a> <a class="btn btn-ghost" href="{{store url="electronics"}}">Shop electronics here</a></p>
         </div>
     </div>
@@ -109,7 +109,7 @@
         {{widget type="catalog/product_widget_list" title="Electronics picks" category_id="{{category_id:Default Category/electronics}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="3fr 2fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 3fr 2fr;">
+<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 3fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; auto &#34;a c&#34; 1fr / 2fr 3fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="food"}}" title="Visit Harvest & Hearth"><img src="{{media url="wysiwyg/store/section-food.webp"}}" alt="Harvest & Hearth" /></a></p>
     </div>
@@ -117,7 +117,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Food</span></p>
             <h2>From the farm, to the table</h2>
-            <p>Small-batch food from farms and makers we know by name.</p>
+            <p>Small-batch food from farms and makers we know by name. Bread baked at four, oil pressed in November, cheese cut this morning.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="food"}}">Visit Harvest & Hearth</a> <a class="btn btn-ghost" href="{{store url="food"}}">Shop food here</a></p>
         </div>
     </div>
@@ -125,7 +125,7 @@
         {{widget type="catalog/product_widget_list" title="Food picks" category_id="{{category_id:Default Category/food}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="2fr 3fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; 1fr &#34;c a&#34; 1fr / 2fr 3fr;">
+<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="3fr 2fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; auto &#34;c a&#34; 1fr / 3fr 2fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="books"}}" title="Visit Folio"><img src="{{media url="wysiwyg/store/section-books.webp"}}" alt="Folio" /></a></p>
     </div>
@@ -133,7 +133,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Books</span></p>
             <h2>Read something we would defend</h2>
-            <p>An independent bookshop with a short shelf and long opinions.</p>
+            <p>An independent bookshop with a short shelf and long opinions. Novels, guides and cookbooks our staff argue about.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="books"}}">Visit Folio</a> <a class="btn btn-ghost" href="{{store url="books"}}">Shop books here</a></p>
         </div>
     </div>
@@ -141,7 +141,7 @@
         {{widget type="catalog/product_widget_list" title="Books picks" category_id="{{category_id:Default Category/books}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="3fr 2fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 3fr 2fr;">
+<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 3fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; auto &#34;a c&#34; 1fr / 2fr 3fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="jewelry"}}" title="Visit Aurelie"><img src="{{media url="wysiwyg/store/section-jewelry.webp"}}" alt="Aurelie" /></a></p>
     </div>
@@ -149,7 +149,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Jewelry</span></p>
             <h2>Small pieces, made slowly</h2>
-            <p>Fine and everyday jewelry, made in a small workshop from recycled metals.</p>
+            <p>Fine and everyday jewelry, made in a small workshop from recycled metals. Rings, chains and studs in recycled gold and silver.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="jewelry"}}">Visit Aurelie</a> <a class="btn btn-ghost" href="{{store url="jewelry"}}">Shop jewelry here</a></p>
         </div>
     </div>
@@ -157,7 +157,7 @@
         {{widget type="catalog/product_widget_list" title="Jewelry picks" category_id="{{category_id:Default Category/jewelry}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="2fr 3fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; 1fr &#34;c a&#34; 1fr / 2fr 3fr;">
+<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="3fr 2fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; auto &#34;c a&#34; 1fr / 3fr 2fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="beauty"}}" title="Visit Glow Atelier"><img src="{{media url="wysiwyg/store/section-beauty.webp"}}" alt="Glow Atelier" /></a></p>
     </div>
@@ -165,7 +165,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Beauty</span></p>
             <h2>Short lists, long results</h2>
-            <p>Skincare, body care and fragrance made in small batches with short ingredient lists.</p>
+            <p>Skincare, body care and fragrance made in small batches with short ingredient lists. Ten ingredients or fewer, in glass you refill.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="beauty"}}">Visit Glow Atelier</a> <a class="btn btn-ghost" href="{{store url="beauty"}}">Shop beauty here</a></p>
         </div>
     </div>
@@ -173,7 +173,7 @@
         {{widget type="catalog/product_widget_list" title="Beauty picks" category_id="{{category_id:Default Category/beauty}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="3fr 2fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 3fr 2fr;">
+<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 3fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; auto &#34;a c&#34; 1fr / 2fr 3fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="home"}}" title="Visit Hearthstone"><img src="{{media url="wysiwyg/store/section-home.webp"}}" alt="Hearthstone" /></a></p>
     </div>
@@ -181,7 +181,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Home</span></p>
             <h2>A calm home, made slowly</h2>
-            <p>Furniture, textiles and objects for a calm home, made by workshops we visit.</p>
+            <p>Furniture, textiles and objects for a calm home, made by workshops we visit. Oak, linen and stoneware from workshops we visit.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="home"}}">Visit Hearthstone</a> <a class="btn btn-ghost" href="{{store url="home"}}">Shop home here</a></p>
         </div>
     </div>
@@ -189,7 +189,7 @@
         {{widget type="catalog/product_widget_list" title="Home picks" category_id="{{category_id:Default Category/home}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="2fr 3fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; 1fr &#34;c a&#34; 1fr / 2fr 3fr;">
+<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="3fr 2fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; auto &#34;c a&#34; 1fr / 3fr 2fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="sports"}}" title="Visit Stride"><img src="{{media url="wysiwyg/store/section-sports.webp"}}" alt="Stride" /></a></p>
     </div>
@@ -197,7 +197,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Sports</span></p>
             <h2>Gear that keeps up</h2>
-            <p>Gear for running, cycling, the gym and the trail, tested by people who train.</p>
+            <p>Gear for running, cycling, the gym and the trail, tested by people who train. Shoes, layers and tools for the road, the trail and the pool.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="sports"}}">Visit Stride</a> <a class="btn btn-ghost" href="{{store url="sports"}}">Shop sports here</a></p>
         </div>
     </div>
@@ -205,7 +205,7 @@
         {{widget type="catalog/product_widget_list" title="Sports picks" category_id="{{category_id:Default Category/sports}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="3fr 2fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 3fr 2fr;">
+<div data-preset="custom" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 3fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; auto &#34;a c&#34; 1fr / 2fr 3fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="kids"}}" title="Visit Little Lark"><img src="{{media url="wysiwyg/store/section-kids.webp"}}" alt="Little Lark" /></a></p>
     </div>
@@ -213,7 +213,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Kids</span></p>
             <h2>Made to be handed down</h2>
-            <p>Toys, clothes and things for small rooms, chosen to last more than one child.</p>
+            <p>Toys, clothes and things for small rooms, chosen to last more than one child. Wooden toys and soft clothes that survive a second child.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="kids"}}">Visit Little Lark</a> <a class="btn btn-ghost" href="{{store url="kids"}}">Shop kids here</a></p>
         </div>
     </div>
@@ -221,7 +221,7 @@
         {{widget type="catalog/product_widget_list" title="Kids picks" category_id="{{category_id:Default Category/kids}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
     </div>
 </div>
-<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="2fr 3fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; 1fr &#34;c a&#34; 1fr / 2fr 3fr;">
+<div data-preset="custom" data-areas="&#039;b a&#039; &#039;c a&#039;" data-columns="3fr 2fr" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;b a&#34; auto &#34;c a&#34; 1fr / 3fr 2fr;">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{store url="" _store="garden"}}" title="Visit Greenhaven"><img src="{{media url="wysiwyg/store/section-garden.webp"}}" alt="Greenhaven" /></a></p>
     </div>
@@ -229,7 +229,7 @@
         <div class="card-body">
             <p><span class="badge badge-primary">Garden</span></p>
             <h2>Grown here, shipped with care</h2>
-            <p>Plants, seeds, pots and tools from a nursery that grows what it sells.</p>
+            <p>Plants, seeds, pots and tools from a nursery that grows what it sells. Plants that arrive upright and tools that come sharp.</p>
             <p><a class="btn btn-primary" href="{{store url="" _store="garden"}}">Visit Greenhaven</a> <a class="btn btn-ghost" href="{{store url="garden"}}">Shop garden here</a></p>
         </div>
     </div>

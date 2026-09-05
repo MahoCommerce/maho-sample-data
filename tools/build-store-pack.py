@@ -17,8 +17,8 @@ WEBSITE = 'base'
 STORE_CODE = 'default'
 ROOT_CATEGORY = 'Default Category'
 
-INTRO = ('This is the sample data of Maho, the open source ecommerce platform. This store runs on the default theme and sells '
-         'the full catalog of the ten shops. Each shop is a website of the same installation, with its own theme, catalog and content.')
+INTRO = ('This store carries the full catalog of the ten Maho demo shops. Each shop is also a website of its own, with its own '
+         'theme. Pick one below, or shop it all here.')
 NOTE = 'All products, pictures and content are generated demo data. Orders placed in these stores are not processed.'
 
 
@@ -97,21 +97,21 @@ def reviews(codes):
 
 
 SECTIONS = {
-    'fashion': ('Dressed for the journey', 'A boutique with a sunlit rail of linen dresses and shirts in natural colours, a straw hat on a hook.'),
-    'electronics': ('Gear that earns its place', 'A tidy desk by a window with a laptop, headphones on a stand and a small speaker, cool morning light.'),
-    'food': ('From the farm, to the table', 'A kitchen table with a sourdough loaf, a bottle of olive oil, a wedge of cheese and a bowl of tomatoes.'),
-    'books': ('Read something we would defend', 'A reading corner with an armchair, a stack of clothbound books and a brass lamp, late afternoon light.'),
-    'jewelry': ('Small pieces, made slowly', 'A jeweller\'s bench with a thin gold ring under a loupe, tools and a scrap of velvet, warm light.'),
-    'beauty': ('Short lists, long results', 'A bathroom shelf with frosted glass bottles, a folded linen towel and a sprig of eucalyptus in soft light.'),
-    'home': ('A calm home, made slowly', 'A living room corner with an oak side table, a linen armchair, a wool throw and a paper lamp.'),
-    'sports': ('Gear that keeps up', 'Trail running shoes and a small backpack on a stone step at the start of a mountain path at sunrise.'),
-    'kids': ('Made to be handed down', 'A child\'s room with a wooden stacking tower, a felt rabbit and a low shelf of picture books, morning light.'),
-    'garden': ('Grown here, shipped with care', 'A potting bench with terracotta pots, seedlings in trays, a trowel and gloves, sun through a greenhouse.'),
+    'fashion': ('Dressed for the journey', 'A boutique with a sunlit rail of linen dresses and shirts in natural colours, a straw hat on a hook.', 'Linen that packs flat, denim that breaks in, and the bag to carry it.'),
+    'electronics': ('Gear that earns its place', 'A tidy desk by a window with a laptop, headphones on a stand and a small speaker, cool morning light.', 'Nothing on the shelf that we would not keep ourselves.'),
+    'food': ('From the farm, to the table', 'A kitchen table with a sourdough loaf, a bottle of olive oil, a wedge of cheese and a bowl of tomatoes.', 'Bread baked at four, oil pressed in November, cheese cut this morning.'),
+    'books': ('Read something we would defend', 'A reading corner with an armchair, a stack of clothbound books and a brass lamp, late afternoon light.', 'Novels, guides and cookbooks our staff argue about.'),
+    'jewelry': ('Small pieces, made slowly', 'A jeweller\'s bench with a thin gold ring under a loupe, tools and a scrap of velvet, warm light.', 'Rings, chains and studs in recycled gold and silver.'),
+    'beauty': ('Short lists, long results', 'A bathroom shelf with frosted glass bottles, a folded linen towel and a sprig of eucalyptus in soft light.', 'Ten ingredients or fewer, in glass you refill.'),
+    'home': ('A calm home, made slowly', 'A living room corner with an oak side table, a linen armchair, a wool throw and a paper lamp.', 'Oak, linen and stoneware from workshops we visit.'),
+    'sports': ('Gear that keeps up', 'Trail running shoes and a small backpack on a stone step at the start of a mountain path at sunrise.', 'Shoes, layers and tools for the road, the trail and the pool.'),
+    'kids': ('Made to be handed down', 'A child\'s room with a wooden stacking tower, a felt rabbit and a low shelf of picture books, morning light.', 'Wooden toys and soft clothes that survive a second child.'),
+    'garden': ('Grown here, shipped with care', 'A potting bench with terracotta pots, seedlings in trays, a trowel and gloves, sun through a greenhouse.', 'Plants that arrive upright and tools that come sharp.'),
 }
-FEATURES = [('building-store', 'Eleven websites', 'One installation, one admin, eleven storefronts.'),
-            ('shopping-cart', 'Every product, one cart', 'This store sells the catalog of all ten shops.'),
-            ('palette', 'Ten themes', 'Each shop runs its own storefront theme.'),
-            ('code', 'Open source', 'Maho is free software. The data is CSV.')]
+FEATURES = [('building-store', 'One installation', 'Eleven websites, one admin.'),
+            ('shopping-cart', 'Every product', 'The whole catalog, one cart.'),
+            ('palette', 'Ten themes', 'Each shop has its own look.'),
+            ('code', 'Open source', 'Maho is free software.')]
 STARS = ' '.join(['{{icon name="star" variant="filled" size="18"}}'] * 5)
 
 
@@ -154,12 +154,12 @@ def home(codes):
 ''' for icon, title, text in FEATURES)
     sections = ''
     for index, (code, name) in enumerate(codes):
-        title, _ = SECTIONS[code]
+        title = SECTIONS[code][0]
         left = index % 2 == 0
         areas = "&#039;a b&#039; &#039;a c&#039;" if left else "&#039;b a&#039; &#039;c a&#039;"
-        columns = '3fr 2fr' if left else '2fr 3fr'
-        template = f'&#34;a b&#34; 1fr &#34;a c&#34; 1fr / {columns}' if left else f'&#34;b a&#34; 1fr &#34;c a&#34; 1fr / {columns}'
-        sections += f'''<div data-preset="custom" data-areas="{areas}" data-columns="{columns}" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: {template};">
+        columns = '2fr 3fr' if left else '3fr 2fr'
+        template = f'&#34;a b&#34; auto &#34;a c&#34; 1fr / {columns}' if left else f'&#34;b a&#34; auto &#34;c a&#34; 1fr / {columns}'
+        sections += f'''<div data-preset="custom" data-areas="{areas}" data-columns="{columns}" data-rows="auto 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: {template};">
     <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
         <p><a href="{{{{store url="" _store="{code}"}}}}" title="Visit {names[code]}"><img src="{{{{media url="wysiwyg/store/section-{code}.webp"}}}}" alt="{names[code]}" /></a></p>
     </div>
@@ -167,7 +167,7 @@ def home(codes):
         <div class="card-body">
             <p><span class="badge badge-primary">{name}</span></p>
             <h2>{title}</h2>
-            <p>{intro[code]}</p>
+            <p>{intro[code]} {SECTIONS[code][2]}</p>
             <p><a class="btn btn-primary" href="{{{{store url="" _store="{code}"}}}}">Visit {names[code]}</a> <a class="btn btn-ghost" href="{{{{store url="{code}"}}}}">Shop {name.lower()} here</a></p>
         </div>
     </div>
@@ -190,8 +190,8 @@ def home(codes):
     </div>
     <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
         <div class="card-body">
-            <p><span class="badge badge-primary">Maho demo</span></p>
-            <h1>Ten stores, one installation</h1>
+            <p><span class="badge badge-primary">Ten stores, one street</span></p>
+            <h1>Everything from ten shops, in one basket</h1>
             <p>{INTRO}</p>
             <p><a class="btn btn-primary" href="#stores">Choose a store</a> <a class="btn btn-ghost" href="#new">New arrivals</a></p>
         </div>
