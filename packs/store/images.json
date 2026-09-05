@@ -4,10 +4,16 @@
   "style": "Realistic editorial photograph, soft warm natural light, no people, no text, no lettering, no logos, no watermark.",
   "images": [
     {
-      "file": "hero",
-      "size": "2560x1440",
-      "ratio": "16:9",
-      "prompt": "A real European shopping street seen at a slight angle from across the road, four generous independent shops with wide plate glass windows and normal proportions: a clothing boutique with linen garments, a bookshop with stacked books, a grocer with wooden crates of vegetables and bread on the pavement, a plant shop with terracotta pots outside. Stone facades, wooden shopfronts painted in muted colors, cloth awnings, wide pavement, long soft shadows."
+      "file": "hero-main",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A quiet European shopping street in late afternoon light, four wide shopfronts with cloth awnings and big windows: a clothing boutique, a bookshop, a grocer with crates outside and a plant shop. Seen from across the road, no people."
+    },
+    {
+      "file": "hero-side",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A wooden market crate with sourdough bread, a bottle of olive oil, a wedge of cheese and ripe tomatoes on a stone step in sunlight."
     },
     {
       "file": "tile-fashion",
@@ -148,6 +154,66 @@
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
       "prompt": "Terracotta pots with herbs and a trowel in a row on a potting bench in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge."
+    },
+    {
+      "file": "section-fashion",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A boutique with a sunlit rail of linen dresses and shirts in natural colours, a straw hat on a hook."
+    },
+    {
+      "file": "section-electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A tidy desk by a window with a laptop, headphones on a stand and a small speaker, cool morning light."
+    },
+    {
+      "file": "section-food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A kitchen table with a sourdough loaf, a bottle of olive oil, a wedge of cheese and a bowl of tomatoes."
+    },
+    {
+      "file": "section-books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A reading corner with an armchair, a stack of clothbound books and a brass lamp, late afternoon light."
+    },
+    {
+      "file": "section-jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A jeweller's bench with a thin gold ring under a loupe, tools and a scrap of velvet, warm light."
+    },
+    {
+      "file": "section-beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A bathroom shelf with frosted glass bottles, a folded linen towel and a sprig of eucalyptus in soft light."
+    },
+    {
+      "file": "section-home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A living room corner with an oak side table, a linen armchair, a wool throw and a paper lamp."
+    },
+    {
+      "file": "section-sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Trail running shoes and a small backpack on a stone step at the start of a mountain path at sunrise."
+    },
+    {
+      "file": "section-kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A child's room with a wooden stacking tower, a felt rabbit and a low shelf of picture books, morning light."
+    },
+    {
+      "file": "section-garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A potting bench with terracotta pots, seedlings in trays, a trowel and gloves, sun through a greenhouse."
     }
   ]
 }

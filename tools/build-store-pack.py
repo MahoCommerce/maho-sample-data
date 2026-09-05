@@ -17,9 +17,8 @@ WEBSITE = 'base'
 STORE_CODE = 'default'
 ROOT_CATEGORY = 'Default Category'
 
-INTRO = ('This is the sample data of Maho, the open source ecommerce platform. This store runs on the default theme and '
-         'sells the full catalog of the ten shops below. Each shop is a website of the same installation, with its own '
-         'industry theme, catalog and content. Choose one to see how Maho looks and works in that industry.')
+INTRO = ('This is the sample data of Maho, the open source ecommerce platform. This store runs on the default theme and sells '
+         'the full catalog of the ten shops. Each shop is a website of the same installation, with its own theme, catalog and content.')
 NOTE = 'All products, pictures and content are generated demo data. Orders placed in these stores are not processed.'
 
 
@@ -97,21 +96,130 @@ def reviews(codes):
     return rows
 
 
+SECTIONS = {
+    'fashion': ('Dressed for the journey', 'A boutique with a sunlit rail of linen dresses and shirts in natural colours, a straw hat on a hook.'),
+    'electronics': ('Gear that earns its place', 'A tidy desk by a window with a laptop, headphones on a stand and a small speaker, cool morning light.'),
+    'food': ('From the farm, to the table', 'A kitchen table with a sourdough loaf, a bottle of olive oil, a wedge of cheese and a bowl of tomatoes.'),
+    'books': ('Read something we would defend', 'A reading corner with an armchair, a stack of clothbound books and a brass lamp, late afternoon light.'),
+    'jewelry': ('Small pieces, made slowly', 'A jeweller\'s bench with a thin gold ring under a loupe, tools and a scrap of velvet, warm light.'),
+    'beauty': ('Short lists, long results', 'A bathroom shelf with frosted glass bottles, a folded linen towel and a sprig of eucalyptus in soft light.'),
+    'home': ('A calm home, made slowly', 'A living room corner with an oak side table, a linen armchair, a wool throw and a paper lamp.'),
+    'sports': ('Gear that keeps up', 'Trail running shoes and a small backpack on a stone step at the start of a mountain path at sunrise.'),
+    'kids': ('Made to be handed down', 'A child\'s room with a wooden stacking tower, a felt rabbit and a low shelf of picture books, morning light.'),
+    'garden': ('Grown here, shipped with care', 'A potting bench with terracotta pots, seedlings in trays, a trowel and gloves, sun through a greenhouse.'),
+}
+FEATURES = [('building-store', 'Eleven websites', 'One installation, one admin, eleven storefronts.'),
+            ('shopping-cart', 'Every product, one cart', 'This store sells the catalog of all ten shops.'),
+            ('palette', 'Ten themes', 'Each shop runs its own storefront theme.'),
+            ('code', 'Open source', 'Maho is free software. The data is CSV.')]
+STARS = ' '.join(['{{icon name="star" variant="filled" size="18"}}'] * 5)
+
+
+def store_names():
+    return {r['website_code']: r['website_name'] for r in read(os.path.join(PACKS, '_shared', 'stores.csv'))}
+
+
+def root_descriptions(codes):
+    out = {}
+    for code, name in codes:
+        for r in read(os.path.join(PACKS, code, 'categories.csv')):
+            if r['path'] == '':
+                out[code] = r['description']
+    return out
+
+
+def quotes(codes):
+    """The first review of three industries, as customer quotes."""
+    names = store_names()
+    picked = []
+    for code in ('fashion', 'food', 'electronics'):
+        rows = read(os.path.join(PACKS, code, 'reviews.csv'))
+        if rows:
+            picked.append((rows[0]['detail'], rows[0]['nickname'], names[code]))
+    return picked
+
+
 def home(codes):
+    names = store_names()
+    intro = root_descriptions(codes)
     tiles = ''.join(f'''    <a class="hub-card" href="{{{{store url="" _store="{code}"}}}}">
         <img src="{{{{media url="wysiwyg/store/tile-{code}.webp"}}}}" alt="" />
         <span class="hub-card-name">{name}</span>
     </a>
 ''' for code, name in codes)
-    return f'''<div class="hub">
-    <div class="hub-hero">
-        <img src="{{{{media url="wysiwyg/store/hero.webp"}}}}" alt="" />
-        <p>{INTRO}</p>
+    features = ''.join(f'''    <div data-type="maho-column">
+        <p>{{{{icon name="{icon}" size="32"}}}}</p>
+        <p><strong>{title}</strong><br />{text}</p>
     </div>
+''' for icon, title, text in FEATURES)
+    sections = ''
+    for index, (code, name) in enumerate(codes):
+        title, _ = SECTIONS[code]
+        left = index % 2 == 0
+        areas = "&#039;a b&#039; &#039;a c&#039;" if left else "&#039;b a&#039; &#039;c a&#039;"
+        columns = '3fr 2fr' if left else '2fr 3fr'
+        template = f'&#34;a b&#34; 1fr &#34;a c&#34; 1fr / {columns}' if left else f'&#34;b a&#34; 1fr &#34;c a&#34; 1fr / {columns}'
+        sections += f'''<div data-preset="custom" data-areas="{areas}" data-columns="{columns}" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: {template};">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{{{store url="" _store="{code}"}}}}" title="Visit {names[code]}"><img src="{{{{media url="wysiwyg/store/section-{code}.webp"}}}}" alt="{names[code]}" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">{name}</span></p>
+            <h2>{title}</h2>
+            <p>{intro[code]}</p>
+            <p><a class="btn btn-primary" href="{{{{store url="" _store="{code}"}}}}">Visit {names[code]}</a> <a class="btn btn-ghost" href="{{{{store url="{code}"}}}}">Shop {name.lower()} here</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        {{{{widget type="catalog/product_widget_list" title="{name} picks" category_id="{{{{category_id:{ROOT_CATEGORY}/{code}}}}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}}}
+    </div>
+</div>
+'''
+    quote_html = ''.join(f'''    <div data-type="maho-column">
+        <p>{STARS}</p>
+        <blockquote>
+            <p>{text}</p>
+        </blockquote>
+        <p><strong>{who}</strong><br />Verified buyer, {where}</p>
+    </div>
+''' for text, who, where in quotes(codes))
+    return f'''<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="#stores" title="Choose a store"><img src="{{{{media url="wysiwyg/store/hero-main.webp"}}}}" alt="Ten stores on one street" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Maho demo</span></p>
+            <h1>Ten stores, one installation</h1>
+            <p>{INTRO}</p>
+            <p><a class="btn btn-primary" href="#stores">Choose a store</a> <a class="btn btn-ghost" href="#new">New arrivals</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{{{store url="" _store="food"}}}}" title="Visit {names['food']}"><img src="{{{{media url="wysiwyg/store/hero-side.webp"}}}}" alt="{names['food']}" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+{features}</div>
+<h2 id="stores">Choose a store</h2>
+<div class="hub">
     <div class="hub-grid">
 {tiles}    </div>
-    <p class="hub-note">{NOTE}</p>
 </div>
+{sections}<h2 id="new">New arrivals</h2>
+{{{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}}}
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+{quote_html}</div>
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">Stay in the loop</h2>
+        <p style="text-align: center;">One email a month with what is new across the ten stores. No noise.</p>
+        {{{{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}}}
+    </div>
+</div>
+<p class="hub-note">{NOTE}</p>
 '''
 
 
