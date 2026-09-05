@@ -1,6 +1,5 @@
 path,value,scope,scope_code
 web/url/use_store,1,default,
-web/url/use_store,0,stores,default
 customer/account_share/scope,0,default,
 catalog/frontend/list_mode,grid,default,
 catalog/frontend/grid_per_page,12,default,
