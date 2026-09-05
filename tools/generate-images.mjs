@@ -59,7 +59,7 @@ async function generate(image) {
             prompt: `${image.prompt} ${image.style ?? manifest.style}`,
             n: 1,
             size: image.size,
-            response_format: 'b64_json',
+            response_format: 'url',
         }),
         signal: controller.signal,
     }).finally(() => clearTimeout(timer));
@@ -68,16 +68,15 @@ async function generate(image) {
     }
     const data = await response.json();
     const item = data.data?.[0] ?? {};
-    let bytes;
+    const raw = join(outDir, `${image.file}.raw.png`);
     if (item.url) {
-        bytes = Buffer.from(await (await fetch(item.url)).arrayBuffer());
+        // curl retries a dropped transfer; node's fetch gives up on the large files with "fetch failed"
+        execFileSync('curl', ['-sSL', '--retry', '5', '--retry-all-errors', '--max-time', '300', '-o', raw, item.url]);
     } else if (item.b64_json) {
-        bytes = Buffer.from(item.b64_json, 'base64');
+        writeFileSync(raw, Buffer.from(item.b64_json, 'base64'));
     } else {
         throw new Error(`${image.file}: no image in response ${JSON.stringify(data).slice(0, 300)}`);
     }
-    const raw = join(outDir, `${image.file}.raw.png`);
-    writeFileSync(raw, bytes);
 
     const [w, h] = image.size.split('x').map(Number);
     const want = ratioOf(image.ratio);

@@ -160,17 +160,10 @@ def brand_svg(name, sub, serif):
 </svg>'''
 
 def landing_html(S, cat):
-    c = S.CODE
-    return f'''<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
-    <div data-type="maho-column">
-        <p><img src="{{{{media url="wysiwyg/{c}/tile-{slug(cat['path'])}.webp"}}}}" alt="{cat['name']}" /></p>
-    </div>
-    <div data-type="maho-column">
-        <p><span class="badge badge-outline">{cat['name']}</span></p>
-        <h2>{cat['landing_title']}</h2>
-        <p>{cat['landing_text']}</p>
-    </div>
-</div>
+    """The category banner already shows the picture, so the landing block is the intro copy only."""
+    return f'''<p><span class="badge badge-outline">{cat['name']}</span></p>
+<h2>{cat['landing_title']}</h2>
+<p>{cat['landing_text']}</p>
 '''
 
 def about_html(S):
