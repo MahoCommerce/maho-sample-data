@@ -154,7 +154,7 @@ def home_html(S):
 def brand_svg(name, sub, serif):
     font = 'Georgia, &quot;Times New Roman&quot;, serif' if serif else 'Helvetica, Arial, sans-serif'
     weight = '400' if serif else '300'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" role="img" aria-label="{name} {sub}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" role="img" aria-label="{name.replace('&', '&amp;')} {sub.replace('&', '&amp;')}">
   <text x="120" y="36" text-anchor="middle" font-family="{font}" font-size="{22 if len(name) > 9 else 26}" font-weight="{weight}" letter-spacing="{4 if len(name) > 9 else 7}" fill="#8b8b8b">{name.upper().replace('&', '&amp;')}</text>
   <text x="120" y="54" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" letter-spacing="4" fill="#8b8b8b">{sub.replace('&', '&amp;')}</text>
 </svg>'''
