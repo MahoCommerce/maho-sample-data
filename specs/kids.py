@@ -161,3 +161,6 @@ MORE = {
     'K-BIRTHDAY-BOX': 'Four presents for a third birthday, chosen to be played with together. Wrapped on request.',
     'K-GIFT-CARD': 'Delivered by email within the hour, with a message of your own. Valid for a year in the store.',
 }
+GALLERY = [('A child stacking wooden blocks on a rug in a sunlit playroom, seen from behind', 'toys'), ('A row of small linen clothes hanging on a wooden rail', 'clothing'), ('A tall shot of a nursery with a wooden crib, a mobile and a soft rug, morning light', 'nursery'), ('A picnic blanket in a garden with a kite, a ball and a basket of strawberries', 'outdoor'), ('A stack of picture books and a felt rabbit on a low wooden shelf', 'books')]
+BRANDS = [('Little Lark', 'PLAY'), ('Pip & Pod', 'WOODEN TOYS'), ('Cloudling', 'SLEEP'), ('Wren', 'KNITS'), ('Puddle', 'OUTDOOR'), ('Fable', 'BOOKS'), ('Mimi', 'NURSERY'), ('Sprout', 'ORGANIC'), ('Tumble', 'ACTIVE'), ('Acorn', 'GIFTS')]
+GALLERY_TITLE = 'Small days'

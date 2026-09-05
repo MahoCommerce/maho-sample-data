@@ -486,51 +486,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/sports",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A runner in a bright jacket on a wet coastal road at dawn, seen from behind, motion blur in the legs. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A runner in a bright jacket on a wet coastal road at dawn, seen from behind, motion blur in the legs.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/sports",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A close up of running shoes on a wet running track with water droplets, low angle. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "A close up of running shoes on a wet running track with water droplets, low angle.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/sports",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A group of cyclists climbing a mountain pass in the early morning, seen from the side. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "A group of cyclists climbing a mountain pass in the early morning, seen from the side.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small sports shop with a treadmill for gait analysis and shelves of running shoes. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small sports shop with a treadmill for gait analysis and shelves of running shoes.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/sports",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/sports",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/sports",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A runner on a wet city street at dawn, mid stride, motion blur in the background",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "Close-up of cycling shoes clipped into pedals on a mountain road",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/sports",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a climber on a rocky ridge at sunrise with a small backpack",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A person holding a yoga pose on a wooden deck by a lake in soft morning light",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/sports",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A swimmer pushing off the wall of an outdoor pool, water splashing in sunlight",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-running",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "running",
@@ -538,14 +597,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cycling",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "cycling",
@@ -553,14 +615,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-gym",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "gym",
@@ -568,14 +633,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-yoga",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "yoga",
@@ -583,14 +651,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-hiking",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "hiking",
@@ -598,14 +669,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-swimming",
       "dir": "media/wysiwyg/sports",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "swimming",
@@ -613,28 +687,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-we-fit-shoes-by-video",
       "dir": "media/blog/sports",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A runner filmed from behind on a treadmill in a small shop with shoes on shelves. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A runner filmed from behind on a treadmill in a small shop with shoes on shelves.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "the-first-mountain-race",
       "dir": "media/blog/sports",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Trail runners climbing a steep rocky path in the mountains with poles. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Trail runners climbing a steep rocky path in the mountains with poles.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "a-week-of-training-one-room",
       "dir": "media/blog/sports",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A small home gym corner with a kettlebell, bands and a mat by a window. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small home gym corner with a kettlebell, bands and a mat by a window.",
+      "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     }
   ]
 }

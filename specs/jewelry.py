@@ -147,3 +147,6 @@ MORE = {
     'J-JEWELRY-DISH': 'A 9 cm stoneware dish with a matte glaze. A safe place for rings at night.',
     'J-GIFT-CARD': 'A paper card in a linen envelope, posted the same day. Any amount, valid for a year.',
 }
+GALLERY = [('A woman in a black dress fastening a fine gold necklace, soft window light', 'necklaces'), ('A close-up of a hand with a thin gold ring resting on dark velvet', 'rings'), ('A tall shot of a jeweller at a bench with a loupe, tools and a scrap of leather', 'engagement'), ('Pearl and gold earrings arranged on a marble tray beside a linen ribbon', 'earrings'), ('Stacked gold bracelets on a wrist resting on a cafe table with an espresso', 'bracelets')]
+BRANDS = [('Aurelie', 'ATELIER'), ('Ora', 'FINE GOLD'), ('Lune', 'PEARLS'), ('Selene', 'SILVER'), ('Maren', 'STONES'), ('Vesper', 'BRIDAL'), ('Halcyon', 'GOLDSMITHS'), ('Petra', 'GEMS'), ('Odile', 'PARIS'), ('Cassia', 'CHAINS')]
+GALLERY_TITLE = 'Worn every day'

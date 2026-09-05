@@ -38,6 +38,14 @@ def home_html(S):
         <p><strong>{title}</strong><br />{text}</p>
     </div>
 ''' for icon, title, text in S.FEATURES)
+    names = {cat['path']: cat['name'] for cat in cats}
+    gallery = ''.join(f'''    <div data-area="{area}" data-type="maho-bento-cell" style="grid-area: {area};">
+        <p><a href="{{{{store url="{path}"}}}}" title="Shop {names[path]}"><img src="{{{{media url="wysiwyg/{c}/gallery-{area}.webp"}}}}" alt="Shop {names[path]}" /></a></p>
+    </div>
+''' for area, (_, path) in zip('abcde', S.GALLERY))
+    logos = [(slug(name), name) for name, _ in S.BRANDS]
+    marquee = ''.join(f'''        <p style="padding: 0px 1.5rem;"><img src="{{{{media url="wysiwyg/{c}/brands/{file}.svg"}}}}" alt="{name if first else ''}" width="200" height="53" /></p>
+''' for first in (True, False) for file, name in logos)
     quotes = ''.join(f'''    <div data-type="maho-column">
         <p>{STARS}</p>
         <blockquote>
@@ -98,6 +106,21 @@ def home_html(S):
 <h2>What our customers say</h2>
 <div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
 {quotes}</div>
+<h2>{S.GALLERY_TITLE}</h2>
+<div data-preset="gallery" data-areas="&#039;a a b c&#039; &#039;d e e c&#039;" data-columns="1fr 1fr 1fr 1fr" data-rows="1fr 1fr" data-gap="small" data-style="none" data-type="maho-bento" style="grid-template: &#34;a a b c&#34; 1fr &#34;d e e c&#34; 1fr / 1fr 1fr 1fr 1fr;">
+{gallery}</div>
+{{{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">{S.NEWSLETTER['title']}</h2>
+        <p style="text-align: center;">{S.NEWSLETTER['text']}</p>
+        {{{{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}}}
+    </div>
+</div>
+<div class="marquee">
+    <div class="marquee-track">
+{marquee}    </div>
+</div>
 <div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
     <div data-type="maho-column">
         <p><a href="{{{{store url="{cats[4]['path']}"}}}}" title="Shop {cats[4]['name']}"><img src="{{{{media url="wysiwyg/{c}/banner-a.webp"}}}}" alt="Shop {cats[4]['name']}" /></a></p>
@@ -112,15 +135,15 @@ def home_html(S):
         <p><a class="btn btn-outline" href="{{{{store url="{cats[5]['path']}"}}}}">Shop {cats[5]['name']}</a></p>
     </div>
 </div>
-{{{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}}}
-<div class="card card-border">
-    <div class="card-body">
-        <h2 style="text-align: center;">{S.NEWSLETTER['title']}</h2>
-        <p style="text-align: center;">{S.NEWSLETTER['text']}</p>
-        {{{{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}}}
-    </div>
-</div>
 '''
+
+def brand_svg(name, sub, serif):
+    font = 'Georgia, &quot;Times New Roman&quot;, serif' if serif else 'Helvetica, Arial, sans-serif'
+    weight = '400' if serif else '300'
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" role="img" aria-label="{name} {sub}">
+  <text x="120" y="36" text-anchor="middle" font-family="{font}" font-size="{22 if len(name) > 9 else 26}" font-weight="{weight}" letter-spacing="{4 if len(name) > 9 else 7}" fill="#8b8b8b">{name.upper().replace('&', '&amp;')}</text>
+  <text x="120" y="54" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" letter-spacing="4" fill="#8b8b8b">{sub.replace('&', '&amp;')}</text>
+</svg>'''
 
 def landing_html(S, cat):
     c = S.CODE
@@ -283,21 +306,28 @@ def build(spec_path):
     write_csv(f'{root}/blog_posts.csv', posts, ['url_key', 'stores', 'title', 'is_active', 'publish_date', 'content_file', 'image', 'meta_title', 'meta_description'])
     # manifest
     manifest = {'model': 'wavespeed-ai/krea-v2/turbo', 'output_dir': f'packs/{c}/media/import', 'style': S.PRODUCT_STYLE, 'images': [dict(i, size='1024x1024', ratio='1:1') for i in images]}
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    for i, (name, sub) in enumerate(S.BRANDS):
+        put(f'{root_dir}/media/wysiwyg/{c}/brands/{slug(name)}.svg', brand_svg(name, sub, serif=i % 2 == 0))
+    # home page scenes: gpt-image-2 renders 1:1, 3:2, 16:9 and their portrait forms; the generator crops to the ratio
+    HOME = 'gpt-image-2'
     scene = [
-        {'file': 'hero-main', 'dir': f'media/wysiwyg/{c}', 'size': '2048x1152', 'ratio': '16:9', 'prompt': S.SCENES['hero-main']},
-        {'file': 'hero-side', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'prompt': S.SCENES['hero-side']},
-        {'file': 'editorial', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'prompt': S.SCENES['editorial']},
-        {'file': 'about', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'prompt': S.SCENES['about']},
-        {'file': 'banner-a', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '3:2', 'prompt': S.CATEGORIES[4]['scene']},
-        {'file': 'banner-b', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '3:2', 'prompt': S.CATEGORIES[5]['scene']},
+        {'file': 'hero-main', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '16:9', 'model': HOME, 'prompt': S.SCENES['hero-main']},
+        {'file': 'hero-side', 'dir': f'media/wysiwyg/{c}', 'size': '2048x1152', 'ratio': '16:9', 'model': HOME, 'prompt': S.SCENES['hero-side']},
+        {'file': 'editorial', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '5:4', 'model': HOME, 'prompt': S.SCENES['editorial']},
+        {'file': 'about', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'model': HOME, 'prompt': S.SCENES['about']},
+        {'file': 'banner-a', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '3:1', 'model': HOME, 'prompt': S.CATEGORIES[4]['scene']},
+        {'file': 'banner-b', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '3:1', 'model': HOME, 'prompt': S.CATEGORIES[5]['scene']},
     ]
+    for area, size, ratio in (('a', '2048x1152', '2:1'), ('b', '1024x1024', '1:1'), ('c', '1152x2048', '1:2'), ('d', '1024x1024', '1:1'), ('e', '2048x1152', '2:1')):
+        scene.append({'file': f'gallery-{area}', 'dir': f'media/wysiwyg/{c}', 'size': size, 'ratio': ratio, 'model': HOME, 'prompt': S.GALLERY['abcde'.index(area)][0]})
     for cat in S.CATEGORIES:
-        scene.append({'file': f'tile-{slug(cat["path"])}', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'prompt': cat['scene']})
+        scene.append({'file': f'tile-{slug(cat["path"])}', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'model': HOME, 'prompt': cat['scene']})
         scene.append({'file': slug(cat['path']), 'dir': f'packs/{c}/media/catalog/category', 'size': '1536x512', 'ratio': '3:1', 'model': 'ideogram-v3-turbo', 'prompt': cat['scene'] + BANNER})
     for title, body, prompt in S.POSTS:
-        scene.append({'file': slug(title), 'dir': f'media/blog/{c}', 'size': '1536x1024', 'ratio': '3:2', 'prompt': prompt})
+        scene.append({'file': slug(title), 'dir': f'media/blog/{c}', 'size': '1536x1024', 'ratio': '3:2', 'model': HOME, 'prompt': prompt})
     for s in scene:
-        s['prompt'] = s['prompt'] + ' ' + S.SCENE_STYLE
+        s['style'] = S.SCENE_STYLE
     manifest['images'] += scene
     json.dump(manifest, open(f'{root}/images.json', 'w'), indent=2)
     merge_shared(S)

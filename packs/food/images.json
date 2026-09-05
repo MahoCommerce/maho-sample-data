@@ -282,51 +282,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/food",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A long farmhouse table laid with sourdough loaves, a wedge of aged cheese, tomatoes on the vine and a bottle of olive oil, morning light through a barn door. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A long farmhouse table laid with sourdough loaves, a wedge of aged cheese, tomatoes on the vine and a bottle of olive oil, morning light through a barn door.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/food",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A ceramic bowl of fresh pasta dusted with flour beside a small pile of eggs on a wooden board. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "A ceramic bowl of fresh pasta dusted with flour beside a small pile of eggs on a wooden board.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/food",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A farmer holding a crate of vegetables at the edge of a field at sunrise, seen from the side. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "A farmer holding a crate of vegetables at the edge of a field at sunrise, seen from the side.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small stone kitchen with copper pots, a wood-fired oven and a table of jars of preserves. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small stone kitchen with copper pots, a wood-fired oven and a table of jars of preserves.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/food",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/food",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/food",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A market stall piled with heirloom tomatoes, peaches and bunches of basil under a striped awning",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A baker pulling a tray of sourdough loaves from a wood-fired oven",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/food",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a cheese cave with wheels of cheese stacked on wooden shelves",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A pour-over coffee being brewed on a wooden counter, steam rising",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/food",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A long outdoor table set for lunch under an olive tree with bread, wine and bowls of pasta",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-pantry",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "pantry",
@@ -334,14 +393,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-bakery",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "bakery",
@@ -349,14 +411,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cheese-charcuterie",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "cheese-charcuterie",
@@ -364,14 +429,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-coffee-tea",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "coffee-tea",
@@ -379,14 +447,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-drinks",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "drinks",
@@ -394,14 +465,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-gift-boxes",
       "dir": "media/wysiwyg/food",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "gift-boxes",
@@ -409,28 +483,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-to-taste-olive-oil",
       "dir": "media/blog/food",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A small glass of green olive oil on a wooden table with a spoon and a sprig of olive leaves. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small glass of green olive oil on a wooden table with a spoon and a sprig of olive leaves.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "a-cheese-board-for-four",
       "dir": "media/blog/food",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A cheese board with three cheeses, fig jam, cornichons and slices of bread, seen from above. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A cheese board with three cheeses, fig jam, cornichons and slices of bread, seen from above.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "sourdough-day-two",
       "dir": "media/blog/food",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Thick slices of toasted sourdough with olive oil and salt on a wooden board. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Thick slices of toasted sourdough with olive oil and salt on a wooden board.",
+      "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     }
   ]
 }

@@ -161,3 +161,6 @@ MORE = {
     'B-READING-LIGHT': 'Warm light, three levels, a clip that fits a paperback or a hardback. Charges by USB-C in an hour.',
     'B-GIFT-CARD': 'A paper card in a linen envelope, posted the same day. Any amount, valid for a year.',
 }
+GALLERY = [('A reading nook with a leather armchair, a floor lamp and a window seat full of books', 'fiction'), ('A stack of clothbound novels with a cup of tea on a wooden table', 'fiction'), ('A tall shot of a narrow bookshop aisle with shelves to the ceiling and a rolling ladder', 'history'), ('An open cookbook on a kitchen counter with flour, eggs and a wooden spoon', 'cooking'), ('A child reading a picture book on a rug with a dog asleep beside them, afternoon light', 'children')]
+BRANDS = [('Folio', 'PRESS'), ('Larkspur', 'BOOKS'), ('Meridian', 'CLASSICS'), ('Quill & Ash', 'PUBLISHING'), ('Harbour', 'CRIME'), ('Northlight', 'SCIENCE'), ('Hearth', 'COOKBOOKS'), ('Little Owl', 'CHILDREN'), ('Atlas', 'HISTORY'), ('Ink & Vellum', 'EDITIONS')]
+GALLERY_TITLE = 'Between the shelves'

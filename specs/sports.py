@@ -160,3 +160,6 @@ MORE = {
     'S-RECOVERY-KIT': 'The three tools our physio uses, in one bag. Ten minutes after each run.',
     'S-GIFT-CARD': 'Delivered by email within the hour, with a message of your own. Valid for a year in the store.',
 }
+GALLERY = [('A runner on a wet city street at dawn, mid stride, motion blur in the background', 'running'), ('Close-up of cycling shoes clipped into pedals on a mountain road', 'cycling'), ('A tall shot of a climber on a rocky ridge at sunrise with a small backpack', 'hiking'), ('A person holding a yoga pose on a wooden deck by a lake in soft morning light', 'yoga'), ('A swimmer pushing off the wall of an outdoor pool, water splashing in sunlight', 'swimming')]
+BRANDS = [('Stride', 'ORIGINALS'), ('Ridgeline', 'OUTDOOR'), ('Velo', 'CYCLING'), ('Cadence', 'RUNNING'), ('Ferro', 'STRENGTH'), ('Tidal', 'SWIM'), ('Ashram', 'YOGA'), ('Summit', 'PACKS'), ('Kinetic', 'APPAREL'), ('Northface Peak', 'LAYERS')]
+GALLERY_TITLE = 'Out before sunrise'

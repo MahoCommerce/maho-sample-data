@@ -160,3 +160,6 @@ MORE = {
     'F-DARK-CHOC': 'A 70 g bar with a clean snap and a long finish. Stone ground, so the texture is slightly rough.',
     'F-GRANOLA': 'A 500 g bag with real clusters and not too much sugar. Pecans in every handful.',
 }
+GALLERY = [('A market stall piled with heirloom tomatoes, peaches and bunches of basil under a striped awning', 'pantry'), ('A baker pulling a tray of sourdough loaves from a wood-fired oven', 'bakery'), ('A tall shot of a cheese cave with wheels of cheese stacked on wooden shelves', 'cheese-charcuterie'), ('A pour-over coffee being brewed on a wooden counter, steam rising', 'coffee-tea'), ('A long outdoor table set for lunch under an olive tree with bread, wine and bowls of pasta', 'gift-boxes')]
+BRANDS = [('Coratina', 'OLIVE OIL'), ('Molino Rossi', 'PASTA'), ('Alder Dairy', 'CHEESE'), ('Cinder', 'COFFEE ROASTERS'), ('Hedgerow', 'PRESERVES'), ('Stone Oven', 'BAKERY'), ('Mar Salt', 'SEA SALT'), ('Casa Fina', 'CHARCUTERIE'), ('Bramble', 'SODA'), ('Tarn', 'TEA')]
+GALLERY_TITLE = 'From the table'

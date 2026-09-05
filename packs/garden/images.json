@@ -342,51 +342,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/garden",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A sunlit greenhouse full of potted plants on wooden benches, terracotta pots and a watering can, morning light through the glass. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A sunlit greenhouse full of potted plants on wooden benches, terracotta pots and a watering can, morning light through the glass.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/garden",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A close up of hands potting a fern into a terracotta pot with dark compost. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "A close up of hands potting a fern into a terracotta pot with dark compost.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/garden",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "Rows of young plants in a nursery polytunnel with a gardener watering, seen from the side. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "Rows of young plants in a nursery polytunnel with a gardener watering, seen from the side.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small plant nursery with a glasshouse, potting benches and stacks of terracotta pots. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small plant nursery with a glasshouse, potting benches and stacks of terracotta pots.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/garden",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/garden",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/garden",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A potting bench in a greenhouse with terracotta pots, seedlings and a trowel, sun through glass",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "Close-up of hands planting a seedling in dark soil",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/garden",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a climbing rose on a brick wall beside a wooden door",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A row of terracotta pots with herbs on a sunny windowsill",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/garden",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A wooden garden chair and table on a lawn under a tree with dappled light",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-houseplants",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "houseplants",
@@ -394,14 +453,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-outdoor-plants",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "outdoor-plants",
@@ -409,14 +471,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-seeds",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "seeds",
@@ -424,14 +489,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-pots",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "pots",
@@ -439,14 +507,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-tools",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tools",
@@ -454,14 +525,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-furniture",
       "dir": "media/wysiwyg/garden",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "furniture",
@@ -469,28 +543,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "which-window",
       "dir": "media/blog/garden",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Houseplants on a bright windowsill with morning sun through the glass. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Houseplants on a bright windowsill with morning sun through the glass.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "sowing-in-march",
       "dir": "media/blog/garden",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Seed trays with small seedlings and wooden labels on a sunny potting bench. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Seed trays with small seedlings and wooden labels on a sunny potting bench.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "sharpen-your-tools",
       "dir": "media/blog/garden",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A hand sharpening a spade blade with a file on a workbench in a shed. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A hand sharpening a spade blade with a file on a workbench in a shed.",
+      "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     }
   ]
 }

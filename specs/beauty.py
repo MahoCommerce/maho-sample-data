@@ -146,3 +146,6 @@ MORE = {
     'G-GUA-SHA': 'Cool stone, slow strokes from the centre of the face outward. A minute each side, after the face oil.',
     'G-GIFT-CARD': 'Delivered by email within the hour, with a message of your own. Valid for a year on everything in the store.',
 }
+GALLERY = [('Frosted glass bottles and a folded towel on a marble bathroom shelf, morning light', 'serums'), ('A woman applying cream at a mirror in soft light, eyes closed', 'moisturisers'), ('A tall shot of a bath with a wooden tray, a candle and a sprig of eucalyptus', 'body'), ('A dropper bottle of serum on a linen cloth with a slice of citrus', 'cleansers'), ('A perfume bottle on a windowsill with dried flowers and long shadows', 'fragrance')]
+BRANDS = [('Glow Atelier', 'SKIN'), ('Linnea', 'BOTANICALS'), ('Oru', 'SERUMS'), ('Sol & Salt', 'BODY'), ('Maison Iris', 'PARFUM'), ('Clay', 'CLEANSERS'), ('Nectar', 'LIPS'), ('Verde', 'LAB'), ('Cotton', 'CARE'), ('Aster', 'RITUALS')]
+GALLERY_TITLE = 'The morning shelf'

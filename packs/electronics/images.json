@@ -396,51 +396,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/electronics",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A minimalist desk with a slim laptop, over-ear headphones and a mechanical keyboard, a single window light, dark wood. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A minimalist desk with a slim laptop, over-ear headphones and a mechanical keyboard, a single window light, dark wood.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/electronics",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "Close up of black wireless earbuds in an open charging case on a slate surface. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "Close up of black wireless earbuds in an open charging case on a slate surface.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/electronics",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A technician at a bench testing headphones with an audio analyser, seen from the side, warm lamp light. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "A technician at a bench testing headphones with an audio analyser, seen from the side, warm lamp light.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small electronics workshop with shelves of labelled boxes, a soldering station and a window. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small electronics workshop with shelves of labelled boxes, a soldering station and a window.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/electronics",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/electronics",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/electronics",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A minimal desk by a window with an open laptop, a lamp and a notebook, morning light",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "Close-up of over-ear headphones resting on a stack of vinyl records",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a photographer on a rooftop at dusk holding a mirrorless camera",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A smart speaker and a small plant on a walnut shelf in a calm living room",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/electronics",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A runner checking a smartwatch on a bridge at sunrise, city skyline behind",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-audio",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "audio",
@@ -448,14 +507,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-computing",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "computing",
@@ -463,14 +525,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cameras",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "cameras",
@@ -478,14 +543,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-smart-home",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "smart-home",
@@ -493,14 +561,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-wearables",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "wearables",
@@ -508,14 +579,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-accessories",
       "dir": "media/wysiwyg/electronics",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "accessories",
@@ -523,28 +597,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-we-measure-headphones",
       "dir": "media/blog/electronics",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Over-ear headphones on a measurement rig in a lab, with an analyser screen out of focus behind. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Over-ear headphones on a measurement rig in a lab, with an analyser screen out of focus behind.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "why-local-first-smart-home",
       "dir": "media/blog/electronics",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A smart home hub on a shelf with a bulb glowing warm beside it. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A smart home hub on a shelf with a bulb glowing warm beside it.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "one-lens-to-travel-with",
       "dir": "media/blog/electronics",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A mirrorless camera with a small prime lens on a cafe table beside a coffee cup. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A mirrorless camera with a small prime lens on a cafe table beside a coffee cup.",
+      "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     }
   ]
 }

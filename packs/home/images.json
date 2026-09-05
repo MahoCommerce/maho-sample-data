@@ -468,51 +468,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/home",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A bright living room with a linen sofa, an oak coffee table, a wool throw and a ceramic vase of dried grass, morning light. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A bright living room with a linen sofa, an oak coffee table, a wool throw and a ceramic vase of dried grass, morning light.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/home",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A close up of a stoneware mug and a folded linen napkin on an oak table. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "A close up of a stoneware mug and a folded linen napkin on an oak table.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/home",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A woodworker sanding an oak table top in a workshop full of daylight and sawdust. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "A woodworker sanding an oak table top in a workshop full of daylight and sawdust.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small furniture workshop with hand tools on a pegboard and stacked planks of oak. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small furniture workshop with hand tools on a pegboard and stacked planks of oak.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/home",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/home",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/home",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A calm living room with a linen sofa, an oak side table and a paper lamp, soft daylight",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A stack of folded wool blankets and stoneware bowls on an oak bench",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/home",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a bedroom with a low oak bed, white linen and a window with morning light",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A kitchen counter with a wooden board, a ceramic jug and a bowl of lemons",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/home",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A dining table set with linen napkins and stoneware plates under a pendant lamp",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-furniture",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "An oak dining table with four ash chairs in a bright room with a large window.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "furniture",
@@ -520,14 +579,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-seating",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "seating",
@@ -535,14 +597,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-bedding",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "bedding",
@@ -550,14 +615,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-kitchen",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "kitchen",
@@ -565,14 +633,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-lighting",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "lighting",
@@ -580,14 +651,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-decor",
       "dir": "media/wysiwyg/home",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "decor",
@@ -595,28 +669,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "caring-for-oiled-wood",
       "dir": "media/blog/home",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A hand rubbing oil into an oak table top with a cloth, in a sunlit workshop. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A hand rubbing oil into an oak table top with a cloth, in a sunlit workshop.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "why-linen-wrinkles",
       "dir": "media/blog/home",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Rumpled white linen sheets on a bed in soft morning light, close up. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Rumpled white linen sheets on a bed in soft morning light, close up.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "room-of-choice-explained",
       "dir": "media/blog/home",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Two delivery people carrying a wrapped sofa through a bright doorway. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Two delivery people carrying a wrapped sofa through a bright doorway.",
+      "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     }
   ]
 }

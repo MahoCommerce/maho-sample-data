@@ -159,3 +159,6 @@ MORE = {
     'H-BED-SET': 'A sheet set, a duvet cover and two pillows in one order. Choose the size and the linen colour.',
     'H-GIFT-CARD': 'Delivered by email within the hour, with a message of your own. Valid for a year in the store.',
 }
+GALLERY = [('A calm living room with a linen sofa, an oak side table and a paper lamp, soft daylight', 'seating'), ('A stack of folded wool blankets and stoneware bowls on an oak bench', 'decor'), ('A tall shot of a bedroom with a low oak bed, white linen and a window with morning light', 'bedding'), ('A kitchen counter with a wooden board, a ceramic jug and a bowl of lemons', 'kitchen'), ('A dining table set with linen napkins and stoneware plates under a pendant lamp', 'lighting')]
+BRANDS = [('Hearthstone', 'HOME'), ('Oak & Ash', 'FURNITURE'), ('Loam', 'CERAMICS'), ('Fold', 'LINEN'), ('Wren', 'LIGHTING'), ('Sable', 'TEXTILES'), ('Norr', 'SEATING'), ('Tilt', 'TABLES'), ('Bramble', 'KITCHEN'), ('Dune', 'RUGS')]
+GALLERY_TITLE = 'Rooms we live in'

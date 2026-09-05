@@ -160,3 +160,6 @@ MORE = {
     'E-DESK-KIT': 'Everything for a clean desk in one box, at a saving. Keyboard, mouse, stand and mat.',
     'E-TRAVEL-KIT': 'Charger, cable and power bank in a pouch that fits a jacket pocket. Enough for a week away.',
 }
+GALLERY = [('A minimal desk by a window with an open laptop, a lamp and a notebook, morning light', 'computing'), ('Close-up of over-ear headphones resting on a stack of vinyl records', 'audio'), ('A tall shot of a photographer on a rooftop at dusk holding a mirrorless camera', 'cameras'), ('A smart speaker and a small plant on a walnut shelf in a calm living room', 'smart-home'), ('A runner checking a smartwatch on a bridge at sunrise, city skyline behind', 'wearables')]
+BRANDS = [('Kestrel', 'AUDIO'), ('Voltline', 'ORIGINALS'), ('Orbit Labs', 'PERIPHERALS'), ('Nimbus', 'SPEAKERS'), ('Lumen', 'DISPLAYS'), ('Halo', 'SMART HOME'), ('Fjell', 'CAMERAS'), ('Pulse', 'WEARABLES'), ('Northwire', 'CABLES'), ('Aster', 'COMPUTING')]
+GALLERY_TITLE = 'On the desk'

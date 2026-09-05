@@ -444,51 +444,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/kids",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A bright playroom with a wooden play kitchen, a pile of soft toys and a striped rug, a small child seen from behind. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A bright playroom with a wooden play kitchen, a pile of soft toys and a striped rug, a small child seen from behind.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/kids",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A close up of a wooden stacking toy with rainbow rings on a pale pink blanket. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "A close up of a wooden stacking toy with rainbow rings on a pale pink blanket.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/kids",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A toymaker sanding a wooden toy car at a bench full of small painted parts. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "A toymaker sanding a wooden toy car at a bench full of small painted parts.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small shop with wooden toys on low shelves and a rocking horse in the window. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small shop with wooden toys on low shelves and a rocking horse in the window.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/kids",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/kids",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/kids",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A child stacking wooden blocks on a rug in a sunlit playroom, seen from behind",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A row of small linen clothes hanging on a wooden rail",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/kids",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a nursery with a wooden crib, a mobile and a soft rug, morning light",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A picnic blanket in a garden with a kite, a ball and a basket of strawberries",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/kids",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A stack of picture books and a felt rabbit on a low wooden shelf",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-toys",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "toys",
@@ -496,14 +555,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-clothing",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "clothing",
@@ -511,14 +573,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-books",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A low shelf of picture books with a small chair and a soft toy. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A low shelf of picture books with a small chair and a soft toy.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "books",
@@ -526,14 +591,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A low shelf of picture books with a small chair and a soft toy. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A low shelf of picture books with a small chair and a soft toy. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-nursery",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "nursery",
@@ -541,14 +609,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-outdoor",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "outdoor",
@@ -556,14 +627,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-gifts",
       "dir": "media/wysiwyg/kids",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "gifts",
@@ -571,28 +645,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "toys-by-age-without-the-noise",
       "dir": "media/blog/kids",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A low shelf with a few wooden toys arranged with space between them in a bright room. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A low shelf with a few wooden toys arranged with space between them in a bright room.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-to-size-a-child",
       "dir": "media/blog/kids",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A child measured against a wall with pencil marks, seen from behind. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A child measured against a wall with pencil marks, seen from behind.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "puddles-are-the-plan",
       "dir": "media/blog/kids",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "Yellow wellies jumping in a puddle on a garden path, low angle. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "Yellow wellies jumping in a puddle on a garden path, low angle.",
+      "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     }
   ]
 }

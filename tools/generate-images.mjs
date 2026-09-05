@@ -3,7 +3,8 @@
 // through the NanoGPT API, crops each one to its slot ratio and writes WebP files.
 //
 // Usage: node tools/generate-images.mjs --manifest packs/<store>/images.json [--only name,name] [--force]
-// A manifest entry may set "dir" to write outside the manifest's output_dir, and "model" to override the manifest model.
+// A manifest entry may set "dir" to write outside the manifest's output_dir, "model" to override the manifest model,
+// and "style" to replace the manifest style (scene pictures must not carry the product studio style).
 // Needs: NANOGPT_API_KEY in the environment (falls back to the nanogpt MCP
 // entry in ~/.claude.json) and ImageMagick (`magick`) on the PATH.
 
@@ -55,7 +56,7 @@ async function generate(image) {
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
         body: JSON.stringify({
             model: image.model ?? manifest.model,
-            prompt: `${image.prompt} ${manifest.style}`,
+            prompt: `${image.prompt} ${image.style ?? manifest.style}`,
             n: 1,
             size: image.size,
             response_format: 'url',

@@ -169,3 +169,6 @@ MORE = {
     'N-SHADE-SET': 'Two plants that thrive where nothing else will, with the compost to plant them. For a north-facing corner.',
     'N-GIFT-CARD': 'Delivered by email within the hour, with a message of your own. Valid for a year in the store.',
 }
+GALLERY = [('A potting bench in a greenhouse with terracotta pots, seedlings and a trowel, sun through glass', 'houseplants'), ('Close-up of hands planting a seedling in dark soil', 'seeds'), ('A tall shot of a climbing rose on a brick wall beside a wooden door', 'outdoor-plants'), ('A row of terracotta pots with herbs on a sunny windowsill', 'pots'), ('A wooden garden chair and table on a lawn under a tree with dappled light', 'furniture')]
+BRANDS = [('Greenhaven', 'NURSERY'), ('Loam', 'SOIL'), ('Terra', 'POTS'), ('Sprout', 'SEEDS'), ('Hollis', 'TOOLS'), ('Fern', 'HOUSEPLANTS'), ('Arbor', 'FURNITURE'), ('Bloom', 'BULBS'), ('Wren', 'WATERING'), ('Heath', 'GLOVES')]
+GALLERY_TITLE = 'In the greenhouse'

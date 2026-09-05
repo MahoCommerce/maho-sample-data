@@ -264,51 +264,110 @@
     {
       "file": "hero-main",
       "dir": "media/wysiwyg/books",
-      "size": "2048x1152",
+      "size": "2560x1440",
       "ratio": "16:9",
-      "prompt": "A reading nook with a leather armchair, a stack of clothbound books on a side table and a tall window with rain outside. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A reading nook with a leather armchair, a stack of clothbound books on a side table and a tall window with rain outside.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "hero-side",
       "dir": "media/wysiwyg/books",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A close up of a hand holding an open book with a cup of tea beside it on a wooden table. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "model": "gpt-image-2",
+      "prompt": "A close up of a hand holding an open book with a cup of tea beside it on a wooden table.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "editorial",
       "dir": "media/wysiwyg/books",
-      "size": "1024x1024",
-      "ratio": "1:1",
-      "prompt": "A bookseller on a ladder placing a book on a high wooden shelf in a narrow shop. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "model": "gpt-image-2",
+      "prompt": "A bookseller on a ladder placing a book on a high wooden shelf in a narrow shop.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "about",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "The front of a small bookshop with a bay window full of books and a bicycle leaning outside. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "The front of a small bookshop with a bay window full of books and a bicycle leaning outside.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-a",
       "dir": "media/wysiwyg/books",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "banner-b",
       "dir": "media/wysiwyg/books",
-      "size": "1536x1024",
-      "ratio": "3:2",
-      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "size": "2560x1440",
+      "ratio": "3:1",
+      "model": "gpt-image-2",
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-a",
+      "dir": "media/wysiwyg/books",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A reading nook with a leather armchair, a floor lamp and a window seat full of books",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-b",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "A stack of clothbound novels with a cup of tea on a wooden table",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-c",
+      "dir": "media/wysiwyg/books",
+      "size": "1152x2048",
+      "ratio": "1:2",
+      "model": "gpt-image-2",
+      "prompt": "A tall shot of a narrow bookshop aisle with shelves to the ceiling and a rolling ladder",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-d",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "model": "gpt-image-2",
+      "prompt": "An open cookbook on a kitchen counter with flour, eggs and a wooden spoon",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gallery-e",
+      "dir": "media/wysiwyg/books",
+      "size": "2048x1152",
+      "ratio": "2:1",
+      "model": "gpt-image-2",
+      "prompt": "A child reading a picture book on a rug with a dog asleep beside them, afternoon light",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-fiction",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "fiction",
@@ -316,14 +375,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-crime",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "crime",
@@ -331,14 +393,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-science",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "science",
@@ -346,14 +411,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-history",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "history",
@@ -361,14 +429,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-cooking",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "cooking",
@@ -376,14 +447,17 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "tile-children",
       "dir": "media/wysiwyg/books",
       "size": "1024x1024",
       "ratio": "1:1",
-      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "children",
@@ -391,28 +465,35 @@
       "size": "1536x512",
       "ratio": "3:1",
       "model": "ideogram-v3-turbo",
-      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-we-choose-the-shelf",
       "dir": "media/blog/books",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A bookseller reading at a wooden counter with a stack of books and a pencil. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A bookseller reading at a wooden counter with a stack of books and a pencil.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "reading-aloud-past-the-picture-books",
       "dir": "media/blog/books",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A parent and child reading a chapter book together under a blanket in warm lamp light. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A parent and child reading a chapter book together under a blanket in warm lamp light.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "the-case-for-the-hardback",
       "dir": "media/blog/books",
       "size": "1536x1024",
       "ratio": "3:2",
-      "prompt": "A clothbound hardback book lying open on a wooden table with a pair of reading glasses. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+      "model": "gpt-image-2",
+      "prompt": "A clothbound hardback book lying open on a wooden table with a pair of reading glasses.",
+      "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     }
   ]
 }
