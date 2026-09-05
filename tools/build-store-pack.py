@@ -282,6 +282,10 @@ PRIVACY = '''<p><span class="badge badge-warning">Demo store</span></p>
 '''
 
 
+DEMO_NOTICE = '''<p>Demo store. Orders are not processed. <a href="#switch-store">Switch store</a></p>
+'''
+
+
 def main():
     codes = industries()
     write(os.path.join(STORE, 'categories.csv'), categories(codes),
@@ -296,8 +300,11 @@ def main():
            dict(identifier='no-route', stores=STORE_CODE, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0, meta_description=''),
            dict(identifier='privacy-policy-cookie-restriction-mode', stores='', title='Privacy Policy', root_template='one_column', content_file='privacy-policy.html', is_active=1, is_home=0, meta_description='')],
           ['identifier', 'stores', 'title', 'root_template', 'content_file', 'is_active', 'is_home', 'meta_description'])
+    write(os.path.join(STORE, 'cms_blocks.csv'),
+          [dict(identifier='demo-notice', stores='', title='Demo notice', content_file='demo-notice.html', is_active=1)],
+          ['identifier', 'stores', 'title', 'content_file', 'is_active'])
     os.makedirs(os.path.join(STORE, 'content'), exist_ok=True)
-    for name, body in {'home.html': home(codes), 'about.html': ABOUT, 'customer-service.html': SERVICE, 'no-route.html': NO_ROUTE, 'privacy-policy.html': PRIVACY}.items():
+    for name, body in {'home.html': home(codes), 'about.html': ABOUT, 'customer-service.html': SERVICE, 'no-route.html': NO_ROUTE, 'privacy-policy.html': PRIVACY, 'demo-notice.html': DEMO_NOTICE}.items():
         with open(os.path.join(STORE, 'content', name), 'w') as f:
             f.write(body)
     print(f'store pack: {len(codes)} industries')
