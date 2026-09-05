@@ -4,6 +4,20 @@
 # The CSV files are the source of truth once written; the spec is kept so a pack can be rebuilt.
 import csv, json, os, random, re, sys, importlib.util
 
+# The distro footer block links to about-maho-demo-store; every industry store has its own about page instead.
+FOOTER_LINKS = '''<div class="links">
+    <div class="block-title">
+        <strong><span>Company</span></strong>
+    </div>
+    <ul>
+        <li><a href="{{store url="about"}}">About Us</a></li>
+        <li><a href="{{store url="contacts"}}">Contact Us</a></li>
+        <li><a href="{{store url="customer-service"}}">Customer Service</a></li>
+        <li><a href="{{store url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+    </ul>
+</div>
+'''
+
 def slug(s):
     return re.sub(r'-+', '-', ''.join(c if c.isalnum() else '-' for c in s.lower())).strip('-')
 
@@ -236,6 +250,8 @@ def build(spec_path):
         parts = path.split('/')
         return '/'.join(names['/'.join(parts[:k + 1])] for k in range(len(parts)))
     write_csv(f'{root}/categories.csv', cats, ['root', 'path', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
+    blocks.append(dict(identifier='footer_links_company', stores=c, title='Footer Links Company', content_file='footer-links-company.html', is_active=1))
+    put(f'{root}/content/footer-links-company.html', FOOTER_LINKS)
     write_csv(f'{root}/cms_blocks.csv', blocks, ['identifier', 'stores', 'title', 'content_file', 'is_active'])
     # pages
     put(f'{root}/content/home.html', home_html(S))
