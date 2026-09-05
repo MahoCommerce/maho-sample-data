@@ -176,8 +176,7 @@ def home(codes):
     </div>
     <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
         <div class="card-body">
-            <p><a class="hub-mark" href="{{{{store url="" _store="{code}"}}}}" title="Visit {names[code]}"><img src="{{{{media url="wysiwyg/{code}/logo.svg"}}}}" alt="{names[code]}" /></a></p>
-            <h2>{title}</h2>
+            <h2><a class="hub-mark" href="{{{{store url="" _store="{code}"}}}}" title="Visit {names[code]}"><img src="{{{{media url="wysiwyg/{code}/logo.svg"}}}}" alt="{names[code]}" /></a></h2>
             <p>{intro[code]} {SECTIONS[code][2]}</p>
             <p><a class="btn btn-primary" href="{{{{store url="" _store="{code}"}}}}">Visit {names[code]}</a> <a class="btn btn-ghost" href="{{{{store url="{code}"}}}}">Shop {name.lower()} here</a></p>
         </div>
