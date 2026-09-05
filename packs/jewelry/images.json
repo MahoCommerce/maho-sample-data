@@ -297,8 +297,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/jewelry",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small jewelry workshop with a bench, a magnifier lamp and trays of loose stones.",
       "style": "Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
@@ -477,28 +477,28 @@
     {
       "file": "how-to-find-your-ring-size",
       "dir": "media/blog/jewelry",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A hand measuring a finger with a strip of paper next to a ruler on marble.",
+      "prompt": "A hand measuring a finger with a strip of paper next to a ruler on marble. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "why-recycled-gold",
       "dir": "media/blog/jewelry",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Gold grain and small gold ingots on a dark workbench under a lamp.",
+      "prompt": "Gold grain and small gold ingots on a dark workbench under a lamp. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "caring-for-pearls",
       "dir": "media/blog/jewelry",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A strand of pearls on a soft cloth beside a small glass bottle of perfume on marble.",
+      "prompt": "A strand of pearls on a soft cloth beside a small glass bottle of perfume on marble. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
     }
   ]

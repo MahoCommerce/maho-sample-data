@@ -513,8 +513,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/sports",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small sports shop with a treadmill for gait analysis and shelves of running shoes.",
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
@@ -693,28 +693,28 @@
     {
       "file": "how-we-fit-shoes-by-video",
       "dir": "media/blog/sports",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A runner filmed from behind on a treadmill in a small shop with shoes on shelves.",
+      "prompt": "A runner filmed from behind on a treadmill in a small shop with shoes on shelves. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "the-first-mountain-race",
       "dir": "media/blog/sports",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Trail runners climbing a steep rocky path in the mountains with poles.",
+      "prompt": "Trail runners climbing a steep rocky path in the mountains with poles. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "a-week-of-training-one-room",
       "dir": "media/blog/sports",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A small home gym corner with a kettlebell, bands and a mat by a window.",
+      "prompt": "A small home gym corner with a kettlebell, bands and a mat by a window. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
     }
   ]

@@ -291,8 +291,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/books",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "The front of a small bookshop with a bay window full of books and a bicycle leaning outside.",
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
@@ -471,28 +471,28 @@
     {
       "file": "how-we-choose-the-shelf",
       "dir": "media/blog/books",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A bookseller reading at a wooden counter with a stack of books and a pencil.",
+      "prompt": "A bookseller reading at a wooden counter with a stack of books and a pencil. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "reading-aloud-past-the-picture-books",
       "dir": "media/blog/books",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A parent and child reading a chapter book together under a blanket in warm lamp light.",
+      "prompt": "A parent and child reading a chapter book together under a blanket in warm lamp light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "the-case-for-the-hardback",
       "dir": "media/blog/books",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A clothbound hardback book lying open on a wooden table with a pair of reading glasses.",
+      "prompt": "A clothbound hardback book lying open on a wooden table with a pair of reading glasses. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
     }
   ]

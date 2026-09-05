@@ -267,8 +267,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/beauty",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small bright workshop with shelves of amber glass bottles and drying herbs.",
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
@@ -447,28 +447,28 @@
     {
       "file": "the-order-of-a-routine",
       "dir": "media/blog/beauty",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Skincare bottles lined up in order of use on a marble shelf in soft light.",
+      "prompt": "Skincare bottles lined up in order of use on a marble shelf in soft light. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "why-ten-ingredients",
       "dir": "media/blog/beauty",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A hand holding a frosted glass jar with a short handwritten style ingredient label, blurred background.",
+      "prompt": "A hand holding a frosted glass jar with a short handwritten style ingredient label, blurred background. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-to-refill",
       "dir": "media/blog/beauty",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Empty frosted glass jars in a wooden crate on a workshop counter.",
+      "prompt": "Empty frosted glass jars in a wooden crate on a workshop counter. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
     }
   ]

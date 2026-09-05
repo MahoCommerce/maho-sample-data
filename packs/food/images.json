@@ -309,8 +309,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/food",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small stone kitchen with copper pots, a wood-fired oven and a table of jars of preserves.",
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
@@ -489,28 +489,28 @@
     {
       "file": "how-to-taste-olive-oil",
       "dir": "media/blog/food",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A small glass of green olive oil on a wooden table with a spoon and a sprig of olive leaves.",
+      "prompt": "A small glass of green olive oil on a wooden table with a spoon and a sprig of olive leaves. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "a-cheese-board-for-four",
       "dir": "media/blog/food",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A cheese board with three cheeses, fig jam, cornichons and slices of bread, seen from above.",
+      "prompt": "A cheese board with three cheeses, fig jam, cornichons and slices of bread, seen from above. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "sourdough-day-two",
       "dir": "media/blog/food",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Thick slices of toasted sourdough with olive oil and salt on a wooden board.",
+      "prompt": "Thick slices of toasted sourdough with olive oil and salt on a wooden board. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
     }
   ]

@@ -423,8 +423,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/electronics",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small electronics workshop with shelves of labelled boxes, a soldering station and a window.",
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
@@ -603,28 +603,28 @@
     {
       "file": "how-we-measure-headphones",
       "dir": "media/blog/electronics",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Over-ear headphones on a measurement rig in a lab, with an analyser screen out of focus behind.",
+      "prompt": "Over-ear headphones on a measurement rig in a lab, with an analyser screen out of focus behind. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "why-local-first-smart-home",
       "dir": "media/blog/electronics",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A smart home hub on a shelf with a bulb glowing warm beside it.",
+      "prompt": "A smart home hub on a shelf with a bulb glowing warm beside it. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "one-lens-to-travel-with",
       "dir": "media/blog/electronics",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A mirrorless camera with a small prime lens on a cafe table beside a coffee cup.",
+      "prompt": "A mirrorless camera with a small prime lens on a cafe table beside a coffee cup. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
     }
   ]

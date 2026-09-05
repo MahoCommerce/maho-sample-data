@@ -315,7 +315,7 @@ def build(spec_path):
         {'file': 'hero-main', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '16:9', 'model': HOME, 'prompt': S.SCENES['hero-main']},
         {'file': 'hero-side', 'dir': f'media/wysiwyg/{c}', 'size': '2048x1152', 'ratio': '16:9', 'model': HOME, 'prompt': S.SCENES['hero-side']},
         {'file': 'editorial', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '5:4', 'model': HOME, 'prompt': S.SCENES['editorial']},
-        {'file': 'about', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'model': HOME, 'prompt': S.SCENES['about']},
+        {'file': 'about', 'dir': f'media/wysiwyg/{c}', 'size': '1536x1024', 'ratio': '5:4', 'model': HOME, 'prompt': S.SCENES['about']},
         {'file': 'banner-a', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '3:1', 'model': HOME, 'prompt': S.CATEGORIES[4]['scene']},
         {'file': 'banner-b', 'dir': f'media/wysiwyg/{c}', 'size': '2560x1440', 'ratio': '3:1', 'model': HOME, 'prompt': S.CATEGORIES[5]['scene']},
     ]
@@ -325,7 +325,7 @@ def build(spec_path):
         scene.append({'file': f'tile-{slug(cat["path"])}', 'dir': f'media/wysiwyg/{c}', 'size': '1024x1024', 'ratio': '1:1', 'model': HOME, 'prompt': cat['scene']})
         scene.append({'file': slug(cat['path']), 'dir': f'packs/{c}/media/catalog/category', 'size': '1536x512', 'ratio': '3:1', 'model': 'ideogram-v3-turbo', 'prompt': cat['scene'] + BANNER})
     for title, body, prompt in S.POSTS:
-        scene.append({'file': slug(title), 'dir': f'media/blog/{c}', 'size': '1536x1024', 'ratio': '3:2', 'model': HOME, 'prompt': prompt})
+        scene.append({'file': slug(title), 'dir': f'media/blog/{c}', 'size': '2560x1440', 'ratio': '5:2', 'model': HOME, 'prompt': prompt + BANNER})
     for s in scene:
         s['style'] = S.SCENE_STYLE
     manifest['images'] += scene

@@ -369,8 +369,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/garden",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small plant nursery with a glasshouse, potting benches and stacks of terracotta pots.",
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
@@ -549,28 +549,28 @@
     {
       "file": "which-window",
       "dir": "media/blog/garden",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Houseplants on a bright windowsill with morning sun through the glass.",
+      "prompt": "Houseplants on a bright windowsill with morning sun through the glass. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "sowing-in-march",
       "dir": "media/blog/garden",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Seed trays with small seedlings and wooden labels on a sunny potting bench.",
+      "prompt": "Seed trays with small seedlings and wooden labels on a sunny potting bench. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "sharpen-your-tools",
       "dir": "media/blog/garden",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A hand sharpening a spade blade with a file on a workbench in a shed.",
+      "prompt": "A hand sharpening a spade blade with a file on a workbench in a shed. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
     }
   ]

@@ -495,8 +495,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/home",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small furniture workshop with hand tools on a pegboard and stacked planks of oak.",
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
@@ -675,28 +675,28 @@
     {
       "file": "caring-for-oiled-wood",
       "dir": "media/blog/home",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A hand rubbing oil into an oak table top with a cloth, in a sunlit workshop.",
+      "prompt": "A hand rubbing oil into an oak table top with a cloth, in a sunlit workshop. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "why-linen-wrinkles",
       "dir": "media/blog/home",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Rumpled white linen sheets on a bed in soft morning light, close up.",
+      "prompt": "Rumpled white linen sheets on a bed in soft morning light, close up. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     },
     {
       "file": "room-of-choice-explained",
       "dir": "media/blog/home",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Two delivery people carrying a wrapped sofa through a bright doorway.",
+      "prompt": "Two delivery people carrying a wrapped sofa through a bright doorway. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
     }
   ]

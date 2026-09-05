@@ -471,8 +471,8 @@
     {
       "file": "about",
       "dir": "media/wysiwyg/kids",
-      "size": "1024x1024",
-      "ratio": "1:1",
+      "size": "1536x1024",
+      "ratio": "5:4",
       "model": "gpt-image-2",
       "prompt": "A small shop with wooden toys on low shelves and a rocking horse in the window.",
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
@@ -651,28 +651,28 @@
     {
       "file": "toys-by-age-without-the-noise",
       "dir": "media/blog/kids",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A low shelf with a few wooden toys arranged with space between them in a bright room.",
+      "prompt": "A low shelf with a few wooden toys arranged with space between them in a bright room. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "how-to-size-a-child",
       "dir": "media/blog/kids",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "A child measured against a wall with pencil marks, seen from behind.",
+      "prompt": "A child measured against a wall with pencil marks, seen from behind. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     },
     {
       "file": "puddles-are-the-plan",
       "dir": "media/blog/kids",
-      "size": "1536x1024",
-      "ratio": "3:2",
+      "size": "2560x1440",
+      "ratio": "5:2",
       "model": "gpt-image-2",
-      "prompt": "Yellow wellies jumping in a puddle on a garden path, low angle.",
+      "prompt": "Yellow wellies jumping in a puddle on a garden path, low angle. A very wide, low banner: the subject spread across the whole width, nothing important near the top or bottom edge.",
       "style": "Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
     }
   ]
