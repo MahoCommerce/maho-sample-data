@@ -160,9 +160,8 @@ def brand_svg(name, sub, serif):
 </svg>'''
 
 def landing_html(S, cat):
-    """The category banner already shows the picture, so the landing block is the intro copy only."""
-    return f'''<p><span class="badge badge-outline">{cat['name']}</span></p>
-<h2>{cat['landing_title']}</h2>
+    """The category banner shows the picture and the block carries the copy: a title and one paragraph."""
+    return f'''<h2>{cat['landing_title']}</h2>
 <p>{cat['landing_text']}</p>
 '''
 
@@ -188,6 +187,13 @@ CUSTOMER_SERVICE = '''<h1>Customer Service</h1>
 <p>We accept cards, PayPal and bank transfer. Every payment page is encrypted. We never store card numbers.</p>
 <h2>Contact</h2>
 <p>Write to us through the <a href="{{store url="contacts"}}">contact page</a>. We answer within one working day.</p>
+'''
+
+NO_ROUTE = '''<h1 style="text-align: center">Oops!</h1>
+<p style="text-align: center"><strong>404 Page not found.</strong> Check the address, or head back to the <a href="{{store url=""}}">home page</a>.</p>
+<h2 style="text-align: center">Were you looking for something else?</h2>
+<p style="text-align: center">Here is what arrived this week.</p>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="5" template="catalog/product/widget/new/content/new_grid.phtml"}}
 '''
 
 def merge_shared(S):
@@ -219,7 +225,7 @@ def build(spec_path):
     for i, cat in enumerate(S.CATEGORIES):
         block = f'landing-{slug(cat["path"])}'
         cats.append(dict(root=S.ROOT, path=cat['path'], name=cat['name'], is_active=1, include_in_menu=1, is_anchor=1, position=i + 1,
-                         display_mode='PRODUCTS_AND_PAGE', landing_page=block, image=f'{slug(cat["path"])}.webp', description=cat['description'],
+                         display_mode='PRODUCTS_AND_PAGE', landing_page=block, image=f'{slug(cat["path"])}.webp', description='',
                          meta_title=f"{cat['name']} | {S.STORE_NAME}", meta_description=cat['description']))
         for j, sub in enumerate(cat.get('children', [])):
             cats.append(dict(root=S.ROOT, path=f"{cat['path']}/{sub['path']}", name=sub['name'], is_active=1, include_in_menu=1, is_anchor=1, position=j + 1, description=sub.get('description', '')))
@@ -234,10 +240,12 @@ def build(spec_path):
     # pages
     put(f'{root}/content/home.html', home_html(S))
     put(f'{root}/content/about.html', about_html(S))
+    put(f'{root}/content/no-route.html', NO_ROUTE)
     put(f'{root}/content/customer-service.html', CUSTOMER_SERVICE)
     pages = [dict(identifier='home', stores=c, title=S.STORE_NAME, root_template='one_column', content_file='home.html', is_active=1, is_home=1, meta_description=S.META_DESCRIPTION),
              dict(identifier='about', stores=c, title=f'About {S.STORE_NAME}', root_template='one_column', content_file='about.html', is_active=1, is_home=0),
-             dict(identifier='customer-service', stores=c, title='Customer Service', root_template='one_column', content_file='customer-service.html', is_active=1, is_home=0)]
+             dict(identifier='customer-service', stores=c, title='Customer Service', root_template='one_column', content_file='customer-service.html', is_active=1, is_home=0),
+             dict(identifier='no-route', stores=c, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0)]
     write_csv(f'{root}/cms_pages.csv', pages, ['identifier', 'stores', 'title', 'root_template', 'content_file', 'is_active', 'is_home', 'meta_description'])
     # products
     cols = ['sku', '_attribute_set', '_type', '_product_websites', '_root_category', '_category', 'name', 'price', 'special_price', 'status', 'visibility', 'tax_class_id', 'weight', 'description', 'short_description', 'qty', 'is_in_stock'] + S.ATTRIBUTE_COLUMNS + ['_media_image', 'image', 'small_image', 'thumbnail', 'url_key', '_super_products_sku', '_super_attribute_code', '_super_attribute_option', '_associated_sku', '_associated_default_qty', '_associated_position']

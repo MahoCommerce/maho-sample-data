@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Kids,,Kids,1,1,1,,,,,"Toys, clothes and things for small rooms, chosen to last more than one child.",,
-Kids,toys,Toys,1,1,1,1,PRODUCTS_AND_PAGE,landing-toys,toys.webp,"Wooden and soft toys, from rattles to construction sets.",Toys | Little Lark,"Wooden and soft toys, from rattles to construction sets."
-Kids,clothing,Clothing,1,1,1,2,PRODUCTS_AND_PAGE,landing-clothing,clothing.webp,Organic cotton basics in sizes 62 to 128.,Clothing | Little Lark,Organic cotton basics in sizes 62 to 128.
-Kids,books,Books,1,1,1,3,PRODUCTS_AND_PAGE,landing-books,books.webp,"Board books, picture books and first readers.",Books | Little Lark,"Board books, picture books and first readers."
-Kids,nursery,Nursery,1,1,1,4,PRODUCTS_AND_PAGE,landing-nursery,nursery.webp,"Cots, changing tables and storage in solid wood.",Nursery | Little Lark,"Cots, changing tables and storage in solid wood."
-Kids,outdoor,Outdoor,1,1,1,5,PRODUCTS_AND_PAGE,landing-outdoor,outdoor.webp,"Balance bikes, scooters and rain gear.",Outdoor | Little Lark,"Balance bikes, scooters and rain gear."
-Kids,gifts,Gifts,1,1,1,6,PRODUCTS_AND_PAGE,landing-gifts,gifts.webp,Boxed sets for new babies and birthdays.,Gifts | Little Lark,Boxed sets for new babies and birthdays.
+Kids,toys,Toys,1,1,1,1,PRODUCTS_AND_PAGE,landing-toys,toys.webp,,Toys | Little Lark,"Wooden and soft toys, from rattles to construction sets."
+Kids,clothing,Clothing,1,1,1,2,PRODUCTS_AND_PAGE,landing-clothing,clothing.webp,,Clothing | Little Lark,Organic cotton basics in sizes 62 to 128.
+Kids,books,Books,1,1,1,3,PRODUCTS_AND_PAGE,landing-books,books.webp,,Books | Little Lark,"Board books, picture books and first readers."
+Kids,nursery,Nursery,1,1,1,4,PRODUCTS_AND_PAGE,landing-nursery,nursery.webp,,Nursery | Little Lark,"Cots, changing tables and storage in solid wood."
+Kids,outdoor,Outdoor,1,1,1,5,PRODUCTS_AND_PAGE,landing-outdoor,outdoor.webp,,Outdoor | Little Lark,"Balance bikes, scooters and rain gear."
+Kids,gifts,Gifts,1,1,1,6,PRODUCTS_AND_PAGE,landing-gifts,gifts.webp,,Gifts | Little Lark,Boxed sets for new babies and birthdays.

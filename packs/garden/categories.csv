@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Garden,,Garden,1,1,1,,,,,"Plants, seeds, pots and tools from a nursery that grows what it sells.",,
-Garden,houseplants,Houseplants,1,1,1,1,PRODUCTS_AND_PAGE,landing-houseplants,houseplants.webp,"Grown in our glasshouse, shipped with roots intact.",Houseplants | Greenhaven,"Grown in our glasshouse, shipped with roots intact."
-Garden,outdoor-plants,Outdoor Plants,1,1,1,2,PRODUCTS_AND_PAGE,landing-outdoor-plants,outdoor-plants.webp,"Perennials, shrubs and trees for beds and pots.",Outdoor Plants | Greenhaven,"Perennials, shrubs and trees for beds and pots."
-Garden,seeds,Seeds & Bulbs,1,1,1,3,PRODUCTS_AND_PAGE,landing-seeds,seeds.webp,Open-pollinated seed and bulbs by the dozen.,Seeds & Bulbs | Greenhaven,Open-pollinated seed and bulbs by the dozen.
-Garden,pots,Pots & Planters,1,1,1,4,PRODUCTS_AND_PAGE,landing-pots,pots.webp,"Terracotta, stoneware and zinc.",Pots & Planters | Greenhaven,"Terracotta, stoneware and zinc."
-Garden,tools,Tools,1,1,1,5,PRODUCTS_AND_PAGE,landing-tools,tools.webp,"Forged tools with ash handles, sharpened before shipping.",Tools | Greenhaven,"Forged tools with ash handles, sharpened before shipping."
-Garden,furniture,Outdoor Furniture,1,1,1,6,PRODUCTS_AND_PAGE,landing-furniture,furniture.webp,"Benches, tables and chairs in oak and steel.",Outdoor Furniture | Greenhaven,"Benches, tables and chairs in oak and steel."
+Garden,houseplants,Houseplants,1,1,1,1,PRODUCTS_AND_PAGE,landing-houseplants,houseplants.webp,,Houseplants | Greenhaven,"Grown in our glasshouse, shipped with roots intact."
+Garden,outdoor-plants,Outdoor Plants,1,1,1,2,PRODUCTS_AND_PAGE,landing-outdoor-plants,outdoor-plants.webp,,Outdoor Plants | Greenhaven,"Perennials, shrubs and trees for beds and pots."
+Garden,seeds,Seeds & Bulbs,1,1,1,3,PRODUCTS_AND_PAGE,landing-seeds,seeds.webp,,Seeds & Bulbs | Greenhaven,Open-pollinated seed and bulbs by the dozen.
+Garden,pots,Pots & Planters,1,1,1,4,PRODUCTS_AND_PAGE,landing-pots,pots.webp,,Pots & Planters | Greenhaven,"Terracotta, stoneware and zinc."
+Garden,tools,Tools,1,1,1,5,PRODUCTS_AND_PAGE,landing-tools,tools.webp,,Tools | Greenhaven,"Forged tools with ash handles, sharpened before shipping."
+Garden,furniture,Outdoor Furniture,1,1,1,6,PRODUCTS_AND_PAGE,landing-furniture,furniture.webp,,Outdoor Furniture | Greenhaven,"Benches, tables and chairs in oak and steel."

@@ -2,3 +2,4 @@ identifier,stores,title,root_template,content_file,is_active,is_home,meta_descri
 home,food,Harvest & Hearth,one_column,home.html,1,1,"Harvest & Hearth: olive oil, pasta, cheese, coffee and drinks from small producers, delivered fresh."
 about,food,About Harvest & Hearth,one_column,about.html,1,0,
 customer-service,food,Customer Service,one_column,customer-service.html,1,0,
+no-route,food,404 Not Found,one_column,no-route.html,1,0,

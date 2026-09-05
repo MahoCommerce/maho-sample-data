@@ -45,12 +45,13 @@ def industries():
 def categories(codes):
     rows = [dict(root=ROOT_CATEGORY, path='', name=ROOT_CATEGORY, is_active=1, include_in_menu=1, is_anchor=1,
                  description='Every product of the ten Maho demo stores, on the default theme.')]
+    intro = root_descriptions(codes)
     for position, (code, name) in enumerate(codes, 1):
         image = f'store-{code}.webp'
         if not os.path.exists(os.path.join(STORE, 'media', 'catalog', 'category', image)):
             image = ''
         rows.append(dict(root=ROOT_CATEGORY, path=code, name=name, is_active=1, include_in_menu=1, is_anchor=1,
-                         position=position, display_mode='PRODUCTS', image=image))
+                         position=position, display_mode='PRODUCTS', image=image, description=intro[code]))
         for sub in read(os.path.join(PACKS, code, 'categories.csv')):
             if sub['path'] == '':
                 continue
@@ -223,7 +224,7 @@ def home(codes):
 
 ABOUT = '''<div data-type="maho-columns" data-preset="2-equal" data-gap="large" data-style="none">
     <div data-type="maho-column">
-        <p><img src="{{media url="wysiwyg/store/hero-side.webp"}}" alt="Bread, olive oil and tomatoes in a wooden crate"></p>
+        <p><img src="{{media url="wysiwyg/store/about.webp"}}" alt="A row of small shop fronts on a sunny street"></p>
     </div>
     <div data-type="maho-column">
         <p><span class="badge badge-outline">About</span></p>

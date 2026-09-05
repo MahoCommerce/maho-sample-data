@@ -16,6 +16,12 @@
       "prompt": "A wooden market crate with sourdough bread, a bottle of olive oil, a wedge of cheese and ripe tomatoes on a stone step in sunlight."
     },
     {
+      "file": "about",
+      "size": "1536x1024",
+      "ratio": "5:4",
+      "prompt": "A quiet pedestrian street with a row of small independent shop fronts, a bakery, a bookshop and a florist, awnings out, late morning light."
+    },
+    {
       "file": "tile-fashion",
       "size": "1024x1024",
       "ratio": "1:1",

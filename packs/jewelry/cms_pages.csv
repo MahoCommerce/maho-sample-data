@@ -2,3 +2,4 @@ identifier,stores,title,root_template,content_file,is_active,is_home,meta_descri
 home,jewelry,Aurelie,one_column,home.html,1,1,"Aurelie: rings, necklaces, earrings and bracelets in recycled gold and silver, made to order in our workshop."
 about,jewelry,About Aurelie,one_column,about.html,1,0,
 customer-service,jewelry,Customer Service,one_column,customer-service.html,1,0,
+no-route,jewelry,404 Not Found,one_column,no-route.html,1,0,

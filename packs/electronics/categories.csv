@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Electronics,,Electronics,1,1,1,,,,,"Audio, computing, cameras and smart home gear, tested by people who use it.",,
-Electronics,audio,Audio,1,1,1,1,PRODUCTS_AND_PAGE,landing-audio,audio.webp,"Headphones, earbuds and speakers with honest sound.",Audio | Voltline,"Headphones, earbuds and speakers with honest sound."
-Electronics,computing,Computing,1,1,1,2,PRODUCTS_AND_PAGE,landing-computing,computing.webp,"Laptops, keyboards and displays for long days.",Computing | Voltline,"Laptops, keyboards and displays for long days."
-Electronics,cameras,Cameras,1,1,1,3,PRODUCTS_AND_PAGE,landing-cameras,cameras.webp,"Mirrorless bodies, lenses and the bits in between.",Cameras | Voltline,"Mirrorless bodies, lenses and the bits in between."
-Electronics,smart-home,Smart Home,1,1,1,4,PRODUCTS_AND_PAGE,landing-smart-home,smart-home.webp,"Lights, plugs, speakers and cameras that work without an account.",Smart Home | Voltline,"Lights, plugs, speakers and cameras that work without an account."
-Electronics,wearables,Wearables,1,1,1,5,PRODUCTS_AND_PAGE,landing-wearables,wearables.webp,Watches and trackers that last a week on a charge.,Wearables | Voltline,Watches and trackers that last a week on a charge.
-Electronics,accessories,Accessories,1,1,1,6,PRODUCTS_AND_PAGE,landing-accessories,accessories.webp,"Cables, chargers, stands and cases that outlast the device.",Accessories | Voltline,"Cables, chargers, stands and cases that outlast the device."
+Electronics,audio,Audio,1,1,1,1,PRODUCTS_AND_PAGE,landing-audio,audio.webp,,Audio | Voltline,"Headphones, earbuds and speakers with honest sound."
+Electronics,computing,Computing,1,1,1,2,PRODUCTS_AND_PAGE,landing-computing,computing.webp,,Computing | Voltline,"Laptops, keyboards and displays for long days."
+Electronics,cameras,Cameras,1,1,1,3,PRODUCTS_AND_PAGE,landing-cameras,cameras.webp,,Cameras | Voltline,"Mirrorless bodies, lenses and the bits in between."
+Electronics,smart-home,Smart Home,1,1,1,4,PRODUCTS_AND_PAGE,landing-smart-home,smart-home.webp,,Smart Home | Voltline,"Lights, plugs, speakers and cameras that work without an account."
+Electronics,wearables,Wearables,1,1,1,5,PRODUCTS_AND_PAGE,landing-wearables,wearables.webp,,Wearables | Voltline,Watches and trackers that last a week on a charge.
+Electronics,accessories,Accessories,1,1,1,6,PRODUCTS_AND_PAGE,landing-accessories,accessories.webp,,Accessories | Voltline,"Cables, chargers, stands and cases that outlast the device."

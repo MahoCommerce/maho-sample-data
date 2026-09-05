@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Books,,Books,1,1,1,,,,,An independent bookshop with a short shelf and long opinions.,,
-Books,fiction,Fiction,1,1,1,1,PRODUCTS_AND_PAGE,landing-fiction,fiction.webp,"Novels and short stories, new and worth rereading.",Fiction | Folio,"Novels and short stories, new and worth rereading."
-Books,crime,Crime & Thrillers,1,1,1,2,PRODUCTS_AND_PAGE,landing-crime,crime.webp,"Detectives, heists and the people who get away with it.",Crime & Thrillers | Folio,"Detectives, heists and the people who get away with it."
-Books,science,Science & Nature,1,1,1,3,PRODUCTS_AND_PAGE,landing-science,science.webp,"How things work, from cells to galaxies.",Science & Nature | Folio,"How things work, from cells to galaxies."
-Books,history,History,1,1,1,4,PRODUCTS_AND_PAGE,landing-history,history.webp,"The long view, told well.",History | Folio,"The long view, told well."
-Books,cooking,Cooking,1,1,1,5,PRODUCTS_AND_PAGE,landing-cooking,cooking.webp,Cookbooks that get splashed.,Cooking | Folio,Cookbooks that get splashed.
-Books,children,Children,1,1,1,6,PRODUCTS_AND_PAGE,landing-children,children.webp,Picture books and first chapter books.,Children | Folio,Picture books and first chapter books.
+Books,fiction,Fiction,1,1,1,1,PRODUCTS_AND_PAGE,landing-fiction,fiction.webp,,Fiction | Folio,"Novels and short stories, new and worth rereading."
+Books,crime,Crime & Thrillers,1,1,1,2,PRODUCTS_AND_PAGE,landing-crime,crime.webp,,Crime & Thrillers | Folio,"Detectives, heists and the people who get away with it."
+Books,science,Science & Nature,1,1,1,3,PRODUCTS_AND_PAGE,landing-science,science.webp,,Science & Nature | Folio,"How things work, from cells to galaxies."
+Books,history,History,1,1,1,4,PRODUCTS_AND_PAGE,landing-history,history.webp,,History | Folio,"The long view, told well."
+Books,cooking,Cooking,1,1,1,5,PRODUCTS_AND_PAGE,landing-cooking,cooking.webp,,Cooking | Folio,Cookbooks that get splashed.
+Books,children,Children,1,1,1,6,PRODUCTS_AND_PAGE,landing-children,children.webp,,Children | Folio,Picture books and first chapter books.

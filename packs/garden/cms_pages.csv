@@ -2,3 +2,4 @@ identifier,stores,title,root_template,content_file,is_active,is_home,meta_descri
 home,garden,Greenhaven,one_column,home.html,1,1,"Greenhaven: houseplants, outdoor plants, seeds, pots, tools and garden furniture from our own nursery."
 about,garden,About Greenhaven,one_column,about.html,1,0,
 customer-service,garden,Customer Service,one_column,customer-service.html,1,0,
+no-route,garden,404 Not Found,one_column,no-route.html,1,0,

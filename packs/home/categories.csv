@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Home,,Home,1,1,1,,,,,"Furniture, textiles and objects for a calm home, made by workshops we visit.",,
-Home,furniture,Furniture,1,1,1,1,PRODUCTS_AND_PAGE,landing-furniture,furniture.webp,"Solid wood tables, chairs and storage, built to be repaired.",Furniture | Hearthstone,"Solid wood tables, chairs and storage, built to be repaired."
-Home,seating,Seating,1,1,1,2,PRODUCTS_AND_PAGE,landing-seating,seating.webp,Sofas and armchairs with replaceable covers.,Seating | Hearthstone,Sofas and armchairs with replaceable covers.
-Home,bedding,Bedding,1,1,1,3,PRODUCTS_AND_PAGE,landing-bedding,bedding.webp,"Linen sheets, wool blankets and pillows that last.",Bedding | Hearthstone,"Linen sheets, wool blankets and pillows that last."
-Home,kitchen,Kitchen & Dining,1,1,1,4,PRODUCTS_AND_PAGE,landing-kitchen,kitchen.webp,"Stoneware, glass and wood for the table.",Kitchen & Dining | Hearthstone,"Stoneware, glass and wood for the table."
-Home,lighting,Lighting,1,1,1,5,PRODUCTS_AND_PAGE,landing-lighting,lighting.webp,Lamps and pendants with warm bulbs included.,Lighting | Hearthstone,Lamps and pendants with warm bulbs included.
-Home,decor,Decor,1,1,1,6,PRODUCTS_AND_PAGE,landing-decor,decor.webp,"Vases, mirrors, baskets and rugs.",Decor | Hearthstone,"Vases, mirrors, baskets and rugs."
+Home,furniture,Furniture,1,1,1,1,PRODUCTS_AND_PAGE,landing-furniture,furniture.webp,,Furniture | Hearthstone,"Solid wood tables, chairs and storage, built to be repaired."
+Home,seating,Seating,1,1,1,2,PRODUCTS_AND_PAGE,landing-seating,seating.webp,,Seating | Hearthstone,Sofas and armchairs with replaceable covers.
+Home,bedding,Bedding,1,1,1,3,PRODUCTS_AND_PAGE,landing-bedding,bedding.webp,,Bedding | Hearthstone,"Linen sheets, wool blankets and pillows that last."
+Home,kitchen,Kitchen & Dining,1,1,1,4,PRODUCTS_AND_PAGE,landing-kitchen,kitchen.webp,,Kitchen & Dining | Hearthstone,"Stoneware, glass and wood for the table."
+Home,lighting,Lighting,1,1,1,5,PRODUCTS_AND_PAGE,landing-lighting,lighting.webp,,Lighting | Hearthstone,Lamps and pendants with warm bulbs included.
+Home,decor,Decor,1,1,1,6,PRODUCTS_AND_PAGE,landing-decor,decor.webp,,Decor | Hearthstone,"Vases, mirrors, baskets and rugs."

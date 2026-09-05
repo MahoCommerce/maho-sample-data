@@ -1,8 +1,8 @@
 root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Beauty,,Beauty,1,1,1,,,,,"Skincare, body care and fragrance made in small batches with short ingredient lists.",,
-Beauty,cleansers,Cleansers,1,1,1,1,PRODUCTS_AND_PAGE,landing-cleansers,cleansers.webp,"Balms, gels and oils that take the day off gently.",Cleansers | Glow Atelier,"Balms, gels and oils that take the day off gently."
-Beauty,serums,Serums,1,1,1,2,PRODUCTS_AND_PAGE,landing-serums,serums.webp,"Concentrated actives, one at a time.",Serums | Glow Atelier,"Concentrated actives, one at a time."
-Beauty,moisturisers,Moisturisers,1,1,1,3,PRODUCTS_AND_PAGE,landing-moisturisers,moisturisers.webp,Creams and lotions for every skin and season.,Moisturisers | Glow Atelier,Creams and lotions for every skin and season.
-Beauty,body,Body,1,1,1,4,PRODUCTS_AND_PAGE,landing-body,body.webp,"Washes, oils and hand care.",Body | Glow Atelier,"Washes, oils and hand care."
-Beauty,fragrance,Fragrance,1,1,1,5,PRODUCTS_AND_PAGE,landing-fragrance,fragrance.webp,Small-batch scents in five notes or fewer.,Fragrance | Glow Atelier,Small-batch scents in five notes or fewer.
-Beauty,sets,Sets,1,1,1,6,PRODUCTS_AND_PAGE,landing-sets,sets.webp,"Routines and travel kits, boxed.",Sets | Glow Atelier,"Routines and travel kits, boxed."
+Beauty,cleansers,Cleansers,1,1,1,1,PRODUCTS_AND_PAGE,landing-cleansers,cleansers.webp,,Cleansers | Glow Atelier,"Balms, gels and oils that take the day off gently."
+Beauty,serums,Serums,1,1,1,2,PRODUCTS_AND_PAGE,landing-serums,serums.webp,,Serums | Glow Atelier,"Concentrated actives, one at a time."
+Beauty,moisturisers,Moisturisers,1,1,1,3,PRODUCTS_AND_PAGE,landing-moisturisers,moisturisers.webp,,Moisturisers | Glow Atelier,Creams and lotions for every skin and season.
+Beauty,body,Body,1,1,1,4,PRODUCTS_AND_PAGE,landing-body,body.webp,,Body | Glow Atelier,"Washes, oils and hand care."
+Beauty,fragrance,Fragrance,1,1,1,5,PRODUCTS_AND_PAGE,landing-fragrance,fragrance.webp,,Fragrance | Glow Atelier,Small-batch scents in five notes or fewer.
+Beauty,sets,Sets,1,1,1,6,PRODUCTS_AND_PAGE,landing-sets,sets.webp,,Sets | Glow Atelier,"Routines and travel kits, boxed."
