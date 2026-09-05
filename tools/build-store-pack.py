@@ -289,6 +289,8 @@ def main():
     write(os.path.join(STORE, 'cms_pages.csv'),
           [dict(identifier='home', stores=STORE_CODE, title='Maho Store', root_template='one_column', content_file='home.html', is_active=1, is_home=1,
                 meta_description='Ten demo stores on one Maho installation, one per industry theme, and every product in one store.'),
+           dict(identifier='about-maho-demo-store', stores='', title='', root_template='', content_file='', is_active=0, is_home=0, meta_description=''),
+           dict(identifier='customer-service', stores='', title='', root_template='', content_file='', is_active=0, is_home=0, meta_description=''),
            dict(identifier='about-maho-demo-store', stores=STORE_CODE, title='About the Maho Store', root_template='one_column', content_file='about.html', is_active=1, is_home=0, meta_description=''),
            dict(identifier='customer-service', stores=STORE_CODE, title='Customer Service', root_template='one_column', content_file='customer-service.html', is_active=1, is_home=0, meta_description=''),
            dict(identifier='no-route', stores=STORE_CODE, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0, meta_description=''),
