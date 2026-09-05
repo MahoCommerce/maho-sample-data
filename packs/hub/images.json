@@ -4,12 +4,6 @@
   "style": "Clean editorial photograph, natural light, no people, no text, no lettering, no logos, no watermark, no borders.",
   "images": [
     {
-      "file": "hero",
-      "size": "2560x1440",
-      "ratio": "16:9",
-      "prompt": "A bright modern shop street seen from above at golden hour, ten small storefronts with different awnings side by side."
-    },
-    {
       "file": "tile-fashion",
       "size": "1024x1024",
       "ratio": "1:1",
