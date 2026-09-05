@@ -39,6 +39,8 @@ const dirOf = (image) => {
     return dir;
 };
 
+const R2_HOST = 'https://1582531d6020f89735962a5d51046adb.r2.cloudflarestorage.com/';
+
 const ratioOf = (r) => r.split(':').map(Number).reduce((a, b) => a / b);
 
 async function generate(image) {
@@ -47,6 +49,18 @@ async function generate(image) {
     if (existsSync(target) && !force) {
         console.log(`skip ${image.file} (exists)`);
         return;
+    }
+    // Do not pay for a picture that cannot be downloaded: wait until the R2 host answers.
+    for (let attempt = 1; ; attempt++) {
+        try {
+            execFileSync('curl', ['-s', '-o', '/dev/null', '--connect-timeout', '15', '--max-time', '30', R2_HOST], { stdio: 'pipe' });
+            break;
+        } catch {
+            if (attempt === 1) {
+                console.error(`waiting for ${R2_HOST} before ${image.file}`);
+            }
+            await new Promise((r) => setTimeout(r, 60000));
+        }
     }
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 600000);
@@ -70,8 +84,21 @@ async function generate(image) {
     const item = data.data?.[0] ?? {};
     const raw = join(outDir, `${image.file}.raw.png`);
     if (item.url) {
-        // curl retries a dropped transfer; node's fetch gives up on the large files with "fetch failed"
-        execFileSync('curl', ['-sSL', '--retry', '5', '--retry-all-errors', '--max-time', '300', '-o', raw, item.url]);
+        // The picture sits on Cloudflare R2, which drops connections for minutes at a time. The link
+        // stays valid for a while, so keep trying the download instead of paying for a new picture.
+        const url = item.url.replaceAll('&amp;', '&');
+        for (let attempt = 1; ; attempt++) {
+            try {
+                execFileSync('curl', ['-sSL', '--fail', '--connect-timeout', '20', '--max-time', '300', '-o', raw, url], { stdio: 'pipe' });
+                break;
+            } catch (e) {
+                if (attempt >= 30) {
+                    throw new Error(`${image.file}: download failed after ${attempt} attempts`);
+                }
+                console.error(`waiting for the download of ${image.file} (${attempt})`);
+                await new Promise((r) => setTimeout(r, 30000));
+            }
+        }
     } else if (item.b64_json) {
         writeFileSync(raw, Buffer.from(item.b64_json, 'base64'));
     } else {
