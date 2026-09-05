@@ -5,6 +5,7 @@ Sample data for Maho: eleven websites on one installation, everything as CSV pac
 ## Rules
 
 - Reviews carry one vote on the single rating `Rating` (`packs/_shared/ratings.csv` hides the distro ratings Quality, Value and Price from every store). The product list shows no per-page selector: `catalog/frontend/grid_per_page_values` holds one value.
+- Every storefront carries the demo store button (a `details` element in `design/footer/absolute_footer`, styled by `design/tokens/custom_css`, both at default scope). Its links use the `{{store_url:code}}` macro.
 - Every entity is CSV. Page and block bodies are HTML files under `packs/<store>/content/`. No SQL.
 - Website 1 keeps the distro codes (`base`, `default`, root `Default Category`). The industry stores take the industry key for the website, group, store and root category (`fashion`, `food`, ...).
 - `packs/store` is generated: `tools/build-store-pack.py` reads the ten industry packs and writes the category tree (one branch per industry), the website and category rows of every product, every review, and the home page that links to the ten stores. Run it after any industry pack change. Only `images.json` in it is hand written.
