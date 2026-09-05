@@ -1,8 +1,14 @@
 {
-  "model": "wavespeed-ai/krea-v2/turbo",
+  "model": "gpt-image-2",
   "output_dir": "media/wysiwyg/hub",
-  "style": "Clean editorial photograph, natural light, no people, no text, no lettering, no logos, no watermark, no borders.",
+  "style": "Realistic editorial photograph, soft warm natural light, no people, no text, no lettering, no logos, no watermark.",
   "images": [
+    {
+      "file": "hero",
+      "size": "2560x1440",
+      "ratio": "16:9",
+      "prompt": "A real European shopping street seen at a slight angle from across the road, four generous independent shops with wide plate glass windows and normal proportions: a clothing boutique with linen garments, a bookshop with stacked books, a grocer with wooden crates of vegetables and bread on the pavement, a plant shop with terracotta pots outside. Stone facades, wooden shopfronts painted in muted colors, cloth awnings, wide pavement, long soft shadows."
+    },
     {
       "file": "tile-fashion",
       "size": "1024x1024",
