@@ -19,7 +19,6 @@ ROOT_CATEGORY = 'Default Category'
 
 INTRO = ('This store carries the full catalog of the ten Maho demo shops. Each shop is also a website of its own, with its own '
          'theme. Pick one below, or shop it all here.')
-NOTE = 'All products, pictures and content are generated demo data. Orders placed in these stores are not processed.'
 
 
 def read(path):
@@ -219,7 +218,6 @@ def home(codes):
         {{{{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}}}
     </div>
 </div>
-<p class="hub-note">{NOTE}</p>
 '''
 
 
