@@ -4,5 +4,6 @@ bakeoff/
 wip/
 .idea/
 specs/__pycache__/
+tools/__pycache__/
 tools/.venv/
 tools/.fonts/
