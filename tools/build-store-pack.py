@@ -142,10 +142,7 @@ def quotes(codes):
 def home(codes):
     names = store_names()
     intro = root_descriptions(codes)
-    tiles = ''.join(f'''    <a class="hub-card" href="{{{{store url="" _store="{code}"}}}}">
-        <img src="{{{{media url="wysiwyg/store/tile-{code}.webp"}}}}" alt="" />
-        <span class="hub-card-name">{name}</span>
-    </a>
+    tiles = ''.join(f'''    <a class="hub-logo" href="{{{{store url="" _store="{code}"}}}}" title="{names[code]}"><img src="{{{{media url="wysiwyg/{code}/logo.svg"}}}}" alt="{names[code]}" /></a>
 ''' for code, name in codes)
     features = ''.join(f'''    <div data-type="maho-column">
         <table style="min-width: 50px;">
@@ -216,11 +213,9 @@ def home(codes):
 </div>
 <div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
 {features}</div>
-<h2 id="stores">Choose a store</h2>
-<div class="hub">
-    <div class="hub-grid">
-{tiles}    </div>
-</div>
+<h2 id="stores">Ten shops, one street</h2>
+<div class="hub-logos">
+{tiles}</div>
 {sections}<h2 id="new">New arrivals</h2>
 {{{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}}}
 <h2>What our customers say</h2>
