@@ -24,6 +24,9 @@ color,Salmon,220,#f28c74
 color,Red,230,#c62f2f
 color,Orange,240,#e77a2b
 color,Yellow,250,#e9c23a
+color,Gold,260,#c9a75c
+color,Rose Gold,270,#d9a597
+color,Emerald,280,#0f6b4a
 size,XS,10,
 size,S,20,
 size,M,30,
