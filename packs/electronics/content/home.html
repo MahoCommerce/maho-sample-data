@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="audio"}}" title="Gear that earns its place"><img src="{{media url="wysiwyg/electronics/hero-main.webp"}}" alt="Gear that earns its place" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">New in</span></p>
+            <h1>Gear that earns its place</h1>
+            <p>Tested, measured and returned when it fails. Everything here passed.</p>
+            <p><a class="btn btn-primary" href="{{store url="audio"}}">Shop Audio</a> <a class="btn btn-ghost" href="{{store url="computing"}}">Shop Computing</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="cameras"}}" title="Shop Cameras"><img src="{{media url="wysiwyg/electronics/hero-side.webp"}}" alt="Shop Cameras" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="shield-check" size="32"}}</p>
+        <p><strong>Two-year warranty</strong><br />On everything, no small print</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Next-day delivery</strong><br />Order by 6 pm on weekdays</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>30-day returns</strong><br />Even if you opened it</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="headset" size="32"}}</p>
+        <p><strong>Real support</strong><br />Engineers, not scripts</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="audio"}}" title="Shop Audio"><img src="{{media url="wysiwyg/electronics/tile-audio.webp"}}" alt="Audio" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Electronics/audio}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="computing"}}" title="Shop Computing"><img src="{{media url="wysiwyg/electronics/tile-computing.webp"}}" alt="Computing" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Electronics/computing}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="cameras"}}" title="Shop Cameras"><img src="{{media url="wysiwyg/electronics/tile-cameras.webp"}}" alt="Cameras" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Electronics/cameras}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="smart-home"}}" title="Shop Smart Home"><img src="{{media url="wysiwyg/electronics/tile-smart-home.webp"}}" alt="Smart Home" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Electronics/smart-home}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/electronics/editorial.webp"}}" alt="We test before we sell" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>We test before we sell</h2>
+        <p>Voltline started on a workbench. Every product still crosses one before it goes on the shelf: measured, torn down, used for a week.</p>
+        <p>If something fails our tests, it is not listed. If it fails yours, send it back.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Refurbished</span></p>
+                <h2 class="card-title">Certified refurbished</h2>
+                <p>Returned units, fully tested and re-boxed, with the same two-year warranty at a lower price.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="accessories"}}">See the deals</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="Tested and ready" category_id="{{category_id:Electronics/accessories}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The headphones came with a measurement chart. Nobody else does that.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Berlin</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Ordered a laptop at 5 pm, it was on my desk at 9 the next morning.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Support fixed my camera issue in one call. An actual engineer.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="wearables"}}" title="Shop Wearables"><img src="{{media url="wysiwyg/electronics/banner-a.webp"}}" alt="Shop Wearables" /></a></p>
+        <h3>Wearables</h3>
+        <p>Watches and trackers that last a week on a charge.</p>
+        <p><a class="btn btn-outline" href="{{store url="wearables"}}">Shop Wearables</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="accessories"}}" title="Shop Accessories"><img src="{{media url="wysiwyg/electronics/banner-b.webp"}}" alt="Shop Accessories" /></a></p>
+        <h3>Accessories</h3>
+        <p>Cables, chargers, stands and cases that outlast the device.</p>
+        <p><a class="btn btn-outline" href="{{store url="accessories"}}">Shop Accessories</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">Bench notes</h2>
+        <p style="text-align: center;">One email a month: what we tested, what passed, and what did not.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

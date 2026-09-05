@@ -1,0 +1,4 @@
+identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
+home,beauty,Glow Atelier,one_column,home.html,1,1,"Glow Atelier: cleansers, serums, moisturisers, body care and fragrance with short ingredient lists, made in small batches."
+about,beauty,About Glow Atelier,two_columns_left,about.html,1,0,
+customer-service,beauty,Customer Service,two_columns_left,customer-service.html,1,0,

@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="fiction"}}" title="Read something we would defend"><img src="{{media url="wysiwyg/books/hero-main.webp"}}" alt="Read something we would defend" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Staff picks</span></p>
+            <h1>Read something we would defend</h1>
+            <p>A short shelf, chosen one book at a time by people who read all day and still read at night.</p>
+            <p><a class="btn btn-primary" href="{{store url="fiction"}}">Shop Fiction</a> <a class="btn btn-ghost" href="{{store url="crime"}}">Shop Crime & Thrillers</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="science"}}" title="Shop Science & Nature"><img src="{{media url="wysiwyg/books/hero-side.webp"}}" alt="Shop Science & Nature" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Free delivery over 25</strong><br />Or collect in the shop</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="book" size="32"}}</p>
+        <p><strong>Signed copies</strong><br />When the author visits</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>Easy returns</strong><br />Fourteen days, unread</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="gift" size="32"}}</p>
+        <p><strong>Gift wrap</strong><br />Brown paper and string</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="fiction"}}" title="Shop Fiction"><img src="{{media url="wysiwyg/books/tile-fiction.webp"}}" alt="Fiction" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Books/fiction}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="crime"}}" title="Shop Crime & Thrillers"><img src="{{media url="wysiwyg/books/tile-crime.webp"}}" alt="Crime & Thrillers" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Books/crime}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="science"}}" title="Shop Science & Nature"><img src="{{media url="wysiwyg/books/tile-science.webp"}}" alt="Science & Nature" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Books/science}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="history"}}" title="Shop History"><img src="{{media url="wysiwyg/books/tile-history.webp"}}" alt="History" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Books/history}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/books/editorial.webp"}}" alt="A short shelf, on purpose" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>A short shelf, on purpose</h2>
+        <p>Folio opened with four hundred books and a rule: nothing goes on the shelf that one of us would not press into your hands.</p>
+        <p>We are still small. We still read everything. That is the point.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Book of the month</span></p>
+                <h2 class="card-title">The subscription</h2>
+                <p>One book a month, chosen for you after a short conversation about what you love and what you avoid.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="fiction"}}">Start with fiction</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="This month on the table" category_id="{{category_id:Books/fiction}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>They asked me three questions and sent the best novel I read all year.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Edinburgh</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The gift wrap is worth it alone. Brown paper, string, a card in real handwriting.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>My kids fight over the picture books. That is a compliment.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Cork</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="cooking"}}" title="Shop Cooking"><img src="{{media url="wysiwyg/books/banner-a.webp"}}" alt="Shop Cooking" /></a></p>
+        <h3>Cooking</h3>
+        <p>Cookbooks that get splashed.</p>
+        <p><a class="btn btn-outline" href="{{store url="cooking"}}">Shop Cooking</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="children"}}" title="Shop Children"><img src="{{media url="wysiwyg/books/banner-b.webp"}}" alt="Shop Children" /></a></p>
+        <h3>Children</h3>
+        <p>Picture books and first chapter books.</p>
+        <p><a class="btn btn-outline" href="{{store url="children"}}">Shop Children</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">The shelf letter</h2>
+        <p style="text-align: center;">A short note every other week: what we read, what we argued about, and what is coming in.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

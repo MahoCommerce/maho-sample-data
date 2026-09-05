@@ -1,0 +1,544 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/electronics/media/import",
+  "style": "Studio product photograph of a single electronic device on a plain white seamless background, soft even light, no reflections of people, no screen content, no text, no lettering, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "e-headphone-anc-black",
+      "prompt": "a pair of black over-ear wireless headphones",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-headphone-anc-silver",
+      "prompt": "a pair of silver over-ear wireless headphones",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-headphone-anc-green",
+      "prompt": "a pair of green over-ear wireless headphones",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-earbuds-black",
+      "prompt": "a pair of black wireless earbuds in an open charging case",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-earbuds-white",
+      "prompt": "a pair of white wireless earbuds in an open charging case",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-wired-iem",
+      "prompt": "a pair of wired in-ear monitors with a braided cable, coiled on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-speaker-bt-charcoal",
+      "prompt": "a small charcoal fabric-covered portable bluetooth speaker",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-speaker-bt-blue",
+      "prompt": "a small blue fabric-covered portable bluetooth speaker",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-speaker-bt-orange",
+      "prompt": "a small orange fabric-covered portable bluetooth speaker",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-bookshelf",
+      "prompt": "a pair of walnut veneer bookshelf speakers with black fabric grilles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-turntable",
+      "prompt": "a modern black belt-drive turntable with a walnut plinth",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-dac",
+      "prompt": "a tiny aluminium USB-C headphone amplifier dongle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-soundbar",
+      "prompt": "a slim black soundbar with a small subwoofer beside it",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-laptop-14",
+      "prompt": "a slim silver 14 inch laptop open at an angle with a dark blank screen",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-laptop-16",
+      "prompt": "a dark grey 16 inch laptop open at an angle with a dark blank screen",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-monitor-27",
+      "prompt": "a 27 inch monitor with thin bezels and a dark blank screen on a metal stand",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-monitor-34",
+      "prompt": "a curved 34 inch ultrawide monitor with a dark blank screen",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-keyboard-black",
+      "prompt": "a compact black mechanical keyboard with keycaps, top down view",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-keyboard-white",
+      "prompt": "a compact white mechanical keyboard with keycaps, top down view",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-keyboard-blue",
+      "prompt": "a compact blue mechanical keyboard with keycaps, top down view",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-mouse-black",
+      "prompt": "a black lightweight wireless gaming mouse",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-mouse-white",
+      "prompt": "a white lightweight wireless gaming mouse",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-dock",
+      "prompt": "a flat aluminium thunderbolt docking station with many ports",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-ssd",
+      "prompt": "a small rugged portable SSD drive with a rubber sleeve",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-webcam",
+      "prompt": "a small black 4K webcam with a privacy shutter on a monitor clip",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-camera-body",
+      "prompt": "a black full frame mirrorless camera body without a lens",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-lens-35",
+      "prompt": "a compact black 35mm prime camera lens standing upright",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-lens-85",
+      "prompt": "a large black 85mm portrait camera lens standing upright",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-lens-2470",
+      "prompt": "a black 24-70mm zoom camera lens standing upright",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-compact-cam",
+      "prompt": "a small silver and black compact camera",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-action-cam",
+      "prompt": "a small black waterproof action camera",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-tripod",
+      "prompt": "a folded carbon fibre travel tripod with a ball head",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-cam-bag-charcoal",
+      "prompt": "a small charcoal camera sling bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-cam-bag-khaki",
+      "prompt": "a small khaki camera sling bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-sd-card",
+      "prompt": "a single SD memory card standing upright",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-smart-bulb",
+      "prompt": "a single white smart LED bulb",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-smart-plug",
+      "prompt": "a small white smart plug adapter",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-smart-speaker-grey",
+      "prompt": "a round grey fabric smart speaker",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-smart-speaker-charcoal",
+      "prompt": "a round charcoal fabric smart speaker",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-doorbell",
+      "prompt": "a slim black video doorbell",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-thermostat",
+      "prompt": "a round white smart thermostat with a dial",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-sensor-kit",
+      "prompt": "a set of small white door sensors and motion sensors laid out",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-hub",
+      "prompt": "a small white square smart home hub",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-watch-black",
+      "prompt": "a black smart watch with a round face and a sport strap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-watch-silver",
+      "prompt": "a silver smart watch with a round face and a sport strap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-band-black",
+      "prompt": "a slim black fitness tracker band",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-band-blue",
+      "prompt": "a slim blue fitness tracker band",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-band-pink",
+      "prompt": "a slim pink fitness tracker band",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-ring-silver",
+      "prompt": "a silver titanium smart ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-ring-black",
+      "prompt": "a black titanium smart ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-watch-strap-brown",
+      "prompt": "a brown leather smart watch strap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-watch-strap-black",
+      "prompt": "a black leather smart watch strap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-charger-65",
+      "prompt": "a compact white USB-C wall charger",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-cable-c-black",
+      "prompt": "a coiled black braided USB-C cable",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-cable-c-grey",
+      "prompt": "a coiled grey braided USB-C cable",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-powerbank",
+      "prompt": "a slim dark grey power bank with a small display",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-laptop-stand",
+      "prompt": "a silver aluminium folding laptop stand",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-desk-mat-grey",
+      "prompt": "a grey felt desk mat rolled at one corner",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-desk-mat-green",
+      "prompt": "a green felt desk mat rolled at one corner",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-phone-case-black",
+      "prompt": "a slim black phone case seen from the back",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-phone-case-blue",
+      "prompt": "a slim blue phone case seen from the back",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-phone-case-green",
+      "prompt": "a slim green phone case seen from the back",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-screen-clean",
+      "prompt": "a small screen cleaning kit with a spray bottle and microfibre cloths",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-desk-kit",
+      "prompt": "a mechanical keyboard, a wireless mouse, a laptop stand and a felt desk mat arranged together",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "e-travel-kit",
+      "prompt": "a compact charger, a braided cable and a power bank in an open zip pouch",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/electronics",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A minimalist desk with a slim laptop, over-ear headphones and a mechanical keyboard, a single window light, dark wood. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Close up of black wireless earbuds in an open charging case on a slate surface. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A technician at a bench testing headphones with an audio analyser, seen from the side, warm lamp light. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small electronics workshop with shelves of labelled boxes, a soldering station and a window. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-audio",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "audio",
+      "dir": "packs/electronics/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Over-ear headphones resting on a walnut stand beside a small bookshelf speaker. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-computing",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "computing",
+      "dir": "packs/electronics/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A slim laptop open on a desk next to a large monitor and a mechanical keyboard, cool light. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-cameras",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "cameras",
+      "dir": "packs/electronics/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A mirrorless camera with a prime lens on a leather strap, laid on a wooden table with two extra lenses. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-smart-home",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "smart-home",
+      "dir": "packs/electronics/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A smart speaker and a smart bulb glowing warm on a bedside table. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-wearables",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "wearables",
+      "dir": "packs/electronics/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A smart watch with a black strap on a slate surface beside a fitness band. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-accessories",
+      "dir": "media/wysiwyg/electronics",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "accessories",
+      "dir": "packs/electronics/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A tidy flat lay of a braided cable, a compact charger and a laptop stand on dark wood. Wide banner composition. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-we-measure-headphones",
+      "dir": "media/blog/electronics",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Over-ear headphones on a measurement rig in a lab, with an analyser screen out of focus behind. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "why-local-first-smart-home",
+      "dir": "media/blog/electronics",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A smart home hub on a shelf with a bulb glowing warm beside it. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "one-lens-to-travel-with",
+      "dir": "media/blog/electronics",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A mirrorless camera with a small prime lens on a cafe table beside a coffee cup. Clean editorial technology photograph, dark oak and matte black surfaces, cool daylight, shallow depth of field, no screen content, no text, no lettering, no logos, no watermark."
+    }
+  ]
+}

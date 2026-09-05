@@ -1,0 +1,7 @@
+identifier,stores,title,content_file,is_active
+landing-toys,kids,Category landing: Toys,landing-toys.html,1
+landing-clothing,kids,Category landing: Clothing,landing-clothing.html,1
+landing-books,kids,Category landing: Books,landing-books.html,1
+landing-nursery,kids,Category landing: Nursery,landing-nursery.html,1
+landing-outdoor,kids,Category landing: Outdoor,landing-outdoor.html,1
+landing-gifts,kids,Category landing: Gifts,landing-gifts.html,1

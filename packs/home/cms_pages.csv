@@ -1,0 +1,4 @@
+identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
+home,home,Hearthstone,one_column,home.html,1,1,"Hearthstone: sofas, tables, bedding, ceramics and lighting from small workshops, made from solid wood and natural fibres."
+about,home,About Hearthstone,two_columns_left,about.html,1,0,
+customer-service,home,Customer Service,two_columns_left,customer-service.html,1,0,

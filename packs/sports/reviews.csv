@@ -1,0 +1,25 @@
+sku,store_code,nickname,title,detail,rating,created_at
+S-ROAD-SHOE,sports,Ada,Fits as described,The fitting notes were accurate. No blisters on a 30 km run.,5,2026-01-10 10:00:00
+S-RUN-JACKET,sports,Dev,"Good, sizing runs small",Quality is great. Go half a size up.,4,2026-04-10 10:00:00
+S-RUN-JACKET,sports,Elena,Survived a season,"Rain, mud, a hundred washes. Still going.",5,2026-04-11 10:00:00
+S-RUN-SOCKS,sports,Greta,"Returned, no questions",Did not suit my stride. Return was easy and fast.,4,2026-01-10 10:00:00
+S-JERSEY,sports,Jonas,Grip in the wet,Ran a rainy trail and never slipped.,5,2026-04-10 10:00:00
+S-JERSEY,sports,Kira,Bottle does not leak,Upside down in the bag all day. Dry bag.,5,2026-04-11 10:00:00
+S-GILET,sports,Maya,Light and warm,Packs into its own pocket and still cuts the wind.,5,2026-01-10 10:00:00
+S-BIKE-LIGHT,sports,Priya,Seams rubbed,Great shorts but a seam rubbed on long rides. Fine under 40 km.,3,2026-04-10 10:00:00
+S-BIKE-LIGHT,sports,Quinn,Mat stays put,"No sliding on a wooden floor, even in a sweaty class.",5,2026-04-11 10:00:00
+S-DUMBBELLS,sports,Ada,Zips froze,"Fine jacket, but the zip pulls are small with gloves on.",4,2026-01-10 10:00:00
+S-JUMP-ROPE,sports,Dev,Race day shoe,Saved it for the marathon. Personal best.,5,2026-04-10 10:00:00
+S-JUMP-ROPE,sports,Elena,Straps dig in,"Backpack carries well when full, straps dig when empty.",3,2026-04-11 10:00:00
+S-YOGA-MAT,sports,Greta,Socks that stay up,Finally. No slipping into the shoe at km ten.,5,2026-01-10 10:00:00
+S-STRAP,sports,Jonas,Heavier than listed,"Good bag, but 200 g over the stated weight on my scale.",3,2026-04-10 10:00:00
+S-STRAP,sports,Kira,Bright enough for night,The reflective panels light up like a sign.,5,2026-04-11 10:00:00
+S-HIKING-BOOT,sports,Maya,Wore through at the toe,"Six hundred kilometres, which is fair. Buying again.",4,2026-01-10 10:00:00
+S-SHELL,sports,Priya,Great for cold mornings,Thermal layer under a shell and I was warm at zero degrees.,5,2026-04-10 10:00:00
+S-SHELL,sports,Quinn,Ball holds pressure,"Pumped it in March, still firm in May.",5,2026-04-11 10:00:00
+S-HIKE-SOCKS,sports,Ada,Laces too long,Double knot needed. Otherwise a great shoe.,4,2026-01-10 10:00:00
+S-JAMMERS,sports,Dev,Kids team loves them,"Ordered twelve. All fit, all survived the season.",5,2026-04-10 10:00:00
+S-JAMMERS,sports,Elena,Watch strap is comfy,"Soft silicone, no sweat rash, easy to swap.",5,2026-04-11 10:00:00
+S-TOW-FLOAT,sports,Greta,Pockets in the right place,"Phone, key, gel. Nothing bounces.",5,2026-01-10 10:00:00
+S-GIFT-CARD,sports,Jonas,Faded after a summer,Colour went from navy to blue. Still works.,3,2026-04-10 10:00:00
+S-GIFT-CARD,sports,Kira,Delivered before the race,"Ordered Tuesday, raced Saturday. Thank you.",5,2026-04-11 10:00:00

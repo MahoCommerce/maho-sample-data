@@ -1,0 +1,592 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/kids/media/import",
+  "style": "Studio product photograph of a single childrens product on a plain white seamless background, bright soft light, cheerful colours, no people, no text, no lettering, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "k-stacker",
+      "prompt": "a wooden rainbow ring stacking toy",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-train",
+      "prompt": "a wooden train set with curved tracks and a small engine",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-blocks",
+      "prompt": "a pile of natural wooden building blocks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rabbit-grey",
+      "prompt": "a small grey felt rabbit soft toy",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rabbit-pink",
+      "prompt": "a small pink felt rabbit soft toy",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rabbit-oatmeal",
+      "prompt": "a small oatmeal felt rabbit soft toy",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-play-kitchen",
+      "prompt": "a small wooden childrens play kitchen",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-puzzle",
+      "prompt": "a chunky wooden puzzle with painted farm animals",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rattle",
+      "prompt": "a wooden ring rattle with small beads",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-doll",
+      "prompt": "a soft cotton doll with yarn hair and a striped dress",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-car-set",
+      "prompt": "three small painted wooden toy cars",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-marble-run",
+      "prompt": "a wooden marble run tower with glass marbles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-craft-kit",
+      "prompt": "an open craft box with coloured paper, wool and scissors",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-board-game",
+      "prompt": "a colourful illustrated board game box with wooden pieces",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-bodysuit-white",
+      "prompt": "three folded white baby bodysuits",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-bodysuit-oatmeal",
+      "prompt": "three folded oatmeal baby bodysuits",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-bodysuit-pink",
+      "prompt": "three folded pink baby bodysuits",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-sleepsuit",
+      "prompt": "a folded striped baby sleepsuit",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-leggings-grey",
+      "prompt": "two folded pairs of grey childrens leggings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-leggings-green",
+      "prompt": "two folded pairs of green childrens leggings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-leggings-salmon",
+      "prompt": "two folded pairs of salmon childrens leggings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-tee-blue",
+      "prompt": "a folded blue and white striped childrens t-shirt",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-tee-red",
+      "prompt": "a folded red and white striped childrens t-shirt",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-tee-green",
+      "prompt": "a folded green and white striped childrens t-shirt",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-dungarees-brown",
+      "prompt": "a pair of brown corduroy childrens dungarees laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-dungarees-green",
+      "prompt": "a pair of green corduroy childrens dungarees laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-dungarees-blue-dark",
+      "prompt": "a pair of blue dark corduroy childrens dungarees laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-cardigan-oatmeal",
+      "prompt": "a small oatmeal knitted childrens cardigan laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-cardigan-green",
+      "prompt": "a small green knitted childrens cardigan laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-cardigan-pink",
+      "prompt": "a small pink knitted childrens cardigan laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-dress",
+      "prompt": "a childrens pinafore dress with a small floral print laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-hoodie-grey",
+      "prompt": "a grey childrens hoodie laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-hoodie-blue-dark",
+      "prompt": "a blue dark childrens hoodie laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-hoodie-orange",
+      "prompt": "a orange childrens hoodie laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-jeans",
+      "prompt": "a pair of childrens soft blue jeans laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-socks",
+      "prompt": "five pairs of small colourful childrens socks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-hat-oatmeal",
+      "prompt": "a oatmeal childrens wide brim sun hat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-hat-blue",
+      "prompt": "a blue childrens wide brim sun hat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-hat-yellow",
+      "prompt": "a yellow childrens wide brim sun hat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-board-book",
+      "prompt": "four small colourful board books fanned out",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-picture-book",
+      "prompt": "a picture book with an illustrated cover of a small bird on a branch",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-bedtime-book",
+      "prompt": "a picture book with an illustrated cover of a moon over rooftops",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-first-reader",
+      "prompt": "a slim childrens book with an illustrated cover of a boy in wellies",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-atlas",
+      "prompt": "a large illustrated childrens atlas with a colourful map cover",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-cot",
+      "prompt": "a wooden convertible baby cot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-changing-table",
+      "prompt": "a wooden changing table with two shelves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rocker",
+      "prompt": "an oatmeal boucle rocking chair on wooden rockers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-mobile",
+      "prompt": "a felt baby mobile with clouds, a moon and small birds",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-shelf",
+      "prompt": "a low wooden front facing bookshelf for children",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-storage",
+      "prompt": "three grey felt storage boxes with wooden handles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-night-light",
+      "prompt": "a small white silicone rabbit night light glowing softly",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-muslins-white",
+      "prompt": "three folded white organic muslin squares",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-muslins-oatmeal",
+      "prompt": "three folded oatmeal organic muslin squares",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-muslins-green",
+      "prompt": "three folded green organic muslin squares",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-balance-bike-red",
+      "prompt": "a small red wooden balance bike",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-balance-bike-green",
+      "prompt": "a small green wooden balance bike",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-balance-bike-blue",
+      "prompt": "a small blue wooden balance bike",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-scooter-blue",
+      "prompt": "a small blue three wheel childrens scooter",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-scooter-pink",
+      "prompt": "a small pink three wheel childrens scooter",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-scooter-green",
+      "prompt": "a small green three wheel childrens scooter",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rain-suit-yellow",
+      "prompt": "a yellow childrens one piece rain suit laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-rain-suit-blue-dark",
+      "prompt": "a blue dark childrens one piece rain suit laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-wellies-yellow",
+      "prompt": "a pair of yellow childrens rubber wellington boots",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-wellies-green",
+      "prompt": "a pair of green childrens rubber wellington boots",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-wellies-red",
+      "prompt": "a pair of red childrens rubber wellington boots",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-helmet-blue",
+      "prompt": "a blue childrens bike helmet",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-helmet-pink",
+      "prompt": "a pink childrens bike helmet",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-helmet-green",
+      "prompt": "a green childrens bike helmet",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-sand-set",
+      "prompt": "a colourful childrens sand bucket and spade set",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-kite",
+      "prompt": "a colourful bird shaped kite",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-newborn-box",
+      "prompt": "an open gift box with a wooden rattle, muslins, bodysuits and board books",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-birthday-box",
+      "prompt": "an open gift box with a wooden puzzle, toy cars, a picture book and a sun hat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "k-gift-card",
+      "prompt": "a pale yellow gift card with a small bird illustration",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/kids",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A bright playroom with a wooden play kitchen, a pile of soft toys and a striped rug, a small child seen from behind. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of a wooden stacking toy with rainbow rings on a pale pink blanket. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A toymaker sanding a wooden toy car at a bench full of small painted parts. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small shop with wooden toys on low shelves and a rocking horse in the window. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/kids",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/kids",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-toys",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "toys",
+      "dir": "packs/kids/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Wooden toys, a stacking tower, a train and a felt rabbit on a pale wooden floor. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-clothing",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "clothing",
+      "dir": "packs/kids/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Small folded organic cotton clothes in pastel colours on a wooden shelf. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-books",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A low shelf of picture books with a small chair and a soft toy. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "books",
+      "dir": "packs/kids/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A low shelf of picture books with a small chair and a soft toy. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-nursery",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "nursery",
+      "dir": "packs/kids/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A calm nursery with a wooden cot, a mobile and a rocking chair in soft light. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-outdoor",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "outdoor",
+      "dir": "packs/kids/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A small wooden balance bike and yellow wellies by a garden gate after rain. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-gifts",
+      "dir": "media/wysiwyg/kids",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gifts",
+      "dir": "packs/kids/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A wrapped gift box with a wooden rattle and a small knitted toy beside it. Wide banner composition. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "toys-by-age-without-the-noise",
+      "dir": "media/blog/kids",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A low shelf with a few wooden toys arranged with space between them in a bright room. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-to-size-a-child",
+      "dir": "media/blog/kids",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A child measured against a wall with pencil marks, seen from behind. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "puddles-are-the-plan",
+      "dir": "media/blog/kids",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Yellow wellies jumping in a puddle on a garden path, low angle. Warm editorial photograph of a childrens room or garden, pale wood, soft pastel textiles, morning light, no faces visible, no readable text, no lettering, no logos, no watermark."
+    }
+  ]
+}

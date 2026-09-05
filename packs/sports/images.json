@@ -1,0 +1,634 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/sports/media/import",
+  "style": "Studio product photograph of a single sports product on a plain white seamless background, crisp even light, no people, no text, no lettering, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "s-road-shoe-blue",
+      "prompt": "a blue road running shoe seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-road-shoe-black",
+      "prompt": "a black road running shoe seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-road-shoe-orange",
+      "prompt": "a orange road running shoe seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-trail-shoe-green",
+      "prompt": "a green trail running shoe with deep lugs seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-trail-shoe-black",
+      "prompt": "a black trail running shoe with deep lugs seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-race-shoe",
+      "prompt": "a bright yellow lightweight racing shoe with a carbon plate",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-jacket-yellow",
+      "prompt": "a lightweight yellow running rain jacket laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-jacket-black",
+      "prompt": "a lightweight black running rain jacket laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-jacket-blue",
+      "prompt": "a lightweight blue running rain jacket laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-short-black",
+      "prompt": "a pair of black split running shorts laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-short-blue-dark",
+      "prompt": "a pair of blue dark split running shorts laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-short-green",
+      "prompt": "a pair of green split running shorts laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-tee-white",
+      "prompt": "a white technical running t-shirt laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-tee-black",
+      "prompt": "a black technical running t-shirt laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-tee-orange",
+      "prompt": "a orange technical running t-shirt laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-run-socks",
+      "prompt": "three pairs of grey and white running socks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-headlamp",
+      "prompt": "a small black rechargeable headlamp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-watch-strap",
+      "prompt": "a black stretch running belt",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-jersey-blue-dark",
+      "prompt": "a blue dark short sleeve cycling jersey laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-jersey-red",
+      "prompt": "a red short sleeve cycling jersey laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-jersey-white",
+      "prompt": "a white short sleeve cycling jersey laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bib-short",
+      "prompt": "a pair of black cycling bib shorts laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-helmet-white",
+      "prompt": "a white road cycling helmet seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-helmet-black",
+      "prompt": "a black road cycling helmet seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-helmet-red",
+      "prompt": "a red road cycling helmet seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-gilet-yellow",
+      "prompt": "a yellow lightweight cycling gilet laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-gilet-black",
+      "prompt": "a black lightweight cycling gilet laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-gloves",
+      "prompt": "a pair of black fingerless cycling gloves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bottle-black",
+      "prompt": "a black insulated cycling water bottle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bottle-white",
+      "prompt": "a white insulated cycling water bottle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bottle-blue",
+      "prompt": "a blue insulated cycling water bottle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bike-light",
+      "prompt": "a pair of small black bike lights, front and rear",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-pump",
+      "prompt": "a small aluminium bicycle mini pump",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-kettlebell",
+      "prompt": "a black cast iron kettlebell",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-dumbbells",
+      "prompt": "a pair of adjustable dumbbells on a stand",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bands",
+      "prompt": "five colourful resistance bands laid in a fan",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-bench",
+      "prompt": "a black folding weight bench",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-jump-rope",
+      "prompt": "a black speed jump rope coiled with steel handles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-gym-bag-black",
+      "prompt": "a black gym duffel bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-gym-bag-green",
+      "prompt": "a green gym duffel bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-training-tee-black",
+      "prompt": "a black boxy training t-shirt laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-training-tee-grey",
+      "prompt": "a grey boxy training t-shirt laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-training-tee-white",
+      "prompt": "a white boxy training t-shirt laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-yoga-mat",
+      "prompt": "a rolled cork yoga mat with a natural rubber base",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-rubber-mat-green",
+      "prompt": "a rolled green natural rubber yoga mat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-rubber-mat-charcoal",
+      "prompt": "a rolled charcoal natural rubber yoga mat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-rubber-mat-purple",
+      "prompt": "a rolled purple natural rubber yoga mat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-blocks",
+      "prompt": "two cork yoga blocks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-strap",
+      "prompt": "a rolled cotton yoga strap with a metal buckle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-roller",
+      "prompt": "a black textured foam roller",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-massage-ball",
+      "prompt": "a black massage ball and a peanut shaped massage ball",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-hiking-boot-brown",
+      "prompt": "a brown leather hiking boot seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-hiking-boot-charcoal",
+      "prompt": "a charcoal leather hiking boot seen from the side",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-hiking-shoe",
+      "prompt": "a grey and green low hiking shoe",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-daypack-green",
+      "prompt": "a green 25 litre hiking daypack",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-daypack-blue-dark",
+      "prompt": "a blue dark 25 litre hiking daypack",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-daypack-orange",
+      "prompt": "a orange 25 litre hiking daypack",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-shell-blue",
+      "prompt": "a blue hooded waterproof shell jacket laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-shell-red",
+      "prompt": "a red hooded waterproof shell jacket laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-shell-black",
+      "prompt": "a black hooded waterproof shell jacket laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-fleece-green",
+      "prompt": "a green grid fleece pullover laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-fleece-grey",
+      "prompt": "a grey grid fleece pullover laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-fleece-blue-dark",
+      "prompt": "a blue dark grid fleece pullover laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-poles",
+      "prompt": "a pair of folding carbon trekking poles with cork grips",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-hike-socks",
+      "prompt": "two pairs of grey merino hiking socks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-goggles-black",
+      "prompt": "a pair of black swimming goggles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-goggles-blue",
+      "prompt": "a pair of blue swimming goggles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-goggles-silver",
+      "prompt": "a pair of silver swimming goggles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-swimsuit-black",
+      "prompt": "a black one piece training swimsuit laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-swimsuit-blue-dark",
+      "prompt": "a blue dark one piece training swimsuit laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-jammers",
+      "prompt": "a pair of black swimming jammers laid flat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-swim-cap-black",
+      "prompt": "a black silicone swim cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-swim-cap-blue",
+      "prompt": "a blue silicone swim cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-swim-cap-pink",
+      "prompt": "a pink silicone swim cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-towel-blue",
+      "prompt": "a folded blue microfibre towel",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-towel-grey",
+      "prompt": "a folded grey microfibre towel",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-tow-float",
+      "prompt": "a bright orange inflatable swim tow float",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-home-gym",
+      "prompt": "a kettlebell, resistance bands, a jump rope and a rolled mat arranged together",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-recovery-kit",
+      "prompt": "a foam roller, two massage balls and a strap arranged together",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "s-gift-card",
+      "prompt": "a green gift card with a white stripe",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/sports",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A runner in a bright jacket on a wet coastal road at dawn, seen from behind, motion blur in the legs. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of running shoes on a wet running track with water droplets, low angle. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A group of cyclists climbing a mountain pass in the early morning, seen from the side. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small sports shop with a treadmill for gait analysis and shelves of running shoes. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/sports",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/sports",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-running",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "running",
+      "dir": "packs/sports/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A pair of trail running shoes on a rocky mountain path with a view over a valley at sunrise. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-cycling",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "cycling",
+      "dir": "packs/sports/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A road bike leaning against a stone wall on a mountain road, helmet on the bars. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-gym",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gym",
+      "dir": "packs/sports/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A kettlebell, a pair of dumbbells and a rolled mat on a wooden floor by a window. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-yoga",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "yoga",
+      "dir": "packs/sports/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A rolled cork yoga mat and two cork blocks on a wooden floor in a bright studio. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-hiking",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hiking",
+      "dir": "packs/sports/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A hiker with a small backpack on a ridge path above the clouds at sunrise. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-swimming",
+      "dir": "media/wysiwyg/sports",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "swimming",
+      "dir": "packs/sports/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Swimming goggles and a folded towel on the edge of an outdoor pool at dawn. Wide banner composition. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-we-fit-shoes-by-video",
+      "dir": "media/blog/sports",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A runner filmed from behind on a treadmill in a small shop with shoes on shelves. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "the-first-mountain-race",
+      "dir": "media/blog/sports",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Trail runners climbing a steep rocky path in the mountains with poles. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "a-week-of-training-one-room",
+      "dir": "media/blog/sports",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A small home gym corner with a kettlebell, bands and a mat by a window. Energetic editorial sports photograph, dawn light, wet asphalt or mountain trail, motion, no readable text, no lettering, no logos, no watermark."
+    }
+  ]
+}

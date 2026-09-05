@@ -1,0 +1,490 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/garden/media/import",
+  "style": "Studio product photograph of a single plant or garden product on a plain white seamless background, natural daylight, no people, no text, no lettering, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "n-monstera",
+      "prompt": "a monstera plant with split leaves in a plain terracotta pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-fern",
+      "prompt": "a lush boston fern in a terracotta pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-pilea",
+      "prompt": "a pilea plant with round leaves in a small terracotta pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-snake-plant",
+      "prompt": "a tall snake plant with upright striped leaves in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-ficus",
+      "prompt": "a fiddle leaf fig tree with large leaves in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-pothos",
+      "prompt": "a trailing golden pothos plant in a hanging pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-calathea",
+      "prompt": "a calathea plant with patterned leaves in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-olive-indoor",
+      "prompt": "a small olive tree with silver leaves in a terracotta pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-cactus-set",
+      "prompt": "three small cacti in tiny terracotta pots",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-lavender",
+      "prompt": "a lavender plant in bloom in a small pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-rosemary",
+      "prompt": "a rosemary plant in a small pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-hydrangea",
+      "prompt": "a hydrangea shrub with blue flowers in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-japanese-maple",
+      "prompt": "a small japanese maple tree with red leaves in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-grass",
+      "prompt": "a clump of ornamental fountain grass in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-fern-outdoor",
+      "prompt": "a hardy green fern in a plastic nursery pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-hosta",
+      "prompt": "a hosta plant with large blue green leaves in a pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-clematis",
+      "prompt": "a clematis vine with purple flowers on a small cane",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-tomato-seed",
+      "prompt": "a small paper seed packet with an illustration of a ribbed red tomato",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-bean-seed",
+      "prompt": "a small paper seed packet with an illustration of purple beans",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-lettuce-seed",
+      "prompt": "a small paper seed packet with an illustration of lettuce leaves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-sweet-pea",
+      "prompt": "a small paper seed packet with an illustration of sweet pea flowers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-wildflower",
+      "prompt": "a paper seed packet with an illustration of mixed wildflowers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-tulip-bulbs",
+      "prompt": "a dozen tulip bulbs in a paper bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-daffodil-bulbs",
+      "prompt": "a pile of daffodil bulbs in a paper bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-garlic",
+      "prompt": "three bulbs of seed garlic in a paper bag",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-terracotta",
+      "prompt": "a plain terracotta pot with a saucer",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-glazed-pot-green",
+      "prompt": "a green glazed stoneware plant pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-glazed-pot-white",
+      "prompt": "a white glazed stoneware plant pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-glazed-pot-blue",
+      "prompt": "a blue glazed stoneware plant pot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-zinc-planter",
+      "prompt": "a long zinc metal planter trough",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-hanging-pot",
+      "prompt": "a stoneware hanging plant pot on a jute macrame hanger",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-seed-tray",
+      "prompt": "three black seed trays with clear lids stacked",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-raised-bed",
+      "prompt": "a rectangular oak raised garden bed",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-compost",
+      "prompt": "a plain kraft paper bag of compost",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-spade",
+      "prompt": "a garden spade with a steel blade and an ash wood handle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-fork",
+      "prompt": "a garden fork with steel tines and an ash handle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-trowel",
+      "prompt": "a stainless steel hand trowel with a wooden handle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-secateurs",
+      "prompt": "a pair of red handled bypass secateurs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-watering-can-silver",
+      "prompt": "a silver galvanised metal watering can",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-watering-can-green",
+      "prompt": "a green galvanised metal watering can",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-gloves",
+      "prompt": "a pair of tan leather gardening gloves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-hoe",
+      "prompt": "a long handled dutch hoe",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-kneeler",
+      "prompt": "a green foam garden kneeling pad",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-tool-set",
+      "prompt": "a hand trowel, a hand fork and a dibber in a canvas roll",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-bench",
+      "prompt": "a solid oak garden bench",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-bistro-set-green",
+      "prompt": "a green folding steel bistro table with two chairs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-bistro-set-black",
+      "prompt": "a black folding steel bistro table with two chairs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-bistro-set-white",
+      "prompt": "a white folding steel bistro table with two chairs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-deck-chair",
+      "prompt": "a wooden deck chair with a striped canvas seat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-parasol-oatmeal",
+      "prompt": "a large canvas garden parasol with a wooden pole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-parasol-green",
+      "prompt": "a large canvas garden parasol with a wooden pole",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-fire-bowl",
+      "prompt": "a round rusted steel fire bowl",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-potting-bench",
+      "prompt": "a wooden potting bench with a zinc top",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-starter-kit",
+      "prompt": "seed packets, seed trays and a trowel arranged together",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-shade-set",
+      "prompt": "a fern and a hosta in pots beside a bag of compost",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "n-gift-card",
+      "prompt": "a green gift card with a leaf illustration",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/garden",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A sunlit greenhouse full of potted plants on wooden benches, terracotta pots and a watering can, morning light through the glass. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of hands potting a fern into a terracotta pot with dark compost. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Rows of young plants in a nursery polytunnel with a gardener watering, seen from the side. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small plant nursery with a glasshouse, potting benches and stacks of terracotta pots. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/garden",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/garden",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-houseplants",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "houseplants",
+      "dir": "packs/garden/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A group of houseplants in terracotta pots on a windowsill in morning light. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-outdoor-plants",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "outdoor-plants",
+      "dir": "packs/garden/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A border of lavender and grasses in a sunny garden with a gravel path. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-seeds",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "seeds",
+      "dir": "packs/garden/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Seed packets, a wooden dibber and a tray of seedlings on a potting bench. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-pots",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "pots",
+      "dir": "packs/garden/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A stack of terracotta pots of different sizes on a stone floor in sunlight. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-tools",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tools",
+      "dir": "packs/garden/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A row of garden tools with wooden handles hanging on a shed wall. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-furniture",
+      "dir": "media/wysiwyg/garden",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "furniture",
+      "dir": "packs/garden/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "An oak garden bench under a tree with dappled sunlight and a cup of tea on the arm. Wide banner composition. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "which-window",
+      "dir": "media/blog/garden",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Houseplants on a bright windowsill with morning sun through the glass. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "sowing-in-march",
+      "dir": "media/blog/garden",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Seed trays with small seedlings and wooden labels on a sunny potting bench. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "sharpen-your-tools",
+      "dir": "media/blog/garden",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A hand sharpening a spade blade with a file on a workbench in a shed. Lush editorial garden photograph, greenhouse glass, terracotta, morning dew, warm sunlight through leaves, no people, no readable text, no lettering, no logos, no watermark."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="cleansers"}}" title="Short lists, long results"><img src="{{media url="wysiwyg/beauty/hero-main.webp"}}" alt="Short lists, long results" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">New batch</span></p>
+            <h1>Short lists, long results</h1>
+            <p>Every formula fits on the front of the bottle. Made in batches of two hundred, dated by hand.</p>
+            <p><a class="btn btn-primary" href="{{store url="cleansers"}}">Shop Cleansers</a> <a class="btn btn-ghost" href="{{store url="serums"}}">Shop Serums</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="moisturisers"}}" title="Shop Moisturisers"><img src="{{media url="wysiwyg/beauty/hero-side.webp"}}" alt="Shop Moisturisers" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="leaf" size="32"}}</p>
+        <p><strong>Short ingredient lists</strong><br />Ten or fewer, on the front</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="flask" size="32"}}</p>
+        <p><strong>Small batches</strong><br />Dated and numbered</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>Return if it stings</strong><br />Even opened, thirty days</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="recycle" size="32"}}</p>
+        <p><strong>Refills</strong><br />Glass back, refill cheaper</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="cleansers"}}" title="Shop Cleansers"><img src="{{media url="wysiwyg/beauty/tile-cleansers.webp"}}" alt="Cleansers" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Beauty/cleansers}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="serums"}}" title="Shop Serums"><img src="{{media url="wysiwyg/beauty/tile-serums.webp"}}" alt="Serums" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Beauty/serums}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="moisturisers"}}" title="Shop Moisturisers"><img src="{{media url="wysiwyg/beauty/tile-moisturisers.webp"}}" alt="Moisturisers" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Beauty/moisturisers}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="body"}}" title="Shop Body"><img src="{{media url="wysiwyg/beauty/tile-body.webp"}}" alt="Body" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Beauty/body}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/beauty/editorial.webp"}}" alt="Made in a room you could visit" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>Made in a room you could visit</h2>
+        <p>Glow Atelier started with one cream and a list of ten ingredients. Everything since has kept the rule: if it does not fit on the front, it does not go in.</p>
+        <p>Batches are two hundred at a time, dated by hand, and shipped within the month.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Refill</span></p>
+                <h2 class="card-title">Bring the glass back</h2>
+                <p>Every bottle and jar has a refill at a lower price. Post the empty back, or drop it in the atelier.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="moisturisers"}}">See the refills</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="Refillable favourites" category_id="{{category_id:Beauty/moisturisers}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The vitamin C serum is the first that did not sting. My skin looks awake.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Amsterdam</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Ten ingredients on the front. I can finally read a label.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The fig perfume gets more compliments than anything I have owned.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="fragrance"}}" title="Shop Fragrance"><img src="{{media url="wysiwyg/beauty/banner-a.webp"}}" alt="Shop Fragrance" /></a></p>
+        <h3>Fragrance</h3>
+        <p>Small-batch scents in five notes or fewer.</p>
+        <p><a class="btn btn-outline" href="{{store url="fragrance"}}">Shop Fragrance</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="sets"}}" title="Shop Sets"><img src="{{media url="wysiwyg/beauty/banner-b.webp"}}" alt="Shop Sets" /></a></p>
+        <h3>Sets</h3>
+        <p>Routines and travel kits, boxed.</p>
+        <p><a class="btn btn-outline" href="{{store url="sets"}}">Shop Sets</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">Batch notes</h2>
+        <p style="text-align: center;">A note when a new batch lands: what changed, what did not, and a sample offer.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

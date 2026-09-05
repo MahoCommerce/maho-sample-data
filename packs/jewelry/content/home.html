@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="rings"}}" title="Small pieces, made slowly"><img src="{{media url="wysiwyg/jewelry/hero-main.webp"}}" alt="Small pieces, made slowly" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Made to order</span></p>
+            <h1>Small pieces, made slowly</h1>
+            <p>Recycled gold and silver, stones we can trace, and a workshop where every piece is finished by hand.</p>
+            <p><a class="btn btn-primary" href="{{store url="rings"}}">Shop Rings</a> <a class="btn btn-ghost" href="{{store url="necklaces"}}">Shop Necklaces</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="earrings"}}" title="Shop Earrings"><img src="{{media url="wysiwyg/jewelry/hero-side.webp"}}" alt="Shop Earrings" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="recycle" size="32"}}</p>
+        <p><strong>Recycled metals</strong><br />Every piece, every time</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="ruler" size="32"}}</p>
+        <p><strong>Free resizing</strong><br />Within a year of purchase</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="gift" size="32"}}</p>
+        <p><strong>Gift boxed</strong><br />Linen box, handwritten card</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="shield-check" size="32"}}</p>
+        <p><strong>Lifetime repair</strong><br />Bring it back, we fix it</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="rings"}}" title="Shop Rings"><img src="{{media url="wysiwyg/jewelry/tile-rings.webp"}}" alt="Rings" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Jewelry/rings}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="necklaces"}}" title="Shop Necklaces"><img src="{{media url="wysiwyg/jewelry/tile-necklaces.webp"}}" alt="Necklaces" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Jewelry/necklaces}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="earrings"}}" title="Shop Earrings"><img src="{{media url="wysiwyg/jewelry/tile-earrings.webp"}}" alt="Earrings" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Jewelry/earrings}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="bracelets"}}" title="Shop Bracelets"><img src="{{media url="wysiwyg/jewelry/tile-bracelets.webp"}}" alt="Bracelets" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Jewelry/bracelets}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/jewelry/editorial.webp"}}" alt="A bench, not a factory" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>A bench, not a factory</h2>
+        <p>Aurelie is three goldsmiths and a bench. Every piece is cast from recycled metal, set and polished by hand, and signed on the inside.</p>
+        <p>If it breaks, we fix it. If it no longer fits, we resize it. Jewelry should last longer than a season.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">New</span></p>
+                <h2 class="card-title">The pearl edit</h2>
+                <p>Freshwater pearls on gold chain, in five pieces that work together.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="necklaces"}}">See the edit</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="From the pearl edit" category_id="{{category_id:Jewelry/necklaces}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The ring came in a linen box with a note from the goldsmith who made it. It fits perfectly.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Lyon</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Resized my grandmothers ring for free, a year after I bought mine from them.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Small hoops I have not taken off in six months. Still bright.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="engagement"}}" title="Shop Engagement"><img src="{{media url="wysiwyg/jewelry/banner-a.webp"}}" alt="Shop Engagement" /></a></p>
+        <h3>Engagement</h3>
+        <p>Solitaires and vintage-style settings, made to order.</p>
+        <p><a class="btn btn-outline" href="{{store url="engagement"}}">Shop Engagement</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="gifts"}}" title="Shop Gifts"><img src="{{media url="wysiwyg/jewelry/banner-b.webp"}}" alt="Shop Gifts" /></a></p>
+        <h3>Gifts</h3>
+        <p>Sets and small pieces, boxed and ready.</p>
+        <p><a class="btn btn-outline" href="{{store url="gifts"}}">Shop Gifts</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">From the bench</h2>
+        <p style="text-align: center;">A note every month: new pieces, workshop days and the occasional sample sale.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

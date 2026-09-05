@@ -1,0 +1,7 @@
+identifier,stores,title,content_file,is_active
+landing-pantry,food,Category landing: Pantry,landing-pantry.html,1
+landing-bakery,food,Category landing: Bakery,landing-bakery.html,1
+landing-cheese-charcuterie,food,Category landing: Cheese & Charcuterie,landing-cheese-charcuterie.html,1
+landing-coffee-tea,food,Category landing: Coffee & Tea,landing-coffee-tea.html,1
+landing-drinks,food,Category landing: Drinks,landing-drinks.html,1
+landing-gift-boxes,food,Category landing: Gift Boxes,landing-gift-boxes.html,1

@@ -3,7 +3,7 @@ web/url/use_store,1,default,
 customer/account_share/scope,0,default,
 catalog/frontend/list_mode,grid,default,
 catalog/frontend/grid_per_page,12,default,
-catalog/frontend/grid_per_page_values,"12,24,36",default,
+catalog/frontend/grid_per_page_values,12,default,
 catalog/frontend/enable_addtocart_in_product_listings,0,default,
 catalog/recently_products/enabled_product_compare,0,default,
 catalog/recently_products/enabled_recently_viewed,0,default,
@@ -18,16 +18,16 @@ general/region/state_required,"AT,CA,CH,DE,EE,ES,FI,FR,LT,LV,RO,US",default,
 advanced/modules_disable_output/Mage_Backup,1,default,
 revocation/general/enabled,1,default,
 checkout/options/redirect_register,0,default,
-design/theme/default,,websites,hub
-general/store_information/name,Maho Demo,websites,hub
-design/head/default_title,Maho Demo,websites,hub
-design/header/logo_alt,Maho Demo,websites,hub
-design/footer/copyright,&copy; Maho Demo. All rights reserved.,websites,hub
-trans_email/ident_general/name,Maho Demo,websites,hub
-trans_email/ident_sales/name,Maho Demo,websites,hub
-trans_email/ident_support/name,Maho Demo,websites,hub
-web/default/cms_home_page,home,stores,hub
-sitemap/file/name,sitemap-hub.xml,stores,hub
+design/theme/default,,websites,base
+general/store_information/name,Maho Store,websites,base
+design/head/default_title,Maho Store,websites,base
+design/header/logo_alt,Maho Store,websites,base
+design/footer/copyright,&copy; Maho Store. All rights reserved.,websites,base
+trans_email/ident_general/name,Maho Store,websites,base
+trans_email/ident_sales/name,Maho Store,websites,base
+trans_email/ident_support/name,Maho Store,websites,base
+web/default/cms_home_page,home,stores,default
+sitemap/file/name,sitemap-store.xml,stores,default
 design/theme/default,fashion,websites,fashion
 general/store_information/name,Maison Maho,websites,fashion
 design/head/default_title,Maison Maho,websites,fashion
@@ -139,4 +139,4 @@ body.cms-home .main-container { padding-top: 0 }
 @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none } }
 @keyframes marquee { to { transform: translateX(-50%) } }
 </style>",websites,fashion
-design/tokens/custom_css,".hub { max-width: 80rem; margin: 0 auto; padding: 1.75rem 1.5rem 3rem; display: flex; flex-direction: column; gap: 2rem; color: var(--color-base-content, #1c2126); } .hub-top { display: flex; justify-content: center; } .hub-top img { height: 2.5rem; width: auto; } .hub-hero { position: relative; display: flex; align-items: flex-end; aspect-ratio: 16 / 5; overflow: hidden; border-radius: var(--radius-box, 1rem); background: #cfd6d9; } .hub-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; } .hub-hero p { position: relative; max-width: 40rem; margin: 1.5rem; padding: 1.5rem 1.75rem; border-radius: var(--radius-box, 1rem); background: rgba(255,255,255,0.92); font-size: 1.125rem; line-height: 1.5; text-wrap: pretty; } .hub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.875rem; } .hub-card { position: relative; display: block; aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--radius-box, 1rem); background: var(--color-base-200, #f6f6f5); text-decoration: none; transition: transform 0.15s; } .hub-card:hover { transform: translateY(-2px); } .hub-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; } .hub-card-name { position: absolute; inset: auto 0 0 0; padding: 2.5rem 1rem 0.75rem; background: linear-gradient(to top, rgba(255,255,255,0.96) 45%, rgba(255,255,255,0)); font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.15; color: var(--color-base-content, #1c2126); } .hub-note { font-size: 0.8125rem; color: #8a9299; } @media (max-width: 40rem) { .hub-hero { aspect-ratio: 4 / 3; } .hub-hero p { margin: 1rem; padding: 1rem 1.25rem; font-size: 1rem; } }",websites,hub
+design/tokens/custom_css,".hub { display: flex; flex-direction: column; gap: 2rem; color: var(--color-base-content, #1c2126); } .hub-hero { position: relative; display: flex; align-items: flex-end; aspect-ratio: 16 / 5; overflow: hidden; border-radius: var(--radius-box, 1rem); background: #cfd6d9; } .hub-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; } .hub-hero p { position: relative; max-width: 40rem; margin: 1.5rem; padding: 1.5rem 1.75rem; border-radius: var(--radius-box, 1rem); background: rgba(255,255,255,0.92); font-size: 1.125rem; line-height: 1.5; text-wrap: pretty; } .hub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.875rem; } .hub-card { position: relative; display: block; aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--radius-box, 1rem); background: var(--color-base-200, #f6f6f5); text-decoration: none; transition: transform 0.15s; } .hub-card:hover { transform: translateY(-2px); } .hub-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; } .hub-card-name { position: absolute; inset: auto 0 0 0; padding: 2.5rem 1rem 0.75rem; background: linear-gradient(to top, rgba(255,255,255,0.96) 45%, rgba(255,255,255,0)); font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.15; color: var(--color-base-content, #1c2126); } .hub-note { font-size: 0.8125rem; color: #8a9299; } @media (max-width: 40rem) { .hub-hero { aspect-ratio: 4 / 3; } .hub-hero p { margin: 1rem; padding: 1rem 1.25rem; font-size: 1rem; } }",websites,base

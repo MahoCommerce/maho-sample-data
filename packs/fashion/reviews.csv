@@ -1,25 +1,25 @@
-sku,store_code,nickname,title,detail,quality,value,price,created_at
-W-LINEN-SHIRT,fashion,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,5,4,2026-01-10 10:00:00
-W-WRAP-TOP,fashion,Dev,Solid basics,Does the job and looks good. Shipping was quick.,4,4,4,2026-04-10 10:00:00
-W-WRAP-TOP,fashion,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,5,5,2026-04-11 10:00:00
-W-STRAIGHT-JEAN,fashion,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,4,4,2026-01-10 10:00:00
-W-LINEN-DRESS,fashion,Jonas,My new favourite,"Comfortable, light and it goes with everything I own.",5,5,5,2026-04-10 10:00:00
-W-LINEN-DRESS,fashion,Kira,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,5,4,2026-04-11 10:00:00
-W-PLEAT-SKIRT,fashion,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,4,5,2026-01-10 10:00:00
-M-OXFORD-SHIRT,fashion,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,5,4,2026-04-10 10:00:00
-M-OXFORD-SHIRT,fashion,Ben,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,4,4,2026-04-11 10:00:00
-M-CREW-TEE,fashion,Dev,Solid basics,Does the job and looks good. Shipping was quick.,4,4,4,2026-01-10 10:00:00
-M-CARDIGAN,fashion,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,4,4,2026-04-10 10:00:00
-M-CARDIGAN,fashion,Hugo,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,4,5,2026-04-11 10:00:00
-M-SELVEDGE-JEAN,fashion,Jonas,My new favourite,"Comfortable, light and it goes with everything I own.",5,5,5,2026-01-10 10:00:00
-M-LINEN-BLAZER,fashion,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,4,5,2026-04-10 10:00:00
-M-LINEN-BLAZER,fashion,Noor,Solid basics,Does the job and looks good. Shipping was quick.,4,4,4,2026-04-11 10:00:00
-A-ROUND-SUN,fashion,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,5,4,2026-01-10 10:00:00
-A-READING,fashion,Dev,Solid basics,Does the job and looks good. Shipping was quick.,4,4,4,2026-04-10 10:00:00
-A-READING,fashion,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,5,5,2026-04-11 10:00:00
-A-HOOP-EAR,fashion,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,4,4,2026-01-10 10:00:00
-A-CANVAS-SNEAKER,fashion,Jonas,My new favourite,"Comfortable, light and it goes with everything I own.",5,5,5,2026-04-10 10:00:00
-A-CANVAS-SNEAKER,fashion,Kira,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,5,4,2026-04-11 10:00:00
-A-CHELSEA,fashion,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,4,5,2026-01-10 10:00:00
-A-TOTE,fashion,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,5,4,2026-04-10 10:00:00
-A-TOTE,fashion,Ben,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,4,4,2026-04-11 10:00:00
+sku,store_code,nickname,title,detail,rating,created_at
+W-LINEN-SHIRT,fashion,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
+W-WRAP-TOP,fashion,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
+W-WRAP-TOP,fashion,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
+W-STRAIGHT-JEAN,fashion,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
+W-LINEN-DRESS,fashion,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
+W-LINEN-DRESS,fashion,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
+W-PLEAT-SKIRT,fashion,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
+M-OXFORD-SHIRT,fashion,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,fashion,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
+M-CREW-TEE,fashion,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
+M-CARDIGAN,fashion,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
+M-CARDIGAN,fashion,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
+M-SELVEDGE-JEAN,fashion,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
+M-LINEN-BLAZER,fashion,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,fashion,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
+A-ROUND-SUN,fashion,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
+A-READING,fashion,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
+A-READING,fashion,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
+A-HOOP-EAR,fashion,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
+A-CANVAS-SNEAKER,fashion,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,fashion,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
+A-CHELSEA,fashion,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
+A-TOTE,fashion,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
+A-TOTE,fashion,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00

@@ -1,0 +1,430 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/food/media/import",
+  "style": "Studio product photograph of a single food item on a plain white seamless background, soft natural light, no text, no lettering, no logos, no watermark, centered with margin around it. Labels are plain kraft paper without writing.",
+  "images": [
+    {
+      "file": "f-olive-oil",
+      "prompt": "a tall dark glass bottle of extra virgin olive oil with a plain kraft label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-bronze-pasta",
+      "prompt": "a paper bag of dried rigatoni pasta with some pieces spilling out",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-spaghetti",
+      "prompt": "a paper bag of dried spaghetti with a bundle of spaghetti beside it",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-apricot-jam",
+      "prompt": "a glass jar of apricot jam with a plain kraft label and a gold lid",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-fig-jam",
+      "prompt": "a glass jar of dark fig jam with a plain kraft label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-honey",
+      "prompt": "a glass jar of golden wildflower honey with a wooden dipper beside it",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-tomato-passata",
+      "prompt": "a glass bottle of red tomato passata with a plain kraft label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-sea-salt",
+      "prompt": "a small wooden box of white flaky sea salt with the lid open",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-sourdough",
+      "prompt": "a round country sourdough loaf with a scored dark crust",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-baguette",
+      "prompt": "a single golden baguette",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-focaccia",
+      "prompt": "a square of rosemary focaccia with dimples and flaky salt",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-croissant",
+      "prompt": "six golden butter croissants in a paper tray",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-rye-loaf",
+      "prompt": "a dark seeded rye loaf sliced at one end",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-gf-loaf",
+      "prompt": "a rustic gluten free seed loaf on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-cinnamon-bun",
+      "prompt": "six twisted cardamom buns with pearl sugar in a paper tray",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-aged-cheddar",
+      "prompt": "a wedge of clothbound aged cheddar cheese",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-manchego",
+      "prompt": "a wedge of manchego cheese with its patterned rind",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-brie",
+      "prompt": "a whole round of brie cheese with a bloomy white rind, one slice cut out",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-pecorino",
+      "prompt": "a wedge of pecorino romano cheese with a black rind",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-jamon",
+      "prompt": "thin slices of iberico ham fanned on white paper",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-salami",
+      "prompt": "a whole fennel salami with a few slices cut",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-chorizo",
+      "prompt": "a horseshoe of cured chorizo sausage",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-olives",
+      "prompt": "a glass jar of mixed marinated olives with lemon peel",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-espresso",
+      "prompt": "a kraft paper bag of coffee beans with beans spilling out",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-ethiopia",
+      "prompt": "a kraft paper bag of light roast coffee beans",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-decaf",
+      "prompt": "a kraft paper bag of coffee beans with a small scoop",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-earl-grey",
+      "prompt": "a round tin of loose leaf black tea with the lid off",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-green-tea",
+      "prompt": "a round tin of green loose leaf tea with a wooden scoop",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-chamomile",
+      "prompt": "a glass jar of dried chamomile flowers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-hot-choc",
+      "prompt": "a glass jar of dark chocolate flakes",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-apple-juice",
+      "prompt": "a glass bottle of cloudy apple juice with a plain label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-lemonade",
+      "prompt": "a glass bottle of sparkling lemonade with a slice of lemon beside it",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-ginger-beer",
+      "prompt": "a brown glass bottle of ginger beer",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-kombucha",
+      "prompt": "a glass bottle of pink hibiscus kombucha",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-red-wine",
+      "prompt": "a bottle of red wine with a plain kraft label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-white-wine",
+      "prompt": "a bottle of white wine with a plain kraft label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-vermouth",
+      "prompt": "a bottle of dark red vermouth with a plain label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-oil-vinegar-set",
+      "prompt": "two glass bottles of olive oil and dark balsamic vinegar standing in an open wooden box",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-balsamic",
+      "prompt": "a small squat glass bottle of dark balsamic vinegar",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-breakfast-box",
+      "prompt": "an open wooden crate with croissants, a jar of honey, a jar of jam and a bag of coffee",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-cheese-box",
+      "prompt": "an open wooden crate with wedges of cheese and a jar of fig jam on straw",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-aperitivo-box",
+      "prompt": "an open wooden crate with a bottle of vermouth, a jar of olives and a salami on straw",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-taralli",
+      "prompt": "a paper bag of small ring shaped taralli crackers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-almonds",
+      "prompt": "a glass jar of roasted marcona almonds",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-dark-choc",
+      "prompt": "a dark chocolate bar half unwrapped from plain paper",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "f-granola",
+      "prompt": "a glass jar of granola with pecans",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/food",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A long farmhouse table laid with sourdough loaves, a wedge of aged cheese, tomatoes on the vine and a bottle of olive oil, morning light through a barn door. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A ceramic bowl of fresh pasta dusted with flour beside a small pile of eggs on a wooden board. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A farmer holding a crate of vegetables at the edge of a field at sunrise, seen from the side. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small stone kitchen with copper pots, a wood-fired oven and a table of jars of preserves. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/food",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/food",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-pantry",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "pantry",
+      "dir": "packs/food/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A pantry shelf with bottles of olive oil, jars of jam and bags of pasta in soft light. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-bakery",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "bakery",
+      "dir": "packs/food/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A wooden counter with sourdough loaves, croissants and a focaccia fresh from a stone oven. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-cheese-charcuterie",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "cheese-charcuterie",
+      "dir": "packs/food/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A slate board with wedges of aged cheese, sliced cured ham and a bunch of grapes. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-coffee-tea",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "coffee-tea",
+      "dir": "packs/food/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A pour-over coffee setup with a bag of beans and a tin of loose tea on a wooden counter. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-drinks",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "drinks",
+      "dir": "packs/food/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Glass bottles of juice and craft soda on a marble counter with sliced citrus, backlit by a window. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-gift-boxes",
+      "dir": "media/wysiwyg/food",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gift-boxes",
+      "dir": "packs/food/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "An open wooden gift crate filled with jars, a bottle of oil, cheese and a loaf, tied with twine. Wide banner composition. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-to-taste-olive-oil",
+      "dir": "media/blog/food",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A small glass of green olive oil on a wooden table with a spoon and a sprig of olive leaves. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "a-cheese-board-for-four",
+      "dir": "media/blog/food",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A cheese board with three cheeses, fig jam, cornichons and slices of bread, seen from above. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "sourdough-day-two",
+      "dir": "media/blog/food",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Thick slices of toasted sourdough with olive oil and salt on a wooden board. Warm editorial food photograph, rustic wooden surfaces, natural window light, shallow depth of field, no text, no lettering, no logos, no watermark."
+    }
+  ]
+}

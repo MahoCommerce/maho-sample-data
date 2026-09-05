@@ -1,0 +1,616 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/home/media/import",
+  "style": "Studio product photograph of a single piece of furniture or home object on a plain white seamless background, soft daylight, slight shadow, no people, no text, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "h-dining-table-oak",
+      "prompt": "a solid oak dining table with tapered legs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-dining-table-walnut",
+      "prompt": "a solid oak dining table with tapered legs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-coffee-table-oak",
+      "prompt": "a round oak wood coffee table with three legs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-coffee-table-ash",
+      "prompt": "a round ash wood coffee table with three legs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-side-table",
+      "prompt": "a small oak side table with one drawer",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bookcase",
+      "prompt": "a tall pale ash wood bookcase with five shelves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-desk",
+      "prompt": "an oak desk with a single drawer",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-dining-chair-oatmeal",
+      "prompt": "an ash wood dining chair with a woven paper cord seat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-dining-chair-black",
+      "prompt": "an ash wood dining chair with a woven paper cord seat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bench",
+      "prompt": "a long solid oak bench",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-wardrobe",
+      "prompt": "a two door pale ash wardrobe with brass handles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bed-frame",
+      "prompt": "a low oak platform bed frame with a slatted base",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-sofa-3-oatmeal",
+      "prompt": "a oatmeal linen three seat sofa with deep cushions",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-sofa-3-grey",
+      "prompt": "a grey linen three seat sofa with deep cushions",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-sofa-3-green",
+      "prompt": "a green linen three seat sofa with deep cushions",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-sofa-2-oatmeal",
+      "prompt": "a oatmeal linen two seat sofa",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-sofa-2-grey",
+      "prompt": "a grey linen two seat sofa",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-armchair-ivory",
+      "prompt": "a ivory boucle wool armchair on oak legs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-armchair-charcoal",
+      "prompt": "a charcoal boucle wool armchair on oak legs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-stool",
+      "prompt": "a three legged oak stool",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-floor-cushion-oatmeal",
+      "prompt": "a large oatmeal linen floor cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-floor-cushion-green",
+      "prompt": "a large green linen floor cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-floor-cushion-blue-dark",
+      "prompt": "a large blue dark linen floor cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-ottoman",
+      "prompt": "an oatmeal linen ottoman footstool",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-linen-sheets-white",
+      "prompt": "a folded stack of white stonewashed linen sheets",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-linen-sheets-oatmeal",
+      "prompt": "a folded stack of oatmeal stonewashed linen sheets",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-linen-sheets-grey",
+      "prompt": "a folded stack of grey stonewashed linen sheets",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-linen-sheets-blue-dark",
+      "prompt": "a folded stack of blue dark stonewashed linen sheets",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-duvet-cover-white",
+      "prompt": "a folded white linen duvet cover",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-duvet-cover-oatmeal",
+      "prompt": "a folded oatmeal linen duvet cover",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-duvet-cover-green",
+      "prompt": "a folded green linen duvet cover",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-wool-blanket-grey",
+      "prompt": "a folded grey merino wool blanket with fringed edges",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-wool-blanket-oatmeal",
+      "prompt": "a folded oatmeal merino wool blanket with fringed edges",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-wool-blanket-green",
+      "prompt": "a folded green merino wool blanket with fringed edges",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-pillow",
+      "prompt": "a plump white pillow",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-duvet",
+      "prompt": "a folded white wool duvet",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-mattress-topper",
+      "prompt": "a folded white wool mattress topper",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-plates-white",
+      "prompt": "a stack of four white stoneware dinner plates",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-plates-grey",
+      "prompt": "a stack of four grey stoneware dinner plates",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-plates-green",
+      "prompt": "a stack of four green stoneware dinner plates",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bowls-white",
+      "prompt": "a stack of four white stoneware bowls",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bowls-grey",
+      "prompt": "a stack of four grey stoneware bowls",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-mugs",
+      "prompt": "two stoneware mugs with a speckled glaze",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-glasses",
+      "prompt": "six clear hand blown glass tumblers",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-carafe",
+      "prompt": "a clear glass carafe with an oak stopper",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-board",
+      "prompt": "a long oak serving board with a leather loop",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-napkins-oatmeal",
+      "prompt": "four folded oatmeal linen napkins",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-napkins-white",
+      "prompt": "four folded white linen napkins",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-napkins-green",
+      "prompt": "four folded green linen napkins",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-cutlery",
+      "prompt": "a brushed stainless steel cutlery set laid out",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-pendant",
+      "prompt": "a round white paper pendant lamp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-table-lamp-white",
+      "prompt": "a white ceramic table lamp with a linen shade",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-table-lamp-green",
+      "prompt": "a green ceramic table lamp with a linen shade",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-table-lamp-charcoal",
+      "prompt": "a charcoal ceramic table lamp with a linen shade",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-floor-lamp",
+      "prompt": "an oak tripod floor lamp with a linen drum shade",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-wall-light",
+      "prompt": "a small brass adjustable wall reading light",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-rattan-pendant",
+      "prompt": "a hand woven rattan pendant lamp shade",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-candle-holder",
+      "prompt": "three brass candle holders of different heights",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-vase-white",
+      "prompt": "a tall white matte stoneware vase",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-vase-charcoal",
+      "prompt": "a tall charcoal matte stoneware vase",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-vase-green",
+      "prompt": "a tall green matte stoneware vase",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-mirror",
+      "prompt": "a round mirror in a thin oak frame",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-basket",
+      "prompt": "a large woven rattan basket with handles",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-rug-oatmeal",
+      "prompt": "a flat woven oatmeal wool rug rolled at one end",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-rug-grey",
+      "prompt": "a flat woven grey wool rug rolled at one end",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-cushion-oatmeal",
+      "prompt": "a oatmeal linen cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-cushion-green",
+      "prompt": "a green linen cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-cushion-blue-dark",
+      "prompt": "a blue dark linen cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-cushion-salmon",
+      "prompt": "a salmon linen cushion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-throw-white",
+      "prompt": "a folded white waffle weave cotton throw",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-throw-grey",
+      "prompt": "a folded grey waffle weave cotton throw",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-throw-green",
+      "prompt": "a folded green waffle weave cotton throw",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-hooks",
+      "prompt": "three round oak wall hooks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bath-mat",
+      "prompt": "a folded white cotton bath mat",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-table-set",
+      "prompt": "an oak dining table with four ash chairs",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-bed-set",
+      "prompt": "a made bed with white linen sheets and two pillows",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "h-gift-card",
+      "prompt": "a cream gift card on an oak surface",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/home",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A bright living room with a linen sofa, an oak coffee table, a wool throw and a ceramic vase of dried grass, morning light. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of a stoneware mug and a folded linen napkin on an oak table. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A woodworker sanding an oak table top in a workshop full of daylight and sawdust. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small furniture workshop with hand tools on a pegboard and stacked planks of oak. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/home",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/home",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-furniture",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "furniture",
+      "dir": "packs/home/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "An oak dining table with four ash chairs in a bright room with a large window. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-seating",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "seating",
+      "dir": "packs/home/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A linen sofa with wool cushions beside a floor lamp in a calm living room. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-bedding",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "bedding",
+      "dir": "packs/home/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "An unmade bed with rumpled white linen sheets and a grey wool blanket in morning light. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-kitchen",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "kitchen",
+      "dir": "packs/home/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A wooden table set with stoneware plates, linen napkins and hand blown glasses. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-lighting",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "lighting",
+      "dir": "packs/home/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A paper pendant lamp glowing warm above a wooden side table in the evening. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-decor",
+      "dir": "media/wysiwyg/home",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "decor",
+      "dir": "packs/home/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A stoneware vase with dried grass, a round brass mirror and a rattan basket on an oak console. Wide banner composition. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "caring-for-oiled-wood",
+      "dir": "media/blog/home",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A hand rubbing oil into an oak table top with a cloth, in a sunlit workshop. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "why-linen-wrinkles",
+      "dir": "media/blog/home",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Rumpled white linen sheets on a bed in soft morning light, close up. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "room-of-choice-explained",
+      "dir": "media/blog/home",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Two delivery people carrying a wrapped sofa through a bright doorway. Calm editorial interior photograph, oak floors, white walls, linen and wool textures, soft daylight from a large window, no people, no text, no lettering, no logos, no watermark."
+    }
+  ]
+}

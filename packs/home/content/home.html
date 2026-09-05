@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="furniture"}}" title="A calm home, made slowly"><img src="{{media url="wysiwyg/home/hero-main.webp"}}" alt="A calm home, made slowly" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">New collection</span></p>
+            <h1>A calm home, made slowly</h1>
+            <p>Solid wood, natural fibres and workshops we visit. Furniture that gets repaired, not replaced.</p>
+            <p><a class="btn btn-primary" href="{{store url="furniture"}}">Shop Furniture</a> <a class="btn btn-ghost" href="{{store url="seating"}}">Shop Seating</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="bedding"}}" title="Shop Bedding"><img src="{{media url="wysiwyg/home/hero-side.webp"}}" alt="Shop Bedding" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Room-of-choice delivery</strong><br />Two people, assembled</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="tool" size="32"}}</p>
+        <p><strong>Repair service</strong><br />Ten years, parts and labour</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>100-day trial</strong><br />On sofas and mattresses</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="tree" size="32"}}</p>
+        <p><strong>Certified timber</strong><br />Every board traced</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="furniture"}}" title="Shop Furniture"><img src="{{media url="wysiwyg/home/tile-furniture.webp"}}" alt="Furniture" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Home/furniture}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="seating"}}" title="Shop Seating"><img src="{{media url="wysiwyg/home/tile-seating.webp"}}" alt="Seating" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Home/seating}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="bedding"}}" title="Shop Bedding"><img src="{{media url="wysiwyg/home/tile-bedding.webp"}}" alt="Bedding" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Home/bedding}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="kitchen"}}" title="Shop Kitchen & Dining"><img src="{{media url="wysiwyg/home/tile-kitchen.webp"}}" alt="Kitchen & Dining" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Home/kitchen}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/home/editorial.webp"}}" alt="We visit every workshop" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>We visit every workshop</h2>
+        <p>Hearthstone works with fourteen workshops, from a chair maker in the hills to a weaving mill by the coast. We visit each one every year.</p>
+        <p>Every piece is designed to be repaired: oiled finishes, zipped covers, joints that come apart.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Outlet</span></p>
+                <h2 class="card-title">Showroom pieces</h2>
+                <p>Ex-display furniture with small marks and a large discount, delivered the same way.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="furniture"}}">See the outlet</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="From the showroom" category_id="{{category_id:Home/furniture}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The oak table arrived assembled, carried to the room, and the box taken away. Perfect.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Munich</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Replaced a sofa cushion cover after four years. Same fabric, one week.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The linen sheets get softer every wash. Third winter.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="lighting"}}" title="Shop Lighting"><img src="{{media url="wysiwyg/home/banner-a.webp"}}" alt="Shop Lighting" /></a></p>
+        <h3>Lighting</h3>
+        <p>Lamps and pendants with warm bulbs included.</p>
+        <p><a class="btn btn-outline" href="{{store url="lighting"}}">Shop Lighting</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="decor"}}" title="Shop Decor"><img src="{{media url="wysiwyg/home/banner-b.webp"}}" alt="Shop Decor" /></a></p>
+        <h3>Decor</h3>
+        <p>Vases, mirrors, baskets and rugs.</p>
+        <p><a class="btn btn-outline" href="{{store url="decor"}}">Shop Decor</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">From the workshops</h2>
+        <p style="text-align: center;">One letter a month: new pieces, workshop visits and the outlet before it goes public.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

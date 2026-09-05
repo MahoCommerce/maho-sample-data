@@ -1,0 +1,4 @@
+identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
+home,books,Folio,one_column,home.html,1,1,"Folio: new fiction, crime, science, history, cookbooks and childrens books, chosen one at a time by booksellers."
+about,books,About Folio,two_columns_left,about.html,1,0,
+customer-service,books,Customer Service,two_columns_left,customer-service.html,1,0,

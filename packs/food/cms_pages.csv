@@ -1,0 +1,4 @@
+identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
+home,food,Harvest & Hearth,one_column,home.html,1,1,"Harvest & Hearth: olive oil, pasta, cheese, coffee and drinks from small producers, delivered fresh."
+about,food,About Harvest & Hearth,two_columns_left,about.html,1,0,
+customer-service,food,Customer Service,two_columns_left,customer-service.html,1,0,

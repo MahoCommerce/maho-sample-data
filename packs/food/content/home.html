@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="pantry"}}" title="From the farm, to the table, this week"><img src="{{media url="wysiwyg/food/hero-main.webp"}}" alt="From the farm, to the table, this week" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">New harvest</span></p>
+            <h1>From the farm, to the table, this week</h1>
+            <p>Olive oil pressed in November, bread baked at four, cheese cut this morning. We ship what is in season and nothing else.</p>
+            <p><a class="btn btn-primary" href="{{store url="pantry"}}">Shop Pantry</a> <a class="btn btn-ghost" href="{{store url="bakery"}}">Shop Bakery</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="cheese-charcuterie"}}" title="Shop Cheese & Charcuterie"><img src="{{media url="wysiwyg/food/hero-side.webp"}}" alt="Shop Cheese & Charcuterie" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Cold-chain delivery</strong><br />Fresh goods travel chilled</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="leaf" size="32"}}</p>
+        <p><strong>Small producers</strong><br />Every maker named on the label</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>Freshness promise</strong><br />Not happy, full refund</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="headset" size="32"}}</p>
+        <p><strong>Real people</strong><br />Chat with the kitchen, weekdays</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="pantry"}}" title="Shop Pantry"><img src="{{media url="wysiwyg/food/tile-pantry.webp"}}" alt="Pantry" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Food/pantry}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="bakery"}}" title="Shop Bakery"><img src="{{media url="wysiwyg/food/tile-bakery.webp"}}" alt="Bakery" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Food/bakery}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="cheese-charcuterie"}}" title="Shop Cheese & Charcuterie"><img src="{{media url="wysiwyg/food/tile-cheese-charcuterie.webp"}}" alt="Cheese & Charcuterie" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Food/cheese-charcuterie}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="coffee-tea"}}" title="Shop Coffee & Tea"><img src="{{media url="wysiwyg/food/tile-coffee-tea.webp"}}" alt="Coffee & Tea" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Food/coffee-tea}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/food/editorial.webp"}}" alt="We buy from people, not warehouses" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>We buy from people, not warehouses</h2>
+        <p>Harvest & Hearth started as a market stall with three producers. Today there are forty, and we still visit every one of them each year.</p>
+        <p>If a harvest is short, the shelf is short. That is the deal, and it is why the food tastes the way it does.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Weekly box</span></p>
+                <h2 class="card-title">The market box</h2>
+                <p>Six seasonal items picked by the kitchen every Monday, at a price under the shelf total.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="gift-boxes"}}">See the boxes</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="This week in the box" category_id="{{category_id:Food/gift-boxes}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The olive oil is the best I have had outside Puglia. Peppery, green, alive.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Bristol</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Bread arrived the next morning and was still crackly. I did not think that was possible.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The gift crate made my mother cry. Good tears.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Dublin</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="drinks"}}" title="Shop Drinks"><img src="{{media url="wysiwyg/food/banner-a.webp"}}" alt="Shop Drinks" /></a></p>
+        <h3>Drinks</h3>
+        <p>Craft sodas, juices, wine and spirits from small producers.</p>
+        <p><a class="btn btn-outline" href="{{store url="drinks"}}">Shop Drinks</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="gift-boxes"}}" title="Shop Gift Boxes"><img src="{{media url="wysiwyg/food/banner-b.webp"}}" alt="Shop Gift Boxes" /></a></p>
+        <h3>Gift Boxes</h3>
+        <p>Curated boxes for tables, birthdays and thank-yous.</p>
+        <p><a class="btn btn-outline" href="{{store url="gift-boxes"}}">Shop Gift Boxes</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">What is in season</h2>
+        <p style="text-align: center;">One note a week: what arrived, what is ripe, and a recipe from the kitchen.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

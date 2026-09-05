@@ -1,0 +1,388 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/beauty/media/import",
+  "style": "Studio product photograph of a single cosmetic bottle or jar on a plain white seamless background, frosted glass and matte caps, plain label without text, soft even light, no text, no lettering, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "g-cleanse-balm",
+      "prompt": "a frosted glass jar of pale yellow cleansing balm with a matte white lid",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-gel-cleanser",
+      "prompt": "a frosted glass pump bottle of clear gel cleanser",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-cleanse-oil",
+      "prompt": "a clear glass pump bottle of golden cleansing oil",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-micellar",
+      "prompt": "a clear glass bottle of micellar water with a flip cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-exfoliant",
+      "prompt": "a small frosted glass jar of fine pale powder",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-face-cloth",
+      "prompt": "three folded white muslin face cloths stacked",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-vit-c",
+      "prompt": "a dark amber glass dropper bottle with a white label",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-ha-serum",
+      "prompt": "a clear glass dropper bottle with a clear gel serum",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-retinal",
+      "prompt": "a dark blue glass dropper bottle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-niacinamide",
+      "prompt": "a frosted glass dropper bottle with a light milky serum",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-peptide",
+      "prompt": "a white glass pump bottle with a slim silver cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-eye-serum",
+      "prompt": "a small glass tube with a steel rollerball applicator",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-day-cream",
+      "prompt": "a frosted glass jar of light white cream with a bamboo lid",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-night-cream",
+      "prompt": "a frosted glass jar of rich white cream",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-light-lotion",
+      "prompt": "a frosted glass pump bottle of light lotion",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-balm",
+      "prompt": "a small aluminium tin of pale balm with the lid off",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-face-oil",
+      "prompt": "a small amber glass dropper bottle of golden face oil",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-face-mist",
+      "prompt": "a frosted glass spray bottle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-body-wash",
+      "prompt": "a frosted glass pump bottle of body wash",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-body-oil",
+      "prompt": "a clear glass bottle of body oil with a wooden cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-hand-cream",
+      "prompt": "an aluminium tube of hand cream with a white cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-body-cream",
+      "prompt": "a wide frosted glass jar of white body cream",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-soap-bar",
+      "prompt": "a bar of pale handmade soap with a rough edge",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-deodorant",
+      "prompt": "a small glass jar of white cream deodorant with a bamboo lid",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-lip-balm",
+      "prompt": "a small paper tube lip balm",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-edp-fig",
+      "prompt": "a small square glass perfume bottle with a wooden cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-edp-neroli",
+      "prompt": "a small round glass perfume bottle with a white cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-edp-cedar",
+      "prompt": "a tall dark glass perfume bottle with a black cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-solid-scent",
+      "prompt": "a small brass tin of solid perfume with the lid open",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-room-mist",
+      "prompt": "a frosted glass spray bottle with a wooden cap",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-candle",
+      "prompt": "a soy candle in a frosted glass with a wooden lid",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-discovery",
+      "prompt": "three small glass sample vials in a slim box",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-am-routine",
+      "prompt": "three frosted glass skincare products arranged in a row on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-pm-routine",
+      "prompt": "a jar, a dropper bottle and a cream jar arranged on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-travel-kit",
+      "prompt": "five small frosted travel bottles in an open linen pouch",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-hand-set",
+      "prompt": "a hand cream tube, a small tin and a nail oil bottle in an open box",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-headband",
+      "prompt": "a white cotton terry spa headband",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-gua-sha",
+      "prompt": "a green jade gua sha stone",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "g-gift-card",
+      "prompt": "a pale pink gift card with a gold edge",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/beauty",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "Frosted glass skincare bottles and a ceramic dish with a sprig of eucalyptus on pale marble, soft morning light, water droplets. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of a hand holding a small glass dropper bottle with golden serum against a soft pink background. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A person in a white apron blending cream in a small lab with glass beakers and dried botanicals. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small bright workshop with shelves of amber glass bottles and drying herbs. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A small glass perfume bottle with a wooden cap on marble beside dried flowers. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A linen pouch with small travel size bottles spilling out on a pale surface. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-cleansers",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A frosted glass bottle of cleanser and a folded white face cloth on marble with a citrus slice. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "cleansers",
+      "dir": "packs/beauty/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A frosted glass bottle of cleanser and a folded white face cloth on marble with a citrus slice. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-serums",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Three small glass dropper bottles with pale gold serum on a pale pink surface. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "serums",
+      "dir": "packs/beauty/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Three small glass dropper bottles with pale gold serum on a pale pink surface. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-moisturisers",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A frosted glass jar of white cream with the lid beside it on linen. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "moisturisers",
+      "dir": "packs/beauty/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A frosted glass jar of white cream with the lid beside it on linen. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-body",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A bottle of body oil and a bar of soap on a wooden bath tray with a linen towel. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "body",
+      "dir": "packs/beauty/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A bottle of body oil and a bar of soap on a wooden bath tray with a linen towel. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-fragrance",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small glass perfume bottle with a wooden cap on marble beside dried flowers. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "fragrance",
+      "dir": "packs/beauty/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A small glass perfume bottle with a wooden cap on marble beside dried flowers. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-sets",
+      "dir": "media/wysiwyg/beauty",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A linen pouch with small travel size bottles spilling out on a pale surface. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "sets",
+      "dir": "packs/beauty/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A linen pouch with small travel size bottles spilling out on a pale surface. Wide banner composition. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "the-order-of-a-routine",
+      "dir": "media/blog/beauty",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Skincare bottles lined up in order of use on a marble shelf in soft light. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "why-ten-ingredients",
+      "dir": "media/blog/beauty",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A hand holding a frosted glass jar with a short handwritten style ingredient label, blurred background. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-to-refill",
+      "dir": "media/blog/beauty",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Empty frosted glass jars in a wooden crate on a workshop counter. Soft editorial beauty photograph, pale marble and linen surfaces, morning light, a sprig of eucalyptus or a citrus slice, shallow depth of field, no text, no lettering, no logos, no watermark."
+    }
+  ]
+}

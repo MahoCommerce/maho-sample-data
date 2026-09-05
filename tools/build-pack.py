@@ -194,6 +194,10 @@ def build(spec_path):
             cats.append(dict(root=S.ROOT, path=f"{cat['path']}/{sub['path']}", name=sub['name'], is_active=1, include_in_menu=1, is_anchor=1, position=j + 1, description=sub.get('description', '')))
         blocks.append(dict(identifier=block, stores=c, title=f"Category landing: {cat['name']}", content_file=f'{block}.html', is_active=1))
         put(f'{root}/content/{block}.html', landing_html(S, cat))
+    names = {c['path']: c['name'] for c in cats if c['path']}
+    def named(path):
+        parts = path.split('/')
+        return '/'.join(names['/'.join(parts[:k + 1])] for k in range(len(parts)))
     write_csv(f'{root}/categories.csv', cats, ['root', 'path', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
     write_csv(f'{root}/cms_blocks.csv', blocks, ['identifier', 'stores', 'title', 'content_file', 'is_active'])
     # pages
@@ -215,8 +219,9 @@ def build(spec_path):
             r.update(_media_image=img, image=img, small_image=img, thumbnail=img)
         return r
     for p in S.PRODUCTS:
-        sku, name, cats_, price, axis, values, attrs, desc, prompt = p['sku'], p['name'], p['categories'], p['price'], p.get('axis'), p.get('values'), p.get('attributes', {}), p['description'], p['prompt']
-        short = p.get('short') or desc.split('. ')[0] + '.'
+        sku, name, cats_, price, axis, values, attrs, desc, prompt = p['sku'], p['name'], [named(c) for c in p['categories']], p['price'], p.get('axis'), p.get('values'), p.get('attributes', {}), p['description'], p['prompt']
+        short = p.get('short') or desc.split('. ')[0].rstrip('.') + '.'
+        desc = desc + ' ' + S.MORE[p['sku']]
         urlkey = slug(name)
         if p.get('grouped'):
             r = base(sku, name, price, 4, desc, short, attrs, f'{sku.lower()}.webp', urlkey, 'grouped'); r['_category'] = cats_[0]; r['qty'] = 0
@@ -259,13 +264,15 @@ def build(spec_path):
             rows.append({'_category': cat, '_root_category': S.ROOT})
     write_csv(f'{root}/products.csv', rows, cols)
     names = ['Ada', 'Ben', 'Chloe', 'Dev', 'Elena', 'Femi', 'Greta', 'Hugo', 'Iris', 'Jonas', 'Kira', 'Leo', 'Maya', 'Noor', 'Oscar', 'Priya', 'Quinn', 'Rosa']
+    k = 0
     for i, p in enumerate(S.PRODUCTS):
         if i % 3:
             continue
         for j in range(1 + i % 2):
-            t = S.REVIEWS[(i + j) % len(S.REVIEWS)]
-            reviews.append(dict(sku=p['sku'], store_code=c, nickname=names[(i + j) % len(names)], title=t[0], detail=t[1], quality=t[2], value=t[3], price=t[4], created_at=f'2026-0{1 + (i % 6)}-{10 + j:02d} 10:00:00'))
-    write_csv(f'{root}/reviews.csv', reviews, ['sku', 'store_code', 'nickname', 'title', 'detail', 'quality', 'value', 'price', 'created_at'])
+            t = S.REVIEWS[k % len(S.REVIEWS)]
+            k += 1
+            reviews.append(dict(sku=p['sku'], store_code=c, nickname=names[(i + j) % len(names)], title=t[0], detail=t[1], rating=t[2], created_at=f'2026-0{1 + (i % 6)}-{10 + j:02d} 10:00:00'))
+    write_csv(f'{root}/reviews.csv', reviews, ['sku', 'store_code', 'nickname', 'title', 'detail', 'rating', 'created_at'])
     # blog
     posts = []
     for i, (title, body, prompt) in enumerate(S.POSTS):

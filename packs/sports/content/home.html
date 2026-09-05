@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="running"}}" title="Gear that keeps up"><img src="{{media url="wysiwyg/sports/hero-main.webp"}}" alt="Gear that keeps up" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">New season</span></p>
+            <h1>Gear that keeps up</h1>
+            <p>Tested on our own runs, rides and climbs. If it fails us, it is not here.</p>
+            <p><a class="btn btn-primary" href="{{store url="running"}}">Shop Running</a> <a class="btn btn-ghost" href="{{store url="cycling"}}">Shop Cycling</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="gym"}}" title="Shop Gym & Training"><img src="{{media url="wysiwyg/sports/hero-side.webp"}}" alt="Shop Gym & Training" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Free delivery over 50</strong><br />Next day on weekdays</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="run" size="32"}}</p>
+        <p><strong>Shoe fitting</strong><br />In store or by video</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>30-day trial</strong><br />Run in them, return them</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="shield-check" size="32"}}</p>
+        <p><strong>Two-year warranty</strong><br />On every product</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="running"}}" title="Shop Running"><img src="{{media url="wysiwyg/sports/tile-running.webp"}}" alt="Running" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Sports/running}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="cycling"}}" title="Shop Cycling"><img src="{{media url="wysiwyg/sports/tile-cycling.webp"}}" alt="Cycling" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Sports/cycling}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="gym"}}" title="Shop Gym & Training"><img src="{{media url="wysiwyg/sports/tile-gym.webp"}}" alt="Gym & Training" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Sports/gym}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="yoga"}}" title="Shop Yoga & Recovery"><img src="{{media url="wysiwyg/sports/tile-yoga.webp"}}" alt="Yoga & Recovery" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Sports/yoga}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/sports/editorial.webp"}}" alt="We train in what we sell" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>We train in what we sell</h2>
+        <p>Stride is run by four people who race: two runners, a cyclist and a swimmer. Every product goes through at least a month of our own training before it is listed.</p>
+        <p>If something fails, we say so on the product page. If it fails you, send it back.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Trail season</span></p>
+                <h2 class="card-title">The trail kit</h2>
+                <p>Shoes, a pack and a shell, chosen for a first mountain race.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="running"}}">See trail running</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="For the trail" category_id="{{category_id:Sports/running}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The video shoe fitting was better than the shop I used to go to. No injuries this year.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Oslo</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Bib shorts that survived a summer of riding. First pair that has.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The cork mat has not slipped once in a hot class.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="hiking"}}" title="Shop Hiking"><img src="{{media url="wysiwyg/sports/banner-a.webp"}}" alt="Shop Hiking" /></a></p>
+        <h3>Hiking</h3>
+        <p>Boots, packs and layers for a long day out.</p>
+        <p><a class="btn btn-outline" href="{{store url="hiking"}}">Shop Hiking</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="swimming"}}" title="Shop Swimming"><img src="{{media url="wysiwyg/sports/banner-b.webp"}}" alt="Shop Swimming" /></a></p>
+        <h3>Swimming</h3>
+        <p>Goggles, suits and towels for pool and open water.</p>
+        <p><a class="btn btn-outline" href="{{store url="swimming"}}">Shop Swimming</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">Training notes</h2>
+        <p style="text-align: center;">A short email every two weeks: what we tested, a session plan, and new arrivals.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

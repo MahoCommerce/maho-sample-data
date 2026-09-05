@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="houseplants"}}" title="Grown here, shipped with care"><img src="{{media url="wysiwyg/garden/hero-main.webp"}}" alt="Grown here, shipped with care" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">Spring stock</span></p>
+            <h1>Grown here, shipped with care</h1>
+            <p>Plants from our own glasshouse, seed from our own beds, and tools sharpened before they leave.</p>
+            <p><a class="btn btn-primary" href="{{store url="houseplants"}}">Shop Houseplants</a> <a class="btn btn-ghost" href="{{store url="outdoor-plants"}}">Shop Outdoor Plants</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="seeds"}}" title="Shop Seeds & Bulbs"><img src="{{media url="wysiwyg/garden/hero-side.webp"}}" alt="Shop Seeds & Bulbs" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Plant-safe delivery</strong><br />Boxed upright, two days</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="plant" size="32"}}</p>
+        <p><strong>Grown by us</strong><br />A month in the glasshouse</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>Plant guarantee</strong><br />Thirty days, replaced</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="headset" size="32"}}</p>
+        <p><strong>Ask a grower</strong><br />Real answers, weekdays</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="houseplants"}}" title="Shop Houseplants"><img src="{{media url="wysiwyg/garden/tile-houseplants.webp"}}" alt="Houseplants" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Garden/houseplants}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="outdoor-plants"}}" title="Shop Outdoor Plants"><img src="{{media url="wysiwyg/garden/tile-outdoor-plants.webp"}}" alt="Outdoor Plants" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Garden/outdoor-plants}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="seeds"}}" title="Shop Seeds & Bulbs"><img src="{{media url="wysiwyg/garden/tile-seeds.webp"}}" alt="Seeds & Bulbs" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Garden/seeds}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="pots"}}" title="Shop Pots & Planters"><img src="{{media url="wysiwyg/garden/tile-pots.webp"}}" alt="Pots & Planters" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Garden/pots}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/garden/editorial.webp"}}" alt="A nursery, not a warehouse" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>A nursery, not a warehouse</h2>
+        <p>Greenhaven is a working nursery with a glasshouse, three polytunnels and a seed bed. What we sell, we grow, and the rest comes from growers we visit.</p>
+        <p>Every plant page says which light it wants and what it does in winter. If it dies in thirty days, we replace it.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Season</span></p>
+                <h2 class="card-title">Plant now</h2>
+                <p>What to plant this month, chosen by the growers: perennials for the border and bulbs for spring.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="outdoor-plants"}}">See what to plant</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="In season now" category_id="{{category_id:Garden/outdoor-plants}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The fern arrived upright, moist and bigger than the photo. First plant that has survived my flat.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Manchester</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The spade came sharp. I did not know that was a thing.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Asked which side of the balcony for the olive. They told me. It is thriving.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="tools"}}" title="Shop Tools"><img src="{{media url="wysiwyg/garden/banner-a.webp"}}" alt="Shop Tools" /></a></p>
+        <h3>Tools</h3>
+        <p>Forged tools with ash handles, sharpened before shipping.</p>
+        <p><a class="btn btn-outline" href="{{store url="tools"}}">Shop Tools</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="furniture"}}" title="Shop Outdoor Furniture"><img src="{{media url="wysiwyg/garden/banner-b.webp"}}" alt="Shop Outdoor Furniture" /></a></p>
+        <h3>Outdoor Furniture</h3>
+        <p>Benches, tables and chairs in oak and steel.</p>
+        <p><a class="btn btn-outline" href="{{store url="furniture"}}">Shop Outdoor Furniture</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">From the glasshouse</h2>
+        <p style="text-align: center;">A note every two weeks: what to sow, what to plant, and what came into stock.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

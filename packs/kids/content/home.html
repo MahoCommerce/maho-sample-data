@@ -1,0 +1,127 @@
+<div data-preset="feature-left" data-areas="&#039;a b&#039; &#039;a c&#039;" data-columns="2fr 1fr" data-rows="1fr 1fr" data-gap="medium" data-style="none" data-type="maho-bento" style="grid-template: &#34;a b&#34; 1fr &#34;a c&#34; 1fr / 2fr 1fr;">
+    <div data-area="a" data-type="maho-bento-cell" style="grid-area: a;">
+        <p><a href="{{store url="toys"}}" title="Made to be handed down"><img src="{{media url="wysiwyg/kids/hero-main.webp"}}" alt="Made to be handed down" /></a></p>
+    </div>
+    <div class="card card-border" data-area="b" data-type="maho-bento-cell" style="grid-area: b;">
+        <div class="card-body">
+            <p><span class="badge badge-primary">New arrivals</span></p>
+            <h1>Made to be handed down</h1>
+            <p>Wooden toys, organic cotton and furniture that grows. Nothing here is for one season.</p>
+            <p><a class="btn btn-primary" href="{{store url="toys"}}">Shop Toys</a> <a class="btn btn-ghost" href="{{store url="clothing"}}">Shop Clothing</a></p>
+        </div>
+    </div>
+    <div data-area="c" data-type="maho-bento-cell" style="grid-area: c;">
+        <p><a href="{{store url="books"}}" title="Shop Books"><img src="{{media url="wysiwyg/kids/hero-side.webp"}}" alt="Shop Books" /></a></p>
+    </div>
+</div>
+<div data-preset="4-equal" data-gap="medium" data-style="separated" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="truck" size="32"}}</p>
+        <p><strong>Free delivery over 40</strong><br />Two to three days</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="shield-check" size="32"}}</p>
+        <p><strong>Safety tested</strong><br />Every toy, every batch</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="arrow-back-up" size="32"}}</p>
+        <p><strong>Easy returns</strong><br />Thirty days, unworn</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="gift" size="32"}}</p>
+        <p><strong>Gift wrap</strong><br />Free, with a card</p>
+    </div>
+</div>
+<h2>Shop by category</h2>
+<div data-preset="4-equal" data-gap="small" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="toys"}}" title="Shop Toys"><img src="{{media url="wysiwyg/kids/tile-toys.webp"}}" alt="Toys" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Kids/toys}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="clothing"}}" title="Shop Clothing"><img src="{{media url="wysiwyg/kids/tile-clothing.webp"}}" alt="Clothing" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Kids/clothing}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="books"}}" title="Shop Books"><img src="{{media url="wysiwyg/kids/tile-books.webp"}}" alt="Books" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Kids/books}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="nursery"}}" title="Shop Nursery"><img src="{{media url="wysiwyg/kids/tile-nursery.webp"}}" alt="Nursery" /></a></p>
+        <p style="text-align: center;">{{widget type="catalog/category_widget_link" id_path="category/{{category_id:Kids/nursery}}" template="catalog/category/widget/link/link_block.phtml"}}</p>
+    </div>
+</div>
+{{widget type="catalog/product_widget_new" display_type="new_products" products_count="4" template="catalog/product/widget/new/content/new_grid.phtml"}}
+<div data-preset="2-equal" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><img src="{{media url="wysiwyg/kids/editorial.webp"}}" alt="Toys that last three children" /></p>
+    </div>
+    <div data-type="maho-column">
+        <p><span class="badge badge-outline">Our story</span></p>
+        <h2>Toys that last three children</h2>
+        <p>Little Lark began when two parents could not find a toy that outlived a birthday. We found a toymaker in the hills, and then a mill for the cotton.</p>
+        <p>Everything here is tested for safety, and then tested by our own children, which is harder.</p>
+        <p><a class="btn btn-outline" href="{{store url="about"}}">Read our story</a></p>
+    </div>
+</div>
+<div data-preset="sidebar-left" data-gap="large" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <div class="card card-border">
+            <div class="card-body">
+                <p><span class="badge badge-error">Newborn</span></p>
+                <h2 class="card-title">The newborn box</h2>
+                <p>A rattle, a muslin set, a bodysuit and a board book, in a box that becomes a keepsake.</p>
+                <p><a class="btn btn-primary btn-wide" href="{{store url="gifts"}}">See the boxes</a></p>
+            </div>
+        </div>
+    </div>
+    <div data-type="maho-column">
+        {{widget type="catalog/product_widget_list" title="Gift boxes" category_id="{{category_id:Kids/gifts}}" sort="position" only_in_stock="1" products_count="3" template="catalog/product/widget/list/content/list_grid.phtml"}}
+    </div>
+</div>
+<h2>What our customers say</h2>
+<div data-preset="3-equal" data-gap="medium" data-style="cards" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The wooden train has survived two boys and a dog. Still perfect.</p>
+        </blockquote>
+        <p><strong>Elena R.</strong><br />Verified buyer, Utrecht</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>The rain suit means we go out every day now. Puddles are the plan.</p>
+        </blockquote>
+        <p><strong>Marcus T.</strong><br />Verified buyer, Leeds</p>
+    </div>
+    <div data-type="maho-column">
+        <p>{{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}} {{icon name="star" variant="filled" size="18"}}</p>
+        <blockquote>
+            <p>Bodysuits that did not shrink or twist. Rare.</p>
+        </blockquote>
+        <p><strong>Priya S.</strong><br />Verified buyer, Toronto</p>
+    </div>
+</div>
+<div data-preset="2-equal" data-gap="medium" data-style="none" data-type="maho-columns">
+    <div data-type="maho-column">
+        <p><a href="{{store url="outdoor"}}" title="Shop Outdoor"><img src="{{media url="wysiwyg/kids/banner-a.webp"}}" alt="Shop Outdoor" /></a></p>
+        <h3>Outdoor</h3>
+        <p>Balance bikes, scooters and rain gear.</p>
+        <p><a class="btn btn-outline" href="{{store url="outdoor"}}">Shop Outdoor</a></p>
+    </div>
+    <div data-type="maho-column">
+        <p><a href="{{store url="gifts"}}" title="Shop Gifts"><img src="{{media url="wysiwyg/kids/banner-b.webp"}}" alt="Shop Gifts" /></a></p>
+        <h3>Gifts</h3>
+        <p>Boxed sets for new babies and birthdays.</p>
+        <p><a class="btn btn-outline" href="{{store url="gifts"}}">Shop Gifts</a></p>
+    </div>
+</div>
+{{widget type="blog/widget_posts" title="From the journal" posts_count="3" template="blog/widget/posts.phtml"}}
+<div class="card card-border">
+    <div class="card-body">
+        <h2 style="text-align: center;">Small news</h2>
+        <p style="text-align: center;">A note every month: new toys, sizes back in stock, and things we learned from our own kids.</p>
+        {{widget type="newsletter/widget_subscribe" template="newsletter/subscribe.phtml"}}
+    </div>
+</div>

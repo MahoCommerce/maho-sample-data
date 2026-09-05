@@ -1,0 +1,7 @@
+identifier,stores,title,content_file,is_active
+landing-fiction,books,Category landing: Fiction,landing-fiction.html,1
+landing-crime,books,Category landing: Crime & Thrillers,landing-crime.html,1
+landing-science,books,Category landing: Science & Nature,landing-science.html,1
+landing-history,books,Category landing: History,landing-history.html,1
+landing-cooking,books,Category landing: Cooking,landing-cooking.html,1
+landing-children,books,Category landing: Children,landing-children.html,1

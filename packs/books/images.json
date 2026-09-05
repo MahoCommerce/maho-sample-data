@@ -1,0 +1,412 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/books/media/import",
+  "style": "Studio product photograph of a single book standing upright on a plain white seamless background, soft light, the cover shows only an abstract or illustrated design with no readable text, no lettering, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "b-salt-houses",
+      "prompt": "a book with an abstract cover of blue and white waves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-last-orchard",
+      "prompt": "a book with an illustrated cover of an apple tree in autumn colours",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-quiet-rooms",
+      "prompt": "a book with a minimal cover of a single window in warm yellow",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-north-light",
+      "prompt": "a book with a cover of pale northern light over a fjord",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-paper-birds",
+      "prompt": "a book with a cover of origami birds in red and cream",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-summer-house",
+      "prompt": "a book with a cover of a lake house at dusk in dark blues",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-cold-harbour",
+      "prompt": "a book with a dark cover of a harbour at night with one lit window",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-long-tide",
+      "prompt": "a book with a dark cover of a tide line on a grey beach",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-clean-break",
+      "prompt": "a book with a graphic cover of a keyhole in black and gold",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-midnight-train",
+      "prompt": "a book with an illustrated cover of a train in the moonlight",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-witness",
+      "prompt": "a book with a stark red and black cover of an empty chair",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-small-things",
+      "prompt": "a book with a cover of colourful microscopic cells",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-deep-time",
+      "prompt": "a book with a cover of layered rock strata in ochre and grey",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-bird-guide",
+      "prompt": "a small field guide with an illustrated cover of a robin on a branch",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-night-sky",
+      "prompt": "a book with a cover of a deep blue star field",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-tree-book",
+      "prompt": "a large book with a cover of a green leaf pattern",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-weather",
+      "prompt": "a book with a cover of cumulus clouds on a pale sky",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-silk-road",
+      "prompt": "a book with a cover of a desert caravan in warm tones",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-city-water",
+      "prompt": "a book with a cover of a canal and gondola in muted colours",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-letters",
+      "prompt": "a book with a cover of old handwritten envelopes in sepia",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-empire-tea",
+      "prompt": "a book with a cover of a porcelain teacup on a dark green ground",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-plague-year",
+      "prompt": "a book with a cover of a medieval city woodcut in black and red",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-weeknight",
+      "prompt": "a cookbook with a cover of a bowl of pasta from above",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-bread-book",
+      "prompt": "a cookbook with a cover of a sliced sourdough loaf",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-veg-first",
+      "prompt": "a cookbook with a cover of bright vegetables on a wooden board",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-preserves",
+      "prompt": "a cookbook with a cover of glass jars of colourful preserves",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-coffee-book",
+      "prompt": "a book with a cover of a pour over coffee cone in matte black",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-goodnight-fox",
+      "prompt": "a picture book with an illustrated cover of a sleepy fox under the moon",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-big-dig",
+      "prompt": "a picture book with an illustrated cover of a yellow digger",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-sea-adventure",
+      "prompt": "a chapter book with an illustrated cover of a small boat on a green sea",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-dragon-school",
+      "prompt": "a chapter book with an illustrated cover of a small purple dragon reading",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-abc-animals",
+      "prompt": "a large picture book with an illustrated cover of an anteater in bright gouache",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-space-kids",
+      "prompt": "a book with a cover of a cartoon astronaut floating above Earth",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-poems-sea",
+      "prompt": "a small clothbound book with a cover of a deep teal wave pattern",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-atlas-walks",
+      "prompt": "a large book with a cover of a hand drawn map with a red route line",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-art-colour",
+      "prompt": "a large book with a cover of colour swatches in a grid",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-crime-set",
+      "prompt": "two dark paperback crime novels in a slipcase",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-cook-set",
+      "prompt": "three hardcover cookbooks stacked with colourful spines",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-bedtime-set",
+      "prompt": "three illustrated picture books fanned on a pale blanket",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-tote",
+      "prompt": "a natural canvas tote bag with a small embroidered fox",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-bookmarks",
+      "prompt": "three slim brass bookmarks on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-reading-light",
+      "prompt": "a small warm clip on reading light",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "b-gift-card",
+      "prompt": "a plain cream gift card in a kraft envelope",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/books",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A reading nook with a leather armchair, a stack of clothbound books on a side table and a tall window with rain outside. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of a hand holding an open book with a cup of tea beside it on a wooden table. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A bookseller on a ladder placing a book on a high wooden shelf in a narrow shop. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "The front of a small bookshop with a bay window full of books and a bicycle leaning outside. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/books",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/books",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-fiction",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "fiction",
+      "dir": "packs/books/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A table of novels with colourful abstract covers, fanned out under a brass reading lamp. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-crime",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "crime",
+      "dir": "packs/books/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A dark wooden desk with a stack of paperbacks, a magnifying glass and a green banker lamp. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-science",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "science",
+      "dir": "packs/books/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A desk with an open illustrated book about birds, a pair of binoculars and a fern in a pot. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-history",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "history",
+      "dir": "packs/books/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "An old map spread on a wooden table with a stack of clothbound history books and a brass compass. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-cooking",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "cooking",
+      "dir": "packs/books/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "An open cookbook on a kitchen counter with a bowl of lemons and a wooden spoon. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-children",
+      "dir": "media/wysiwyg/books",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "children",
+      "dir": "packs/books/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A low shelf of colourful picture books with a small wooden stool and a stuffed rabbit. Wide banner composition. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-we-choose-the-shelf",
+      "dir": "media/blog/books",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A bookseller reading at a wooden counter with a stack of books and a pencil. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "reading-aloud-past-the-picture-books",
+      "dir": "media/blog/books",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A parent and child reading a chapter book together under a blanket in warm lamp light. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "the-case-for-the-hardback",
+      "dir": "media/blog/books",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A clothbound hardback book lying open on a wooden table with a pair of reading glasses. Warm editorial photograph of a small independent bookshop, wooden shelves, brass lamps, soft afternoon light, shallow depth of field, no readable text, no lettering, no logos, no watermark."
+    }
+  ]
+}

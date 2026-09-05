@@ -1,6 +1,6 @@
 website_code,website_name,website_sort_order,website_is_default,website_previous_code,group_name,root_category,store_code,store_previous_code,store_name,store_is_active,store_sort_order,store_is_default
-hub,Maho Demo,0,,,Maho Demo,Hub,hub,,Maho Demo,1,0,
-fashion,Maison Maho,10,1,base,Maison Maho,Fashion,fashion,default,Maison Maho,1,10,1
+base,Maho Store,0,1,,Maho Store,Default Category,default,,Maho Store,1,0,1
+fashion,Maison Maho,10,,,Maison Maho,Fashion,fashion,,Maison Maho,1,10,
 electronics,Voltline,20,,,Voltline,Electronics,electronics,,Voltline,1,20,
 food,Harvest & Hearth,30,,,Harvest & Hearth,Food,food,,Harvest & Hearth,1,30,
 books,Folio,40,,,Folio,Books,books,,Folio,1,40,

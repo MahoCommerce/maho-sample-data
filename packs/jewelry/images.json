@@ -1,0 +1,418 @@
+{
+  "model": "wavespeed-ai/krea-v2/turbo",
+  "output_dir": "packs/jewelry/media/import",
+  "style": "Macro studio product photograph of a single piece of jewelry on a plain white seamless background, soft diffused light, subtle reflection, no hands, no text, no logos, no watermark, centered with margin around it.",
+  "images": [
+    {
+      "file": "j-band-thin",
+      "prompt": "a thin polished gold band ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-band-hammer",
+      "prompt": "a hammered sterling silver band ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-signet",
+      "prompt": "a small oval gold signet ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-moonstone-ring",
+      "prompt": "a thin gold ring with a round white moonstone in a bezel setting",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-sapphire-ring",
+      "prompt": "a slim gold ring with three tiny blue sapphires",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-onyx-ring",
+      "prompt": "a sterling silver ring with a black onyx cabochon",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-twist-ring",
+      "prompt": "a twisted rose gold ring",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-chain-fine",
+      "prompt": "a fine gold cable chain necklace coiled on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-pearl-pendant",
+      "prompt": "a fine gold chain with a single white pearl pendant",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-pearl-strand",
+      "prompt": "a strand of baroque freshwater pearls with a gold clasp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-disc-pendant",
+      "prompt": "a fine gold chain with a small hammered gold disc pendant",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-bar-neck",
+      "prompt": "a silver chain necklace with a slim horizontal bar pendant",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-emerald-pendant",
+      "prompt": "a fine gold chain with a small green emerald drop pendant",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-curb-chain",
+      "prompt": "a sterling silver curb chain necklace",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-layer-set",
+      "prompt": "three layered fine gold necklaces with a disc and a pearl pendant",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-hoop-small-yellow",
+      "prompt": "a pair of small polished yellow hoop earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-hoop-small-silver",
+      "prompt": "a pair of small polished silver hoop earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-hoop-small-pink",
+      "prompt": "a pair of small polished pink hoop earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-hoop-large",
+      "prompt": "a pair of large thin gold hoop earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-pearl-stud",
+      "prompt": "a pair of white pearl stud earrings on gold posts",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-dot-stud",
+      "prompt": "a pair of tiny polished gold dot stud earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-diamond-stud",
+      "prompt": "a pair of small diamond stud earrings in gold claw settings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-drop-topaz",
+      "prompt": "a pair of blue topaz drop earrings on gold hooks",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-threader",
+      "prompt": "a pair of thin gold chain threader earrings",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-cuff-hammer",
+      "prompt": "a hammered sterling silver open cuff bracelet",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-chain-bracelet",
+      "prompt": "a fine gold chain bracelet",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-pearl-bracelet",
+      "prompt": "a freshwater pearl bracelet with a gold toggle clasp",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-cord-bracelet-red",
+      "prompt": "a red silk cord bracelet with a single gold bead",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-cord-bracelet-blue-dark",
+      "prompt": "a blue dark silk cord bracelet with a single gold bead",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-cord-bracelet-green",
+      "prompt": "a green silk cord bracelet with a single gold bead",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-bangle",
+      "prompt": "a thin solid gold round bangle",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-id-bracelet",
+      "prompt": "a sterling silver curb chain ID bracelet with a plain plate",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-solitaire",
+      "prompt": "a classic round diamond solitaire ring in gold",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-halo",
+      "prompt": "a diamond halo engagement ring in white gold",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-sapphire-sol",
+      "prompt": "an oval blue sapphire ring in a rose gold bezel",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-vintage",
+      "prompt": "a vintage style diamond daisy cluster ring in gold",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-wedding-band",
+      "prompt": "a plain polished gold court wedding band",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-eternity",
+      "prompt": "a slim gold half eternity ring set with small diamonds",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-pearl-set",
+      "prompt": "pearl stud earrings and a pearl pendant necklace in a linen gift box",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-stack-set",
+      "prompt": "three stacked rings in gold, silver and rose gold on white",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-ring-box",
+      "prompt": "a small natural linen ring box open with a velvet slot",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-polish-cloth",
+      "prompt": "a folded grey jewelry polishing cloth",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-jewelry-dish",
+      "prompt": "a small white ceramic ring dish with a gold rim",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "j-gift-card",
+      "prompt": "a cream gift card in a linen envelope with a gold seal",
+      "size": "1024x1024",
+      "ratio": "1:1"
+    },
+    {
+      "file": "hero-main",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "2048x1152",
+      "ratio": "16:9",
+      "prompt": "A womans hand resting on dark green velvet wearing a thin gold ring and a pearl bracelet, warm side light. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "hero-side",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A close up of a gold chain necklace with a small pearl pendant on black marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "editorial",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A goldsmith at a bench polishing a ring under a lamp, tools laid out, seen from the side. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "about",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small jewelry workshop with a bench, a magnifier lamp and trays of loose stones. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-a",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A solitaire diamond ring in an open dark green ring box on marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "banner-b",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A small linen gift box with a gold necklace inside, tied with a silk ribbon on marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-rings",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "Three thin gold rings stacked on a dark velvet ring cushion. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "rings",
+      "dir": "packs/jewelry/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "Three thin gold rings stacked on a dark velvet ring cushion. Wide banner composition. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-necklaces",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A thin gold chain with a small pendant laid on black marble beside a pearl strand. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "necklaces",
+      "dir": "packs/jewelry/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A thin gold chain with a small pendant laid on black marble beside a pearl strand. Wide banner composition. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-earrings",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A pair of gold hoop earrings and pearl studs on a dark velvet tray. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "earrings",
+      "dir": "packs/jewelry/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A pair of gold hoop earrings and pearl studs on a dark velvet tray. Wide banner composition. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-bracelets",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A gold cuff and a thin chain bracelet on a marble surface with soft shadows. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "bracelets",
+      "dir": "packs/jewelry/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A gold cuff and a thin chain bracelet on a marble surface with soft shadows. Wide banner composition. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-engagement",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A solitaire diamond ring in an open dark green ring box on marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "engagement",
+      "dir": "packs/jewelry/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A solitaire diamond ring in an open dark green ring box on marble. Wide banner composition. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "tile-gifts",
+      "dir": "media/wysiwyg/jewelry",
+      "size": "1024x1024",
+      "ratio": "1:1",
+      "prompt": "A small linen gift box with a gold necklace inside, tied with a silk ribbon on marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "gifts",
+      "dir": "packs/jewelry/media/catalog/category",
+      "size": "2048x768",
+      "ratio": "8:3",
+      "prompt": "A small linen gift box with a gold necklace inside, tied with a silk ribbon on marble. Wide banner composition. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "how-to-find-your-ring-size",
+      "dir": "media/blog/jewelry",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A hand measuring a finger with a strip of paper next to a ruler on marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "why-recycled-gold",
+      "dir": "media/blog/jewelry",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "Gold grain and small gold ingots on a dark workbench under a lamp. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    },
+    {
+      "file": "caring-for-pearls",
+      "dir": "media/blog/jewelry",
+      "size": "1536x1024",
+      "ratio": "3:2",
+      "prompt": "A strand of pearls on a soft cloth beside a small glass bottle of perfume on marble. Luxurious editorial jewelry photograph, dark velvet and marble surfaces, warm low light with soft highlights, shallow depth of field, no text, no lettering, no logos, no watermark."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+sku,store_code,nickname,title,detail,rating,created_at
+E-HEADPHONE-ANC,electronics,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
+E-SPEAKER-BT,electronics,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,electronics,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
+E-DAC,electronics,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
+E-LAPTOP-16,electronics,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
+E-LAPTOP-16,electronics,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
+E-KEYBOARD,electronics,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
+E-SSD,electronics,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
+E-SSD,electronics,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
+E-LENS-35,electronics,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
+E-COMPACT-CAM,electronics,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
+E-COMPACT-CAM,electronics,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
+E-CAM-BAG,electronics,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
+E-SMART-PLUG,electronics,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
+E-SMART-PLUG,electronics,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
+E-THERMOSTAT,electronics,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
+E-WATCH,electronics,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
+E-WATCH,electronics,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
+E-WATCH-STRAP,electronics,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
+E-POWERBANK,electronics,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
+E-POWERBANK,electronics,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
+E-PHONE-CASE,electronics,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
+E-TRAVEL-KIT,electronics,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,electronics,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00

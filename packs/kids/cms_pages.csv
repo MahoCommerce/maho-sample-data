@@ -1,0 +1,4 @@
+identifier,stores,title,root_template,content_file,is_active,is_home,meta_description
+home,kids,Little Lark,one_column,home.html,1,1,"Little Lark: wooden toys, organic cotton clothes, books, nursery furniture and outdoor gear for children from birth to eight."
+about,kids,About Little Lark,two_columns_left,about.html,1,0,
+customer-service,kids,Customer Service,two_columns_left,customer-service.html,1,0,
