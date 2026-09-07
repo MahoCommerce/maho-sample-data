@@ -1,8 +1,10 @@
 # Maho Sample Data
 
-Demo content for [Maho](https://mahocommerce.com): the Maho Store on the default theme plus ten industry stores, one per storefront theme, on a single installation. The Maho Store is website 1, serves the root URL, sells every product of every industry, and its home page links to the ten stores. Every entity is a CSV file, with page bodies in HTML files and pictures next to them.
+Demo content for [Maho](https://mahocommerce.com): the Maho Store on the default theme plus ten industry stores, one per storefront theme, on a single installation. The Maho Store is website 1, serves the root URL, sells every product of every industry, and its home page links to the ten stores. It carries four store views: English, French, German and Italian. Every entity is a CSV file, with page bodies in HTML files and pictures next to them.
 
 `./maho install --sample_data 1` downloads the branch that matches the Maho version and imports it. `./maho sample-data:install --path /path/to/this/checkout` imports a local checkout, and `--pack fashion,food` limits the run to some packs. Every import is idempotent: run it again and it updates instead of duplicating.
+
+The French, German and Italian store views need their language packs. Install them with `composer require mahocommerce/maho-language-fr_fr mahocommerce/maho-language-de_de mahocommerce/maho-language-it_it`. Without a language pack, the store view shows the English interface and changes only the date, number and price format.
 
 ## Layout
 
@@ -26,7 +28,7 @@ Scope everything by code, never by id. Config macros: `{{attribute_id:code}}`, `
 
 ## Build a pack
 
-An industry pack is generated from its spec. `python3 tools/build-pack.py specs/food.py` writes the CSV files, the HTML content, the brand marks and `images.json` of `packs/food/`. Then `python3 tools/build-store-pack.py` rebuilds `packs/store/` from the ten industry packs: the category tree (one branch per industry), the website and category rows of every product, every review, and the home page that links to the ten stores. Run it after any industry pack change.
+An industry pack is generated from its spec. `python3 tools/build-pack.py specs/food.py` writes the CSV files, the HTML content, the brand marks and `images.json` of `packs/food/`. Then `python3 tools/build-store-pack.py` rebuilds `packs/store/` from the ten industry packs: the category tree (one branch per industry), the website and category rows of every product, every review of every store view, and the pages of the four store views. A translated file carries the store code as a suffix (`home-fr.html`). Run it after any industry pack change.
 
 `tools/build-logos.py` writes the wordmark of every industry store to `media/wysiwyg/<code>/logo.svg`. Run it with `tools/.venv/bin/python`, a venv with fonttools, brotli and uharfbuzz. The text is set in the display font of the theme, shaped by HarfBuzz and converted to paths, so no font loads at runtime. `--preview <dir>` renders the badge and monogram directions too, with a Tabler icon from a maho checkout (`MAHO_ICONS` overrides the path). `design/header/logo_src` points at the file per website. The Maho Store keeps the Maho logo.
 
@@ -46,6 +48,8 @@ A manifest entry carries its own `style` for scene pictures (`SCENE_STYLE` from 
 
 - Every entity is CSV. Page and block bodies are HTML files under `packs/<store>/content/`. No SQL.
 - Website 1 keeps the distro codes (`base`, `default`, root `Default Category`). The industry stores take the industry key for the website, group, store and root category (`fashion`, `food`, ...).
+- Website 1 carries the store views `default`, `fr`, `de` and `it`, and `general/locale/code` sets the locale of each one. The catalog stays in English on all four: only the pages of the store pack are translated, and every review row is written once per store view so the stars show everywhere. `STORE_VIEWS` and `COPY` in `tools/build-store-pack.py` hold the list and the strings.
+- The store switcher pill in `design/footer/absolute_footer` stays in English on every store view.
 - Products use the Maho Import/Export layout. `_root_category` on every product row. Children before the configurable parent. One axis per configurable.
 - Product pictures are cutouts on a transparent ground; the theme paints the tile.
 - Category pictures carry the pack code as a prefix (`food-bakery.webp`), because every pack shares `media/catalog/category/`.

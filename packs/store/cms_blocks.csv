@@ -1,2 +1,5 @@
 identifier,stores,title,content_file,is_active
 demo-notice,,Demo notice,demo-notice.html,1
+demo-notice,fr,Demo notice (fr),demo-notice-fr.html,1
+demo-notice,de,Demo notice (de),demo-notice-de.html,1
+demo-notice,it,Demo notice (it),demo-notice-it.html,1

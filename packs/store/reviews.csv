@@ -1,232 +1,925 @@
 sku,store_code,nickname,title,detail,rating,created_at
 W-LINEN-SHIRT,default,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
+W-LINEN-SHIRT,fr,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
+W-LINEN-SHIRT,de,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
+W-LINEN-SHIRT,it,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
 W-WRAP-TOP,default,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
+W-WRAP-TOP,fr,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
+W-WRAP-TOP,de,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
+W-WRAP-TOP,it,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
 W-WRAP-TOP,default,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
+W-WRAP-TOP,fr,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
+W-WRAP-TOP,de,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
+W-WRAP-TOP,it,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
 W-STRAIGHT-JEAN,default,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
+W-STRAIGHT-JEAN,fr,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
+W-STRAIGHT-JEAN,de,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
+W-STRAIGHT-JEAN,it,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
 W-LINEN-DRESS,default,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
+W-LINEN-DRESS,fr,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
+W-LINEN-DRESS,de,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
+W-LINEN-DRESS,it,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
 W-LINEN-DRESS,default,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
+W-LINEN-DRESS,fr,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
+W-LINEN-DRESS,de,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
+W-LINEN-DRESS,it,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
 W-PLEAT-SKIRT,default,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
+W-PLEAT-SKIRT,fr,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
+W-PLEAT-SKIRT,de,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
+W-PLEAT-SKIRT,it,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
 M-OXFORD-SHIRT,default,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,fr,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,de,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,it,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
 M-OXFORD-SHIRT,default,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
+M-OXFORD-SHIRT,fr,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
+M-OXFORD-SHIRT,de,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
+M-OXFORD-SHIRT,it,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
 M-CREW-TEE,default,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
+M-CREW-TEE,fr,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
+M-CREW-TEE,de,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
+M-CREW-TEE,it,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
 M-CARDIGAN,default,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
+M-CARDIGAN,fr,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
+M-CARDIGAN,de,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
+M-CARDIGAN,it,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
 M-CARDIGAN,default,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
+M-CARDIGAN,fr,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
+M-CARDIGAN,de,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
+M-CARDIGAN,it,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
 M-SELVEDGE-JEAN,default,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
+M-SELVEDGE-JEAN,fr,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
+M-SELVEDGE-JEAN,de,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
+M-SELVEDGE-JEAN,it,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
 M-LINEN-BLAZER,default,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,fr,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,de,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,it,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
 M-LINEN-BLAZER,default,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
+M-LINEN-BLAZER,fr,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
+M-LINEN-BLAZER,de,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
+M-LINEN-BLAZER,it,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
 A-ROUND-SUN,default,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
+A-ROUND-SUN,fr,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
+A-ROUND-SUN,de,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
+A-ROUND-SUN,it,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
 A-READING,default,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
+A-READING,fr,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
+A-READING,de,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
+A-READING,it,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
 A-READING,default,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
+A-READING,fr,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
+A-READING,de,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
+A-READING,it,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
 A-HOOP-EAR,default,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
+A-HOOP-EAR,fr,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
+A-HOOP-EAR,de,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
+A-HOOP-EAR,it,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
 A-CANVAS-SNEAKER,default,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,fr,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,de,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,it,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
 A-CANVAS-SNEAKER,default,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
+A-CANVAS-SNEAKER,fr,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
+A-CANVAS-SNEAKER,de,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
+A-CANVAS-SNEAKER,it,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
 A-CHELSEA,default,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
+A-CHELSEA,fr,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
+A-CHELSEA,de,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
+A-CHELSEA,it,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
 A-TOTE,default,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
+A-TOTE,fr,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
+A-TOTE,de,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
+A-TOTE,it,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
 A-TOTE,default,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
+A-TOTE,fr,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
+A-TOTE,de,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
+A-TOTE,it,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
 E-HEADPHONE-ANC,default,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
+E-HEADPHONE-ANC,fr,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
+E-HEADPHONE-ANC,de,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
+E-HEADPHONE-ANC,it,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
 E-SPEAKER-BT,default,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,fr,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,de,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,it,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
 E-SPEAKER-BT,default,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
+E-SPEAKER-BT,fr,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
+E-SPEAKER-BT,de,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
+E-SPEAKER-BT,it,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
 E-DAC,default,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
+E-DAC,fr,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
+E-DAC,de,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
+E-DAC,it,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
 E-LAPTOP-16,default,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
+E-LAPTOP-16,fr,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
+E-LAPTOP-16,de,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
+E-LAPTOP-16,it,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
 E-LAPTOP-16,default,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
+E-LAPTOP-16,fr,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
+E-LAPTOP-16,de,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
+E-LAPTOP-16,it,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
 E-KEYBOARD,default,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
+E-KEYBOARD,fr,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
+E-KEYBOARD,de,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
+E-KEYBOARD,it,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
 E-SSD,default,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
+E-SSD,fr,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
+E-SSD,de,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
+E-SSD,it,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
 E-SSD,default,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
+E-SSD,fr,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
+E-SSD,de,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
+E-SSD,it,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
 E-LENS-35,default,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
+E-LENS-35,fr,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
+E-LENS-35,de,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
+E-LENS-35,it,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
 E-COMPACT-CAM,default,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
+E-COMPACT-CAM,fr,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
+E-COMPACT-CAM,de,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
+E-COMPACT-CAM,it,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
 E-COMPACT-CAM,default,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
+E-COMPACT-CAM,fr,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
+E-COMPACT-CAM,de,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
+E-COMPACT-CAM,it,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
 E-CAM-BAG,default,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
+E-CAM-BAG,fr,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
+E-CAM-BAG,de,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
+E-CAM-BAG,it,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
 E-SMART-PLUG,default,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
+E-SMART-PLUG,fr,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
+E-SMART-PLUG,de,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
+E-SMART-PLUG,it,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
 E-SMART-PLUG,default,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
+E-SMART-PLUG,fr,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
+E-SMART-PLUG,de,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
+E-SMART-PLUG,it,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
 E-THERMOSTAT,default,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
+E-THERMOSTAT,fr,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
+E-THERMOSTAT,de,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
+E-THERMOSTAT,it,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
 E-WATCH,default,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
+E-WATCH,fr,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
+E-WATCH,de,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
+E-WATCH,it,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
 E-WATCH,default,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
+E-WATCH,fr,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
+E-WATCH,de,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
+E-WATCH,it,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
 E-WATCH-STRAP,default,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
+E-WATCH-STRAP,fr,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
+E-WATCH-STRAP,de,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
+E-WATCH-STRAP,it,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
 E-POWERBANK,default,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
+E-POWERBANK,fr,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
+E-POWERBANK,de,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
+E-POWERBANK,it,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
 E-POWERBANK,default,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
+E-POWERBANK,fr,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
+E-POWERBANK,de,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
+E-POWERBANK,it,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
 E-PHONE-CASE,default,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
+E-PHONE-CASE,fr,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
+E-PHONE-CASE,de,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
+E-PHONE-CASE,it,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
 E-TRAVEL-KIT,default,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,fr,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,de,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,it,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
 E-TRAVEL-KIT,default,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
+E-TRAVEL-KIT,fr,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
+E-TRAVEL-KIT,de,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
+E-TRAVEL-KIT,it,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
 F-OLIVE-OIL,default,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
+F-OLIVE-OIL,fr,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
+F-OLIVE-OIL,de,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
+F-OLIVE-OIL,it,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
 F-APRICOT-JAM,default,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
+F-APRICOT-JAM,fr,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
+F-APRICOT-JAM,de,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
+F-APRICOT-JAM,it,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
 F-APRICOT-JAM,default,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
+F-APRICOT-JAM,fr,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
+F-APRICOT-JAM,de,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
+F-APRICOT-JAM,it,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
 F-TOMATO-PASSATA,default,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
+F-TOMATO-PASSATA,fr,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
+F-TOMATO-PASSATA,de,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
+F-TOMATO-PASSATA,it,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
 F-BAGUETTE,default,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
+F-BAGUETTE,fr,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
+F-BAGUETTE,de,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
+F-BAGUETTE,it,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
 F-BAGUETTE,default,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
+F-BAGUETTE,fr,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
+F-BAGUETTE,de,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
+F-BAGUETTE,it,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
 F-RYE-LOAF,default,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
+F-RYE-LOAF,fr,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
+F-RYE-LOAF,de,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
+F-RYE-LOAF,it,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
 F-AGED-CHEDDAR,default,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
+F-AGED-CHEDDAR,fr,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
+F-AGED-CHEDDAR,de,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
+F-AGED-CHEDDAR,it,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
 F-AGED-CHEDDAR,default,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
+F-AGED-CHEDDAR,fr,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
+F-AGED-CHEDDAR,de,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
+F-AGED-CHEDDAR,it,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
 F-PECORINO,default,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
+F-PECORINO,fr,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
+F-PECORINO,de,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
+F-PECORINO,it,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
 F-CHORIZO,default,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
+F-CHORIZO,fr,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
+F-CHORIZO,de,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
+F-CHORIZO,it,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
 F-CHORIZO,default,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
+F-CHORIZO,fr,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
+F-CHORIZO,de,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
+F-CHORIZO,it,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
 F-ETHIOPIA,default,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
+F-ETHIOPIA,fr,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
+F-ETHIOPIA,de,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
+F-ETHIOPIA,it,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
 F-GREEN-TEA,default,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
+F-GREEN-TEA,fr,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
+F-GREEN-TEA,de,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
+F-GREEN-TEA,it,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
 F-GREEN-TEA,default,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
+F-GREEN-TEA,fr,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
+F-GREEN-TEA,de,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
+F-GREEN-TEA,it,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
 F-APPLE-JUICE,default,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
+F-APPLE-JUICE,fr,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
+F-APPLE-JUICE,de,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
+F-APPLE-JUICE,it,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
 F-KOMBUCHA,default,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
+F-KOMBUCHA,fr,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
+F-KOMBUCHA,de,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
+F-KOMBUCHA,it,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
 F-KOMBUCHA,default,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
+F-KOMBUCHA,fr,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
+F-KOMBUCHA,de,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
+F-KOMBUCHA,it,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
 F-VERMOUTH,default,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
+F-VERMOUTH,fr,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
+F-VERMOUTH,de,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
+F-VERMOUTH,it,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
 F-BREAKFAST-BOX,default,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
+F-BREAKFAST-BOX,fr,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
+F-BREAKFAST-BOX,de,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
+F-BREAKFAST-BOX,it,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
 F-BREAKFAST-BOX,default,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
+F-BREAKFAST-BOX,fr,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
+F-BREAKFAST-BOX,de,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
+F-BREAKFAST-BOX,it,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
 F-TARALLI,default,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
+F-TARALLI,fr,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
+F-TARALLI,de,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
+F-TARALLI,it,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
 F-GRANOLA,default,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
+F-GRANOLA,fr,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
+F-GRANOLA,de,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
+F-GRANOLA,it,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
 F-GRANOLA,default,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
+F-GRANOLA,fr,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
+F-GRANOLA,de,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
+F-GRANOLA,it,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
 B-SALT-HOUSES,default,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00
+B-SALT-HOUSES,fr,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00
+B-SALT-HOUSES,de,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00
+B-SALT-HOUSES,it,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00
 B-NORTH-LIGHT,default,Dev,"Good, not great",Well written but slow in the middle. Lovely edition though.,3,2026-04-10 10:00:00
+B-NORTH-LIGHT,fr,Dev,"Good, not great",Well written but slow in the middle. Lovely edition though.,3,2026-04-10 10:00:00
+B-NORTH-LIGHT,de,Dev,"Good, not great",Well written but slow in the middle. Lovely edition though.,3,2026-04-10 10:00:00
+B-NORTH-LIGHT,it,Dev,"Good, not great",Well written but slow in the middle. Lovely edition though.,3,2026-04-10 10:00:00
 B-NORTH-LIGHT,default,Elena,Beautiful edition,"Clothbound, good paper, lies flat. A pleasure to hold.",5,2026-04-11 10:00:00
+B-NORTH-LIGHT,fr,Elena,Beautiful edition,"Clothbound, good paper, lies flat. A pleasure to hold.",5,2026-04-11 10:00:00
+B-NORTH-LIGHT,de,Elena,Beautiful edition,"Clothbound, good paper, lies flat. A pleasure to hold.",5,2026-04-11 10:00:00
+B-NORTH-LIGHT,it,Elena,Beautiful edition,"Clothbound, good paper, lies flat. A pleasure to hold.",5,2026-04-11 10:00:00
 B-COLD-HARBOUR,default,Greta,Perfect gift,Wrapped beautifully and arrived in two days.,5,2026-01-10 10:00:00
+B-COLD-HARBOUR,fr,Greta,Perfect gift,Wrapped beautifully and arrived in two days.,5,2026-01-10 10:00:00
+B-COLD-HARBOUR,de,Greta,Perfect gift,Wrapped beautifully and arrived in two days.,5,2026-01-10 10:00:00
+B-COLD-HARBOUR,it,Greta,Perfect gift,Wrapped beautifully and arrived in two days.,5,2026-01-10 10:00:00
 B-MIDNIGHT-TRAIN,default,Jonas,Ribbon marker,"Small thing, but the ribbon marker and the sewn binding made my week.",5,2026-04-10 10:00:00
+B-MIDNIGHT-TRAIN,fr,Jonas,Ribbon marker,"Small thing, but the ribbon marker and the sewn binding made my week.",5,2026-04-10 10:00:00
+B-MIDNIGHT-TRAIN,de,Jonas,Ribbon marker,"Small thing, but the ribbon marker and the sewn binding made my week.",5,2026-04-10 10:00:00
+B-MIDNIGHT-TRAIN,it,Jonas,Ribbon marker,"Small thing, but the ribbon marker and the sewn binding made my week.",5,2026-04-10 10:00:00
 B-MIDNIGHT-TRAIN,default,Kira,Print is small,"Fine story, but the type is small and the margins are tight.",3,2026-04-11 10:00:00
+B-MIDNIGHT-TRAIN,fr,Kira,Print is small,"Fine story, but the type is small and the margins are tight.",3,2026-04-11 10:00:00
+B-MIDNIGHT-TRAIN,de,Kira,Print is small,"Fine story, but the type is small and the margins are tight.",3,2026-04-11 10:00:00
+B-MIDNIGHT-TRAIN,it,Kira,Print is small,"Fine story, but the type is small and the margins are tight.",3,2026-04-11 10:00:00
 B-DEEP-TIME,default,Maya,Read it twice,The ending sent me back to page one. Rare.,5,2026-01-10 10:00:00
+B-DEEP-TIME,fr,Maya,Read it twice,The ending sent me back to page one. Rare.,5,2026-01-10 10:00:00
+B-DEEP-TIME,de,Maya,Read it twice,The ending sent me back to page one. Rare.,5,2026-01-10 10:00:00
+B-DEEP-TIME,it,Maya,Read it twice,The ending sent me back to page one. Rare.,5,2026-01-10 10:00:00
 B-TREE-BOOK,default,Priya,Arrived with a dented corner,"Packaging was thin. The book is fine, the corner is not.",3,2026-04-10 10:00:00
+B-TREE-BOOK,fr,Priya,Arrived with a dented corner,"Packaging was thin. The book is fine, the corner is not.",3,2026-04-10 10:00:00
+B-TREE-BOOK,de,Priya,Arrived with a dented corner,"Packaging was thin. The book is fine, the corner is not.",3,2026-04-10 10:00:00
+B-TREE-BOOK,it,Priya,Arrived with a dented corner,"Packaging was thin. The book is fine, the corner is not.",3,2026-04-10 10:00:00
 B-TREE-BOOK,default,Quinn,Great translation,Reads like it was written in English. No awkward sentences.,5,2026-04-11 10:00:00
+B-TREE-BOOK,fr,Quinn,Great translation,Reads like it was written in English. No awkward sentences.,5,2026-04-11 10:00:00
+B-TREE-BOOK,de,Quinn,Great translation,Reads like it was written in English. No awkward sentences.,5,2026-04-11 10:00:00
+B-TREE-BOOK,it,Quinn,Great translation,Reads like it was written in English. No awkward sentences.,5,2026-04-11 10:00:00
 B-CITY-WATER,default,Ada,Big for the shelf,Larger format than expected. Check the dimensions.,4,2026-01-10 10:00:00
+B-CITY-WATER,fr,Ada,Big for the shelf,Larger format than expected. Check the dimensions.,4,2026-01-10 10:00:00
+B-CITY-WATER,de,Ada,Big for the shelf,Larger format than expected. Check the dimensions.,4,2026-01-10 10:00:00
+B-CITY-WATER,it,Ada,Big for the shelf,Larger format than expected. Check the dimensions.,4,2026-01-10 10:00:00
 B-PLAGUE-YEAR,default,Dev,The maps alone,The endpaper maps are worth the price. The story is a bonus.,5,2026-04-10 10:00:00
+B-PLAGUE-YEAR,fr,Dev,The maps alone,The endpaper maps are worth the price. The story is a bonus.,5,2026-04-10 10:00:00
+B-PLAGUE-YEAR,de,Dev,The maps alone,The endpaper maps are worth the price. The story is a bonus.,5,2026-04-10 10:00:00
+B-PLAGUE-YEAR,it,Dev,The maps alone,The endpaper maps are worth the price. The story is a bonus.,5,2026-04-10 10:00:00
 B-PLAGUE-YEAR,default,Elena,Not for beginners,"Dense and rewarding, but start elsewhere if you are new to the subject.",4,2026-04-11 10:00:00
+B-PLAGUE-YEAR,fr,Elena,Not for beginners,"Dense and rewarding, but start elsewhere if you are new to the subject.",4,2026-04-11 10:00:00
+B-PLAGUE-YEAR,de,Elena,Not for beginners,"Dense and rewarding, but start elsewhere if you are new to the subject.",4,2026-04-11 10:00:00
+B-PLAGUE-YEAR,it,Elena,Not for beginners,"Dense and rewarding, but start elsewhere if you are new to the subject.",4,2026-04-11 10:00:00
 B-VEG-FIRST,default,Greta,Paperback is sturdy,"Flexible cover, opens flat, survived a beach week.",5,2026-01-10 10:00:00
+B-VEG-FIRST,fr,Greta,Paperback is sturdy,"Flexible cover, opens flat, survived a beach week.",5,2026-01-10 10:00:00
+B-VEG-FIRST,de,Greta,Paperback is sturdy,"Flexible cover, opens flat, survived a beach week.",5,2026-01-10 10:00:00
+B-VEG-FIRST,it,Greta,Paperback is sturdy,"Flexible cover, opens flat, survived a beach week.",5,2026-01-10 10:00:00
 B-GOODNIGHT-FOX,default,Jonas,Half the price elsewhere,"Beautiful shop, but I found the same edition cheaper.",3,2026-04-10 10:00:00
+B-GOODNIGHT-FOX,fr,Jonas,Half the price elsewhere,"Beautiful shop, but I found the same edition cheaper.",3,2026-04-10 10:00:00
+B-GOODNIGHT-FOX,de,Jonas,Half the price elsewhere,"Beautiful shop, but I found the same edition cheaper.",3,2026-04-10 10:00:00
+B-GOODNIGHT-FOX,it,Jonas,Half the price elsewhere,"Beautiful shop, but I found the same edition cheaper.",3,2026-04-10 10:00:00
 B-GOODNIGHT-FOX,default,Kira,Signed copy,I did not expect the signature on the title page. Delighted.,5,2026-04-11 10:00:00
+B-GOODNIGHT-FOX,fr,Kira,Signed copy,I did not expect the signature on the title page. Delighted.,5,2026-04-11 10:00:00
+B-GOODNIGHT-FOX,de,Kira,Signed copy,I did not expect the signature on the title page. Delighted.,5,2026-04-11 10:00:00
+B-GOODNIGHT-FOX,it,Kira,Signed copy,I did not expect the signature on the title page. Delighted.,5,2026-04-11 10:00:00
 B-DRAGON-SCHOOL,default,Maya,"Slow start, strong finish",Give it fifty pages. Then you will not stop.,4,2026-01-10 10:00:00
+B-DRAGON-SCHOOL,fr,Maya,"Slow start, strong finish",Give it fifty pages. Then you will not stop.,4,2026-01-10 10:00:00
+B-DRAGON-SCHOOL,de,Maya,"Slow start, strong finish",Give it fifty pages. Then you will not stop.,4,2026-01-10 10:00:00
+B-DRAGON-SCHOOL,it,Maya,"Slow start, strong finish",Give it fifty pages. Then you will not stop.,4,2026-01-10 10:00:00
 B-POEMS-SEA,default,Priya,Kids loved it,Read aloud three nights running. The pictures hold up to a torch.,5,2026-04-10 10:00:00
+B-POEMS-SEA,fr,Priya,Kids loved it,Read aloud three nights running. The pictures hold up to a torch.,5,2026-04-10 10:00:00
+B-POEMS-SEA,de,Priya,Kids loved it,Read aloud three nights running. The pictures hold up to a torch.,5,2026-04-10 10:00:00
+B-POEMS-SEA,it,Priya,Kids loved it,Read aloud three nights running. The pictures hold up to a torch.,5,2026-04-10 10:00:00
 B-POEMS-SEA,default,Quinn,Index is excellent,"For a reference book, the index is what matters, and this one is thorough.",5,2026-04-11 10:00:00
+B-POEMS-SEA,fr,Quinn,Index is excellent,"For a reference book, the index is what matters, and this one is thorough.",5,2026-04-11 10:00:00
+B-POEMS-SEA,de,Quinn,Index is excellent,"For a reference book, the index is what matters, and this one is thorough.",5,2026-04-11 10:00:00
+B-POEMS-SEA,it,Quinn,Index is excellent,"For a reference book, the index is what matters, and this one is thorough.",5,2026-04-11 10:00:00
 B-CRIME-SET,default,Ada,Smells like a bookshop,"Uncoated paper, sewn spine. Old fashioned in the best way.",5,2026-01-10 10:00:00
+B-CRIME-SET,fr,Ada,Smells like a bookshop,"Uncoated paper, sewn spine. Old fashioned in the best way.",5,2026-01-10 10:00:00
+B-CRIME-SET,de,Ada,Smells like a bookshop,"Uncoated paper, sewn spine. Old fashioned in the best way.",5,2026-01-10 10:00:00
+B-CRIME-SET,it,Ada,Smells like a bookshop,"Uncoated paper, sewn spine. Old fashioned in the best way.",5,2026-01-10 10:00:00
 B-TOTE,default,Dev,Too short,"Loved every page, wanted a hundred more.",4,2026-04-10 10:00:00
+B-TOTE,fr,Dev,Too short,"Loved every page, wanted a hundred more.",4,2026-04-10 10:00:00
+B-TOTE,de,Dev,Too short,"Loved every page, wanted a hundred more.",4,2026-04-10 10:00:00
+B-TOTE,it,Dev,Too short,"Loved every page, wanted a hundred more.",4,2026-04-10 10:00:00
 B-TOTE,default,Elena,Second volume please,Ends on a cliff. Hoping the next one is on its way.,4,2026-04-11 10:00:00
+B-TOTE,fr,Elena,Second volume please,Ends on a cliff. Hoping the next one is on its way.,4,2026-04-11 10:00:00
+B-TOTE,de,Elena,Second volume please,Ends on a cliff. Hoping the next one is on its way.,4,2026-04-11 10:00:00
+B-TOTE,it,Elena,Second volume please,Ends on a cliff. Hoping the next one is on its way.,4,2026-04-11 10:00:00
 B-GIFT-CARD,default,Greta,Good notes,The introduction and notes add context without getting in the way.,5,2026-01-10 10:00:00
+B-GIFT-CARD,fr,Greta,Good notes,The introduction and notes add context without getting in the way.,5,2026-01-10 10:00:00
+B-GIFT-CARD,de,Greta,Good notes,The introduction and notes add context without getting in the way.,5,2026-01-10 10:00:00
+B-GIFT-CARD,it,Greta,Good notes,The introduction and notes add context without getting in the way.,5,2026-01-10 10:00:00
 J-BAND-THIN,default,Ada,Delicate and well made,"Finer than the photos suggest, in a good way. The finish is flawless.",5,2026-01-10 10:00:00
+J-BAND-THIN,fr,Ada,Delicate and well made,"Finer than the photos suggest, in a good way. The finish is flawless.",5,2026-01-10 10:00:00
+J-BAND-THIN,de,Ada,Delicate and well made,"Finer than the photos suggest, in a good way. The finish is flawless.",5,2026-01-10 10:00:00
+J-BAND-THIN,it,Ada,Delicate and well made,"Finer than the photos suggest, in a good way. The finish is flawless.",5,2026-01-10 10:00:00
 J-MOONSTONE-RING,default,Dev,"Lovely, a little small","Beautiful piece. The pendant is smaller than I expected, so check the size.",4,2026-04-10 10:00:00
+J-MOONSTONE-RING,fr,Dev,"Lovely, a little small","Beautiful piece. The pendant is smaller than I expected, so check the size.",4,2026-04-10 10:00:00
+J-MOONSTONE-RING,de,Dev,"Lovely, a little small","Beautiful piece. The pendant is smaller than I expected, so check the size.",4,2026-04-10 10:00:00
+J-MOONSTONE-RING,it,Dev,"Lovely, a little small","Beautiful piece. The pendant is smaller than I expected, so check the size.",4,2026-04-10 10:00:00
 J-MOONSTONE-RING,default,Elena,Worn every day,"Six months in, no tarnish, no loose stone.",5,2026-04-11 10:00:00
+J-MOONSTONE-RING,fr,Elena,Worn every day,"Six months in, no tarnish, no loose stone.",5,2026-04-11 10:00:00
+J-MOONSTONE-RING,de,Elena,Worn every day,"Six months in, no tarnish, no loose stone.",5,2026-04-11 10:00:00
+J-MOONSTONE-RING,it,Elena,Worn every day,"Six months in, no tarnish, no loose stone.",5,2026-04-11 10:00:00
 J-TWIST-RING,default,Greta,Perfect gift,The box and the handwritten card made it. She cried.,5,2026-01-10 10:00:00
+J-TWIST-RING,fr,Greta,Perfect gift,The box and the handwritten card made it. She cried.,5,2026-01-10 10:00:00
+J-TWIST-RING,de,Greta,Perfect gift,The box and the handwritten card made it. She cried.,5,2026-01-10 10:00:00
+J-TWIST-RING,it,Greta,Perfect gift,The box and the handwritten card made it. She cried.,5,2026-01-10 10:00:00
 J-PEARL-STRAND,default,Jonas,Clasp is secure,Lobster clasp with a proper spring. Never opened by itself.,5,2026-04-10 10:00:00
+J-PEARL-STRAND,fr,Jonas,Clasp is secure,Lobster clasp with a proper spring. Never opened by itself.,5,2026-04-10 10:00:00
+J-PEARL-STRAND,de,Jonas,Clasp is secure,Lobster clasp with a proper spring. Never opened by itself.,5,2026-04-10 10:00:00
+J-PEARL-STRAND,it,Jonas,Clasp is secure,Lobster clasp with a proper spring. Never opened by itself.,5,2026-04-10 10:00:00
 J-PEARL-STRAND,default,Kira,Resized for free,"Half a size out. Sent back, resized, returned within a week.",5,2026-04-11 10:00:00
+J-PEARL-STRAND,fr,Kira,Resized for free,"Half a size out. Sent back, resized, returned within a week.",5,2026-04-11 10:00:00
+J-PEARL-STRAND,de,Kira,Resized for free,"Half a size out. Sent back, resized, returned within a week.",5,2026-04-11 10:00:00
+J-PEARL-STRAND,it,Kira,Resized for free,"Half a size out. Sent back, resized, returned within a week.",5,2026-04-11 10:00:00
 J-EMERALD-PENDANT,default,Maya,Catches the light,The stone sparkles under office lights. Colleagues noticed.,5,2026-01-10 10:00:00
+J-EMERALD-PENDANT,fr,Maya,Catches the light,The stone sparkles under office lights. Colleagues noticed.,5,2026-01-10 10:00:00
+J-EMERALD-PENDANT,de,Maya,Catches the light,The stone sparkles under office lights. Colleagues noticed.,5,2026-01-10 10:00:00
+J-EMERALD-PENDANT,it,Maya,Catches the light,The stone sparkles under office lights. Colleagues noticed.,5,2026-01-10 10:00:00
 J-HOOP-SMALL,default,Priya,Chain is fine,Beautiful but very fine. I take it off for the gym.,4,2026-04-10 10:00:00
+J-HOOP-SMALL,fr,Priya,Chain is fine,Beautiful but very fine. I take it off for the gym.,4,2026-04-10 10:00:00
+J-HOOP-SMALL,de,Priya,Chain is fine,Beautiful but very fine. I take it off for the gym.,4,2026-04-10 10:00:00
+J-HOOP-SMALL,it,Priya,Chain is fine,Beautiful but very fine. I take it off for the gym.,4,2026-04-10 10:00:00
 J-HOOP-SMALL,default,Quinn,Stacks well,"Three thin rings, worn together. That was the plan and it works.",5,2026-04-11 10:00:00
+J-HOOP-SMALL,fr,Quinn,Stacks well,"Three thin rings, worn together. That was the plan and it works.",5,2026-04-11 10:00:00
+J-HOOP-SMALL,de,Quinn,Stacks well,"Three thin rings, worn together. That was the plan and it works.",5,2026-04-11 10:00:00
+J-HOOP-SMALL,it,Quinn,Stacks well,"Three thin rings, worn together. That was the plan and it works.",5,2026-04-11 10:00:00
 J-DOT-STUD,default,Ada,Earring back is tiny,Lovely hoops but the backs are small and easy to drop.,3,2026-01-10 10:00:00
+J-DOT-STUD,fr,Ada,Earring back is tiny,Lovely hoops but the backs are small and easy to drop.,3,2026-01-10 10:00:00
+J-DOT-STUD,de,Ada,Earring back is tiny,Lovely hoops but the backs are small and easy to drop.,3,2026-01-10 10:00:00
+J-DOT-STUD,it,Ada,Earring back is tiny,Lovely hoops but the backs are small and easy to drop.,3,2026-01-10 10:00:00
 J-THREADER,default,Dev,"Solid gold, not plated",You can feel the weight. Worth every penny.,5,2026-04-10 10:00:00
+J-THREADER,fr,Dev,"Solid gold, not plated",You can feel the weight. Worth every penny.,5,2026-04-10 10:00:00
+J-THREADER,de,Dev,"Solid gold, not plated",You can feel the weight. Worth every penny.,5,2026-04-10 10:00:00
+J-THREADER,it,Dev,"Solid gold, not plated",You can feel the weight. Worth every penny.,5,2026-04-10 10:00:00
 J-THREADER,default,Elena,Slight scratch on the band,Hairline mark out of the box. Polished it out myself.,4,2026-04-11 10:00:00
+J-THREADER,fr,Elena,Slight scratch on the band,Hairline mark out of the box. Polished it out myself.,4,2026-04-11 10:00:00
+J-THREADER,de,Elena,Slight scratch on the band,Hairline mark out of the box. Polished it out myself.,4,2026-04-11 10:00:00
+J-THREADER,it,Elena,Slight scratch on the band,Hairline mark out of the box. Polished it out myself.,4,2026-04-11 10:00:00
 J-PEARL-BRACELET,default,Greta,Pearls are matched,"Same size, same lustre, well knotted between each.",5,2026-01-10 10:00:00
+J-PEARL-BRACELET,fr,Greta,Pearls are matched,"Same size, same lustre, well knotted between each.",5,2026-01-10 10:00:00
+J-PEARL-BRACELET,de,Greta,Pearls are matched,"Same size, same lustre, well knotted between each.",5,2026-01-10 10:00:00
+J-PEARL-BRACELET,it,Greta,Pearls are matched,"Same size, same lustre, well knotted between each.",5,2026-01-10 10:00:00
 J-ID-BRACELET,default,Jonas,Fits the wrist,Cuff opens just enough. Stays put all day.,5,2026-04-10 10:00:00
+J-ID-BRACELET,fr,Jonas,Fits the wrist,Cuff opens just enough. Stays put all day.,5,2026-04-10 10:00:00
+J-ID-BRACELET,de,Jonas,Fits the wrist,Cuff opens just enough. Stays put all day.,5,2026-04-10 10:00:00
+J-ID-BRACELET,it,Jonas,Fits the wrist,Cuff opens just enough. Stays put all day.,5,2026-04-10 10:00:00
 J-ID-BRACELET,default,Kira,Ring box is lovely,The linen box is a keepsake on its own.,5,2026-04-11 10:00:00
+J-ID-BRACELET,fr,Kira,Ring box is lovely,The linen box is a keepsake on its own.,5,2026-04-11 10:00:00
+J-ID-BRACELET,de,Kira,Ring box is lovely,The linen box is a keepsake on its own.,5,2026-04-11 10:00:00
+J-ID-BRACELET,it,Kira,Ring box is lovely,The linen box is a keepsake on its own.,5,2026-04-11 10:00:00
 J-SAPPHIRE-SOL,default,Maya,Wanted it bigger,"Beautiful stone, smaller than the photo led me to expect.",4,2026-01-10 10:00:00
+J-SAPPHIRE-SOL,fr,Maya,Wanted it bigger,"Beautiful stone, smaller than the photo led me to expect.",4,2026-01-10 10:00:00
+J-SAPPHIRE-SOL,de,Maya,Wanted it bigger,"Beautiful stone, smaller than the photo led me to expect.",4,2026-01-10 10:00:00
+J-SAPPHIRE-SOL,it,Maya,Wanted it bigger,"Beautiful stone, smaller than the photo led me to expect.",4,2026-01-10 10:00:00
 J-ETERNITY,default,Priya,No green finger,"A month of daily wear, no mark on the skin.",5,2026-04-10 10:00:00
+J-ETERNITY,fr,Priya,No green finger,"A month of daily wear, no mark on the skin.",5,2026-04-10 10:00:00
+J-ETERNITY,de,Priya,No green finger,"A month of daily wear, no mark on the skin.",5,2026-04-10 10:00:00
+J-ETERNITY,it,Priya,No green finger,"A month of daily wear, no mark on the skin.",5,2026-04-10 10:00:00
 J-ETERNITY,default,Quinn,Engraving is crisp,"Two initials and a date, clean and even.",5,2026-04-11 10:00:00
+J-ETERNITY,fr,Quinn,Engraving is crisp,"Two initials and a date, clean and even.",5,2026-04-11 10:00:00
+J-ETERNITY,de,Quinn,Engraving is crisp,"Two initials and a date, clean and even.",5,2026-04-11 10:00:00
+J-ETERNITY,it,Quinn,Engraving is crisp,"Two initials and a date, clean and even.",5,2026-04-11 10:00:00
 J-RING-BOX,default,Ada,Bought a second for my sister,She saw mine and now we match.,5,2026-01-10 10:00:00
+J-RING-BOX,fr,Ada,Bought a second for my sister,She saw mine and now we match.,5,2026-01-10 10:00:00
+J-RING-BOX,de,Ada,Bought a second for my sister,She saw mine and now we match.,5,2026-01-10 10:00:00
+J-RING-BOX,it,Ada,Bought a second for my sister,She saw mine and now we match.,5,2026-01-10 10:00:00
 J-GIFT-CARD,default,Dev,Post is short,"Stud sits close to the ear, which I like. Bigger lobes may want longer posts.",4,2026-04-10 10:00:00
+J-GIFT-CARD,fr,Dev,Post is short,"Stud sits close to the ear, which I like. Bigger lobes may want longer posts.",4,2026-04-10 10:00:00
+J-GIFT-CARD,de,Dev,Post is short,"Stud sits close to the ear, which I like. Bigger lobes may want longer posts.",4,2026-04-10 10:00:00
+J-GIFT-CARD,it,Dev,Post is short,"Stud sits close to the ear, which I like. Bigger lobes may want longer posts.",4,2026-04-10 10:00:00
 J-GIFT-CARD,default,Elena,Came with a cloth,Polishing cloth and care notes in the box. Thoughtful.,5,2026-04-11 10:00:00
+J-GIFT-CARD,fr,Elena,Came with a cloth,Polishing cloth and care notes in the box. Thoughtful.,5,2026-04-11 10:00:00
+J-GIFT-CARD,de,Elena,Came with a cloth,Polishing cloth and care notes in the box. Thoughtful.,5,2026-04-11 10:00:00
+J-GIFT-CARD,it,Elena,Came with a cloth,Polishing cloth and care notes in the box. Thoughtful.,5,2026-04-11 10:00:00
 G-CLEANSE-BALM,default,Ada,Gentle and it works,"No stinging, no fragrance, and my skin is calmer after two weeks.",5,2026-01-10 10:00:00
+G-CLEANSE-BALM,fr,Ada,Gentle and it works,"No stinging, no fragrance, and my skin is calmer after two weeks.",5,2026-01-10 10:00:00
+G-CLEANSE-BALM,de,Ada,Gentle and it works,"No stinging, no fragrance, and my skin is calmer after two weeks.",5,2026-01-10 10:00:00
+G-CLEANSE-BALM,it,Ada,Gentle and it works,"No stinging, no fragrance, and my skin is calmer after two weeks.",5,2026-01-10 10:00:00
 G-MICELLAR,default,Dev,Nice but small,"Lovely texture. The jar is smaller than it looks, so watch the volume.",4,2026-04-10 10:00:00
+G-MICELLAR,fr,Dev,Nice but small,"Lovely texture. The jar is smaller than it looks, so watch the volume.",4,2026-04-10 10:00:00
+G-MICELLAR,de,Dev,Nice but small,"Lovely texture. The jar is smaller than it looks, so watch the volume.",4,2026-04-10 10:00:00
+G-MICELLAR,it,Dev,Nice but small,"Lovely texture. The jar is smaller than it looks, so watch the volume.",4,2026-04-10 10:00:00
 G-MICELLAR,default,Elena,Refill is a great idea,"Bought the glass once, now I refill. Cheaper and less waste.",5,2026-04-11 10:00:00
+G-MICELLAR,fr,Elena,Refill is a great idea,"Bought the glass once, now I refill. Cheaper and less waste.",5,2026-04-11 10:00:00
+G-MICELLAR,de,Elena,Refill is a great idea,"Bought the glass once, now I refill. Cheaper and less waste.",5,2026-04-11 10:00:00
+G-MICELLAR,it,Elena,Refill is a great idea,"Bought the glass once, now I refill. Cheaper and less waste.",5,2026-04-11 10:00:00
 G-VIT-C,default,Greta,My holy grail,Third jar. Nothing else has replaced it.,5,2026-01-10 10:00:00
+G-VIT-C,fr,Greta,My holy grail,Third jar. Nothing else has replaced it.,5,2026-01-10 10:00:00
+G-VIT-C,de,Greta,My holy grail,Third jar. Nothing else has replaced it.,5,2026-01-10 10:00:00
+G-VIT-C,it,Greta,My holy grail,Third jar. Nothing else has replaced it.,5,2026-01-10 10:00:00
 G-NIACINAMIDE,default,Jonas,Sinks in fast,"No greasy film, makeup goes on top after a minute.",5,2026-04-10 10:00:00
+G-NIACINAMIDE,fr,Jonas,Sinks in fast,"No greasy film, makeup goes on top after a minute.",5,2026-04-10 10:00:00
+G-NIACINAMIDE,de,Jonas,Sinks in fast,"No greasy film, makeup goes on top after a minute.",5,2026-04-10 10:00:00
+G-NIACINAMIDE,it,Jonas,Sinks in fast,"No greasy film, makeup goes on top after a minute.",5,2026-04-10 10:00:00
 G-NIACINAMIDE,default,Kira,Took a month to see it,Patience needed. Around week four the texture of my skin changed.,4,2026-04-11 10:00:00
+G-NIACINAMIDE,fr,Kira,Took a month to see it,Patience needed. Around week four the texture of my skin changed.,4,2026-04-11 10:00:00
+G-NIACINAMIDE,de,Kira,Took a month to see it,Patience needed. Around week four the texture of my skin changed.,4,2026-04-11 10:00:00
+G-NIACINAMIDE,it,Kira,Took a month to see it,Patience needed. Around week four the texture of my skin changed.,4,2026-04-11 10:00:00
 G-DAY-CREAM,default,Maya,Smells like nothing,Which is exactly what I wanted for reactive skin.,5,2026-01-10 10:00:00
+G-DAY-CREAM,fr,Maya,Smells like nothing,Which is exactly what I wanted for reactive skin.,5,2026-01-10 10:00:00
+G-DAY-CREAM,de,Maya,Smells like nothing,Which is exactly what I wanted for reactive skin.,5,2026-01-10 10:00:00
+G-DAY-CREAM,it,Maya,Smells like nothing,Which is exactly what I wanted for reactive skin.,5,2026-01-10 10:00:00
 G-BALM,default,Priya,Pump broke,"The formula is great, the pump stopped after a month. Support sent a new one.",3,2026-04-10 10:00:00
+G-BALM,fr,Priya,Pump broke,"The formula is great, the pump stopped after a month. Support sent a new one.",3,2026-04-10 10:00:00
+G-BALM,de,Priya,Pump broke,"The formula is great, the pump stopped after a month. Support sent a new one.",3,2026-04-10 10:00:00
+G-BALM,it,Priya,Pump broke,"The formula is great, the pump stopped after a month. Support sent a new one.",3,2026-04-10 10:00:00
 G-BALM,default,Quinn,Good for oily skin,Matte finish without tightness. My afternoon shine is gone.,5,2026-04-11 10:00:00
+G-BALM,fr,Quinn,Good for oily skin,Matte finish without tightness. My afternoon shine is gone.,5,2026-04-11 10:00:00
+G-BALM,de,Quinn,Good for oily skin,Matte finish without tightness. My afternoon shine is gone.,5,2026-04-11 10:00:00
+G-BALM,it,Quinn,Good for oily skin,Matte finish without tightness. My afternoon shine is gone.,5,2026-04-11 10:00:00
 G-BODY-WASH,default,Ada,Too rich for me,"Beautiful for dry skin I am sure, too heavy for my combination skin.",3,2026-01-10 10:00:00
+G-BODY-WASH,fr,Ada,Too rich for me,"Beautiful for dry skin I am sure, too heavy for my combination skin.",3,2026-01-10 10:00:00
+G-BODY-WASH,de,Ada,Too rich for me,"Beautiful for dry skin I am sure, too heavy for my combination skin.",3,2026-01-10 10:00:00
+G-BODY-WASH,it,Ada,Too rich for me,"Beautiful for dry skin I am sure, too heavy for my combination skin.",3,2026-01-10 10:00:00
 G-BODY-CREAM,default,Dev,Travel size please,I love it but the bottle is too big for a carry-on.,4,2026-04-10 10:00:00
+G-BODY-CREAM,fr,Dev,Travel size please,I love it but the bottle is too big for a carry-on.,4,2026-04-10 10:00:00
+G-BODY-CREAM,de,Dev,Travel size please,I love it but the bottle is too big for a carry-on.,4,2026-04-10 10:00:00
+G-BODY-CREAM,it,Dev,Travel size please,I love it but the bottle is too big for a carry-on.,4,2026-04-10 10:00:00
 G-BODY-CREAM,default,Elena,Replaced three products,"Cleanser, toner and serum in one step. My shelf is empty now.",5,2026-04-11 10:00:00
+G-BODY-CREAM,fr,Elena,Replaced three products,"Cleanser, toner and serum in one step. My shelf is empty now.",5,2026-04-11 10:00:00
+G-BODY-CREAM,de,Elena,Replaced three products,"Cleanser, toner and serum in one step. My shelf is empty now.",5,2026-04-11 10:00:00
+G-BODY-CREAM,it,Elena,Replaced three products,"Cleanser, toner and serum in one step. My shelf is empty now.",5,2026-04-11 10:00:00
 G-LIP-BALM,default,Greta,Glass feels premium,Heavy frosted glass and a proper lid. Sits well on the sink.,5,2026-01-10 10:00:00
+G-LIP-BALM,fr,Greta,Glass feels premium,Heavy frosted glass and a proper lid. Sits well on the sink.,5,2026-01-10 10:00:00
+G-LIP-BALM,de,Greta,Glass feels premium,Heavy frosted glass and a proper lid. Sits well on the sink.,5,2026-01-10 10:00:00
+G-LIP-BALM,it,Greta,Glass feels premium,Heavy frosted glass and a proper lid. Sits well on the sink.,5,2026-01-10 10:00:00
 G-EDP-CEDAR,default,Jonas,"Nice, not a miracle","Pleasant to use and my skin is fine, but the price promised more.",3,2026-04-10 10:00:00
+G-EDP-CEDAR,fr,Jonas,"Nice, not a miracle","Pleasant to use and my skin is fine, but the price promised more.",3,2026-04-10 10:00:00
+G-EDP-CEDAR,de,Jonas,"Nice, not a miracle","Pleasant to use and my skin is fine, but the price promised more.",3,2026-04-10 10:00:00
+G-EDP-CEDAR,it,Jonas,"Nice, not a miracle","Pleasant to use and my skin is fine, but the price promised more.",3,2026-04-10 10:00:00
 G-EDP-CEDAR,default,Kira,Calmed a flare up,Used it on a red patch for three nights and it settled.,5,2026-04-11 10:00:00
+G-EDP-CEDAR,fr,Kira,Calmed a flare up,Used it on a red patch for three nights and it settled.,5,2026-04-11 10:00:00
+G-EDP-CEDAR,de,Kira,Calmed a flare up,Used it on a red patch for three nights and it settled.,5,2026-04-11 10:00:00
+G-EDP-CEDAR,it,Kira,Calmed a flare up,Used it on a red patch for three nights and it settled.,5,2026-04-11 10:00:00
 G-CANDLE,default,Maya,A little goes far,Two pumps for the whole face. The bottle will last months.,5,2026-01-10 10:00:00
+G-CANDLE,fr,Maya,A little goes far,Two pumps for the whole face. The bottle will last months.,5,2026-01-10 10:00:00
+G-CANDLE,de,Maya,A little goes far,Two pumps for the whole face. The bottle will last months.,5,2026-01-10 10:00:00
+G-CANDLE,it,Maya,A little goes far,Two pumps for the whole face. The bottle will last months.,5,2026-01-10 10:00:00
 G-PM-ROUTINE,default,Priya,Great under sunscreen,"No pilling, which is rare. Sunscreen sits smoothly on top.",5,2026-04-10 10:00:00
+G-PM-ROUTINE,fr,Priya,Great under sunscreen,"No pilling, which is rare. Sunscreen sits smoothly on top.",5,2026-04-10 10:00:00
+G-PM-ROUTINE,de,Priya,Great under sunscreen,"No pilling, which is rare. Sunscreen sits smoothly on top.",5,2026-04-10 10:00:00
+G-PM-ROUTINE,it,Priya,Great under sunscreen,"No pilling, which is rare. Sunscreen sits smoothly on top.",5,2026-04-10 10:00:00
 G-PM-ROUTINE,default,Quinn,Arrived leaking,The cap was loose and a third was gone. Replaced within a week.,3,2026-04-11 10:00:00
+G-PM-ROUTINE,fr,Quinn,Arrived leaking,The cap was loose and a third was gone. Replaced within a week.,3,2026-04-11 10:00:00
+G-PM-ROUTINE,de,Quinn,Arrived leaking,The cap was loose and a third was gone. Replaced within a week.,3,2026-04-11 10:00:00
+G-PM-ROUTINE,it,Quinn,Arrived leaking,The cap was loose and a third was gone. Replaced within a week.,3,2026-04-11 10:00:00
 G-HEADBAND,default,Ada,Smooth after one use,"The enzyme powder is gentle and my skin felt polished, not raw.",5,2026-01-10 10:00:00
+G-HEADBAND,fr,Ada,Smooth after one use,"The enzyme powder is gentle and my skin felt polished, not raw.",5,2026-01-10 10:00:00
+G-HEADBAND,de,Ada,Smooth after one use,"The enzyme powder is gentle and my skin felt polished, not raw.",5,2026-01-10 10:00:00
+G-HEADBAND,it,Ada,Smooth after one use,"The enzyme powder is gentle and my skin felt polished, not raw.",5,2026-01-10 10:00:00
 H-DINING-TABLE,default,Ada,Solid and beautiful,Heavier and better made than expected. The oil finish is lovely.,5,2026-01-10 10:00:00
+H-DINING-TABLE,fr,Ada,Solid and beautiful,Heavier and better made than expected. The oil finish is lovely.,5,2026-01-10 10:00:00
+H-DINING-TABLE,de,Ada,Solid and beautiful,Heavier and better made than expected. The oil finish is lovely.,5,2026-01-10 10:00:00
+H-DINING-TABLE,it,Ada,Solid and beautiful,Heavier and better made than expected. The oil finish is lovely.,5,2026-01-10 10:00:00
 H-BOOKCASE,default,Dev,"Good, delivery slow","Great piece, but it took six weeks. Worth the wait, just plan ahead.",4,2026-04-10 10:00:00
+H-BOOKCASE,fr,Dev,"Good, delivery slow","Great piece, but it took six weeks. Worth the wait, just plan ahead.",4,2026-04-10 10:00:00
+H-BOOKCASE,de,Dev,"Good, delivery slow","Great piece, but it took six weeks. Worth the wait, just plan ahead.",4,2026-04-10 10:00:00
+H-BOOKCASE,it,Dev,"Good, delivery slow","Great piece, but it took six weeks. Worth the wait, just plan ahead.",4,2026-04-10 10:00:00
 H-BOOKCASE,default,Elena,Room of choice delivery,Two people carried it upstairs and took the packaging. Excellent.,5,2026-04-11 10:00:00
+H-BOOKCASE,fr,Elena,Room of choice delivery,Two people carried it upstairs and took the packaging. Excellent.,5,2026-04-11 10:00:00
+H-BOOKCASE,de,Elena,Room of choice delivery,Two people carried it upstairs and took the packaging. Excellent.,5,2026-04-11 10:00:00
+H-BOOKCASE,it,Elena,Room of choice delivery,Two people carried it upstairs and took the packaging. Excellent.,5,2026-04-11 10:00:00
 H-BENCH,default,Greta,Cover replaced for free,"A stain that would not come out. New cover, no charge.",5,2026-01-10 10:00:00
+H-BENCH,fr,Greta,Cover replaced for free,"A stain that would not come out. New cover, no charge.",5,2026-01-10 10:00:00
+H-BENCH,de,Greta,Cover replaced for free,"A stain that would not come out. New cover, no charge.",5,2026-01-10 10:00:00
+H-BENCH,it,Greta,Cover replaced for free,"A stain that would not come out. New cover, no charge.",5,2026-01-10 10:00:00
 H-SOFA-3,default,Jonas,Linen softens fast,"Crisp on day one, soft after three washes. Sleeping better.",5,2026-04-10 10:00:00
+H-SOFA-3,fr,Jonas,Linen softens fast,"Crisp on day one, soft after three washes. Sleeping better.",5,2026-04-10 10:00:00
+H-SOFA-3,de,Jonas,Linen softens fast,"Crisp on day one, soft after three washes. Sleeping better.",5,2026-04-10 10:00:00
+H-SOFA-3,it,Jonas,Linen softens fast,"Crisp on day one, soft after three washes. Sleeping better.",5,2026-04-10 10:00:00
 H-SOFA-3,default,Kira,Colour is true,The oatmeal is the oatmeal in the photo. No surprises.,5,2026-04-11 10:00:00
+H-SOFA-3,fr,Kira,Colour is true,The oatmeal is the oatmeal in the photo. No surprises.,5,2026-04-11 10:00:00
+H-SOFA-3,de,Kira,Colour is true,The oatmeal is the oatmeal in the photo. No surprises.,5,2026-04-11 10:00:00
+H-SOFA-3,it,Kira,Colour is true,The oatmeal is the oatmeal in the photo. No surprises.,5,2026-04-11 10:00:00
 H-STOOL,default,Maya,Wobbles a little,One leg needed a shim on my old floor. Fine after that.,3,2026-01-10 10:00:00
+H-STOOL,fr,Maya,Wobbles a little,One leg needed a shim on my old floor. Fine after that.,3,2026-01-10 10:00:00
+H-STOOL,de,Maya,Wobbles a little,One leg needed a shim on my old floor. Fine after that.,3,2026-01-10 10:00:00
+H-STOOL,it,Maya,Wobbles a little,One leg needed a shim on my old floor. Fine after that.,3,2026-01-10 10:00:00
 H-LINEN-SHEETS,default,Priya,Guests ask where it is from,Every time. The answer is always this shop.,5,2026-04-10 10:00:00
+H-LINEN-SHEETS,fr,Priya,Guests ask where it is from,Every time. The answer is always this shop.,5,2026-04-10 10:00:00
+H-LINEN-SHEETS,de,Priya,Guests ask where it is from,Every time. The answer is always this shop.,5,2026-04-10 10:00:00
+H-LINEN-SHEETS,it,Priya,Guests ask where it is from,Every time. The answer is always this shop.,5,2026-04-10 10:00:00
 H-LINEN-SHEETS,default,Quinn,Candle burns even,"No tunnelling, no soot, forty hours as promised.",5,2026-04-11 10:00:00
+H-LINEN-SHEETS,fr,Quinn,Candle burns even,"No tunnelling, no soot, forty hours as promised.",5,2026-04-11 10:00:00
+H-LINEN-SHEETS,de,Quinn,Candle burns even,"No tunnelling, no soot, forty hours as promised.",5,2026-04-11 10:00:00
+H-LINEN-SHEETS,it,Quinn,Candle burns even,"No tunnelling, no soot, forty hours as promised.",5,2026-04-11 10:00:00
 H-PILLOW,default,Ada,Too firm for me,"Well made sofa, but the seat is firmer than the showroom feel I wanted.",3,2026-01-10 10:00:00
+H-PILLOW,fr,Ada,Too firm for me,"Well made sofa, but the seat is firmer than the showroom feel I wanted.",3,2026-01-10 10:00:00
+H-PILLOW,de,Ada,Too firm for me,"Well made sofa, but the seat is firmer than the showroom feel I wanted.",3,2026-01-10 10:00:00
+H-PILLOW,it,Ada,Too firm for me,"Well made sofa, but the seat is firmer than the showroom feel I wanted.",3,2026-01-10 10:00:00
 H-PLATES,default,Dev,Assembled in ten minutes,Four bolts and a key. Instructions with actual words.,5,2026-04-10 10:00:00
+H-PLATES,fr,Dev,Assembled in ten minutes,Four bolts and a key. Instructions with actual words.,5,2026-04-10 10:00:00
+H-PLATES,de,Dev,Assembled in ten minutes,Four bolts and a key. Instructions with actual words.,5,2026-04-10 10:00:00
+H-PLATES,it,Dev,Assembled in ten minutes,Four bolts and a key. Instructions with actual words.,5,2026-04-10 10:00:00
 H-PLATES,default,Elena,Mug keeps coffee hot,Thick stoneware. My coffee stays warm through a whole call.,5,2026-04-11 10:00:00
+H-PLATES,fr,Elena,Mug keeps coffee hot,Thick stoneware. My coffee stays warm through a whole call.,5,2026-04-11 10:00:00
+H-PLATES,de,Elena,Mug keeps coffee hot,Thick stoneware. My coffee stays warm through a whole call.,5,2026-04-11 10:00:00
+H-PLATES,it,Elena,Mug keeps coffee hot,Thick stoneware. My coffee stays warm through a whole call.,5,2026-04-11 10:00:00
 H-GLASSES,default,Greta,Rug sheds at first,"Wool fluff for two weeks, then it settled. Vacuum often at first.",4,2026-01-10 10:00:00
+H-GLASSES,fr,Greta,Rug sheds at first,"Wool fluff for two weeks, then it settled. Vacuum often at first.",4,2026-01-10 10:00:00
+H-GLASSES,de,Greta,Rug sheds at first,"Wool fluff for two weeks, then it settled. Vacuum often at first.",4,2026-01-10 10:00:00
+H-GLASSES,it,Greta,Rug sheds at first,"Wool fluff for two weeks, then it settled. Vacuum often at first.",4,2026-01-10 10:00:00
 H-NAPKINS,default,Jonas,Fits the alcove exactly,I measured twice and it fits to the centimetre.,5,2026-04-10 10:00:00
+H-NAPKINS,fr,Jonas,Fits the alcove exactly,I measured twice and it fits to the centimetre.,5,2026-04-10 10:00:00
+H-NAPKINS,de,Jonas,Fits the alcove exactly,I measured twice and it fits to the centimetre.,5,2026-04-10 10:00:00
+H-NAPKINS,it,Jonas,Fits the alcove exactly,I measured twice and it fits to the centimetre.,5,2026-04-10 10:00:00
 H-NAPKINS,default,Kira,Throw is generous,Big enough for two on the sofa. Fringe has not shed.,5,2026-04-11 10:00:00
+H-NAPKINS,fr,Kira,Throw is generous,Big enough for two on the sofa. Fringe has not shed.,5,2026-04-11 10:00:00
+H-NAPKINS,de,Kira,Throw is generous,Big enough for two on the sofa. Fringe has not shed.,5,2026-04-11 10:00:00
+H-NAPKINS,it,Kira,Throw is generous,Big enough for two on the sofa. Fringe has not shed.,5,2026-04-11 10:00:00
 H-TABLE-LAMP,default,Maya,Paint chipped on the edge,Small chip on the frame from transit. Touch-up pot sent free.,3,2026-01-10 10:00:00
+H-TABLE-LAMP,fr,Maya,Paint chipped on the edge,Small chip on the frame from transit. Touch-up pot sent free.,3,2026-01-10 10:00:00
+H-TABLE-LAMP,de,Maya,Paint chipped on the edge,Small chip on the frame from transit. Touch-up pot sent free.,3,2026-01-10 10:00:00
+H-TABLE-LAMP,it,Maya,Paint chipped on the edge,Small chip on the frame from transit. Touch-up pot sent free.,3,2026-01-10 10:00:00
 H-RATTAN-PENDANT,default,Priya,Table takes a beating,"Kids, homework, dinner. The oak just gets better.",5,2026-04-10 10:00:00
+H-RATTAN-PENDANT,fr,Priya,Table takes a beating,"Kids, homework, dinner. The oak just gets better.",5,2026-04-10 10:00:00
+H-RATTAN-PENDANT,de,Priya,Table takes a beating,"Kids, homework, dinner. The oak just gets better.",5,2026-04-10 10:00:00
+H-RATTAN-PENDANT,it,Priya,Table takes a beating,"Kids, homework, dinner. The oak just gets better.",5,2026-04-10 10:00:00
 H-RATTAN-PENDANT,default,Quinn,Lamp gives a warm pool,Perfect reading light. The switch on the cord is handy.,5,2026-04-11 10:00:00
+H-RATTAN-PENDANT,fr,Quinn,Lamp gives a warm pool,Perfect reading light. The switch on the cord is handy.,5,2026-04-11 10:00:00
+H-RATTAN-PENDANT,de,Quinn,Lamp gives a warm pool,Perfect reading light. The switch on the cord is handy.,5,2026-04-11 10:00:00
+H-RATTAN-PENDANT,it,Quinn,Lamp gives a warm pool,Perfect reading light. The switch on the cord is handy.,5,2026-04-11 10:00:00
 H-MIRROR,default,Ada,Smells of wood,Opened the box and the workshop came with it.,5,2026-01-10 10:00:00
+H-MIRROR,fr,Ada,Smells of wood,Opened the box and the workshop came with it.,5,2026-01-10 10:00:00
+H-MIRROR,de,Ada,Smells of wood,Opened the box and the workshop came with it.,5,2026-01-10 10:00:00
+H-MIRROR,it,Ada,Smells of wood,Opened the box and the workshop came with it.,5,2026-01-10 10:00:00
 H-CUSHION,default,Dev,Cushion lost its shape,Feather filling flattens. Plump it daily or choose foam.,3,2026-04-10 10:00:00
+H-CUSHION,fr,Dev,Cushion lost its shape,Feather filling flattens. Plump it daily or choose foam.,3,2026-04-10 10:00:00
+H-CUSHION,de,Dev,Cushion lost its shape,Feather filling flattens. Plump it daily or choose foam.,3,2026-04-10 10:00:00
+H-CUSHION,it,Dev,Cushion lost its shape,Feather filling flattens. Plump it daily or choose foam.,3,2026-04-10 10:00:00
 H-CUSHION,default,Elena,Vase is heavy,Stoneware with real weight. Tulips do not tip it.,5,2026-04-11 10:00:00
+H-CUSHION,fr,Elena,Vase is heavy,Stoneware with real weight. Tulips do not tip it.,5,2026-04-11 10:00:00
+H-CUSHION,de,Elena,Vase is heavy,Stoneware with real weight. Tulips do not tip it.,5,2026-04-11 10:00:00
+H-CUSHION,it,Elena,Vase is heavy,Stoneware with real weight. Tulips do not tip it.,5,2026-04-11 10:00:00
 H-BATH-MAT,default,Greta,Worth the wait,"Eight weeks, made to order, and it shows in every joint.",5,2026-01-10 10:00:00
+H-BATH-MAT,fr,Greta,Worth the wait,"Eight weeks, made to order, and it shows in every joint.",5,2026-01-10 10:00:00
+H-BATH-MAT,de,Greta,Worth the wait,"Eight weeks, made to order, and it shows in every joint.",5,2026-01-10 10:00:00
+H-BATH-MAT,it,Greta,Worth the wait,"Eight weeks, made to order, and it shows in every joint.",5,2026-01-10 10:00:00
 H-GIFT-CARD,default,Jonas,Storage inside the bench,I did not notice the lid lifts. Winter blankets live there now.,5,2026-04-10 10:00:00
+H-GIFT-CARD,fr,Jonas,Storage inside the bench,I did not notice the lid lifts. Winter blankets live there now.,5,2026-04-10 10:00:00
+H-GIFT-CARD,de,Jonas,Storage inside the bench,I did not notice the lid lifts. Winter blankets live there now.,5,2026-04-10 10:00:00
+H-GIFT-CARD,it,Jonas,Storage inside the bench,I did not notice the lid lifts. Winter blankets live there now.,5,2026-04-10 10:00:00
 H-GIFT-CARD,default,Kira,Sheets fit a deep mattress,Finally a fitted sheet that stays on the corners.,5,2026-04-11 10:00:00
+H-GIFT-CARD,fr,Kira,Sheets fit a deep mattress,Finally a fitted sheet that stays on the corners.,5,2026-04-11 10:00:00
+H-GIFT-CARD,de,Kira,Sheets fit a deep mattress,Finally a fitted sheet that stays on the corners.,5,2026-04-11 10:00:00
+H-GIFT-CARD,it,Kira,Sheets fit a deep mattress,Finally a fitted sheet that stays on the corners.,5,2026-04-11 10:00:00
 S-ROAD-SHOE,default,Ada,Fits as described,The fitting notes were accurate. No blisters on a 30 km run.,5,2026-01-10 10:00:00
+S-ROAD-SHOE,fr,Ada,Fits as described,The fitting notes were accurate. No blisters on a 30 km run.,5,2026-01-10 10:00:00
+S-ROAD-SHOE,de,Ada,Fits as described,The fitting notes were accurate. No blisters on a 30 km run.,5,2026-01-10 10:00:00
+S-ROAD-SHOE,it,Ada,Fits as described,The fitting notes were accurate. No blisters on a 30 km run.,5,2026-01-10 10:00:00
 S-RUN-JACKET,default,Dev,"Good, sizing runs small",Quality is great. Go half a size up.,4,2026-04-10 10:00:00
+S-RUN-JACKET,fr,Dev,"Good, sizing runs small",Quality is great. Go half a size up.,4,2026-04-10 10:00:00
+S-RUN-JACKET,de,Dev,"Good, sizing runs small",Quality is great. Go half a size up.,4,2026-04-10 10:00:00
+S-RUN-JACKET,it,Dev,"Good, sizing runs small",Quality is great. Go half a size up.,4,2026-04-10 10:00:00
 S-RUN-JACKET,default,Elena,Survived a season,"Rain, mud, a hundred washes. Still going.",5,2026-04-11 10:00:00
+S-RUN-JACKET,fr,Elena,Survived a season,"Rain, mud, a hundred washes. Still going.",5,2026-04-11 10:00:00
+S-RUN-JACKET,de,Elena,Survived a season,"Rain, mud, a hundred washes. Still going.",5,2026-04-11 10:00:00
+S-RUN-JACKET,it,Elena,Survived a season,"Rain, mud, a hundred washes. Still going.",5,2026-04-11 10:00:00
 S-RUN-SOCKS,default,Greta,"Returned, no questions",Did not suit my stride. Return was easy and fast.,4,2026-01-10 10:00:00
+S-RUN-SOCKS,fr,Greta,"Returned, no questions",Did not suit my stride. Return was easy and fast.,4,2026-01-10 10:00:00
+S-RUN-SOCKS,de,Greta,"Returned, no questions",Did not suit my stride. Return was easy and fast.,4,2026-01-10 10:00:00
+S-RUN-SOCKS,it,Greta,"Returned, no questions",Did not suit my stride. Return was easy and fast.,4,2026-01-10 10:00:00
 S-JERSEY,default,Jonas,Grip in the wet,Ran a rainy trail and never slipped.,5,2026-04-10 10:00:00
+S-JERSEY,fr,Jonas,Grip in the wet,Ran a rainy trail and never slipped.,5,2026-04-10 10:00:00
+S-JERSEY,de,Jonas,Grip in the wet,Ran a rainy trail and never slipped.,5,2026-04-10 10:00:00
+S-JERSEY,it,Jonas,Grip in the wet,Ran a rainy trail and never slipped.,5,2026-04-10 10:00:00
 S-JERSEY,default,Kira,Bottle does not leak,Upside down in the bag all day. Dry bag.,5,2026-04-11 10:00:00
+S-JERSEY,fr,Kira,Bottle does not leak,Upside down in the bag all day. Dry bag.,5,2026-04-11 10:00:00
+S-JERSEY,de,Kira,Bottle does not leak,Upside down in the bag all day. Dry bag.,5,2026-04-11 10:00:00
+S-JERSEY,it,Kira,Bottle does not leak,Upside down in the bag all day. Dry bag.,5,2026-04-11 10:00:00
 S-GILET,default,Maya,Light and warm,Packs into its own pocket and still cuts the wind.,5,2026-01-10 10:00:00
+S-GILET,fr,Maya,Light and warm,Packs into its own pocket and still cuts the wind.,5,2026-01-10 10:00:00
+S-GILET,de,Maya,Light and warm,Packs into its own pocket and still cuts the wind.,5,2026-01-10 10:00:00
+S-GILET,it,Maya,Light and warm,Packs into its own pocket and still cuts the wind.,5,2026-01-10 10:00:00
 S-BIKE-LIGHT,default,Priya,Seams rubbed,Great shorts but a seam rubbed on long rides. Fine under 40 km.,3,2026-04-10 10:00:00
+S-BIKE-LIGHT,fr,Priya,Seams rubbed,Great shorts but a seam rubbed on long rides. Fine under 40 km.,3,2026-04-10 10:00:00
+S-BIKE-LIGHT,de,Priya,Seams rubbed,Great shorts but a seam rubbed on long rides. Fine under 40 km.,3,2026-04-10 10:00:00
+S-BIKE-LIGHT,it,Priya,Seams rubbed,Great shorts but a seam rubbed on long rides. Fine under 40 km.,3,2026-04-10 10:00:00
 S-BIKE-LIGHT,default,Quinn,Mat stays put,"No sliding on a wooden floor, even in a sweaty class.",5,2026-04-11 10:00:00
+S-BIKE-LIGHT,fr,Quinn,Mat stays put,"No sliding on a wooden floor, even in a sweaty class.",5,2026-04-11 10:00:00
+S-BIKE-LIGHT,de,Quinn,Mat stays put,"No sliding on a wooden floor, even in a sweaty class.",5,2026-04-11 10:00:00
+S-BIKE-LIGHT,it,Quinn,Mat stays put,"No sliding on a wooden floor, even in a sweaty class.",5,2026-04-11 10:00:00
 S-DUMBBELLS,default,Ada,Zips froze,"Fine jacket, but the zip pulls are small with gloves on.",4,2026-01-10 10:00:00
+S-DUMBBELLS,fr,Ada,Zips froze,"Fine jacket, but the zip pulls are small with gloves on.",4,2026-01-10 10:00:00
+S-DUMBBELLS,de,Ada,Zips froze,"Fine jacket, but the zip pulls are small with gloves on.",4,2026-01-10 10:00:00
+S-DUMBBELLS,it,Ada,Zips froze,"Fine jacket, but the zip pulls are small with gloves on.",4,2026-01-10 10:00:00
 S-JUMP-ROPE,default,Dev,Race day shoe,Saved it for the marathon. Personal best.,5,2026-04-10 10:00:00
+S-JUMP-ROPE,fr,Dev,Race day shoe,Saved it for the marathon. Personal best.,5,2026-04-10 10:00:00
+S-JUMP-ROPE,de,Dev,Race day shoe,Saved it for the marathon. Personal best.,5,2026-04-10 10:00:00
+S-JUMP-ROPE,it,Dev,Race day shoe,Saved it for the marathon. Personal best.,5,2026-04-10 10:00:00
 S-JUMP-ROPE,default,Elena,Straps dig in,"Backpack carries well when full, straps dig when empty.",3,2026-04-11 10:00:00
+S-JUMP-ROPE,fr,Elena,Straps dig in,"Backpack carries well when full, straps dig when empty.",3,2026-04-11 10:00:00
+S-JUMP-ROPE,de,Elena,Straps dig in,"Backpack carries well when full, straps dig when empty.",3,2026-04-11 10:00:00
+S-JUMP-ROPE,it,Elena,Straps dig in,"Backpack carries well when full, straps dig when empty.",3,2026-04-11 10:00:00
 S-YOGA-MAT,default,Greta,Socks that stay up,Finally. No slipping into the shoe at km ten.,5,2026-01-10 10:00:00
+S-YOGA-MAT,fr,Greta,Socks that stay up,Finally. No slipping into the shoe at km ten.,5,2026-01-10 10:00:00
+S-YOGA-MAT,de,Greta,Socks that stay up,Finally. No slipping into the shoe at km ten.,5,2026-01-10 10:00:00
+S-YOGA-MAT,it,Greta,Socks that stay up,Finally. No slipping into the shoe at km ten.,5,2026-01-10 10:00:00
 S-STRAP,default,Jonas,Heavier than listed,"Good bag, but 200 g over the stated weight on my scale.",3,2026-04-10 10:00:00
+S-STRAP,fr,Jonas,Heavier than listed,"Good bag, but 200 g over the stated weight on my scale.",3,2026-04-10 10:00:00
+S-STRAP,de,Jonas,Heavier than listed,"Good bag, but 200 g over the stated weight on my scale.",3,2026-04-10 10:00:00
+S-STRAP,it,Jonas,Heavier than listed,"Good bag, but 200 g over the stated weight on my scale.",3,2026-04-10 10:00:00
 S-STRAP,default,Kira,Bright enough for night,The reflective panels light up like a sign.,5,2026-04-11 10:00:00
+S-STRAP,fr,Kira,Bright enough for night,The reflective panels light up like a sign.,5,2026-04-11 10:00:00
+S-STRAP,de,Kira,Bright enough for night,The reflective panels light up like a sign.,5,2026-04-11 10:00:00
+S-STRAP,it,Kira,Bright enough for night,The reflective panels light up like a sign.,5,2026-04-11 10:00:00
 S-HIKING-BOOT,default,Maya,Wore through at the toe,"Six hundred kilometres, which is fair. Buying again.",4,2026-01-10 10:00:00
+S-HIKING-BOOT,fr,Maya,Wore through at the toe,"Six hundred kilometres, which is fair. Buying again.",4,2026-01-10 10:00:00
+S-HIKING-BOOT,de,Maya,Wore through at the toe,"Six hundred kilometres, which is fair. Buying again.",4,2026-01-10 10:00:00
+S-HIKING-BOOT,it,Maya,Wore through at the toe,"Six hundred kilometres, which is fair. Buying again.",4,2026-01-10 10:00:00
 S-SHELL,default,Priya,Great for cold mornings,Thermal layer under a shell and I was warm at zero degrees.,5,2026-04-10 10:00:00
+S-SHELL,fr,Priya,Great for cold mornings,Thermal layer under a shell and I was warm at zero degrees.,5,2026-04-10 10:00:00
+S-SHELL,de,Priya,Great for cold mornings,Thermal layer under a shell and I was warm at zero degrees.,5,2026-04-10 10:00:00
+S-SHELL,it,Priya,Great for cold mornings,Thermal layer under a shell and I was warm at zero degrees.,5,2026-04-10 10:00:00
 S-SHELL,default,Quinn,Ball holds pressure,"Pumped it in March, still firm in May.",5,2026-04-11 10:00:00
+S-SHELL,fr,Quinn,Ball holds pressure,"Pumped it in March, still firm in May.",5,2026-04-11 10:00:00
+S-SHELL,de,Quinn,Ball holds pressure,"Pumped it in March, still firm in May.",5,2026-04-11 10:00:00
+S-SHELL,it,Quinn,Ball holds pressure,"Pumped it in March, still firm in May.",5,2026-04-11 10:00:00
 S-HIKE-SOCKS,default,Ada,Laces too long,Double knot needed. Otherwise a great shoe.,4,2026-01-10 10:00:00
+S-HIKE-SOCKS,fr,Ada,Laces too long,Double knot needed. Otherwise a great shoe.,4,2026-01-10 10:00:00
+S-HIKE-SOCKS,de,Ada,Laces too long,Double knot needed. Otherwise a great shoe.,4,2026-01-10 10:00:00
+S-HIKE-SOCKS,it,Ada,Laces too long,Double knot needed. Otherwise a great shoe.,4,2026-01-10 10:00:00
 S-JAMMERS,default,Dev,Kids team loves them,"Ordered twelve. All fit, all survived the season.",5,2026-04-10 10:00:00
+S-JAMMERS,fr,Dev,Kids team loves them,"Ordered twelve. All fit, all survived the season.",5,2026-04-10 10:00:00
+S-JAMMERS,de,Dev,Kids team loves them,"Ordered twelve. All fit, all survived the season.",5,2026-04-10 10:00:00
+S-JAMMERS,it,Dev,Kids team loves them,"Ordered twelve. All fit, all survived the season.",5,2026-04-10 10:00:00
 S-JAMMERS,default,Elena,Watch strap is comfy,"Soft silicone, no sweat rash, easy to swap.",5,2026-04-11 10:00:00
+S-JAMMERS,fr,Elena,Watch strap is comfy,"Soft silicone, no sweat rash, easy to swap.",5,2026-04-11 10:00:00
+S-JAMMERS,de,Elena,Watch strap is comfy,"Soft silicone, no sweat rash, easy to swap.",5,2026-04-11 10:00:00
+S-JAMMERS,it,Elena,Watch strap is comfy,"Soft silicone, no sweat rash, easy to swap.",5,2026-04-11 10:00:00
 S-TOW-FLOAT,default,Greta,Pockets in the right place,"Phone, key, gel. Nothing bounces.",5,2026-01-10 10:00:00
+S-TOW-FLOAT,fr,Greta,Pockets in the right place,"Phone, key, gel. Nothing bounces.",5,2026-01-10 10:00:00
+S-TOW-FLOAT,de,Greta,Pockets in the right place,"Phone, key, gel. Nothing bounces.",5,2026-01-10 10:00:00
+S-TOW-FLOAT,it,Greta,Pockets in the right place,"Phone, key, gel. Nothing bounces.",5,2026-01-10 10:00:00
 S-GIFT-CARD,default,Jonas,Faded after a summer,Colour went from navy to blue. Still works.,3,2026-04-10 10:00:00
+S-GIFT-CARD,fr,Jonas,Faded after a summer,Colour went from navy to blue. Still works.,3,2026-04-10 10:00:00
+S-GIFT-CARD,de,Jonas,Faded after a summer,Colour went from navy to blue. Still works.,3,2026-04-10 10:00:00
+S-GIFT-CARD,it,Jonas,Faded after a summer,Colour went from navy to blue. Still works.,3,2026-04-10 10:00:00
 S-GIFT-CARD,default,Kira,Delivered before the race,"Ordered Tuesday, raced Saturday. Thank you.",5,2026-04-11 10:00:00
+S-GIFT-CARD,fr,Kira,Delivered before the race,"Ordered Tuesday, raced Saturday. Thank you.",5,2026-04-11 10:00:00
+S-GIFT-CARD,de,Kira,Delivered before the race,"Ordered Tuesday, raced Saturday. Thank you.",5,2026-04-11 10:00:00
+S-GIFT-CARD,it,Kira,Delivered before the race,"Ordered Tuesday, raced Saturday. Thank you.",5,2026-04-11 10:00:00
 K-STACKER,default,Ada,Beautifully made,"Smooth wood, no splinters, non-toxic paint. Loved by a two year old.",5,2026-01-10 10:00:00
+K-STACKER,fr,Ada,Beautifully made,"Smooth wood, no splinters, non-toxic paint. Loved by a two year old.",5,2026-01-10 10:00:00
+K-STACKER,de,Ada,Beautifully made,"Smooth wood, no splinters, non-toxic paint. Loved by a two year old.",5,2026-01-10 10:00:00
+K-STACKER,it,Ada,Beautifully made,"Smooth wood, no splinters, non-toxic paint. Loved by a two year old.",5,2026-01-10 10:00:00
 K-RABBIT,default,Dev,"Good, a bit small",Lovely quality but sizes run small. Go up one.,4,2026-04-10 10:00:00
+K-RABBIT,fr,Dev,"Good, a bit small",Lovely quality but sizes run small. Go up one.,4,2026-04-10 10:00:00
+K-RABBIT,de,Dev,"Good, a bit small",Lovely quality but sizes run small. Go up one.,4,2026-04-10 10:00:00
+K-RABBIT,it,Dev,"Good, a bit small",Lovely quality but sizes run small. Go up one.,4,2026-04-10 10:00:00
 K-RABBIT,default,Elena,Survived everything,"Washed fifty times, still soft and the colour has held.",5,2026-04-11 10:00:00
+K-RABBIT,fr,Elena,Survived everything,"Washed fifty times, still soft and the colour has held.",5,2026-04-11 10:00:00
+K-RABBIT,de,Elena,Survived everything,"Washed fifty times, still soft and the colour has held.",5,2026-04-11 10:00:00
+K-RABBIT,it,Elena,Survived everything,"Washed fifty times, still soft and the colour has held.",5,2026-04-11 10:00:00
 K-RATTLE,default,Greta,Perfect present,"Wrapped, carded and delivered in two days.",5,2026-01-10 10:00:00
+K-RATTLE,fr,Greta,Perfect present,"Wrapped, carded and delivered in two days.",5,2026-01-10 10:00:00
+K-RATTLE,de,Greta,Perfect present,"Wrapped, carded and delivered in two days.",5,2026-01-10 10:00:00
+K-RATTLE,it,Greta,Perfect present,"Wrapped, carded and delivered in two days.",5,2026-01-10 10:00:00
 K-MARBLE-RUN,default,Jonas,Chewed and fine,"Teething baby, three months of chewing, still no chips.",5,2026-04-10 10:00:00
+K-MARBLE-RUN,fr,Jonas,Chewed and fine,"Teething baby, three months of chewing, still no chips.",5,2026-04-10 10:00:00
+K-MARBLE-RUN,de,Jonas,Chewed and fine,"Teething baby, three months of chewing, still no chips.",5,2026-04-10 10:00:00
+K-MARBLE-RUN,it,Jonas,Chewed and fine,"Teething baby, three months of chewing, still no chips.",5,2026-04-10 10:00:00
 K-MARBLE-RUN,default,Kira,Poppers instead of buttons,"Night changes are faster. Small thing, huge difference.",5,2026-04-11 10:00:00
+K-MARBLE-RUN,fr,Kira,Poppers instead of buttons,"Night changes are faster. Small thing, huge difference.",5,2026-04-11 10:00:00
+K-MARBLE-RUN,de,Kira,Poppers instead of buttons,"Night changes are faster. Small thing, huge difference.",5,2026-04-11 10:00:00
+K-MARBLE-RUN,it,Kira,Poppers instead of buttons,"Night changes are faster. Small thing, huge difference.",5,2026-04-11 10:00:00
 K-BODYSUIT,default,Maya,Nap time favourite,Will not sleep without the rabbit. We bought a spare.,5,2026-01-10 10:00:00
+K-BODYSUIT,fr,Maya,Nap time favourite,Will not sleep without the rabbit. We bought a spare.,5,2026-01-10 10:00:00
+K-BODYSUIT,de,Maya,Nap time favourite,Will not sleep without the rabbit. We bought a spare.,5,2026-01-10 10:00:00
+K-BODYSUIT,it,Maya,Nap time favourite,Will not sleep without the rabbit. We bought a spare.,5,2026-01-10 10:00:00
 K-TEE,default,Priya,Wheels fell off,"One wheel came loose after a week. Glued and fine, but still.",3,2026-04-10 10:00:00
+K-TEE,fr,Priya,Wheels fell off,"One wheel came loose after a week. Glued and fine, but still.",3,2026-04-10 10:00:00
+K-TEE,de,Priya,Wheels fell off,"One wheel came loose after a week. Glued and fine, but still.",3,2026-04-10 10:00:00
+K-TEE,it,Priya,Wheels fell off,"One wheel came loose after a week. Glued and fine, but still.",3,2026-04-10 10:00:00
 K-TEE,default,Quinn,Grew with her,Adjustable straps meant it fit from three months to a year.,5,2026-04-11 10:00:00
+K-TEE,fr,Quinn,Grew with her,Adjustable straps meant it fit from three months to a year.,5,2026-04-11 10:00:00
+K-TEE,de,Quinn,Grew with her,Adjustable straps meant it fit from three months to a year.,5,2026-04-11 10:00:00
+K-TEE,it,Quinn,Grew with her,Adjustable straps meant it fit from three months to a year.,5,2026-04-11 10:00:00
 K-DRESS,default,Ada,Colours are soft,Muted tones that do not shout. Matches the nursery.,5,2026-01-10 10:00:00
+K-DRESS,fr,Ada,Colours are soft,Muted tones that do not shout. Matches the nursery.,5,2026-01-10 10:00:00
+K-DRESS,de,Ada,Colours are soft,Muted tones that do not shout. Matches the nursery.,5,2026-01-10 10:00:00
+K-DRESS,it,Ada,Colours are soft,Muted tones that do not shout. Matches the nursery.,5,2026-01-10 10:00:00
 K-SOCKS,default,Dev,Puzzle is a hit,"Ten pieces, thick wood, and the pictures make sense.",5,2026-04-10 10:00:00
+K-SOCKS,fr,Dev,Puzzle is a hit,"Ten pieces, thick wood, and the pictures make sense.",5,2026-04-10 10:00:00
+K-SOCKS,de,Dev,Puzzle is a hit,"Ten pieces, thick wood, and the pictures make sense.",5,2026-04-10 10:00:00
+K-SOCKS,it,Dev,Puzzle is a hit,"Ten pieces, thick wood, and the pictures make sense.",5,2026-04-10 10:00:00
 K-SOCKS,default,Elena,Zip is tricky,Great coat but a stiff zip for small hands.,4,2026-04-11 10:00:00
+K-SOCKS,fr,Elena,Zip is tricky,Great coat but a stiff zip for small hands.,4,2026-04-11 10:00:00
+K-SOCKS,de,Elena,Zip is tricky,Great coat but a stiff zip for small hands.,4,2026-04-11 10:00:00
+K-SOCKS,it,Elena,Zip is tricky,Great coat but a stiff zip for small hands.,4,2026-04-11 10:00:00
 K-PICTURE-BOOK,default,Greta,Wooden blocks clack nicely,The sound is half the fun apparently.,5,2026-01-10 10:00:00
+K-PICTURE-BOOK,fr,Greta,Wooden blocks clack nicely,The sound is half the fun apparently.,5,2026-01-10 10:00:00
+K-PICTURE-BOOK,de,Greta,Wooden blocks clack nicely,The sound is half the fun apparently.,5,2026-01-10 10:00:00
+K-PICTURE-BOOK,it,Greta,Wooden blocks clack nicely,The sound is half the fun apparently.,5,2026-01-10 10:00:00
 K-ATLAS,default,Jonas,Hand-me-down ready,Second child wearing it now and it still looks new.,5,2026-04-10 10:00:00
+K-ATLAS,fr,Jonas,Hand-me-down ready,Second child wearing it now and it still looks new.,5,2026-04-10 10:00:00
+K-ATLAS,de,Jonas,Hand-me-down ready,Second child wearing it now and it still looks new.,5,2026-04-10 10:00:00
+K-ATLAS,it,Jonas,Hand-me-down ready,Second child wearing it now and it still looks new.,5,2026-04-10 10:00:00
 K-ATLAS,default,Kira,Instructions were clear,Built the kitchen in twenty minutes with a toddler helping.,5,2026-04-11 10:00:00
+K-ATLAS,fr,Kira,Instructions were clear,Built the kitchen in twenty minutes with a toddler helping.,5,2026-04-11 10:00:00
+K-ATLAS,de,Kira,Instructions were clear,Built the kitchen in twenty minutes with a toddler helping.,5,2026-04-11 10:00:00
+K-ATLAS,it,Kira,Instructions were clear,Built the kitchen in twenty minutes with a toddler helping.,5,2026-04-11 10:00:00
 K-ROCKER,default,Maya,Too warm for spring,Beautiful knit but heavy. A winter piece.,4,2026-01-10 10:00:00
+K-ROCKER,fr,Maya,Too warm for spring,Beautiful knit but heavy. A winter piece.,4,2026-01-10 10:00:00
+K-ROCKER,de,Maya,Too warm for spring,Beautiful knit but heavy. A winter piece.,4,2026-01-10 10:00:00
+K-ROCKER,it,Maya,Too warm for spring,Beautiful knit but heavy. A winter piece.,4,2026-01-10 10:00:00
 K-STORAGE,default,Priya,Bath toy has no holes,No mould inside. Someone thought about this.,5,2026-04-10 10:00:00
+K-STORAGE,fr,Priya,Bath toy has no holes,No mould inside. Someone thought about this.,5,2026-04-10 10:00:00
+K-STORAGE,de,Priya,Bath toy has no holes,No mould inside. Someone thought about this.,5,2026-04-10 10:00:00
+K-STORAGE,it,Priya,Bath toy has no holes,No mould inside. Someone thought about this.,5,2026-04-10 10:00:00
 K-STORAGE,default,Quinn,Print faded a bit,"Still soft, but the print lost some colour after many washes.",3,2026-04-11 10:00:00
+K-STORAGE,fr,Quinn,Print faded a bit,"Still soft, but the print lost some colour after many washes.",3,2026-04-11 10:00:00
+K-STORAGE,de,Quinn,Print faded a bit,"Still soft, but the print lost some colour after many washes.",3,2026-04-11 10:00:00
+K-STORAGE,it,Quinn,Print faded a bit,"Still soft, but the print lost some colour after many washes.",3,2026-04-11 10:00:00
 K-BALANCE-BIKE,default,Ada,Stacks and knocks down,Thirty times a day. Never gets old.,5,2026-01-10 10:00:00
+K-BALANCE-BIKE,fr,Ada,Stacks and knocks down,Thirty times a day. Never gets old.,5,2026-01-10 10:00:00
+K-BALANCE-BIKE,de,Ada,Stacks and knocks down,Thirty times a day. Never gets old.,5,2026-01-10 10:00:00
+K-BALANCE-BIKE,it,Ada,Stacks and knocks down,Thirty times a day. Never gets old.,5,2026-01-10 10:00:00
 K-WELLIES,default,Dev,Sizing chart was right,"Measured, ordered, fit. Thank you for the chart.",5,2026-04-10 10:00:00
+K-WELLIES,fr,Dev,Sizing chart was right,"Measured, ordered, fit. Thank you for the chart.",5,2026-04-10 10:00:00
+K-WELLIES,de,Dev,Sizing chart was right,"Measured, ordered, fit. Thank you for the chart.",5,2026-04-10 10:00:00
+K-WELLIES,it,Dev,Sizing chart was right,"Measured, ordered, fit. Thank you for the chart.",5,2026-04-10 10:00:00
 K-WELLIES,default,Elena,Muslin is huge,Big enough to swaddle and later a picnic blanket.,5,2026-04-11 10:00:00
+K-WELLIES,fr,Elena,Muslin is huge,Big enough to swaddle and later a picnic blanket.,5,2026-04-11 10:00:00
+K-WELLIES,de,Elena,Muslin is huge,Big enough to swaddle and later a picnic blanket.,5,2026-04-11 10:00:00
+K-WELLIES,it,Elena,Muslin is huge,Big enough to swaddle and later a picnic blanket.,5,2026-04-11 10:00:00
 K-KITE,default,Greta,Grandparents approved,They said it looks like the toys they had. High praise.,5,2026-01-10 10:00:00
+K-KITE,fr,Greta,Grandparents approved,They said it looks like the toys they had. High praise.,5,2026-01-10 10:00:00
+K-KITE,de,Greta,Grandparents approved,They said it looks like the toys they had. High praise.,5,2026-01-10 10:00:00
+K-KITE,it,Greta,Grandparents approved,They said it looks like the toys they had. High praise.,5,2026-01-10 10:00:00
 K-GIFT-CARD,default,Jonas,Bib catches everything,"Deep pocket, wipes clean, no more laundry after lunch.",5,2026-04-10 10:00:00
+K-GIFT-CARD,fr,Jonas,Bib catches everything,"Deep pocket, wipes clean, no more laundry after lunch.",5,2026-04-10 10:00:00
+K-GIFT-CARD,de,Jonas,Bib catches everything,"Deep pocket, wipes clean, no more laundry after lunch.",5,2026-04-10 10:00:00
+K-GIFT-CARD,it,Jonas,Bib catches everything,"Deep pocket, wipes clean, no more laundry after lunch.",5,2026-04-10 10:00:00
 K-GIFT-CARD,default,Kira,Bell is loud,"Lovely rattle, but the bell is louder than I expected.",4,2026-04-11 10:00:00
+K-GIFT-CARD,fr,Kira,Bell is loud,"Lovely rattle, but the bell is louder than I expected.",4,2026-04-11 10:00:00
+K-GIFT-CARD,de,Kira,Bell is loud,"Lovely rattle, but the bell is louder than I expected.",4,2026-04-11 10:00:00
+K-GIFT-CARD,it,Kira,Bell is loud,"Lovely rattle, but the bell is louder than I expected.",4,2026-04-11 10:00:00
 N-MONSTERA,default,Ada,Healthy and well packed,Arrived upright with damp compost and no broken leaves.,5,2026-01-10 10:00:00
+N-MONSTERA,fr,Ada,Healthy and well packed,Arrived upright with damp compost and no broken leaves.,5,2026-01-10 10:00:00
+N-MONSTERA,de,Ada,Healthy and well packed,Arrived upright with damp compost and no broken leaves.,5,2026-01-10 10:00:00
+N-MONSTERA,it,Ada,Healthy and well packed,Arrived upright with damp compost and no broken leaves.,5,2026-01-10 10:00:00
 N-SNAKE-PLANT,default,Dev,Smaller than expected,Healthy plant but a smaller pot than I thought. Check the pot size.,4,2026-04-10 10:00:00
+N-SNAKE-PLANT,fr,Dev,Smaller than expected,Healthy plant but a smaller pot than I thought. Check the pot size.,4,2026-04-10 10:00:00
+N-SNAKE-PLANT,de,Dev,Smaller than expected,Healthy plant but a smaller pot than I thought. Check the pot size.,4,2026-04-10 10:00:00
+N-SNAKE-PLANT,it,Dev,Smaller than expected,Healthy plant but a smaller pot than I thought. Check the pot size.,4,2026-04-10 10:00:00
 N-SNAKE-PLANT,default,Elena,Sharp and solid,The tool is heavy in a good way and came sharp.,5,2026-04-11 10:00:00
+N-SNAKE-PLANT,fr,Elena,Sharp and solid,The tool is heavy in a good way and came sharp.,5,2026-04-11 10:00:00
+N-SNAKE-PLANT,de,Elena,Sharp and solid,The tool is heavy in a good way and came sharp.,5,2026-04-11 10:00:00
+N-SNAKE-PLANT,it,Elena,Sharp and solid,The tool is heavy in a good way and came sharp.,5,2026-04-11 10:00:00
 N-CALATHEA,default,Greta,Replaced without fuss,"One plant failed. Photo sent, new one in three days.",5,2026-01-10 10:00:00
+N-CALATHEA,fr,Greta,Replaced without fuss,"One plant failed. Photo sent, new one in three days.",5,2026-01-10 10:00:00
+N-CALATHEA,de,Greta,Replaced without fuss,"One plant failed. Photo sent, new one in three days.",5,2026-01-10 10:00:00
+N-CALATHEA,it,Greta,Replaced without fuss,"One plant failed. Photo sent, new one in three days.",5,2026-01-10 10:00:00
 N-LAVENDER,default,Jonas,Flowered in three weeks,"Planted it on a Sunday, first bud by month end.",5,2026-04-10 10:00:00
+N-LAVENDER,fr,Jonas,Flowered in three weeks,"Planted it on a Sunday, first bud by month end.",5,2026-04-10 10:00:00
+N-LAVENDER,de,Jonas,Flowered in three weeks,"Planted it on a Sunday, first bud by month end.",5,2026-04-10 10:00:00
+N-LAVENDER,it,Jonas,Flowered in three weeks,"Planted it on a Sunday, first bud by month end.",5,2026-04-10 10:00:00
 N-LAVENDER,default,Kira,Terracotta is thick,"Proper fired clay, not the thin stuff. Survived a frost.",5,2026-04-11 10:00:00
+N-LAVENDER,fr,Kira,Terracotta is thick,"Proper fired clay, not the thin stuff. Survived a frost.",5,2026-04-11 10:00:00
+N-LAVENDER,de,Kira,Terracotta is thick,"Proper fired clay, not the thin stuff. Survived a frost.",5,2026-04-11 10:00:00
+N-LAVENDER,it,Kira,Terracotta is thick,"Proper fired clay, not the thin stuff. Survived a frost.",5,2026-04-11 10:00:00
 N-JAPANESE-MAPLE,default,Maya,Seeds all came up,"Twenty sown, nineteen seedlings. Cannot ask for more.",5,2026-01-10 10:00:00
+N-JAPANESE-MAPLE,fr,Maya,Seeds all came up,"Twenty sown, nineteen seedlings. Cannot ask for more.",5,2026-01-10 10:00:00
+N-JAPANESE-MAPLE,de,Maya,Seeds all came up,"Twenty sown, nineteen seedlings. Cannot ask for more.",5,2026-01-10 10:00:00
+N-JAPANESE-MAPLE,it,Maya,Seeds all came up,"Twenty sown, nineteen seedlings. Cannot ask for more.",5,2026-01-10 10:00:00
 N-HOSTA,default,Priya,Soil was dry on arrival,"Plant bounced back after a soak, but the box sat somewhere warm.",3,2026-04-10 10:00:00
+N-HOSTA,fr,Priya,Soil was dry on arrival,"Plant bounced back after a soak, but the box sat somewhere warm.",3,2026-04-10 10:00:00
+N-HOSTA,de,Priya,Soil was dry on arrival,"Plant bounced back after a soak, but the box sat somewhere warm.",3,2026-04-10 10:00:00
+N-HOSTA,it,Priya,Soil was dry on arrival,"Plant bounced back after a soak, but the box sat somewhere warm.",3,2026-04-10 10:00:00
 N-HOSTA,default,Quinn,Handle fits the hand,"Ash handle, no blisters after an afternoon of digging.",5,2026-04-11 10:00:00
+N-HOSTA,fr,Quinn,Handle fits the hand,"Ash handle, no blisters after an afternoon of digging.",5,2026-04-11 10:00:00
+N-HOSTA,de,Quinn,Handle fits the hand,"Ash handle, no blisters after an afternoon of digging.",5,2026-04-11 10:00:00
+N-HOSTA,it,Quinn,Handle fits the hand,"Ash handle, no blisters after an afternoon of digging.",5,2026-04-11 10:00:00
 N-BEAN-SEED,default,Ada,Bees love it,Covered in bees within a week of planting.,5,2026-01-10 10:00:00
+N-BEAN-SEED,fr,Ada,Bees love it,Covered in bees within a week of planting.,5,2026-01-10 10:00:00
+N-BEAN-SEED,de,Ada,Bees love it,Covered in bees within a week of planting.,5,2026-01-10 10:00:00
+N-BEAN-SEED,it,Ada,Bees love it,Covered in bees within a week of planting.,5,2026-01-10 10:00:00
 N-WILDFLOWER,default,Dev,Wrong colour,"Ordered white, got pink. Beautiful, but not what I ordered. Refund given.",3,2026-04-10 10:00:00
+N-WILDFLOWER,fr,Dev,Wrong colour,"Ordered white, got pink. Beautiful, but not what I ordered. Refund given.",3,2026-04-10 10:00:00
+N-WILDFLOWER,de,Dev,Wrong colour,"Ordered white, got pink. Beautiful, but not what I ordered. Refund given.",3,2026-04-10 10:00:00
+N-WILDFLOWER,it,Dev,Wrong colour,"Ordered white, got pink. Beautiful, but not what I ordered. Refund given.",3,2026-04-10 10:00:00
 N-WILDFLOWER,default,Elena,Hardy as promised,Left out all winter in a pot and it came back.,5,2026-04-11 10:00:00
+N-WILDFLOWER,fr,Elena,Hardy as promised,Left out all winter in a pot and it came back.,5,2026-04-11 10:00:00
+N-WILDFLOWER,de,Elena,Hardy as promised,Left out all winter in a pot and it came back.,5,2026-04-11 10:00:00
+N-WILDFLOWER,it,Elena,Hardy as promised,Left out all winter in a pot and it came back.,5,2026-04-11 10:00:00
 N-GARLIC,default,Greta,Good starter set,Everything a first garden needs and nothing it does not.,5,2026-01-10 10:00:00
+N-GARLIC,fr,Greta,Good starter set,Everything a first garden needs and nothing it does not.,5,2026-01-10 10:00:00
+N-GARLIC,de,Greta,Good starter set,Everything a first garden needs and nothing it does not.,5,2026-01-10 10:00:00
+N-GARLIC,it,Greta,Good starter set,Everything a first garden needs and nothing it does not.,5,2026-01-10 10:00:00
 N-ZINC-PLANTER,default,Jonas,Watering can pours well,"Long spout, fine rose, no dribble down the side.",5,2026-04-10 10:00:00
+N-ZINC-PLANTER,fr,Jonas,Watering can pours well,"Long spout, fine rose, no dribble down the side.",5,2026-04-10 10:00:00
+N-ZINC-PLANTER,de,Jonas,Watering can pours well,"Long spout, fine rose, no dribble down the side.",5,2026-04-10 10:00:00
+N-ZINC-PLANTER,it,Jonas,Watering can pours well,"Long spout, fine rose, no dribble down the side.",5,2026-04-10 10:00:00
 N-ZINC-PLANTER,default,Kira,Delivery was gentle,The courier carried it upright. The driver deserves the credit.,5,2026-04-11 10:00:00
+N-ZINC-PLANTER,fr,Kira,Delivery was gentle,The courier carried it upright. The driver deserves the credit.,5,2026-04-11 10:00:00
+N-ZINC-PLANTER,de,Kira,Delivery was gentle,The courier carried it upright. The driver deserves the credit.,5,2026-04-11 10:00:00
+N-ZINC-PLANTER,it,Kira,Delivery was gentle,The courier carried it upright. The driver deserves the credit.,5,2026-04-11 10:00:00
 N-RAISED-BED,default,Maya,Herbs on the sill,Six pots on the kitchen sill and I have not bought parsley since.,5,2026-01-10 10:00:00
+N-RAISED-BED,fr,Maya,Herbs on the sill,Six pots on the kitchen sill and I have not bought parsley since.,5,2026-01-10 10:00:00
+N-RAISED-BED,de,Maya,Herbs on the sill,Six pots on the kitchen sill and I have not bought parsley since.,5,2026-01-10 10:00:00
+N-RAISED-BED,it,Maya,Herbs on the sill,Six pots on the kitchen sill and I have not bought parsley since.,5,2026-01-10 10:00:00
 N-FORK,default,Priya,Compost smells right,Dark and crumbly. My tomatoes doubled in a month.,5,2026-04-10 10:00:00
+N-FORK,fr,Priya,Compost smells right,Dark and crumbly. My tomatoes doubled in a month.,5,2026-04-10 10:00:00
+N-FORK,de,Priya,Compost smells right,Dark and crumbly. My tomatoes doubled in a month.,5,2026-04-10 10:00:00
+N-FORK,it,Priya,Compost smells right,Dark and crumbly. My tomatoes doubled in a month.,5,2026-04-10 10:00:00
 N-FORK,default,Quinn,Pot has no drainage hole,Lovely glaze but no hole. Drill it or use it indoors with gravel.,3,2026-04-11 10:00:00
+N-FORK,fr,Quinn,Pot has no drainage hole,Lovely glaze but no hole. Drill it or use it indoors with gravel.,3,2026-04-11 10:00:00
+N-FORK,de,Quinn,Pot has no drainage hole,Lovely glaze but no hole. Drill it or use it indoors with gravel.,3,2026-04-11 10:00:00
+N-FORK,it,Quinn,Pot has no drainage hole,Lovely glaze but no hole. Drill it or use it indoors with gravel.,3,2026-04-11 10:00:00
 N-WATERING-CAN,default,Ada,Pruners cut clean,"Bypass blades, no crushing. Roses thanked me.",5,2026-01-10 10:00:00
+N-WATERING-CAN,fr,Ada,Pruners cut clean,"Bypass blades, no crushing. Roses thanked me.",5,2026-01-10 10:00:00
+N-WATERING-CAN,de,Ada,Pruners cut clean,"Bypass blades, no crushing. Roses thanked me.",5,2026-01-10 10:00:00
+N-WATERING-CAN,it,Ada,Pruners cut clean,"Bypass blades, no crushing. Roses thanked me.",5,2026-01-10 10:00:00
 N-KNEELER,default,Dev,Bigger than the photo,"A three year old plant, not a plug. Delighted.",5,2026-04-10 10:00:00
+N-KNEELER,fr,Dev,Bigger than the photo,"A three year old plant, not a plug. Delighted.",5,2026-04-10 10:00:00
+N-KNEELER,de,Dev,Bigger than the photo,"A three year old plant, not a plug. Delighted.",5,2026-04-10 10:00:00
+N-KNEELER,it,Dev,Bigger than the photo,"A three year old plant, not a plug. Delighted.",5,2026-04-10 10:00:00
 N-KNEELER,default,Elena,Label was helpful,"Planting depth, spacing and sun on the tag. Saved a search.",4,2026-04-11 10:00:00
+N-KNEELER,fr,Elena,Label was helpful,"Planting depth, spacing and sun on the tag. Saved a search.",4,2026-04-11 10:00:00
+N-KNEELER,de,Elena,Label was helpful,"Planting depth, spacing and sun on the tag. Saved a search.",4,2026-04-11 10:00:00
+N-KNEELER,it,Elena,Label was helpful,"Planting depth, spacing and sun on the tag. Saved a search.",4,2026-04-11 10:00:00
 N-BISTRO-SET,default,Greta,Gloves are tough,Thorns did not get through. Fit is snug.,5,2026-01-10 10:00:00
+N-BISTRO-SET,fr,Greta,Gloves are tough,Thorns did not get through. Fit is snug.,5,2026-01-10 10:00:00
+N-BISTRO-SET,de,Greta,Gloves are tough,Thorns did not get through. Fit is snug.,5,2026-01-10 10:00:00
+N-BISTRO-SET,it,Greta,Gloves are tough,Thorns did not get through. Fit is snug.,5,2026-01-10 10:00:00
 N-FIRE-BOWL,default,Jonas,Slow to establish,Took a full season to settle. Now it is the best thing in the border.,4,2026-04-10 10:00:00
+N-FIRE-BOWL,fr,Jonas,Slow to establish,Took a full season to settle. Now it is the best thing in the border.,4,2026-04-10 10:00:00
+N-FIRE-BOWL,de,Jonas,Slow to establish,Took a full season to settle. Now it is the best thing in the border.,4,2026-04-10 10:00:00
+N-FIRE-BOWL,it,Jonas,Slow to establish,Took a full season to settle. Now it is the best thing in the border.,4,2026-04-10 10:00:00
 N-FIRE-BOWL,default,Kira,Bulbs came in paper,No plastic in the box at all. Every bulb sprouted.,5,2026-04-11 10:00:00
+N-FIRE-BOWL,fr,Kira,Bulbs came in paper,No plastic in the box at all. Every bulb sprouted.,5,2026-04-11 10:00:00
+N-FIRE-BOWL,de,Kira,Bulbs came in paper,No plastic in the box at all. Every bulb sprouted.,5,2026-04-11 10:00:00
+N-FIRE-BOWL,it,Kira,Bulbs came in paper,No plastic in the box at all. Every bulb sprouted.,5,2026-04-11 10:00:00
 N-SHADE-SET,default,Maya,Trellis went up in an hour,"Cedar, pre-drilled, and the screws were in the box.",5,2026-01-10 10:00:00
+N-SHADE-SET,fr,Maya,Trellis went up in an hour,"Cedar, pre-drilled, and the screws were in the box.",5,2026-01-10 10:00:00
+N-SHADE-SET,de,Maya,Trellis went up in an hour,"Cedar, pre-drilled, and the screws were in the box.",5,2026-01-10 10:00:00
+N-SHADE-SET,it,Maya,Trellis went up in an hour,"Cedar, pre-drilled, and the screws were in the box.",5,2026-01-10 10:00:00
