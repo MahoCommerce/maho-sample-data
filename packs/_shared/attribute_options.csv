@@ -1,203 +1,587 @@
-attribute_code,label,sort_order,swatch
-color,Black,10,#111111
-color,Charcoal,20,#3b3b3b
-color,Grey,30,#8d8d8d
-color,Silver,40,#c9c9c9
-color,White,50,#f5f5f5
-color,Ivory,60,#f1ead8
-color,Oatmeal,70,#d9cbb3
-color,Tan,80,#c8a27a
-color,Taupe,90,#8b7d6b
-color,Brown,100,#6b4a2b
-color,Khaki,110,#a99c6b
-color,Green,120,#3c7a45
-color,Cyan,130,#37b6c7
-color,Blue Light,140,#9cc3e6
-color,Blue,150,#2f6fb5
-color,Royal Blue,160,#2a49b8
-color,Blue Dark,170,#1f2f5a
-color,Indigo,180,#3b3f7a
-color,Blue Jean,190,#5a7ba8
-color,Purple,200,#6d3f8f
-color,Pink,210,#e39ab7
-color,Salmon,220,#f28c74
-color,Red,230,#c62f2f
-color,Orange,240,#e77a2b
-color,Yellow,250,#e9c23a
-color,Gold,260,#c9a75c
-color,Rose Gold,270,#d9a597
-color,Emerald,280,#0f6b4a
-size,XS,10,
-size,S,20,
-size,M,30,
-size,L,40,
-size,XL,50,
-size,XXL,60,
-size,36,70,
-size,37,80,
-size,38,90,
-size,39,100,
-size,40,110,
-size,41,120,
-size,42,130,
-size,43,140,
-size,44,150,
-size,45,160,
-size,46,170,
-size,One size,180,
-fit,Slim,10,
-fit,Regular,20,
-fit,Relaxed,30,
-fit,Oversized,40,
-material,Linen,10,
-material,Cotton,20,
-material,Wool,30,
-material,Silk,40,
-material,Leather,50,
-material,Denim,60,
-material,Recycled polyester,70,
-material,Stainless steel,80,
-material,Sterling silver,90,
-material,Gold plated,100,
-material,Oak,110,
-material,Ceramic,120,
-material,Glass,130,
-material,Bamboo,140,
-material,Terracotta,150,
-material,Rubber,160,
-material,Nylon,170,
-diet,Vegan,10,
-diet,Vegetarian,20,
-diet,Gluten free,30,
-diet,Organic,40,
-origin,Italy,10,
-origin,Spain,20,
-origin,France,30,
-origin,Greece,40,
-origin,Portugal,50,
-origin,Local farms,60,
-pack_size,100 g,10,
-pack_size,250 g,20,
-pack_size,500 g,30,
-pack_size,1 kg,40,
-pack_size,6 pack,50,
-brand,Voltline,10,
-brand,Kestrel Audio,20,
-brand,Nimbus,30,
-brand,Orbit Labs,40,
-brand,Halide,50,
-brand,Tessera,60,
-connectivity,Bluetooth,10,
-connectivity,Wi-Fi,20,
-connectivity,USB-C,30,
-connectivity,Thunderbolt,40,
-connectivity,HDMI,50,
-connectivity,Wired,60,
-storage,128 GB,10,
-storage,256 GB,20,
-storage,512 GB,30,
-storage,1 TB,40,
-storage,2 TB,50,
-format,Hardcover,10,
-format,Paperback,20,
-format,Audiobook,30,
-format,E-book,40,
-genre,Fiction,10,
-genre,Crime,20,
-genre,Science,30,
-genre,History,40,
-genre,Cooking,50,
-genre,Poetry,60,
-genre,Children,70,
-genre,Travel,80,
-genre,Art,90,
-stone,None,10,
-stone,Diamond,20,
-stone,Pearl,30,
-stone,Sapphire,40,
-stone,Emerald,50,
-stone,Moonstone,60,
-stone,Onyx,70,
-stone,Topaz,80,
-material,14k gold,30,
-material,Rose gold,40,
-skin_type,All skin,10,
-skin_type,Dry,20,
-skin_type,Oily,30,
-skin_type,Combination,40,
-skin_type,Sensitive,50,
-volume,30 ml,10,
-volume,50 ml,20,
-volume,100 ml,30,
-volume,200 ml,40,
-volume,250 ml,50,
-scent,Unscented,10,
-scent,Neroli,20,
-scent,Fig,30,
-scent,Cedar,40,
-scent,Rose,50,
-scent,Citrus,60,
-room,Living room,10,
-room,Bedroom,20,
-room,Kitchen,30,
-room,Bathroom,40,
-room,Hallway,50,
-room,Office,60,
-material,Walnut,20,
-material,Ash,30,
-material,Stoneware,80,
-material,Brass,90,
-material,Rattan,100,
-sport,Running,10,
-sport,Cycling,20,
-sport,Gym,30,
-sport,Yoga,40,
-sport,Hiking,50,
-sport,Swimming,60,
-age_range,0 to 1,10,
-age_range,1 to 3,20,
-age_range,3 to 5,30,
-age_range,5 to 8,40,
-age_range,8 and up,50,
-size,62,10,
-size,68,20,
-size,74,30,
-size,80,40,
-size,86,50,
-size,92,60,
-size,98,70,
-size,104,80,
-size,110,90,
-size,116,100,
-size,122,110,
-size,128,120,
-light,Full sun,10,
-light,Part shade,20,
-light,Shade,30,
-light,Indoor bright,40,
-light,Indoor low,50,
-hardiness,Hardy,10,
-hardiness,Half hardy,20,
-hardiness,Tender,30,
-hardiness,Indoor,40,
-pot_size,9 cm,10,
-pot_size,12 cm,20,
-pot_size,17 cm,30,
-pot_size,21 cm,40,
-pot_size,30 cm,50,
-size,8,190,
-size,12,200,
-size,16,210,
-size,19,220,
-size,20,230,
-size,23,240,
-size,24,250,
-size,27,260,
-size,31,270,
-size,48,280,
-size,50,290,
-size,52,300,
-size,54,310,
-size,56,320,
-size,58,330,
-genre,Nature,100,
+attribute_code,label,sort_order,swatch,store_code,label_admin
+color,Black,10,#111111,,
+color,Noir,,,fr,Black
+color,Schwarz,,,de,Black
+color,Nero,,,it,Black
+color,Charcoal,20,#3b3b3b,,
+color,Anthracite,,,fr,Charcoal
+color,Anthrazit,,,de,Charcoal
+color,Antracite,,,it,Charcoal
+color,Grey,30,#8d8d8d,,
+color,Gris,,,fr,Grey
+color,Grau,,,de,Grey
+color,Grigio,,,it,Grey
+color,Silver,40,#c9c9c9,,
+color,Argent,,,fr,Silver
+color,Silber,,,de,Silver
+color,Argento,,,it,Silver
+color,White,50,#f5f5f5,,
+color,Blanc,,,fr,White
+color,Weiß,,,de,White
+color,Bianco,,,it,White
+color,Ivory,60,#f1ead8,,
+color,Ivoire,,,fr,Ivory
+color,Elfenbein,,,de,Ivory
+color,Avorio,,,it,Ivory
+color,Oatmeal,70,#d9cbb3,,
+color,Avoine,,,fr,Oatmeal
+color,Haferbeige,,,de,Oatmeal
+color,Avena,,,it,Oatmeal
+color,Tan,80,#c8a27a,,
+color,Fauve,,,fr,Tan
+color,Hellbraun,,,de,Tan
+color,Cuoio,,,it,Tan
+color,Taupe,90,#8b7d6b,,
+color,Taupe,,,fr,Taupe
+color,Taupe,,,de,Taupe
+color,Talpa,,,it,Taupe
+color,Brown,100,#6b4a2b,,
+color,Marron,,,fr,Brown
+color,Braun,,,de,Brown
+color,Marrone,,,it,Brown
+color,Khaki,110,#a99c6b,,
+color,Kaki,,,fr,Khaki
+color,Khaki,,,de,Khaki
+color,Kaki,,,it,Khaki
+color,Green,120,#3c7a45,,
+color,Vert,,,fr,Green
+color,Grün,,,de,Green
+color,Verde,,,it,Green
+color,Cyan,130,#37b6c7,,
+color,Cyan,,,fr,Cyan
+color,Cyan,,,de,Cyan
+color,Ciano,,,it,Cyan
+color,Blue Light,140,#9cc3e6,,
+color,Bleu clair,,,fr,Blue Light
+color,Hellblau,,,de,Blue Light
+color,Azzurro,,,it,Blue Light
+color,Blue,150,#2f6fb5,,
+color,Bleu,,,fr,Blue
+color,Blau,,,de,Blue
+color,Blu,,,it,Blue
+color,Royal Blue,160,#2a49b8,,
+color,Bleu roi,,,fr,Royal Blue
+color,Königsblau,,,de,Royal Blue
+color,Blu reale,,,it,Royal Blue
+color,Blue Dark,170,#1f2f5a,,
+color,Bleu foncé,,,fr,Blue Dark
+color,Dunkelblau,,,de,Blue Dark
+color,Blu scuro,,,it,Blue Dark
+color,Indigo,180,#3b3f7a,,
+color,Indigo,,,fr,Indigo
+color,Indigo,,,de,Indigo
+color,Indaco,,,it,Indigo
+color,Blue Jean,190,#5a7ba8,,
+color,Bleu jean,,,fr,Blue Jean
+color,Jeansblau,,,de,Blue Jean
+color,Blu jeans,,,it,Blue Jean
+color,Purple,200,#6d3f8f,,
+color,Violet,,,fr,Purple
+color,Violett,,,de,Purple
+color,Viola,,,it,Purple
+color,Pink,210,#e39ab7,,
+color,Rose,,,fr,Pink
+color,Rosa,,,de,Pink
+color,Rosa,,,it,Pink
+color,Salmon,220,#f28c74,,
+color,Saumon,,,fr,Salmon
+color,Lachs,,,de,Salmon
+color,Salmone,,,it,Salmon
+color,Red,230,#c62f2f,,
+color,Rouge,,,fr,Red
+color,Rot,,,de,Red
+color,Rosso,,,it,Red
+color,Orange,240,#e77a2b,,
+color,Orange,,,fr,Orange
+color,Orange,,,de,Orange
+color,Arancione,,,it,Orange
+color,Yellow,250,#e9c23a,,
+color,Jaune,,,fr,Yellow
+color,Gelb,,,de,Yellow
+color,Giallo,,,it,Yellow
+color,Gold,260,#c9a75c,,
+color,Or,,,fr,Gold
+color,Gold,,,de,Gold
+color,Oro,,,it,Gold
+color,Rose Gold,270,#d9a597,,
+color,Or rose,,,fr,Rose Gold
+color,Roségold,,,de,Rose Gold
+color,Oro rosa,,,it,Rose Gold
+color,Emerald,280,#0f6b4a,,
+color,Émeraude,,,fr,Emerald
+color,Smaragd,,,de,Emerald
+color,Smeraldo,,,it,Emerald
+size,XS,10,,,
+size,S,20,,,
+size,M,30,,,
+size,L,40,,,
+size,XL,50,,,
+size,XXL,60,,,
+size,36,70,,,
+size,37,80,,,
+size,38,90,,,
+size,39,100,,,
+size,40,110,,,
+size,41,120,,,
+size,42,130,,,
+size,43,140,,,
+size,44,150,,,
+size,45,160,,,
+size,46,170,,,
+size,One size,180,,,
+size,Taille unique,,,fr,One size
+size,Einheitsgröße,,,de,One size
+size,Taglia unica,,,it,One size
+fit,Slim,10,,,
+fit,Ajusté,,,fr,Slim
+fit,Schmal,,,de,Slim
+fit,Attillato,,,it,Slim
+fit,Regular,20,,,
+fit,Droit,,,fr,Regular
+fit,Normal,,,de,Regular
+fit,Regolare,,,it,Regular
+fit,Relaxed,30,,,
+fit,Ample,,,fr,Relaxed
+fit,Locker,,,de,Relaxed
+fit,Comodo,,,it,Relaxed
+fit,Oversized,40,,,
+fit,Oversize,,,fr,Oversized
+fit,Oversize,,,de,Oversized
+fit,Oversize,,,it,Oversized
+material,Linen,10,,,
+material,Lin,,,fr,Linen
+material,Leinen,,,de,Linen
+material,Lino,,,it,Linen
+material,Cotton,20,,,
+material,Coton,,,fr,Cotton
+material,Baumwolle,,,de,Cotton
+material,Cotone,,,it,Cotton
+material,Wool,30,,,
+material,Laine,,,fr,Wool
+material,Wolle,,,de,Wool
+material,Lana,,,it,Wool
+material,Silk,40,,,
+material,Soie,,,fr,Silk
+material,Seide,,,de,Silk
+material,Seta,,,it,Silk
+material,Leather,50,,,
+material,Cuir,,,fr,Leather
+material,Leder,,,de,Leather
+material,Pelle,,,it,Leather
+material,Denim,60,,,
+material,Denim,,,fr,Denim
+material,Denim,,,de,Denim
+material,Denim,,,it,Denim
+material,Recycled polyester,70,,,
+material,Polyester recyclé,,,fr,Recycled polyester
+material,Recyceltes Polyester,,,de,Recycled polyester
+material,Poliestere riciclato,,,it,Recycled polyester
+material,Stainless steel,80,,,
+material,Acier inoxydable,,,fr,Stainless steel
+material,Edelstahl,,,de,Stainless steel
+material,Acciaio inossidabile,,,it,Stainless steel
+material,Sterling silver,90,,,
+material,Argent massif,,,fr,Sterling silver
+material,Sterlingsilber,,,de,Sterling silver
+material,Argento sterling,,,it,Sterling silver
+material,Gold plated,100,,,
+material,Plaqué or,,,fr,Gold plated
+material,Vergoldet,,,de,Gold plated
+material,Placcato oro,,,it,Gold plated
+material,Oak,110,,,
+material,Chêne,,,fr,Oak
+material,Eiche,,,de,Oak
+material,Rovere,,,it,Oak
+material,Ceramic,120,,,
+material,Céramique,,,fr,Ceramic
+material,Keramik,,,de,Ceramic
+material,Ceramica,,,it,Ceramic
+material,Glass,130,,,
+material,Verre,,,fr,Glass
+material,Glas,,,de,Glass
+material,Vetro,,,it,Glass
+material,Bamboo,140,,,
+material,Bambou,,,fr,Bamboo
+material,Bambus,,,de,Bamboo
+material,Bambù,,,it,Bamboo
+material,Terracotta,150,,,
+material,Terre cuite,,,fr,Terracotta
+material,Terrakotta,,,de,Terracotta
+material,Terracotta,,,it,Terracotta
+material,Rubber,160,,,
+material,Caoutchouc,,,fr,Rubber
+material,Gummi,,,de,Rubber
+material,Gomma,,,it,Rubber
+material,Nylon,170,,,
+material,Nylon,,,fr,Nylon
+material,Nylon,,,de,Nylon
+material,Nylon,,,it,Nylon
+diet,Vegan,10,,,
+diet,Végan,,,fr,Vegan
+diet,Vegan,,,de,Vegan
+diet,Vegano,,,it,Vegan
+diet,Vegetarian,20,,,
+diet,Végétarien,,,fr,Vegetarian
+diet,Vegetarisch,,,de,Vegetarian
+diet,Vegetariano,,,it,Vegetarian
+diet,Gluten free,30,,,
+diet,Sans gluten,,,fr,Gluten free
+diet,Glutenfrei,,,de,Gluten free
+diet,Senza glutine,,,it,Gluten free
+diet,Organic,40,,,
+diet,Bio,,,fr,Organic
+diet,Bio,,,de,Organic
+diet,Biologico,,,it,Organic
+origin,Italy,10,,,
+origin,Italie,,,fr,Italy
+origin,Italien,,,de,Italy
+origin,Italia,,,it,Italy
+origin,Spain,20,,,
+origin,Espagne,,,fr,Spain
+origin,Spanien,,,de,Spain
+origin,Spagna,,,it,Spain
+origin,France,30,,,
+origin,France,,,fr,France
+origin,Frankreich,,,de,France
+origin,Francia,,,it,France
+origin,Greece,40,,,
+origin,Grèce,,,fr,Greece
+origin,Griechenland,,,de,Greece
+origin,Grecia,,,it,Greece
+origin,Portugal,50,,,
+origin,Portugal,,,fr,Portugal
+origin,Portugal,,,de,Portugal
+origin,Portogallo,,,it,Portugal
+origin,Local farms,60,,,
+origin,Fermes locales,,,fr,Local farms
+origin,Höfe aus der Region,,,de,Local farms
+origin,Fattorie locali,,,it,Local farms
+pack_size,100 g,10,,,
+pack_size,250 g,20,,,
+pack_size,500 g,30,,,
+pack_size,1 kg,40,,,
+pack_size,6 pack,50,,,
+pack_size,Lot de 6,,,fr,6 pack
+pack_size,6er-Pack,,,de,6 pack
+pack_size,Confezione da 6,,,it,6 pack
+brand,Voltline,10,,,
+brand,Kestrel Audio,20,,,
+brand,Nimbus,30,,,
+brand,Orbit Labs,40,,,
+brand,Halide,50,,,
+brand,Tessera,60,,,
+connectivity,Bluetooth,10,,,
+connectivity,Wi-Fi,20,,,
+connectivity,USB-C,30,,,
+connectivity,Thunderbolt,40,,,
+connectivity,HDMI,50,,,
+connectivity,Wired,60,,,
+connectivity,Filaire,,,fr,Wired
+connectivity,Kabelgebunden,,,de,Wired
+connectivity,Cablato,,,it,Wired
+storage,128 GB,10,,,
+storage,256 GB,20,,,
+storage,512 GB,30,,,
+storage,1 TB,40,,,
+storage,2 TB,50,,,
+format,Hardcover,10,,,
+format,Relié,,,fr,Hardcover
+format,Gebunden,,,de,Hardcover
+format,Copertina rigida,,,it,Hardcover
+format,Paperback,20,,,
+format,Broché,,,fr,Paperback
+format,Taschenbuch,,,de,Paperback
+format,Brossura,,,it,Paperback
+format,Audiobook,30,,,
+format,Livre audio,,,fr,Audiobook
+format,Hörbuch,,,de,Audiobook
+format,Audiolibro,,,it,Audiobook
+format,E-book,40,,,
+format,Livre numérique,,,fr,E-book
+format,E-Book,,,de,E-book
+format,E-book,,,it,E-book
+genre,Fiction,10,,,
+genre,Fiction,,,fr,Fiction
+genre,Belletristik,,,de,Fiction
+genre,Narrativa,,,it,Fiction
+genre,Crime,20,,,
+genre,Policier,,,fr,Crime
+genre,Krimi,,,de,Crime
+genre,Giallo,,,it,Crime
+genre,Science,30,,,
+genre,Science,,,fr,Science
+genre,Wissenschaft,,,de,Science
+genre,Scienza,,,it,Science
+genre,History,40,,,
+genre,Histoire,,,fr,History
+genre,Geschichte,,,de,History
+genre,Storia,,,it,History
+genre,Cooking,50,,,
+genre,Cuisine,,,fr,Cooking
+genre,Kochen,,,de,Cooking
+genre,Cucina,,,it,Cooking
+genre,Poetry,60,,,
+genre,Poésie,,,fr,Poetry
+genre,Lyrik,,,de,Poetry
+genre,Poesia,,,it,Poetry
+genre,Children,70,,,
+genre,Enfants,,,fr,Children
+genre,Kinder,,,de,Children
+genre,Bambini,,,it,Children
+genre,Travel,80,,,
+genre,Voyage,,,fr,Travel
+genre,Reisen,,,de,Travel
+genre,Viaggi,,,it,Travel
+genre,Art,90,,,
+genre,Art,,,fr,Art
+genre,Kunst,,,de,Art
+genre,Arte,,,it,Art
+stone,None,10,,,
+stone,Aucune,,,fr,None
+stone,Keiner,,,de,None
+stone,Nessuna,,,it,None
+stone,Diamond,20,,,
+stone,Diamant,,,fr,Diamond
+stone,Diamant,,,de,Diamond
+stone,Diamante,,,it,Diamond
+stone,Pearl,30,,,
+stone,Perle,,,fr,Pearl
+stone,Perle,,,de,Pearl
+stone,Perla,,,it,Pearl
+stone,Sapphire,40,,,
+stone,Saphir,,,fr,Sapphire
+stone,Saphir,,,de,Sapphire
+stone,Zaffiro,,,it,Sapphire
+stone,Emerald,50,,,
+stone,Émeraude,,,fr,Emerald
+stone,Smaragd,,,de,Emerald
+stone,Smeraldo,,,it,Emerald
+stone,Moonstone,60,,,
+stone,Pierre de lune,,,fr,Moonstone
+stone,Mondstein,,,de,Moonstone
+stone,Pietra di luna,,,it,Moonstone
+stone,Onyx,70,,,
+stone,Onyx,,,fr,Onyx
+stone,Onyx,,,de,Onyx
+stone,Onice,,,it,Onyx
+stone,Topaz,80,,,
+stone,Topaze,,,fr,Topaz
+stone,Topas,,,de,Topaz
+stone,Topazio,,,it,Topaz
+material,14k gold,30,,,
+material,Or 14 carats,,,fr,14k gold
+material,14 Karat Gold,,,de,14k gold
+material,Oro 14 carati,,,it,14k gold
+material,Rose gold,40,,,
+material,Or rose,,,fr,Rose gold
+material,Roségold,,,de,Rose gold
+material,Oro rosa,,,it,Rose gold
+skin_type,All skin,10,,,
+skin_type,Toutes peaux,,,fr,All skin
+skin_type,Alle Hauttypen,,,de,All skin
+skin_type,Tutti i tipi di pelle,,,it,All skin
+skin_type,Dry,20,,,
+skin_type,Sèche,,,fr,Dry
+skin_type,Trocken,,,de,Dry
+skin_type,Secca,,,it,Dry
+skin_type,Oily,30,,,
+skin_type,Grasse,,,fr,Oily
+skin_type,Fettig,,,de,Oily
+skin_type,Grassa,,,it,Oily
+skin_type,Combination,40,,,
+skin_type,Mixte,,,fr,Combination
+skin_type,Mischhaut,,,de,Combination
+skin_type,Mista,,,it,Combination
+skin_type,Sensitive,50,,,
+skin_type,Sensible,,,fr,Sensitive
+skin_type,Empfindlich,,,de,Sensitive
+skin_type,Sensibile,,,it,Sensitive
+volume,30 ml,10,,,
+volume,50 ml,20,,,
+volume,100 ml,30,,,
+volume,200 ml,40,,,
+volume,250 ml,50,,,
+scent,Unscented,10,,,
+scent,Sans parfum,,,fr,Unscented
+scent,Ohne Duft,,,de,Unscented
+scent,Senza profumo,,,it,Unscented
+scent,Neroli,20,,,
+scent,Néroli,,,fr,Neroli
+scent,Neroli,,,de,Neroli
+scent,Neroli,,,it,Neroli
+scent,Fig,30,,,
+scent,Figue,,,fr,Fig
+scent,Feige,,,de,Fig
+scent,Fico,,,it,Fig
+scent,Cedar,40,,,
+scent,Cèdre,,,fr,Cedar
+scent,Zeder,,,de,Cedar
+scent,Cedro,,,it,Cedar
+scent,Rose,50,,,
+scent,Rose,,,fr,Rose
+scent,Rose,,,de,Rose
+scent,Rosa,,,it,Rose
+scent,Citrus,60,,,
+scent,Agrumes,,,fr,Citrus
+scent,Zitrus,,,de,Citrus
+scent,Agrumi,,,it,Citrus
+room,Living room,10,,,
+room,Salon,,,fr,Living room
+room,Wohnzimmer,,,de,Living room
+room,Soggiorno,,,it,Living room
+room,Bedroom,20,,,
+room,Chambre,,,fr,Bedroom
+room,Schlafzimmer,,,de,Bedroom
+room,Camera da letto,,,it,Bedroom
+room,Kitchen,30,,,
+room,Cuisine,,,fr,Kitchen
+room,Küche,,,de,Kitchen
+room,Cucina,,,it,Kitchen
+room,Bathroom,40,,,
+room,Salle de bain,,,fr,Bathroom
+room,Badezimmer,,,de,Bathroom
+room,Bagno,,,it,Bathroom
+room,Hallway,50,,,
+room,Entrée,,,fr,Hallway
+room,Flur,,,de,Hallway
+room,Ingresso,,,it,Hallway
+room,Office,60,,,
+room,Bureau,,,fr,Office
+room,Büro,,,de,Office
+room,Ufficio,,,it,Office
+material,Walnut,20,,,
+material,Noyer,,,fr,Walnut
+material,Nussbaum,,,de,Walnut
+material,Noce,,,it,Walnut
+material,Ash,30,,,
+material,Frêne,,,fr,Ash
+material,Esche,,,de,Ash
+material,Frassino,,,it,Ash
+material,Stoneware,80,,,
+material,Grès,,,fr,Stoneware
+material,Steinzeug,,,de,Stoneware
+material,Gres,,,it,Stoneware
+material,Brass,90,,,
+material,Laiton,,,fr,Brass
+material,Messing,,,de,Brass
+material,Ottone,,,it,Brass
+material,Rattan,100,,,
+material,Rotin,,,fr,Rattan
+material,Rattan,,,de,Rattan
+material,Rattan,,,it,Rattan
+sport,Running,10,,,
+sport,Course,,,fr,Running
+sport,Laufen,,,de,Running
+sport,Corsa,,,it,Running
+sport,Cycling,20,,,
+sport,Vélo,,,fr,Cycling
+sport,Radfahren,,,de,Cycling
+sport,Ciclismo,,,it,Cycling
+sport,Gym,30,,,
+sport,Salle,,,fr,Gym
+sport,Studio,,,de,Gym
+sport,Palestra,,,it,Gym
+sport,Yoga,40,,,
+sport,Yoga,,,fr,Yoga
+sport,Yoga,,,de,Yoga
+sport,Yoga,,,it,Yoga
+sport,Hiking,50,,,
+sport,Randonnée,,,fr,Hiking
+sport,Wandern,,,de,Hiking
+sport,Escursionismo,,,it,Hiking
+sport,Swimming,60,,,
+sport,Natation,,,fr,Swimming
+sport,Schwimmen,,,de,Swimming
+sport,Nuoto,,,it,Swimming
+age_range,0 to 1,10,,,
+age_range,0 à 1,,,fr,0 to 1
+age_range,0 bis 1,,,de,0 to 1
+age_range,Da 0 a 1,,,it,0 to 1
+age_range,1 to 3,20,,,
+age_range,1 à 3,,,fr,1 to 3
+age_range,1 bis 3,,,de,1 to 3
+age_range,Da 1 a 3,,,it,1 to 3
+age_range,3 to 5,30,,,
+age_range,3 à 5,,,fr,3 to 5
+age_range,3 bis 5,,,de,3 to 5
+age_range,Da 3 a 5,,,it,3 to 5
+age_range,5 to 8,40,,,
+age_range,5 à 8,,,fr,5 to 8
+age_range,5 bis 8,,,de,5 to 8
+age_range,Da 5 a 8,,,it,5 to 8
+age_range,8 and up,50,,,
+age_range,8 et plus,,,fr,8 and up
+age_range,Ab 8,,,de,8 and up
+age_range,Da 8 in su,,,it,8 and up
+size,62,10,,,
+size,68,20,,,
+size,74,30,,,
+size,80,40,,,
+size,86,50,,,
+size,92,60,,,
+size,98,70,,,
+size,104,80,,,
+size,110,90,,,
+size,116,100,,,
+size,122,110,,,
+size,128,120,,,
+light,Full sun,10,,,
+light,Plein soleil,,,fr,Full sun
+light,Volle Sonne,,,de,Full sun
+light,Pieno sole,,,it,Full sun
+light,Part shade,20,,,
+light,Mi-ombre,,,fr,Part shade
+light,Halbschatten,,,de,Part shade
+light,Mezz'ombra,,,it,Part shade
+light,Shade,30,,,
+light,Ombre,,,fr,Shade
+light,Schatten,,,de,Shade
+light,Ombra,,,it,Shade
+light,Indoor bright,40,,,
+light,Intérieur lumineux,,,fr,Indoor bright
+light,Innen hell,,,de,Indoor bright
+light,Interno luminoso,,,it,Indoor bright
+light,Indoor low,50,,,
+light,Intérieur sombre,,,fr,Indoor low
+light,Innen dunkel,,,de,Indoor low
+light,Interno poco luminoso,,,it,Indoor low
+hardiness,Hardy,10,,,
+hardiness,Rustique,,,fr,Hardy
+hardiness,Winterhart,,,de,Hardy
+hardiness,Rustica,,,it,Hardy
+hardiness,Half hardy,20,,,
+hardiness,Semi-rustique,,,fr,Half hardy
+hardiness,Bedingt winterhart,,,de,Half hardy
+hardiness,Semi-rustica,,,it,Half hardy
+hardiness,Tender,30,,,
+hardiness,Fragile,,,fr,Tender
+hardiness,Frostempfindlich,,,de,Tender
+hardiness,Delicata,,,it,Tender
+hardiness,Indoor,40,,,
+hardiness,Intérieur,,,fr,Indoor
+hardiness,Zimmerpflanze,,,de,Indoor
+hardiness,Da interno,,,it,Indoor
+pot_size,9 cm,10,,,
+pot_size,12 cm,20,,,
+pot_size,17 cm,30,,,
+pot_size,21 cm,40,,,
+pot_size,30 cm,50,,,
+size,8,190,,,
+size,12,200,,,
+size,16,210,,,
+size,19,220,,,
+size,20,230,,,
+size,23,240,,,
+size,24,250,,,
+size,27,260,,,
+size,31,270,,,
+size,48,280,,,
+size,50,290,,,
+size,52,300,,,
+size,54,310,,,
+size,56,320,,,
+size,58,330,,,
+genre,Nature,100,,,
+genre,Nature,,,fr,Nature
+genre,Natur,,,de,Nature
+genre,Natura,,,it,Nature

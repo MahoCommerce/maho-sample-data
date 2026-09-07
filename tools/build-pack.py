@@ -221,12 +221,14 @@ def merge_shared(S):
             attributes.append(a); known.add(a['code'])
     write_csv(f'{shared}/attributes.csv', attributes, header)
     options = list(csv.DictReader(open(f'{shared}/attribute_options.csv')))
+    # The file also holds the translated labels, one row per store view, so keep its own columns.
+    option_header = list(options[0].keys())
     known = {(o['attribute_code'], o['label']) for o in options}
     for code, labels in getattr(S, 'OPTIONS', {}).items():
         for i, label in enumerate(labels):
             if (code, label) not in known:
                 options.append(dict(attribute_code=code, label=label, sort_order=(i + 1) * 10, swatch=''))
-    write_csv(f'{shared}/attribute_options.csv', options, ['attribute_code', 'label', 'sort_order', 'swatch'])
+    write_csv(f'{shared}/attribute_options.csv', options, option_header)
 
 def build(spec_path):
     S = load_spec(spec_path)

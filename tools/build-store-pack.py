@@ -12,8 +12,11 @@ Usage: tools/build-store-pack.py
 """
 import csv
 import os
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'specs'))
+import translations  # noqa: E402  the store view copy, keyed by the English string
 PACKS = os.path.join(ROOT, 'packs')
 STORE = os.path.join(PACKS, 'store')
 WEBSITE = 'base'
@@ -21,6 +24,7 @@ STORE_CODE = 'default'
 ROOT_CATEGORY = 'Default Category'
 # The store views of the Maho Store website, in the order of packs/_shared/stores.csv.
 STORE_VIEWS = ['default', 'fr', 'de', 'it']
+TABLES = {view: translations.table(view) for view in STORE_VIEWS[1:]}
 
 
 def read(path):
@@ -49,6 +53,33 @@ def industries():
     return [(r['website_code'], r['root_category']) for r in rows]
 
 
+MISSING = set()
+
+
+def say(view, english):
+    """The text of a store view. English falls through, and a gap is remembered for the report."""
+    if view == STORE_CODE or english == '':
+        return english
+    value = TABLES[view].get(english)
+    if value is None:
+        MISSING.add(english)
+        return english
+    return value
+
+
+def translated(rows, fields):
+    """Each row, followed by one store scoped row per store view that has a translation."""
+    out = []
+    for row in rows:
+        out.append(row)
+        for view in STORE_VIEWS[1:]:
+            values = {f: say(view, row.get(f, '')) for f in fields}
+            if all(values[f] == row.get(f, '') for f in fields):
+                continue
+            out.append(dict(row, store_code=view, **values))
+    return out
+
+
 def categories(codes):
     rows = [dict(root=ROOT_CATEGORY, path='', name=ROOT_CATEGORY, is_active=1, include_in_menu=1, is_anchor=1,
                  description='Every product of the ten Maho demo stores, on the default theme.')]
@@ -65,7 +96,16 @@ def categories(codes):
             rows.append(dict(root=ROOT_CATEGORY, path=f"{code}/{sub['path']}", name=sub['name'],
                              is_active=sub['is_active'], include_in_menu=sub['include_in_menu'], is_anchor=sub['is_anchor'],
                              position=sub['position'], display_mode='PRODUCTS', description=sub['description']))
-    return rows
+    # A store row only carries the text, so it never creates a category or moves one.
+    out = []
+    for row in rows:
+        out.append(row)
+        for view in STORE_VIEWS[1:]:
+            name, description = say(view, row['name']), say(view, row.get('description', ''))
+            if name == row['name'] and description == row.get('description', ''):
+                continue
+            out.append(dict(root=row['root'], path=row['path'], store_code=view, name=name, description=description))
+    return out
 
 
 def products(codes):
@@ -688,7 +728,7 @@ def pages(view, t):
 def main():
     codes = industries()
     write(os.path.join(STORE, 'categories.csv'), categories(codes),
-          ['root', 'path', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
+          ['root', 'path', 'store_code', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
     write(os.path.join(STORE, 'products.csv'), products(codes), ['sku', '_product_websites', '_root_category', '_category'])
     write(os.path.join(STORE, 'reviews.csv'), reviews(codes), ['sku', 'store_code', 'nickname', 'title', 'detail', 'rating', 'created_at'])
 
@@ -722,6 +762,8 @@ def main():
         with open(os.path.join(STORE, 'content', name), 'w') as f:
             f.write(body)
     print(f'store pack: {len(codes)} industries, {len(STORE_VIEWS)} store views')
+    if MISSING:
+        print(f'{len(MISSING)} English strings have no translation yet in specs/translations.py')
 
 
 if __name__ == '__main__':
