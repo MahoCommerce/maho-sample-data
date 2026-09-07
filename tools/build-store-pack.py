@@ -11,12 +11,12 @@ English, so the pack writes one review row per store view and one set of CMS pag
 Usage: tools/build-store-pack.py
 """
 import csv
+import importlib
 import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'specs'))
-import translations  # noqa: E402  the store view copy of every spec, keyed by the English string
 PACKS = os.path.join(ROOT, 'packs')
 STORE = os.path.join(PACKS, 'store')
 WEBSITE = 'base'
@@ -24,7 +24,14 @@ STORE_CODE = 'default'
 ROOT_CATEGORY = 'Default Category'
 # The store views of the Maho Store website, in the order of packs/_shared/stores.csv.
 STORE_VIEWS = ['default', 'fr', 'de', 'it']
-TABLES = {view: translations.table(view) for view in STORE_VIEWS[1:]}
+# The root of the store tree. Every other string is translated in the spec of its store.
+ROOT_TEXT = [
+    {'en': ROOT_CATEGORY, 'fr': 'Catégorie par défaut', 'de': 'Standardkategorie', 'it': 'Categoria predefinita'},
+    {'en': 'Every product of the ten Maho demo stores, on the default theme.',
+     'fr': 'Tous les produits des dix boutiques de démonstration Maho, sur le thème par défaut.',
+     'de': 'Jedes Produkt der zehn Maho-Demoshops, auf dem Standard-Theme.',
+     'it': 'Ogni prodotto dei dieci negozi dimostrativi Maho, sul tema predefinito.'},
+]
 
 
 def read(path):
@@ -53,6 +60,30 @@ def industries():
     return [(r['website_code'], r['root_category']) for r in rows]
 
 
+def collect(value, out):
+    """Every {'en': ..., 'fr': ...} dictionary inside a spec value, keyed by its English string."""
+    if isinstance(value, dict) and 'en' in value:
+        out[value['en']] = value
+    elif isinstance(value, dict):
+        for item in value.values():
+            collect(item, out)
+    elif isinstance(value, (list, tuple)):
+        for item in value:
+            collect(item, out)
+
+
+def tables():
+    """english -> text, per store view. Every spec carries its own words, next to the English."""
+    words = {}
+    collect(ROOT_TEXT, words)
+    for code, _ in industries():
+        module = importlib.import_module(code)
+        for name in ('ROOT', 'ROOT_DESCRIPTION', 'CATEGORIES', 'REVIEWS', 'PRODUCTS', 'TEXTS'):
+            collect(getattr(module, name, None), words)
+    return {view: {english: w[view] for english, w in words.items() if view in w} for view in STORE_VIEWS[1:]}
+
+
+TABLES = tables()
 MISSING = set()
 
 
