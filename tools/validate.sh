@@ -27,7 +27,7 @@ echo "checking the store view rows of every product"
 gaps=$(sqlite3 "$DB" "
   with name as (select attribute_id from eav_attribute where attribute_code='name'
     and entity_type_id=(select entity_type_id from eav_entity_type where entity_type_code='catalog_product')),
-  view as (select store_id from core_store where code in ('fr','de','it'))
+  view as (select store_id from core_store where code in ('default-fr','default-de','default-it'))
   select count(*) from catalog_product_entity e, view v
   where exists (select 1 from catalog_product_entity_varchar d
                 where d.entity_id=e.entity_id and d.store_id=0 and d.attribute_id=(select attribute_id from name))

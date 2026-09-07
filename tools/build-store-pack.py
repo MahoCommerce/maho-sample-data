@@ -22,8 +22,12 @@ STORE = os.path.join(PACKS, 'store')
 WEBSITE = 'base'
 STORE_CODE = 'default'
 ROOT_CATEGORY = 'Default Category'
-# The store views of the Maho Store website, in the order of packs/_shared/stores.csv.
-STORE_VIEWS = ['default', 'fr', 'de', 'it']
+# The store views of the Maho Store website, in the order of packs/_shared/stores.csv. The code of a
+# store view is the first segment of every URL of that view (web/url/use_store) and sits next to the
+# industry store codes, so it names the store first and the language second. The text of the pack is
+# keyed by the language alone, because a language is not a store: home-fr.html serves default-fr.
+STORE_VIEWS = ['default', 'default-fr', 'default-de', 'default-it']
+LANGUAGE = {'default': 'en', 'default-fr': 'fr', 'default-de': 'de', 'default-it': 'it'}
 # The root of the store tree. Every other string is translated in the spec of its store.
 ROOT_TEXT = [
     {'en': ROOT_CATEGORY, 'fr': 'Catégorie par défaut', 'de': 'Standardkategorie', 'it': 'Categoria predefinita'},
@@ -49,8 +53,8 @@ def write(path, rows, columns):
 
 
 def suffix(view):
-    """The content file suffix of a store view. The English files keep their plain names."""
-    return '' if view == STORE_CODE else '-' + view
+    """The content file suffix of a store view: its language. The English files keep their plain names."""
+    return '' if view == STORE_CODE else '-' + LANGUAGE[view]
 
 
 def industries():
@@ -80,7 +84,8 @@ def tables():
         module = importlib.import_module(code)
         for name in ('ROOT', 'ROOT_DESCRIPTION', 'CATEGORIES', 'REVIEWS', 'PRODUCTS', 'TEXTS'):
             collect(getattr(module, name, None), words)
-    return {view: {english: w[view] for english, w in words.items() if view in w} for view in STORE_VIEWS[1:]}
+    return {view: {english: w[LANGUAGE[view]] for english, w in words.items() if LANGUAGE[view] in w}
+            for view in STORE_VIEWS[1:]}
 
 
 TABLES = tables()
@@ -251,7 +256,7 @@ STARS = ' '.join(['{{icon name="star" variant="filled" size="18"}}'] * 5)
 # The industry names stay in English, because the catalog stays in English. A string that names
 # an industry takes {industry} or {industry_lower}, and a string that names a shop takes {store}.
 COPY = {
-    'default': {
+    'en': {
         'title_home': 'Maho Store',
         'meta_home': 'Ten demo stores on one Maho installation, one per industry theme, and every product in one store.',
         'badge': 'Ten stores, one street',
@@ -611,7 +616,7 @@ def quotes(codes):
 
 def copy_for(view, codes):
     """The strings of a store view. English reads the catalog copy from the industry packs."""
-    t = dict(COPY[view])
+    t = dict(COPY[LANGUAGE[view]])
     if view == STORE_CODE:
         t['intros'] = root_descriptions(codes)
         t['taglines'] = {code: SECTIONS[code][2] for code, name in codes}

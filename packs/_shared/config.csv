@@ -35,15 +35,15 @@ trans_email/ident_sales/name,Maho Store,websites,base
 trans_email/ident_support/name,Maho Store,websites,base
 web/default/cms_home_page,home,stores,default
 sitemap/file/name,sitemap-store.xml,stores,default
-general/locale/code,fr_FR,stores,fr
-web/default/cms_home_page,home,stores,fr
-sitemap/file/name,sitemap-store-fr.xml,stores,fr
-general/locale/code,de_DE,stores,de
-web/default/cms_home_page,home,stores,de
-sitemap/file/name,sitemap-store-de.xml,stores,de
-general/locale/code,it_IT,stores,it
-web/default/cms_home_page,home,stores,it
-sitemap/file/name,sitemap-store-it.xml,stores,it
+general/locale/code,fr_FR,stores,default-fr
+web/default/cms_home_page,home,stores,default-fr
+sitemap/file/name,sitemap-store-fr.xml,stores,default-fr
+general/locale/code,de_DE,stores,default-de
+web/default/cms_home_page,home,stores,default-de
+sitemap/file/name,sitemap-store-de.xml,stores,default-de
+general/locale/code,it_IT,stores,default-it
+web/default/cms_home_page,home,stores,default-it
+sitemap/file/name,sitemap-store-it.xml,stores,default-it
 design/theme/default,fashion,websites,fashion
 general/store_information/name,Maison Maho,websites,fashion
 design/head/default_title,Maison Maho,websites,fashion

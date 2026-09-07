@@ -6,18 +6,18 @@ about-maho-demo-store,default,About the Maho Store,one_column,about.html,1,0,
 customer-service,default,Customer Service,one_column,customer-service.html,1,0,
 no-route,default,404 Not Found,one_column,no-route.html,1,0,
 privacy-policy-cookie-restriction-mode,,Privacy Policy,one_column,privacy-policy.html,1,0,
-home,fr,Maho Store,one_column,home-fr.html,1,1,"Dix boutiques de démonstration sur une seule installation Maho, une par thème, et tous les produits dans une seule boutique."
-about-maho-demo-store,fr,À propos du Maho Store,one_column,about-fr.html,1,0,
-customer-service,fr,Service client,one_column,customer-service-fr.html,1,0,
-no-route,fr,404 Page introuvable,one_column,no-route-fr.html,1,0,
-privacy-policy-cookie-restriction-mode,fr,Politique de confidentialité,one_column,privacy-policy-fr.html,1,0,
-home,de,Maho Store,one_column,home-de.html,1,1,"Zehn Demoshops auf einer Maho-Installation, einer je Theme, und alle Produkte in einem Shop."
-about-maho-demo-store,de,Über den Maho Store,one_column,about-de.html,1,0,
-customer-service,de,Kundenservice,one_column,customer-service-de.html,1,0,
-no-route,de,404 Seite nicht gefunden,one_column,no-route-de.html,1,0,
-privacy-policy-cookie-restriction-mode,de,Datenschutzerklärung,one_column,privacy-policy-de.html,1,0,
-home,it,Maho Store,one_column,home-it.html,1,1,"Dieci negozi dimostrativi su una sola installazione Maho, uno per tema, e tutti i prodotti in un solo negozio."
-about-maho-demo-store,it,Informazioni sul Maho Store,one_column,about-it.html,1,0,
-customer-service,it,Servizio clienti,one_column,customer-service-it.html,1,0,
-no-route,it,404 Pagina non trovata,one_column,no-route-it.html,1,0,
-privacy-policy-cookie-restriction-mode,it,Informativa sulla privacy,one_column,privacy-policy-it.html,1,0,
+home,default-fr,Maho Store,one_column,home-fr.html,1,1,"Dix boutiques de démonstration sur une seule installation Maho, une par thème, et tous les produits dans une seule boutique."
+about-maho-demo-store,default-fr,À propos du Maho Store,one_column,about-fr.html,1,0,
+customer-service,default-fr,Service client,one_column,customer-service-fr.html,1,0,
+no-route,default-fr,404 Page introuvable,one_column,no-route-fr.html,1,0,
+privacy-policy-cookie-restriction-mode,default-fr,Politique de confidentialité,one_column,privacy-policy-fr.html,1,0,
+home,default-de,Maho Store,one_column,home-de.html,1,1,"Zehn Demoshops auf einer Maho-Installation, einer je Theme, und alle Produkte in einem Shop."
+about-maho-demo-store,default-de,Über den Maho Store,one_column,about-de.html,1,0,
+customer-service,default-de,Kundenservice,one_column,customer-service-de.html,1,0,
+no-route,default-de,404 Seite nicht gefunden,one_column,no-route-de.html,1,0,
+privacy-policy-cookie-restriction-mode,default-de,Datenschutzerklärung,one_column,privacy-policy-de.html,1,0,
+home,default-it,Maho Store,one_column,home-it.html,1,1,"Dieci negozi dimostrativi su una sola installazione Maho, uno per tema, e tutti i prodotti in un solo negozio."
+about-maho-demo-store,default-it,Informazioni sul Maho Store,one_column,about-it.html,1,0,
+customer-service,default-it,Servizio clienti,one_column,customer-service-it.html,1,0,
+no-route,default-it,404 Pagina non trovata,one_column,no-route-it.html,1,0,
+privacy-policy-cookie-restriction-mode,default-it,Informativa sulla privacy,one_column,privacy-policy-it.html,1,0,
