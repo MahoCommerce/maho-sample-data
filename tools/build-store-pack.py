@@ -16,7 +16,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'specs'))
-import translations  # noqa: E402  the store view copy, keyed by the English string
+import translations  # noqa: E402  the store view copy of every spec, keyed by the English string
 PACKS = os.path.join(ROOT, 'packs')
 STORE = os.path.join(PACKS, 'store')
 WEBSITE = 'base'
@@ -820,7 +820,7 @@ def main():
             f.write(body)
     print(f'store pack: {len(codes)} industries, {len(STORE_VIEWS)} store views')
     if MISSING:
-        print(f'{len(MISSING)} English strings have no translation yet in specs/translations.py')
+        print(f'{len(MISSING)} English strings have no French, German or Italian text yet in the specs')
 
 
 if __name__ == '__main__':

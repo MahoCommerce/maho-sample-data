@@ -21,10 +21,22 @@ FOOTER_LINKS = '''<div class="links">
 def slug(s):
     return re.sub(r'-+', '-', ''.join(c if c.isalnum() else '-' for c in s.lower())).strip('-')
 
+def english(value):
+    """The English form of a spec value. A {'en': ..., 'fr': ...} dictionary becomes its English text."""
+    if isinstance(value, dict):
+        return value['en'] if 'en' in value else {k: english(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return type(value)(english(v) for v in value)
+    return value
+
 def load_spec(path):
     spec = importlib.util.spec_from_file_location('spec', path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
+    # An industry pack is English. The other languages travel with the strings, for packs/store.
+    for name in dir(module):
+        if name.isupper():
+            setattr(module, name, english(getattr(module, name)))
     return module
 
 def write_csv(path, rows, header):
@@ -232,6 +244,9 @@ def merge_shared(S):
 
 def build(spec_path):
     S = load_spec(spec_path)
+    if not hasattr(S, 'CODE'):
+        # specs/fashion.py carries only the translations: packs/fashion is hand written.
+        raise SystemExit(f'{spec_path} is not a pack spec, it holds only the store view translations')
     random.seed(S.CODE)
     root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'packs', S.CODE)
     c = S.CODE
@@ -278,7 +293,6 @@ def build(spec_path):
     for p in S.PRODUCTS:
         sku, name, cats_, price, axis, values, attrs, desc, prompt = p['sku'], p['name'], [named(c) for c in p['categories']], p['price'], p.get('axis'), p.get('values'), p.get('attributes', {}), p['description'], p['prompt']
         short = p.get('short') or desc.split('. ')[0].rstrip('.') + '.'
-        desc = desc + ' ' + S.MORE[p['sku']]
         urlkey = slug(name)
         if p.get('grouped'):
             r = base(sku, name, price, 4, desc, short, attrs, f'{sku.lower()}.webp', urlkey, 'grouped'); r['_category'] = cats_[0]; r['qty'] = 0
