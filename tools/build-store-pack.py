@@ -121,10 +121,13 @@ CATEGORY_SLOTS = ROWS_PER_PRODUCT - 1 - len(STORE_VIEWS[1:])
 
 
 def option_labels():
-    """English option label to the label of each store view, for the value in a variant name."""
+    """English option label to the label of each store view, for the value in a variant name.
+    A label that needs no translation, a size or a weight, keeps its English form."""
     out = {}
     for r in read(os.path.join(PACKS, '_shared', 'attribute_options.csv')):
-        if r.get('store_code', '') != '':
+        if r.get('store_code', '') == '':
+            out.setdefault(r['label'], {})
+        else:
             out.setdefault(r['label_admin'], {})[r['store_code']] = r['label']
     return out
 

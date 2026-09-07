@@ -2038,6 +2038,223 @@ PRODUCTS = {
         "Avoine, noix de pécan et sirop d'érable, cuits en petites plaques jusqu'à ce que les grappes tiennent. Un sachet de 500 g avec de vraies grappes et peu de sucre. Des noix de pécan dans chaque poignée.",
         'Hafer, Pekannüsse und Ahornsirup, in kleinen Blechen gebacken, bis die Cluster halten. Ein 500-g-Beutel mit echten Clustern und nicht zu viel Zucker. Pekannüsse in jeder Handvoll.',
         "Avena, noci pecan e sciroppo d'acero, cotti in piccole teglie finché i grumi tengono. Un sacchetto da 500 g con grumi veri e poco zucchero. Pecan in ogni manciata."),
+
+    # Books. The titles are invented, so each store view gets the title of its own edition.
+    'The Salt Houses': ('Les maisons de sel', 'Die Salzhäuser', 'Le case di sale'),
+    'Three sisters return to a fishing village to sell the family house and find the tide has other plans. A novel about what we keep. Three hundred and twenty pages, clothbound with a ribbon marker. The first novel of the year to make our staff argue.': (
+        "Trois sœurs reviennent dans un village de pêcheurs pour vendre la maison de famille, et la marée en décide autrement. Un roman sur ce que l'on garde. Trois cent vingt pages, relié toile avec un signet ruban. Le premier roman de l'année à faire débattre notre équipe.",
+        'Drei Schwestern kehren in ein Fischerdorf zurück, um das Elternhaus zu verkaufen, und die Flut hat andere Pläne. Ein Roman darüber, was wir behalten. Dreihundertzwanzig Seiten, Leineneinband mit Lesebändchen. Der erste Roman des Jahres, über den unser Team streitet.',
+        "Tre sorelle tornano in un villaggio di pescatori per vendere la casa di famiglia e scoprono che la marea ha altri piani. Un romanzo su ciò che teniamo. Trecentoventi pagine, rilegato in tela con segnalibro. Il primo romanzo dell'anno che ha fatto discutere il nostro staff."),
+    'The Last Orchard': ('Le dernier verger', 'Der letzte Obstgarten', "L'ultimo frutteto"),
+    'A widower plants a hundred trees he will not live to see fruit. His neighbours have opinions. A short, warm book about time and stubbornness. Read it in an afternoon and think about it for a week.': (
+        "Un veuf plante cent arbres dont il ne verra jamais les fruits. Ses voisins ont un avis. Un livre court et chaleureux sur le temps et l'obstination. Lisez-le en un après-midi, il vous suivra une semaine.",
+        'Ein Witwer pflanzt hundert Bäume, deren Früchte er nicht mehr erleben wird. Seine Nachbarn haben eine Meinung dazu. Ein kurzes, warmes Buch über Zeit und Sturheit. An einem Nachmittag gelesen, eine Woche im Kopf.',
+        'Un vedovo pianta cento alberi di cui non vedrà i frutti. I vicini hanno la loro opinione. Un libro breve e caldo sul tempo e sulla testardaggine. Si legge in un pomeriggio e resta in testa una settimana.'),
+    'Quiet Rooms': ('Chambres silencieuses', 'Stille Zimmer', 'Stanze silenziose'),
+    'Linked short stories set in one apartment building over forty years. Twelve stories, each in a different flat, each a different decade. Readers of quiet fiction will feel at home.': (
+        "Des nouvelles liées, situées dans un même immeuble sur quarante ans. Douze histoires, chacune dans un appartement différent, chacune dans une décennie différente. Les amateurs de récits discrets seront chez eux.",
+        'Verbundene Erzählungen in einem einzigen Wohnhaus über vierzig Jahre. Zwölf Geschichten, jede in einer anderen Wohnung, jede in einem anderen Jahrzehnt. Wer leise Literatur mag, ist hier zu Hause.',
+        'Racconti legati tra loro, ambientati in un solo condominio nell arco di quarant anni. Dodici storie, ognuna in un appartamento diverso, ognuna in un decennio diverso. Chi ama la narrativa sommessa si sentirà a casa.'),
+    'North Light': ('Lumière du nord', 'Nordlicht', 'Luce del nord'),
+    'A painter moves to the far north to escape a scandal and finds the light does not care. Long winters, long sentences and a slow thaw. A novel for a fireside and a blanket.': (
+        "Un peintre part vers le grand nord pour fuir un scandale et découvre que la lumière s'en moque. De longs hivers, de longues phrases et un dégel lent. Un roman pour le coin du feu et une couverture.",
+        'Ein Maler zieht in den hohen Norden, um einem Skandal zu entkommen, und stellt fest, dass das Licht sich nicht darum schert. Lange Winter, lange Sätze und ein langsames Tauwetter. Ein Roman für Kamin und Decke.',
+        'Un pittore si trasferisce nel profondo nord per sfuggire a uno scandalo e scopre che alla luce non importa. Inverni lunghi, frasi lunghe e un disgelo lento. Un romanzo da camino e coperta.'),
+    'Paper Birds': ('Oiseaux de papier', 'Papiervögel', 'Uccelli di carta'),
+    'A translator falls for the author she cannot meet. Quiet and devastating. Told in letters and margin notes. Two hundred pages, best read in one sitting.': (
+        "Une traductrice s'éprend de l'auteur qu'elle ne peut pas rencontrer. Discret et dévastateur. Raconté par lettres et notes en marge. Deux cents pages, à lire d'une traite.",
+        'Eine Übersetzerin verliebt sich in den Autor, den sie nicht treffen kann. Leise und niederschmetternd. Erzählt in Briefen und Randnotizen. Zweihundert Seiten, am besten in einem Zug.',
+        "Una traduttrice si innamora dell'autore che non può incontrare. Sommesso e devastante. Raccontato per lettere e note a margine. Duecento pagine, meglio in una sola seduta."),
+    'The Summer House': ("La maison d'été", 'Das Sommerhaus', 'La casa destate'),
+    'Six friends, one house by the lake, and a promise nobody kept. A holiday novel with teeth. Every chapter is a different summer, and the last one changes the rest.': (
+        "Six amis, une maison au bord du lac et une promesse que personne n'a tenue. Un roman de vacances qui mord. Chaque chapitre est un été différent, et le dernier change tous les autres.",
+        'Sechs Freunde, ein Haus am See und ein Versprechen, das niemand gehalten hat. Ein Ferienroman mit Zähnen. Jedes Kapitel ist ein anderer Sommer, und der letzte verändert alle davor.',
+        "Sei amici, una casa sul lago e una promessa che nessuno ha mantenuto. Un romanzo estivo che morde. Ogni capitolo è un'estate diversa, e l'ultimo cambia tutti gli altri."),
+    'Cold Harbour': ('Port froid', 'Kalter Hafen', 'Porto freddo'),
+    'A body in the harbour, a town that lies in unison, and a detective who grew up there. The first Ruth Mallory novel. A slow, cold crime story with a detective who knows every face in the pub.': (
+        "Un corps dans le port, une ville qui ment d'une seule voix et une enquêtrice qui a grandi là. Le premier roman de Ruth Mallory. Un polar lent et froid, avec une enquêtrice qui connaît tous les visages du bar.",
+        'Eine Leiche im Hafen, eine Stadt, die im Chor lügt, und eine Ermittlerin, die dort aufgewachsen ist. Der erste Ruth-Mallory-Roman. Ein langsamer, kalter Krimi mit einer Ermittlerin, die jedes Gesicht in der Kneipe kennt.',
+        'Un corpo nel porto, una città che mente all unisono e una detective che è cresciuta lì. Il primo romanzo di Ruth Mallory. Un giallo lento e freddo con una detective che conosce ogni faccia del pub.'),
+    'The Long Tide': ('La longue marée', 'Die lange Flut', 'La lunga marea'),
+    'Mallory returns. So does the past. The second Mallory novel picks up ten years later. Read Cold Harbour first, though it stands alone.': (
+        "Mallory revient. Le passé aussi. Le deuxième roman reprend dix ans plus tard. Lisez Port froid d'abord, même s'il se tient seul.",
+        'Mallory kehrt zurück. Die Vergangenheit auch. Der zweite Mallory-Roman setzt zehn Jahre später ein. Lies Kalter Hafen zuerst, auch wenn er für sich steht.',
+        'Mallory torna. E torna anche il passato. Il secondo romanzo riprende dieci anni dopo. Leggi prima Porto freddo, anche se questo si regge da solo.'),
+    'Clean Break': ('Coupure nette', 'Sauberer Schnitt', 'Taglio netto'),
+    'A heist planned by a locksmith who has never broken a law. Until now. Fast, funny and precise about locks. The plan goes wrong on page forty and keeps going wrong.': (
+        "Un casse préparé par un serrurier qui n'a jamais enfreint la loi. Jusqu'ici. Rapide, drôle et très précis sur les serrures. Le plan déraille page quarante et continue de dérailler.",
+        'Ein Coup, geplant von einem Schlosser, der nie ein Gesetz gebrochen hat. Bis jetzt. Schnell, komisch und genau, was Schlösser angeht. Der Plan geht auf Seite vierzig schief und danach immer weiter.',
+        'Un colpo pianificato da un fabbro che non ha mai infranto una legge. Fino a ora. Veloce, divertente e preciso sulle serrature. Il piano va storto a pagina quaranta e continua ad andare storto.'),
+    'The Midnight Train': ('Le train de minuit', 'Der Mitternachtszug', 'Il treno di mezzanotte'),
+    'A cosy mystery on the overnight sleeper to the coast. No blood, plenty of tea, and a puzzle that plays fair. The first of a series.': (
+        "Une enquête douce à bord du train de nuit vers la côte. Pas de sang, beaucoup de thé et une énigme qui joue franc jeu. Le premier d'une série.",
+        'Ein gemütlicher Krimi im Nachtzug an die Küste. Kein Blut, viel Tee und ein Rätsel, das fair spielt. Der erste einer Reihe.',
+        'Un giallo gentile sul treno notturno verso la costa. Niente sangue, molto tè e un enigma che gioca pulito. Il primo di una serie.'),
+    'The Witness Room': ('La salle des témoins', 'Der Zeugenraum', 'La stanza dei testimoni'),
+    'A courtroom thriller told by the one person who cannot speak. A thriller built on a single trick, and the trick holds. Best not to read the last page first.': (
+        "Un thriller judiciaire raconté par la seule personne qui ne peut pas parler. Un thriller bâti sur une seule idée, et l'idée tient. Mieux vaut ne pas lire la dernière page en premier.",
+        'Ein Gerichtsthriller, erzählt von der einzigen Person, die nicht sprechen kann. Ein Thriller, der auf einem einzigen Kniff steht, und der Kniff trägt. Lies besser nicht zuerst die letzte Seite.',
+        "Un thriller giudiziario raccontato dall'unica persona che non può parlare. Un thriller costruito su un solo trucco, e il trucco regge. Meglio non leggere prima l'ultima pagina."),
+    'Small Things Everywhere': ('De petites choses partout', 'Kleine Dinge überall', 'Piccole cose ovunque'),
+    'Microbiology for the curious, from your kitchen sponge to the deep sea. Short chapters, clear drawings, no equations. Written for adults who remember liking science once.': (
+        "La microbiologie pour les curieux, de l'éponge de cuisine aux grands fonds. Des chapitres courts, des dessins clairs, aucune équation. Écrit pour les adultes qui se souviennent d'avoir aimé les sciences.",
+        'Mikrobiologie für Neugierige, vom Küchenschwamm bis in die Tiefsee. Kurze Kapitel, klare Zeichnungen, keine Gleichungen. Für Erwachsene, die sich erinnern, dass sie Naturwissenschaft mal mochten.',
+        'La microbiologia per i curiosi, dalla spugna della cucina agli abissi. Capitoli brevi, disegni chiari, nessuna equazione. Scritto per adulti che ricordano di aver amato la scienza.'),
+    'Deep Time': ('Le temps profond', 'Tiefenzeit', 'Il tempo profondo'),
+    'The story of the Earth in twelve rocks. Each chapter starts with one rock and ends with a continent. Full-page colour plates throughout.': (
+        "L'histoire de la Terre en douze roches. Chaque chapitre part d'une roche et finit sur un continent. Des planches en couleur pleine page tout du long.",
+        'Die Geschichte der Erde in zwölf Gesteinen. Jedes Kapitel beginnt mit einem Stein und endet mit einem Kontinent. Durchgehend ganzseitige Farbtafeln.',
+        'La storia della Terra in dodici rocce. Ogni capitolo parte da una roccia e finisce con un continente. Tavole a colori a piena pagina in tutto il volume.'),
+    'The Pocket Bird Guide': ('Le guide des oiseaux de poche', 'Der Vogelführer für die Tasche', 'La guida tascabile agli uccelli'),
+    'Two hundred birds, one pocket. Waterproof cover. Two hundred species with a painting, a map and the call in words. It fits a coat pocket and survives rain.': (
+        "Deux cents oiseaux, une poche. Couverture imperméable. Deux cents espèces avec une planche, une carte et le chant décrit en mots. Il tient dans une poche de manteau et survit à la pluie.",
+        'Zweihundert Vögel, eine Tasche. Wasserfester Einband. Zweihundert Arten mit Zeichnung, Karte und dem Ruf in Worten. Er passt in die Manteltasche und übersteht Regen.',
+        'Duecento uccelli, una tasca. Copertina impermeabile. Duecento specie con una tavola, una mappa e il canto descritto a parole. Sta in tasca al cappotto e resiste alla pioggia.'),
+    'The Night Sky, Month by Month': ('Le ciel nocturne, mois par mois', 'Der Nachthimmel, Monat für Monat', 'Il cielo notturno, mese per mese'),
+    'A year of stargazing with a torch and this book. Twelve chapters, one per month, with charts drawn for the naked eye. A red torch is all the equipment you need.': (
+        "Une année d'observation avec une lampe et ce livre. Douze chapitres, un par mois, avec des cartes dessinées pour l'œil nu. Une lampe rouge est tout l'équipement nécessaire.",
+        'Ein Jahr Sternegucken mit einer Lampe und diesem Buch. Zwölf Kapitel, eines pro Monat, mit Karten für das bloße Auge. Eine rote Lampe ist die ganze Ausrüstung.',
+        "Un anno di osservazione con una torcia e questo libro. Dodici capitoli, uno al mese, con carte disegnate per l'occhio nudo. Una torcia rossa è tutta l'attrezzatura che serve."),
+    'Trees of the Old World': ("Les arbres de l'Ancien Monde", 'Bäume der Alten Welt', 'Alberi del Vecchio Mondo'),
+    'A large-format guide to five hundred trees, with leaf and bark plates. A coffee-table book that is also a real reference. The plates show leaf, bark, flower and winter twig.': (
+        "Un guide grand format de cinq cents arbres, avec des planches de feuilles et d'écorces. Un beau livre qui est aussi une vraie référence. Les planches montrent la feuille, l'écorce, la fleur et le rameau d'hiver.",
+        'Ein großformatiger Führer zu fünfhundert Bäumen, mit Blatt- und Rindentafeln. Ein Bildband, der zugleich ein echtes Nachschlagewerk ist. Die Tafeln zeigen Blatt, Rinde, Blüte und Winterzweig.',
+        'Una guida di grande formato a cinquecento alberi, con tavole di foglie e cortecce. Un libro da tavolo che è anche una vera opera di consultazione. Le tavole mostrano foglia, corteccia, fiore e ramo invernale.'),
+    'A Short History of Weather': ('Une brève histoire du temps quil fait', 'Eine kurze Geschichte des Wetters', 'Breve storia del tempo atmosferico'),
+    'Clouds, storms and the people who learned to read them. From shepherds to satellites in three hundred pages. Written with a lightness that suits the subject.': (
+        "Les nuages, les tempêtes et ceux qui ont appris à les lire. Des bergers aux satellites en trois cents pages. Écrit avec une légèreté qui convient au sujet.",
+        'Wolken, Stürme und die Menschen, die sie lesen lernten. Von Hirten zu Satelliten in dreihundert Seiten. Mit einer Leichtigkeit geschrieben, die zum Thema passt.',
+        'Nuvole, tempeste e le persone che hanno imparato a leggerle. Dai pastori ai satelliti in trecento pagine. Scritto con una leggerezza che si addice al tema.'),
+    'Roads of Silk': ('Les routes de la soie', 'Straßen aus Seide', 'Strade di seta'),
+    'A journey along the old trade routes, then and now. Part travel diary, part history. The author walks and takes the bus, and both make good chapters.': (
+        "Un voyage le long des anciennes routes commerciales, hier et aujourd'hui. Moitié carnet de route, moitié histoire. L'auteur marche et prend le bus, et les deux donnent de bons chapitres.",
+        'Eine Reise entlang der alten Handelswege, damals und heute. Halb Reisetagebuch, halb Geschichte. Der Autor geht zu Fuß und nimmt den Bus, und beides ergibt gute Kapitel.',
+        "Un viaggio lungo le antiche vie commerciali, ieri e oggi. Metà diario di viaggio, metà storia. L'autore cammina e prende l'autobus, e da entrambi nascono buoni capitoli."),
+    'The City of Water': ('La ville deau', 'Die Stadt aus Wasser', "La città d'acqua"),
+    'Venice from lagoon to biennale, in twenty buildings. Twenty buildings, twenty short essays, one plan of the city. Take it with you or read it at home.': (
+        "Venise de la lagune à la biennale, en vingt bâtiments. Vingt bâtiments, vingt courts essais, un plan de la ville. À emporter ou à lire chez soi.",
+        'Venedig von der Lagune bis zur Biennale, in zwanzig Bauten. Zwanzig Bauten, zwanzig kurze Essays, ein Stadtplan. Zum Mitnehmen oder zum Lesen zu Hause.',
+        'Venezia dalla laguna alla biennale, in venti edifici. Venti edifici, venti brevi saggi, una pianta della città. Da portare con sé o da leggere a casa.'),
+    'Letters from the Front': ('Lettres du front', 'Briefe von der Front', 'Lettere dal fronte'),
+    'Sixty letters, sixty lives. A war told from the kitchen table. The letters are printed whole, with a page of context before each one. Hard to read quickly.': (
+        "Soixante lettres, soixante vies. Une guerre racontée depuis la table de la cuisine. Les lettres sont imprimées en entier, avec une page de contexte avant chacune. Difficile à lire vite.",
+        'Sechzig Briefe, sechzig Leben. Ein Krieg, erzählt vom Küchentisch aus. Die Briefe sind vollständig abgedruckt, mit einer Seite Kontext vor jedem. Schwer schnell zu lesen.',
+        'Sessanta lettere, sessanta vite. Una guerra raccontata dal tavolo di cucina. Le lettere sono stampate per intero, con una pagina di contesto prima di ognuna. Difficile leggerlo in fretta.'),
+    'An Empire of Tea': ('Un empire du thé', 'Ein Imperium aus Tee', 'Un impero di tè'),
+    'How a leaf built fortunes and broke nations. Trade, taste and politics in one leaf. The author has a gift for the telling detail.': (
+        "Comment une feuille a bâti des fortunes et brisé des nations. Commerce, goût et politique dans une seule feuille. L'auteur a le don du détail qui parle.",
+        'Wie ein Blatt Vermögen schuf und Nationen zerbrach. Handel, Geschmack und Politik in einem einzigen Blatt. Der Autor hat ein Gespür für das sprechende Detail.',
+        "Come una foglia ha costruito fortune e spezzato nazioni. Commercio, gusto e politica in una sola foglia. L'autore ha il dono del dettaglio che dice tutto."),
+    'The Plague Year': ('Lannée de la peste', 'Das Pestjahr', 'Lanno della peste'),
+    'One city, one year, one doctor keeping a diary. A diary edited into a story, with the gaps left in. The doctor never says what he feels, and you feel it anyway.': (
+        "Une ville, une année, un médecin qui tient un journal. Un journal transformé en récit, avec les silences conservés. Le médecin ne dit jamais ce qu'il ressent, et on le ressent quand même.",
+        'Eine Stadt, ein Jahr, ein Arzt, der Tagebuch führt. Ein Tagebuch, zu einer Erzählung geordnet, mit den Lücken darin. Der Arzt sagt nie, was er fühlt, und man fühlt es trotzdem.',
+        'Una città, un anno, un medico che tiene un diario. Un diario montato in racconto, con i vuoti lasciati dentro. Il medico non dice mai quello che prova, e tu lo senti lo stesso.'),
+    'Weeknight': ('En semaine', 'Unter der Woche', 'Feriali'),
+    'Sixty dinners in under forty minutes, with a shopping list that fits one hand. Every recipe on one page, with a photo and a timeline. Sixty dinners, no special equipment.': (
+        "Soixante dîners en moins de quarante minutes, avec une liste de courses qui tient dans une main. Chaque recette sur une page, avec une photo et un déroulé. Soixante dîners, sans matériel particulier.",
+        'Sechzig Abendessen in unter vierzig Minuten, mit einer Einkaufsliste, die in eine Hand passt. Jedes Rezept auf einer Seite, mit Foto und Zeitplan. Sechzig Abendessen, ohne Spezialgerät.',
+        'Sessanta cene in meno di quaranta minuti, con una lista della spesa che sta in una mano. Ogni ricetta su una pagina, con foto e tempi. Sessanta cene, senza attrezzatura speciale.'),
+    'The Bread Book': ('Le livre du pain', 'Das Brotbuch', 'Il libro del pane'),
+    'Sourdough, flatbreads and buns, with step photographs and no mystique. Twenty base recipes with variations, and photographs of every fold. The starter chapter alone is worth the price.': (
+        "Pain au levain, galettes et brioches, avec des photos d'étapes et sans mystère. Vingt recettes de base avec des variantes, et une photo de chaque rabat. Le chapitre sur le levain vaut à lui seul le prix.",
+        'Sauerteig, Fladenbrote und Brötchen, mit Schrittfotos und ohne Geheimniskrämerei. Zwanzig Grundrezepte mit Varianten und Fotos von jeder Faltung. Allein das Kapitel zum Anstellgut ist den Preis wert.',
+        'Lievito madre, focacce e panini, con foto passo passo e senza misteri. Venti ricette base con varianti e la foto di ogni piega. Il capitolo sul lievito vale da solo il prezzo.'),
+    'Vegetables First': ("Les légumes d'abord", 'Gemüse zuerst', 'Prima le verdure'),
+    'A hundred recipes that start with what is in season. Organised by season, then by vegetable. Most recipes feed four in under an hour.': (
+        "Cent recettes qui partent de ce qui est de saison. Classées par saison, puis par légume. La plupart nourrissent quatre personnes en moins d'une heure.",
+        'Hundert Rezepte, die bei dem beginnen, was Saison hat. Nach Jahreszeit geordnet, dann nach Gemüse. Die meisten sättigen vier Personen in unter einer Stunde.',
+        "Cento ricette che partono da quello che è di stagione. Ordinate per stagione, poi per verdura. Quasi tutte sfamano quattro persone in meno di un'ora."),
+    'Jars': ('Bocaux', 'Gläser', 'Barattoli'),
+    'Jams, pickles and ferments for a small kitchen. Small batches, ordinary jars, a chapter on what went wrong and why. Good for a first ferment.': (
+        "Confitures, conserves au vinaigre et ferments pour une petite cuisine. Petites quantités, bocaux ordinaires, un chapitre sur ce qui a raté et pourquoi. Parfait pour une première fermentation.",
+        'Marmeladen, Eingelegtes und Fermente für eine kleine Küche. Kleine Mengen, gewöhnliche Gläser, ein Kapitel darüber, was schiefging und warum. Gut für die erste Fermentation.',
+        'Marmellate, sottaceti e fermentati per una cucina piccola. Piccole quantità, barattoli comuni, un capitolo su cosa è andato storto e perché. Ottimo per una prima fermentazione.'),
+    'Coffee at Home': ('Le café à la maison', 'Kaffee zu Hause', 'Il caffè a casa'),
+    'Beans, water, grind, time. Everything else is detail. Filter, espresso, cold brew, in that order of difficulty. Each method has a ratio and a timing chart.': (
+        "Le grain, l'eau, la mouture, le temps. Tout le reste est du détail. Filtre, espresso, extraction à froid, dans cet ordre de difficulté. Chaque méthode a son ratio et son tableau de temps.",
+        'Bohne, Wasser, Mahlgrad, Zeit. Alles andere ist Detail. Filter, Espresso, Cold Brew, in dieser Reihenfolge der Schwierigkeit. Jede Methode hat ein Verhältnis und eine Zeittabelle.',
+        "Chicco, acqua, macinatura, tempo. Tutto il resto è dettaglio. Filtro, espresso, cold brew, in quest'ordine di difficoltà. Ogni metodo ha un rapporto e una tabella dei tempi."),
+    'Goodnight, Little Fox': ('Bonne nuit, petit renard', 'Gute Nacht, kleiner Fuchs', 'Buonanotte, piccola volpe'),
+    'A picture book for the last five minutes of the day. Twenty-four pages, soft colours, one sentence a page. Ages one to four.': (
+        "Un album pour les cinq dernières minutes de la journée. Vingt-quatre pages, des couleurs douces, une phrase par page. De un à quatre ans.",
+        'Ein Bilderbuch für die letzten fünf Minuten des Tages. Vierundzwanzig Seiten, weiche Farben, ein Satz pro Seite. Von eins bis vier Jahren.',
+        'Un albo illustrato per gli ultimi cinque minuti della giornata. Ventiquattro pagine, colori tenui, una frase per pagina. Da uno a quattro anni.'),
+    'The Big Dig': ('Le grand chantier', 'Die große Baustelle', 'Il grande scavo'),
+    'Diggers, dumpers and a very deep hole. Big machines, big sounds, and a hole that gets deeper every page. Ages two to five.': (
+        "Des pelleteuses, des tombereaux et un trou très profond. De grosses machines, de gros bruits, et un trou qui se creuse à chaque page. De deux à cinq ans.",
+        'Bagger, Kipper und ein sehr tiefes Loch. Große Maschinen, große Geräusche und ein Loch, das mit jeder Seite tiefer wird. Von zwei bis fünf Jahren.',
+        'Scavatrici, dumper e una buca molto profonda. Macchine grandi, rumori grandi e una buca che si fa più profonda a ogni pagina. Da due a cinque anni.'),
+    'Milo and the Sea': ('Milo et la mer', 'Milo und das Meer', 'Milo e il mare'),
+    'A first chapter book about a boy, a boat and a very patient seagull. Ten short chapters with a picture on every spread. For readers of six to eight.': (
+        "Un premier roman illustré sur un garçon, un bateau et une mouette très patiente. Dix courts chapitres avec une image sur chaque double page. Pour les lecteurs de six à huit ans.",
+        'Ein erstes Kapitelbuch über einen Jungen, ein Boot und eine sehr geduldige Möwe. Zehn kurze Kapitel mit einem Bild auf jeder Doppelseite. Für Leser von sechs bis acht.',
+        'Un primo libro a capitoli su un bambino, una barca e un gabbiano molto paziente. Dieci capitoli brevi con una figura su ogni doppia pagina. Per lettori dai sei agli otto anni.'),
+    'Dragon School': ('Lécole des dragons', 'Drachenschule', 'La scuola dei draghi'),
+    'Where dragons learn to fly and one of them would rather read. A funny school story with a quiet hero. Ages seven to ten, and the adult reading aloud.': (
+        "Là où les dragons apprennent à voler, et où l'un d'eux préfère lire. Une histoire d'école drôle avec un héros discret. De sept à dix ans, et l'adulte qui lit à voix haute.",
+        'Wo Drachen fliegen lernen und einer von ihnen lieber liest. Eine lustige Schulgeschichte mit einem leisen Helden. Von sieben bis zehn Jahren, und für den Erwachsenen, der vorliest.',
+        "Dove i draghi imparano a volare e uno di loro preferisce leggere. Una storia di scuola divertente con un eroe sommesso. Dai sette ai dieci anni, e per l'adulto che legge ad alta voce."),
+    'A is for Anteater': ('A comme fourmilier', 'A wie Ameisenbär', 'A come formichiere'),
+    'An alphabet of unusual animals, painted in gouache. Every letter gets an animal nobody expects and a painting to match. Ages three to six.': (
+        "Un alphabet d'animaux inattendus, peints à la gouache. Chaque lettre reçoit un animal auquel personne ne pense et une peinture assortie. De trois à six ans.",
+        'Ein Alphabet ungewöhnlicher Tiere, in Gouache gemalt. Jeder Buchstabe bekommt ein Tier, mit dem niemand rechnet, und ein passendes Bild. Von drei bis sechs Jahren.',
+        'Un alfabeto di animali insoliti, dipinti a guazzo. Ogni lettera riceve un animale a cui nessuno pensa e un dipinto che gli somiglia. Dai tre ai sei anni.'),
+    'Ask an Astronaut': ('Demande à une astronaute', 'Frag eine Astronautin', 'Chiedi a unastronauta'),
+    'Fifty questions from children, answered from orbit. Real questions from real children, answered with patience and photographs. Ages eight and up.': (
+        "Cinquante questions d'enfants, auxquelles on répond depuis l'orbite. De vraies questions de vrais enfants, des réponses patientes et des photographies. À partir de huit ans.",
+        'Fünfzig Fragen von Kindern, aus dem Orbit beantwortet. Echte Fragen echter Kinder, geduldig beantwortet und mit Fotos. Ab acht Jahren.',
+        "Cinquanta domande dei bambini, con risposta dall'orbita. Domande vere di bambini veri, risposte pazienti e fotografie. Dagli otto anni in su."),
+    'Poems of the Sea': ('Poèmes de la mer', 'Gedichte vom Meer', 'Poesie del mare'),
+    'Two hundred years of poems about water, in a pocket edition. Two hundred poems in a cloth pocket edition with a ribbon. The kind of book that lives in a coat.': (
+        "Deux cents ans de poèmes sur l'eau, en édition de poche. Deux cents poèmes dans une édition de poche reliée toile, avec un signet. Le genre de livre qui vit dans un manteau.",
+        'Zweihundert Jahre Gedichte über Wasser, in einer Taschenausgabe. Zweihundert Gedichte in einer Leinen-Taschenausgabe mit Lesebändchen. Ein Buch, das im Mantel wohnt.',
+        'Duecento anni di poesie sull acqua, in edizione tascabile. Duecento poesie in un tascabile rilegato in tela con segnalibro. Il tipo di libro che vive in un cappotto.'),
+    'An Atlas of Walks': ('Un atlas de promenades', 'Ein Atlas der Wanderungen', 'Un atlante di camminate'),
+    'Fifty walks with hand-drawn maps, from a morning to a week. Every walk has a hand-drawn map, a distance, a pub and a train home. Fifty reasons to leave the house.': (
+        "Cinquante promenades avec des cartes dessinées à la main, d'une matinée à une semaine. Chaque promenade a sa carte dessinée, sa distance, son café et son train de retour. Cinquante raisons de sortir.",
+        'Fünfzig Wanderungen mit handgezeichneten Karten, von einem Morgen bis zu einer Woche. Jede Wanderung hat eine gezeichnete Karte, eine Distanz, ein Gasthaus und einen Zug nach Hause. Fünfzig Gründe, das Haus zu verlassen.',
+        'Cinquanta camminate con mappe disegnate a mano, da una mattina a una settimana. Ogni camminata ha la sua mappa disegnata, la distanza, un locale e un treno per tornare. Cinquanta motivi per uscire di casa.'),
+    'The Book of Colour': ('Le livre de la couleur', 'Das Buch der Farbe', 'Il libro del colore'),
+    'Fifty pigments and the stories of the people who found them. Fifty short chapters, one pigment each, with a swatch printed on the page. A book to open anywhere.': (
+        "Cinquante pigments et l'histoire de ceux qui les ont trouvés. Cinquante courts chapitres, un pigment chacun, avec un échantillon imprimé sur la page. Un livre à ouvrir n'importe où.",
+        'Fünfzig Pigmente und die Geschichten der Menschen, die sie fanden. Fünfzig kurze Kapitel, je ein Pigment, mit einem auf die Seite gedruckten Farbfeld. Ein Buch, das man überall aufschlägt.',
+        'Cinquanta pigmenti e le storie di chi li ha trovati. Cinquanta capitoli brevi, uno per pigmento, con un campione stampato sulla pagina. Un libro da aprire ovunque.'),
+    'The Ruth Mallory set': ('Le coffret Ruth Mallory', 'Das Ruth-Mallory-Set', 'Il cofanetto Ruth Mallory'),
+    'Both Mallory novels, boxed, at a saving. Cold Harbour and The Long Tide in matching clothbound editions, in a slipcase. Cheaper than the two apart.': (
+        "Les deux romans Mallory, en coffret, à prix réduit. Port froid et La longue marée en éditions reliées toile assorties, dans un étui. Moins cher que les deux séparés.",
+        'Beide Mallory-Romane, im Schuber, mit Ersparnis. Kalter Hafen und Die lange Flut in passenden Leinenausgaben, im Schuber. Günstiger als beide einzeln.',
+        'Entrambi i romanzi di Mallory, in cofanetto, con un risparmio. Porto freddo e La lunga marea in edizioni in tela coordinate, dentro un astuccio. Costa meno dei due separati.'),
+    'The kitchen shelf': ('Létagère de la cuisine', 'Das Küchenregal', 'Lo scaffale della cucina'),
+    'Weeknight, The Bread Book and Vegetables First, together. The three cookbooks our staff use most, in one order. Enough dinners for a year.': (
+        "En semaine, Le livre du pain et Les légumes d'abord, réunis. Les trois livres de cuisine que notre équipe utilise le plus, en une commande. De quoi dîner un an.",
+        'Unter der Woche, Das Brotbuch und Gemüse zuerst, zusammen. Die drei Kochbücher, die unser Team am meisten nutzt, in einer Bestellung. Abendessen für ein Jahr.',
+        'Feriali, Il libro del pane e Prima le verdure, insieme. I tre libri di cucina che il nostro staff usa di più, in un solo ordine. Cene per un anno.'),
+    'The bedtime shelf': ('Létagère du soir', 'Das Gutenachtregal', 'Lo scaffale della buonanotte'),
+    'Three picture books for the last five minutes of the day. Goodnight Little Fox, The Big Dig and A is for Anteater, packed together. Wrapped on request.': (
+        "Trois albums pour les cinq dernières minutes de la journée. Bonne nuit petit renard, Le grand chantier et A comme fourmilier, réunis. Emballage cadeau sur demande.",
+        'Drei Bilderbücher für die letzten fünf Minuten des Tages. Gute Nacht kleiner Fuchs, Die große Baustelle und A wie Ameisenbär, zusammen verpackt. Auf Wunsch als Geschenk.',
+        'Tre albi illustrati per gli ultimi cinque minuti della giornata. Buonanotte piccola volpe, Il grande scavo e A come formichiere, insieme. Su richiesta con confezione regalo.'),
+    'Folio canvas tote': ('Tote bag en toile Folio', 'Folio Canvas-Shopper', 'Shopper di tela Folio'),
+    'A heavy canvas tote big enough for a hardback and a loaf. Heavy natural canvas with long handles and a flat bottom. Big enough for a week of reading.': (
+        "Un tote bag en toile épaisse, assez grand pour un livre relié et une miche. Une toile naturelle épaisse, de longues anses et un fond plat. Assez grand pour une semaine de lecture.",
+        'Ein schwerer Canvas-Shopper, groß genug für ein gebundenes Buch und ein Brot. Schweres Naturcanvas mit langen Henkeln und flachem Boden. Groß genug für eine Woche Lesestoff.',
+        'Uno shopper in tela pesante, grande abbastanza per un libro rilegato e una pagnotta. Tela naturale pesante, manici lunghi e fondo piatto. Grande abbastanza per una settimana di letture.'),
+    'Brass bookmark set': ('Lot de marque-pages en laiton', 'Messing-Lesezeichen-Set', 'Set di segnalibri in ottone'),
+    'Three brass bookmarks with a folded tab. They do not fall out. Three brass tabs that hook over the page edge. They stay put in a bag and never mark the paper.': (
+        "Trois marque-pages en laiton à languette pliée. Ils ne tombent pas. Trois languettes de laiton qui s'accrochent au bord de la page. Ils restent en place dans un sac et ne marquent jamais le papier.",
+        'Drei Lesezeichen aus Messing mit gefalteter Lasche. Sie fallen nicht heraus. Drei Messinglaschen, die sich über die Seitenkante haken. Sie bleiben in der Tasche sitzen und markieren das Papier nie.',
+        'Tre segnalibri in ottone con linguetta piegata. Non cadono. Tre linguette di ottone che si agganciano al bordo della pagina. Restano al loro posto in borsa e non segnano mai la carta.'),
+    'Clip reading light': ('Lampe de lecture à pince', 'Klemm-Leseleuchte', 'Luce da lettura a clip'),
+    'A warm rechargeable clip light for reading beside someone asleep. Warm light, three levels, a clip that fits a paperback or a hardback. Charges by USB-C in an hour.': (
+        "Une lampe à pince rechargeable à lumière chaude, pour lire à côté de quelqu'un qui dort. Lumière chaude, trois niveaux, une pince qui tient sur un broché comme sur un relié. Recharge en USB-C en une heure.",
+        'Eine warme, aufladbare Klemmleuchte zum Lesen neben jemandem, der schläft. Warmes Licht, drei Stufen, eine Klemme für Taschenbuch oder gebundenes Buch. Lädt in einer Stunde über USB-C.',
+        'Una luce a clip ricaricabile con luce calda, per leggere accanto a chi dorme. Luce calda, tre livelli, una clip che sta su una brossura o su un rilegato. Si carica via USB-C in un ora.'),
+    'Folio gift card': ('Carte cadeau Folio', 'Folio Geschenkkarte', 'Carta regalo Folio'),
+    'A paper gift card in an envelope, for people who choose their own. A paper card in a linen envelope, posted the same day. Any amount, valid for a year.': (
+        "Une carte cadeau en papier dans une enveloppe, pour ceux qui choisissent eux-mêmes. Une carte en papier dans une enveloppe de lin, postée le jour même. N'importe quel montant, valable un an.",
+        'Eine Geschenkkarte aus Papier im Umschlag, für Menschen, die selbst wählen. Eine Papierkarte in einem Leinenumschlag, am selben Tag verschickt. Jeder Betrag, ein Jahr gültig.',
+        'Una carta regalo di carta in una busta, per chi sceglie da sé. Una carta di carta in una busta di lino, spedita in giornata. Qualsiasi importo, valida un anno.'),
 }
 
 # Every table is keyed the same way, so the builder reads one merged map per language.
