@@ -1334,8 +1334,484 @@ REVIEWS = {
         'Cedro, pre-forato, e le viti erano nella scatola.'),
 }
 
-# Product names and descriptions. Filled pack by pack.
-PRODUCTS = {}
+# Product names and descriptions. A variant is named after its parent plus an option value, and the
+# short description is the first sentence of the description, so only the base copy lives here.
+# The invented brand names (Ashford, Meridian, Voltline, ...) never translate.
+PRODUCTS = {
+    # Fashion
+    'Ashford linen shirt': ('Chemise en lin Ashford', 'Ashford Leinenhemd', 'Camicia di lino Ashford'),
+    'A relaxed linen shirt with a soft collar and mother-of-pearl buttons. Packs flat, dries fast, gets better with every wash. Cut from midweight European linen with a curved hem that works tucked or out. Wash cold and hang to dry.': (
+        "Une chemise en lin décontractée, col souple et boutons de nacre. Elle se plie à plat, sèche vite et s'améliore à chaque lavage. Coupée dans un lin européen de poids moyen, avec un bas arrondi qui se porte rentré ou sorti. Lavage à froid, séchage sur cintre.",
+        'Ein lockeres Leinenhemd mit weichem Kragen und Perlmuttknöpfen. Es packt flach, trocknet schnell und wird mit jeder Wäsche besser. Aus mittelschwerem europäischem Leinen, mit rundem Saum zum Reinstecken oder Offentragen. Kalt waschen und hängend trocknen.',
+        'Una camicia di lino dal taglio morbido, con collo soft e bottoni in madreperla. Si piega piatta, asciuga in fretta e migliora a ogni lavaggio. Tagliata in lino europeo di peso medio, con fondo arrotondato che sta bene dentro o fuori. Lavare a freddo e asciugare appesa.'),
+    'Meridian silk blouse': ('Blouse en soie Meridian', 'Meridian Seidenbluse', 'Blusa di seta Meridian'),
+    'A fluid silk blouse with a concealed placket and a slightly dropped shoulder. Wear it tucked or loose. Sandwashed mulberry silk that falls close without clinging. Dry clean, or hand wash cold and lay flat.': (
+        "Une blouse en soie fluide, patte de boutonnage cachée et épaule légèrement tombante. À porter rentrée ou libre. Soie de mûrier sablée qui tombe près du corps sans coller. Nettoyage à sec, ou lavage à la main à froid et séchage à plat.",
+        'Eine fließende Seidenbluse mit verdeckter Knopfleiste und leicht abfallender Schulter. Ob eingesteckt oder locker getragen. Sandgewaschene Maulbeerseide, die nah fällt, ohne zu kleben. Chemisch reinigen oder kalt von Hand waschen und liegend trocknen.',
+        "Una blusa di seta fluida, con cannoncino nascosto e spalla leggermente scesa. Da portare dentro o fuori. Seta di gelso lavata alla sabbia che cade vicino al corpo senza appiccicarsi. Lavaggio a secco, oppure a mano in acqua fredda e ad asciugare in piano."),
+    'Nordlys ribbed tank': ('Débardeur côtelé Nordlys', 'Nordlys Ripptop', 'Canotta a coste Nordlys'),
+    'A ribbed cotton tank with a square neck. The layering piece that works alone on warm days. A dense rib in organic cotton that holds its shape all day. Machine wash, no tumble.': (
+        "Un débardeur en coton côtelé à encolure carrée. La pièce à superposer qui se suffit aussi quand il fait chaud. Une côte dense en coton biologique qui garde sa forme toute la journée. Lavage en machine, pas de sèche-linge.",
+        'Ein geripptes Baumwolltop mit eckigem Ausschnitt. Das Lagen-Teil, das an warmen Tagen auch allein funktioniert. Ein dichter Rippstrick aus Biobaumwolle, der den ganzen Tag in Form bleibt. Maschinenwäsche, nicht in den Trockner.',
+        'Una canotta di cotone a coste con scollo quadrato. Il capo da sovrapporre che nei giorni caldi sta bene anche da solo. Una costa fitta in cotone biologico che tiene la forma tutto il giorno. Lavaggio in lavatrice, no asciugatrice.'),
+    'Bruma Sol wrap top': ('Top portefeuille Bruma Sol', 'Bruma Sol Wickeltop', 'Top a portafoglio Bruma Sol'),
+    'A wrap top in crinkled cotton that ties at the side. No ironing, ever. The crinkle is set in the fabric, so it comes out of the suitcase ready. Machine wash cold.': (
+        "Un top portefeuille en coton froissé qui se noue sur le côté. Jamais de repassage. Le froissé est fixé dans le tissu, il sort donc de la valise prêt à porter. Lavage en machine à froid.",
+        'Ein Wickeltop aus Krinkelbaumwolle, das an der Seite gebunden wird. Nie wieder bügeln. Der Krinkel steckt im Stoff, also kommt es tragefertig aus dem Koffer. Kalt in der Maschine waschen.',
+        'Un top a portafoglio in cotone crinkle che si annoda sul fianco. Mai più ferro da stiro. Il crinkle è fissato nel tessuto, quindi esce dalla valigia già pronto. Lavaggio in lavatrice a freddo.'),
+    'Harbour stripe tee': ('T-shirt rayé Harbour', 'Harbour Streifenshirt', 'T-shirt a righe Harbour'),
+    'A heavyweight striped tee with a boat neck, cut from organic cotton. A 220 g jersey with a wide neck and a straight hem. It shrinks a touch on the first wash, then stays put.': (
+        "Un t-shirt rayé épais à encolure bateau, en coton biologique. Un jersey de 220 g avec une large encolure et un bas droit. Il rétrécit un peu au premier lavage, puis ne bouge plus.",
+        'Ein schweres Streifenshirt mit U-Boot-Ausschnitt aus Biobaumwolle. Ein 220-g-Jersey mit weitem Ausschnitt und geradem Saum. Es geht bei der ersten Wäsche etwas ein und bleibt danach so.',
+        'Una t-shirt a righe pesante con scollo a barca, in cotone biologico. Una jersey da 220 g con scollo largo e fondo dritto. Si ritira un poco al primo lavaggio, poi resta così.'),
+    'Sand wide-leg trousers': ('Pantalon large Sand', 'Sand Marlenehose', 'Pantaloni a gamba larga Sand'),
+    'High-waisted wide-leg trousers in a linen and viscose blend that falls straight and cool. A fitted waist, a flat front and a leg that ends at the ankle. Machine wash cold and hang to dry.': (
+        "Un pantalon large taille haute, en mélange lin et viscose, qui tombe droit et reste frais. Une taille ajustée, un devant plat et une jambe qui s'arrête à la cheville. Lavage en machine à froid, séchage sur cintre.",
+        'Eine weite Hose mit hohem Bund aus Leinen-Viskose-Mix, die gerade fällt und kühl bleibt. Ein anliegender Bund, eine flache Front und ein Bein, das am Knöchel endet. Kalt waschen und hängend trocknen.',
+        'Pantaloni a gamba larga a vita alta, in misto lino e viscosa, che cadono dritti e restano freschi. Vita aderente, davanti liscio e gamba che finisce alla caviglia. Lavaggio a freddo e asciugatura appesi.'),
+    'Fjordline straight jeans': ('Jean droit Fjordline', 'Fjordline Straight Jeans', 'Jeans dritti Fjordline'),
+    'A straight-leg jean in rigid organic denim with a high rise. Breaks in to fit you. Rigid 13 oz denim from an Italian mill, with a button fly. Wash rarely and cold.': (
+        "Un jean droit en denim brut biologique, taille haute. Il se façonne à votre silhouette. Un denim rigide de 13 oz d'une filature italienne, braguette à boutons. Lavez-le rarement et à froid.",
+        'Eine gerade Jeans aus festem Bio-Denim mit hoher Leibhöhe. Sie arbeitet sich in deine Form ein. Fester 13-oz-Denim aus einer italienischen Weberei, mit Knopfleiste. Selten und kalt waschen.',
+        "Un jeans dritto in denim rigido biologico a vita alta. Si adatta a te con l'uso. Denim rigido da 13 oz di una filatura italiana, con patta a bottoni. Lavare di rado e a freddo."),
+    'Coast cropped chinos': ('Chino court Coast', 'Coast Chino, verkürzt', 'Chino corti Coast'),
+    'Cropped chinos in garment-dyed cotton twill, with a clean front and a slim ankle. Garment dyed, so the colour is soft and a little uneven. A touch of stretch in the twill.': (
+        "Un chino court en sergé de coton teint en pièce, devant net et cheville fine. Teint après confection, la couleur est douce et un peu irrégulière. Le sergé contient une pointe d'élasthanne.",
+        'Ein verkürzter Chino aus stückgefärbtem Baumwolltwill, mit glatter Front und schmalem Knöchel. Stückgefärbt, daher ist die Farbe weich und leicht ungleichmäßig. Etwas Stretch im Twill.',
+        "Chino corti in twill di cotone tinto in capo, con davanti pulito e caviglia stretta. Tinti in capo, quindi il colore è morbido e un po' irregolare. Un pizzico di elastico nel twill."),
+    'Salt denim shorts': ('Short en jean Salt', 'Salt Jeansshorts', 'Shorts di jeans Salt'),
+    'Relaxed denim shorts with a raw hem and a high waist, in a light wash. Cut from 12 oz denim with a four-inch inseam. The hem frays a little more with every wash.': (
+        "Un short en jean décontracté, bas brut et taille haute, dans un lavage clair. Coupé dans un denim de 12 oz avec une entrejambe de dix centimètres. Le bas s'effiloche un peu plus à chaque lavage.",
+        'Lockere Jeansshorts mit offenem Saum und hohem Bund, in heller Waschung. Aus 12-oz-Denim mit zehn Zentimetern Innenbeinlänge. Der Saum franst mit jeder Wäsche ein wenig mehr aus.',
+        'Shorts di jeans dal taglio morbido, con fondo vivo e vita alta, in lavaggio chiaro. Tagliati in denim da 12 oz con cavallo di dieci centimetri. Il fondo si sfrangia un poco a ogni lavaggio.'),
+    'Ashford linen midi dress': ('Robe midi en lin Ashford', 'Ashford Midikleid aus Leinen', 'Abito midi di lino Ashford'),
+    'A sleeveless linen midi dress with a square neck and pockets. The one you pack first. The skirt falls to mid calf with a slit at the back. Wash cold and hang to dry.': (
+        "Une robe midi en lin sans manches, encolure carrée et poches. Celle que vous mettez en premier dans la valise. La jupe tombe à mi-mollet avec une fente au dos. Lavage à froid, séchage sur cintre.",
+        'Ein ärmelloses Midikleid aus Leinen mit eckigem Ausschnitt und Taschen. Das Kleid, das zuerst in den Koffer kommt. Der Rock fällt bis zur halben Wade, mit Schlitz hinten. Kalt waschen und hängend trocknen.',
+        "Un abito midi di lino senza maniche, con scollo quadrato e tasche. Quello che metti in valigia per primo. La gonna arriva a metà polpaccio con uno spacco dietro. Lavare a freddo e asciugare appeso."),
+    'Meridian slip dress': ('Robe nuisette Meridian', 'Meridian Slipdress', 'Abito sottoveste Meridian'),
+    'A bias-cut silk slip dress that skims rather than clings. Dinner, then dancing. Adjustable straps, a low back and a hem below the knee. Dry clean, or hand wash cold.': (
+        "Une robe nuisette en soie coupée dans le biais, qui effleure sans coller. Le dîner, puis la piste. Bretelles réglables, dos échancré et ourlet sous le genou. Nettoyage à sec, ou lavage à la main à froid.",
+        'Ein schräg geschnittenes Seiden-Slipdress, das streift statt zu kleben. Erst Essen, dann Tanzen. Verstellbare Träger, tiefer Rücken und ein Saum unter dem Knie. Chemisch reinigen oder kalt von Hand waschen.',
+        "Un abito sottoveste di seta tagliato in sbieco, che sfiora invece di fasciare. Prima la cena, poi il ballo. Spalline regolabili, schiena scoperta e orlo sotto il ginocchio. Lavaggio a secco o a mano in acqua fredda."),
+    'Harbour shirt dress': ('Robe chemise Harbour', 'Harbour Hemdblusenkleid', 'Abito camicia Harbour'),
+    'A cotton poplin shirt dress with a belted waist and a full skirt. Crisp poplin with a self belt and side pockets. Machine wash cold.': (
+        "Une robe chemise en popeline de coton, ceinture à la taille et jupe ample. Une popeline nette, avec une ceinture assortie et des poches sur les côtés. Lavage en machine à froid.",
+        'Ein Hemdblusenkleid aus Baumwollpopeline mit Gürtel und weitem Rock. Knackige Popeline mit Stoffgürtel und Seitentaschen. Kalt in der Maschine waschen.',
+        'Un abito camicia in popeline di cotone, con cintura in vita e gonna ampia. Popeline compatto, cintura in tinta e tasche laterali. Lavaggio in lavatrice a freddo.'),
+    'Sable pleated skirt': ('Jupe plissée Sable', 'Sable Plisseerock', 'Gonna plissé Sable'),
+    'A knife-pleated midi skirt in recycled satin, with an elastic waistband. The pleats are heat set and survive the wash. The hem sits below the knee.': (
+        "Une jupe midi à plis couchés en satin recyclé, avec une taille élastique. Les plis sont thermofixés et résistent au lavage. L'ourlet tombe sous le genou.",
+        'Ein Midirock mit Kellerfalten aus recyceltem Satin, mit Gummibund. Die Falten sind thermofixiert und überstehen die Wäsche. Der Saum sitzt unter dem Knie.',
+        'Una gonna midi a pieghe piatte in raso riciclato, con elastico in vita. Le pieghe sono fissate a caldo e resistono al lavaggio. Lorlo cade sotto il ginocchio.'),
+    'Salt denim skirt': ('Jupe en jean Salt', 'Salt Jeansrock', 'Gonna di jeans Salt'),
+    'An A-line denim mini skirt with patch pockets, in a mid wash. Rigid denim with a front button fly and a raw hem. It sits at the natural waist.': (
+        "Une mini-jupe en jean trapèze avec des poches plaquées, dans un lavage moyen. Un denim rigide avec une braguette à boutons et un bas brut. Elle se porte à la taille naturelle.",
+        'Ein Jeans-Minirock in A-Linie mit aufgesetzten Taschen, in mittlerer Waschung. Fester Denim mit Knopfleiste vorn und offenem Saum. Er sitzt in der natürlichen Taille.',
+        'Una minigonna di jeans a trapezio con tasche applicate, in lavaggio medio. Denim rigido con patta a bottoni davanti e fondo vivo. Sta in vita naturale.'),
+    'Ashford linen camp shirt': ('Chemise camp en lin Ashford', 'Ashford Leinen-Campshirt', 'Camicia camp di lino Ashford'),
+    'A washed linen shirt with a one-piece collar. Roll the sleeves, forget the iron. Garment washed for softness, with a chest pocket and a straight hem. Machine wash cold.': (
+        "Une chemise en lin lavé, col une pièce. Remontez les manches, oubliez le fer. Lavée après confection pour la souplesse, avec une poche poitrine et un bas droit. Lavage en machine à froid.",
+        'Ein gewaschenes Leinenhemd mit einteiligem Kragen. Ärmel hochkrempeln, Bügeleisen vergessen. Stückgewaschen für Weichheit, mit Brusttasche und geradem Saum. Kalt in der Maschine waschen.',
+        'Una camicia di lino lavato, con collo in un pezzo. Arrotola le maniche e dimentica il ferro. Lavata in capo per la morbidezza, con taschino e fondo dritto. Lavaggio in lavatrice a freddo.'),
+    'Halden oxford shirt': ('Chemise oxford Halden', 'Halden Oxfordhemd', 'Camicia oxford Halden'),
+    'A button-down oxford in brushed organic cotton, cut slim through the body. A 150 g oxford cloth with a soft roll collar and a locker loop. Machine wash warm.': (
+        "Une chemise oxford à col boutonné, en coton biologique gratté, ajustée au corps. Un tissu oxford de 150 g avec un col souple qui roule et une patte au dos. Lavage en machine à chaud.",
+        'Ein Button-down-Oxford aus gebürsteter Biobaumwolle, schmal geschnitten. Ein 150-g-Oxfordstoff mit weichem Rollkragen und Aufhängeschlaufe. Warm in der Maschine waschen.',
+        'Una camicia oxford con collo button-down, in cotone biologico spazzolato, tagliata aderente. Un tessuto oxford da 150 g con collo morbido che si arrotola e asola sul retro. Lavaggio in lavatrice a caldo.'),
+    'Bruma Sol camp shirt': ('Chemise camp Bruma Sol', 'Bruma Sol Campshirt', 'Camicia camp Bruma Sol'),
+    'A short-sleeved camp collar shirt in a woven cotton, with a straight hem. A loose fit in a light woven cotton with a single chest pocket. Machine wash cold.': (
+        "Une chemise à col camp et manches courtes, en coton tissé, avec un bas droit. Une coupe ample dans un coton tissé léger, avec une seule poche poitrine. Lavage en machine à froid.",
+        'Ein kurzärmeliges Hemd mit Campkragen aus gewebter Baumwolle und geradem Saum. Eine lockere Passform in leichter Webbaumwolle mit einer Brusttasche. Kalt in der Maschine waschen.',
+        'Una camicia a maniche corte con collo camp, in cotone tessuto e fondo dritto. Vestibilità ampia in un cotone leggero, con un solo taschino. Lavaggio in lavatrice a freddo.'),
+    'Fjordline flannel shirt': ('Chemise en flanelle Fjordline', 'Fjordline Flanellhemd', 'Camicia di flanella Fjordline'),
+    'A brushed flannel overshirt in a muted check, with two chest pockets. Heavy brushed cotton with a rounded hem, cut to wear open over a tee. Machine wash cold.': (
+        "Une surchemise en flanelle grattée à carreaux discrets, avec deux poches poitrine. Un coton gratté épais au bas arrondi, coupé pour se porter ouvert sur un t-shirt. Lavage en machine à froid.",
+        'Ein Overshirt aus gebürstetem Flanell in gedecktem Karo, mit zwei Brusttaschen. Schwere gebürstete Baumwolle mit rundem Saum, zum offenen Tragen über einem Shirt. Kalt in der Maschine waschen.',
+        'Una sovracamicia di flanella spazzolata a quadri discreti, con due taschini. Cotone spazzolato pesante con fondo arrotondato, pensata per stare aperta su una t-shirt. Lavaggio in lavatrice a freddo.'),
+    'Harbour crew tee': ('T-shirt col rond Harbour', 'Harbour Rundhalsshirt', 'T-shirt girocollo Harbour'),
+    'A heavyweight organic cotton tee with a ribbed crew neck. Buy two. A 220 g jersey with a rib neck that keeps its shape. It shrinks a touch on the first wash, then stays put.': (
+        "Un t-shirt épais en coton biologique, col rond côtelé. Prenez-en deux. Un jersey de 220 g dont l'encolure côtelée garde sa forme. Il rétrécit un peu au premier lavage, puis ne bouge plus.",
+        'Ein schweres Shirt aus Biobaumwolle mit geripptem Rundhals. Kauf zwei davon. Ein 220-g-Jersey, dessen Rippkragen die Form hält. Es geht bei der ersten Wäsche etwas ein und bleibt danach so.',
+        'Una t-shirt pesante in cotone biologico con girocollo a coste. Prendine due. Una jersey da 220 g con collo a coste che tiene la forma. Si ritira un poco al primo lavaggio, poi resta così.'),
+    'Meridian pique polo': ('Polo piqué Meridian', 'Meridian Piqué-Polo', 'Polo in piqué Meridian'),
+    'A pique polo with a two-button placket, cut from long-staple cotton. A fine pique that breathes, with a rib collar and a straight hem. Machine wash cold.': (
+        "Un polo en piqué à patte deux boutons, coupé dans un coton à fibres longues. Un piqué fin qui respire, avec un col côtelé et un bas droit. Lavage en machine à froid.",
+        'Ein Piqué-Polo mit Zweiknopfleiste aus langstapeliger Baumwolle. Ein feines Piqué, das atmet, mit Rippkragen und geradem Saum. Kalt in der Maschine waschen.',
+        'Una polo in piqué con cannoncino a due bottoni, in cotone a fibra lunga. Un piqué fine che respira, con collo a coste e fondo dritto. Lavaggio in lavatrice a freddo.'),
+    'Nordlys merino crew': ('Pull col rond mérinos Nordlys', 'Nordlys Merino-Rundhals', 'Maglia girocollo in merino Nordlys'),
+    'A fine-gauge merino crew neck that layers under a jacket without bulk. Extra fine merino at 19 microns, so it does not itch. Hand wash or wool cycle.': (
+        "Un pull col rond en mérinos fin qui se porte sous une veste sans épaisseur. Un mérinos extra-fin de 19 microns, qui ne gratte pas. Lavage à la main ou cycle laine.",
+        'Ein feiner Merino-Rundhalspullover, der unter der Jacke nicht aufträgt. Extrafeines Merino mit 19 Mikron, das nicht kratzt. Handwäsche oder Wollprogramm.',
+        'Una maglia girocollo in merino fine che sta sotto una giacca senza fare volume. Merino extrafine da 19 micron, quindi non punge. Lavaggio a mano o programma lana.'),
+    'Nordlys shawl cardigan': ('Cardigan col châle Nordlys', 'Nordlys Schalkragenjacke', 'Cardigan con collo a scialle Nordlys'),
+    'A chunky shawl-collar cardigan in a wool and alpaca blend, with horn buttons. A heavy five-gauge knit with a shawl collar and two patch pockets. Hand wash or wool cycle.': (
+        "Un gros cardigan à col châle en mélange laine et alpaga, avec des boutons en corne. Une maille lourde de jauge cinq, col châle et deux poches plaquées. Lavage à la main ou cycle laine.",
+        'Eine dicke Strickjacke mit Schalkragen aus Wolle und Alpaka, mit Hornknöpfen. Ein schwerer Strick in Feinheit fünf, mit Schalkragen und zwei aufgesetzten Taschen. Handwäsche oder Wollprogramm.',
+        'Un cardigan pesante con collo a scialle in misto lana e alpaca, con bottoni in corno. Una maglia grossa di finezza cinque, collo a scialle e due tasche applicate. Lavaggio a mano o programma lana.'),
+    'Coast waffle henley': ('Henley nid-abeille Coast', 'Coast Waffel-Henley', 'Henley a nido dape Coast'),
+    'A long-sleeved waffle knit henley with a three-button placket. Thermal waffle cotton that traps warmth without weight. Machine wash warm.': (
+        "Un henley à manches longues en maille nid-d'abeille, patte à trois boutons. Un coton gaufré thermique qui retient la chaleur sans peser. Lavage en machine à chaud.",
+        'Ein langärmeliger Henley aus Waffelstrick mit Dreiknopfleiste. Thermische Waffelbaumwolle, die Wärme hält, ohne aufzutragen. Warm in der Maschine waschen.',
+        "Una henley a maniche lunghe in maglia a nido d'ape, con cannoncino a tre bottoni. Cotone waffle termico che trattiene il calore senza pesare. Lavaggio in lavatrice a caldo."),
+    'Coast chinos': ('Chino Coast', 'Coast Chino', 'Chino Coast'),
+    'Garment-dyed cotton twill chinos with a tapered leg and a touch of stretch. A 280 g twill, garment dyed and washed for a soft hand. Machine wash cold.': (
+        "Un chino en sergé de coton teint en pièce, jambe fuselée et une pointe d'élasthanne. Un sergé de 280 g, teint et lavé après confection pour un toucher doux. Lavage en machine à froid.",
+        'Ein Chino aus stückgefärbtem Baumwolltwill mit schmal zulaufendem Bein und etwas Stretch. Ein 280-g-Twill, stückgefärbt und gewaschen für einen weichen Griff. Kalt in der Maschine waschen.',
+        'Un chino in twill di cotone tinto in capo, con gamba affusolata e un pizzico di elastico. Un twill da 280 g, tinto e lavato in capo per una mano morbida. Lavaggio in lavatrice a freddo.'),
+    'Fjordline selvedge jeans': ('Jean selvedge Fjordline', 'Fjordline Selvedge Jeans', 'Jeans selvedge Fjordline'),
+    'Raw selvedge denim with a regular fit and a straight leg. Wear them in. A 14 oz Japanese selvedge with a button fly and a red line on the outseam. Wash rarely and cold.': (
+        "Un denim selvedge brut, coupe droite et jambe droite. À vous de le façonner. Un selvedge japonais de 14 oz, braguette à boutons et liseré rouge sur la couture extérieure. Lavez-le rarement et à froid.",
+        'Roher Selvedge-Denim in normaler Passform mit geradem Bein. Trag ihn ein. Ein japanischer 14-oz-Selvedge mit Knopfleiste und roter Linie an der Außennaht. Selten und kalt waschen.',
+        "Denim selvedge grezzo, vestibilità regolare e gamba dritta. Falli tuoi con l'uso. Un selvedge giapponese da 14 oz con patta a bottoni e cimosa rossa sulla cucitura esterna. Lavare di rado e a freddo."),
+    'Sand linen trousers': ('Pantalon en lin Sand', 'Sand Leinenhose', 'Pantaloni di lino Sand'),
+    'Drawstring linen trousers with a relaxed leg. Airport to beach without a change. An elastic and drawstring waist with a relaxed leg and a cropped hem. Machine wash cold.': (
+        "Un pantalon en lin à cordon de serrage, jambe décontractée. De l'aéroport à la plage sans se changer. Une taille élastique à cordon, une jambe ample et un bas raccourci. Lavage en machine à froid.",
+        'Eine Leinenhose mit Kordelzug und lockerem Bein. Vom Flughafen an den Strand ohne Umziehen. Ein Gummibund mit Kordel, ein lockeres Bein und ein verkürzter Saum. Kalt in der Maschine waschen.',
+        "Pantaloni di lino con coulisse e gamba morbida. Dall'aeroporto alla spiaggia senza cambiarsi. Vita elastica con coulisse, gamba comoda e fondo accorciato. Lavaggio in lavatrice a freddo."),
+    'Harbour cargo shorts': ('Short cargo Harbour', 'Harbour Cargoshorts', 'Shorts cargo Harbour'),
+    'Ripstop cotton cargo shorts with bellows pockets and a nine-inch inseam. A 200 g ripstop with two front pockets, two bellows pockets and a rear pocket. Machine wash cold.': (
+        "Un short cargo en coton ripstop, poches à soufflet et entrejambe de vingt-trois centimètres. Un ripstop de 200 g avec deux poches devant, deux poches à soufflet et une poche arrière. Lavage en machine à froid.",
+        'Cargoshorts aus Ripstop-Baumwolle mit Balgtaschen und 23 Zentimetern Innenbeinlänge. Ein 200-g-Ripstop mit zwei Vordertaschen, zwei Balgtaschen und einer Gesäßtasche. Kalt in der Maschine waschen.',
+        'Shorts cargo in cotone ripstop, con tasche a soffietto e cavallo di ventitré centimetri. Un ripstop da 200 g con due tasche davanti, due a soffietto e una dietro. Lavaggio in lavatrice a freddo.'),
+    'Ashford linen blazer': ('Veste en lin Ashford', 'Ashford Leinenblazer', 'Giacca di lino Ashford'),
+    'An unstructured linen blazer with patch pockets and a half lining. Creases are part of the look. No shoulder pads, a single vent and a half lining in cotton. Dry clean or steam.': (
+        "Une veste en lin déstructurée, poches plaquées et demi-doublure. Les plis font partie du style. Sans épaulettes, une fente au dos et une demi-doublure en coton. Nettoyage à sec ou vapeur.",
+        'Ein unkonstruierter Leinenblazer mit aufgesetzten Taschen und Halbfutter. Knitter gehören dazu. Ohne Schulterpolster, mit einem Rückenschlitz und Halbfutter aus Baumwolle. Chemisch reinigen oder dämpfen.',
+        'Una giacca di lino destrutturata, con tasche applicate e mezza fodera. Le pieghe fanno parte del look. Senza spalline, con uno spacco dietro e mezza fodera in cotone. Lavaggio a secco o vapore.'),
+    'Nordlys knit blazer': ('Veste en maille Nordlys', 'Nordlys Strickblazer', 'Giacca in maglia Nordlys'),
+    'A jersey knit blazer in merino wool that moves like a cardigan and looks like a jacket. A milano-stitch merino with patch pockets and no lining. Hand wash or wool cycle.': (
+        "Une veste en maille de mérinos qui bouge comme un cardigan et se porte comme une veste. Un mérinos point milano, poches plaquées et sans doublure. Lavage à la main ou cycle laine.",
+        'Ein Strickblazer aus Merinowolle, der sich wie eine Strickjacke bewegt und wie ein Sakko aussieht. Ein Merino im Milanostich mit aufgesetzten Taschen und ohne Futter. Handwäsche oder Wollprogramm.',
+        'Una giacca in maglia di merino che si muove come un cardigan e sembra una giacca. Un merino a punto milano con tasche applicate e senza fodera. Lavaggio a mano o programma lana.'),
+    'Halden field jacket': ('Veste de terrain Halden', 'Halden Fieldjacket', 'Giacca field Halden'),
+    'A four-pocket field jacket in waxed cotton with a corduroy collar. Waxed cotton that sheds rain and darkens with age. Re-wax it once a year and it lasts decades.': (
+        "Une veste de terrain à quatre poches en coton huilé, col en velours côtelé. Un coton huilé qui repousse la pluie et fonce avec le temps. Réhuilez-la une fois par an et elle dure des décennies.",
+        'Eine Fieldjacket mit vier Taschen aus gewachster Baumwolle und Cordkragen. Gewachste Baumwolle, die Regen abweist und mit den Jahren nachdunkelt. Einmal im Jahr nachwachsen und sie hält Jahrzehnte.',
+        'Una giacca field a quattro tasche in cotone cerato, con collo in velluto a coste. Cotone cerato che respinge la pioggia e si scurisce con gli anni. Ricera una volta lanno e dura decenni.'),
+    'Ottavia round sunglasses': ('Lunettes de soleil rondes Ottavia', 'Ottavia Sonnenbrille, rund', 'Occhiali da sole tondi Ottavia'),
+    'Round acetate sunglasses with polarised lenses and a keyhole bridge. Hand-polished acetate with five-barrel hinges and category three lenses. A hard case and a cloth are included.': (
+        "Des lunettes de soleil rondes en acétate, verres polarisés et pont en trou de serrure. Un acétate poli à la main, charnières à cinq tenons et verres de catégorie trois. Un étui rigide et un chiffon sont inclus.",
+        'Eine runde Sonnenbrille aus Acetat mit polarisierten Gläsern und Keyhole-Steg. Handpoliertes Acetat mit Fünfnietscharnieren und Gläsern der Kategorie drei. Hartschalenetui und Tuch liegen bei.',
+        'Occhiali da sole tondi in acetato, con lenti polarizzate e ponte a goccia. Acetato lucidato a mano, cerniere a cinque perni e lenti di categoria tre. Custodia rigida e panno inclusi.'),
+    'Ottavia aviator sunglasses': ('Lunettes de soleil aviateur Ottavia', 'Ottavia Pilotenbrille', 'Occhiali da sole aviator Ottavia'),
+    'Slim steel aviators with green glass lenses and a double bridge. Steel frames with adjustable nose pads and mineral glass lenses. A hard case and a cloth are included.': (
+        "Des lunettes aviateur fines en acier, verres minéraux verts et double pont. Une monture en acier avec plaquettes réglables et verres en verre minéral. Un étui rigide et un chiffon sont inclus.",
+        'Eine schmale Pilotenbrille aus Stahl mit grünen Glasgläsern und Doppelsteg. Stahlfassung mit verstellbaren Nasenpads und mineralischen Gläsern. Hartschalenetui und Tuch liegen bei.',
+        'Occhiali aviator sottili in acciaio, con lenti in vetro verde e doppio ponte. Montatura in acciaio con naselli regolabili e lenti minerali. Custodia rigida e panno inclusi.'),
+    'Ottavia square sunglasses': ('Lunettes de soleil carrées Ottavia', 'Ottavia Sonnenbrille, eckig', 'Occhiali da sole quadrati Ottavia'),
+    'Bold square sunglasses in polished acetate with grey gradient lenses. Thick acetate frames with a keyhole bridge and category three lenses. A hard case and a cloth are included.': (
+        "Des lunettes de soleil carrées affirmées en acétate poli, verres gris dégradés. Une monture épaisse en acétate avec un pont en trou de serrure et des verres de catégorie trois. Un étui rigide et un chiffon sont inclus.",
+        'Eine markante eckige Sonnenbrille aus poliertem Acetat mit grauen Verlaufsgläsern. Dicke Acetatfassung mit Keyhole-Steg und Gläsern der Kategorie drei. Hartschalenetui und Tuch liegen bei.',
+        'Occhiali da sole quadrati e decisi in acetato lucido, con lenti grigie sfumate. Montatura spessa in acetato con ponte a goccia e lenti di categoria tre. Custodia rigida e panno inclusi.'),
+    'Ottavia reading glasses': ('Lunettes de lecture Ottavia', 'Ottavia Lesebrille', 'Occhiali da lettura Ottavia'),
+    'Lightweight reading glasses in a panto shape, with a cloth case. Available from +1.0 to +3.0 in half steps. The lenses are scratch coated.': (
+        "Des lunettes de lecture légères de forme panto, avec un étui en tissu. Disponibles de +1,0 à +3,0 par demi-degrés. Les verres reçoivent un traitement anti-rayures.",
+        'Eine leichte Lesebrille in Panto-Form, mit Stoffetui. Erhältlich von +1,0 bis +3,0 in halben Schritten. Die Gläser sind kratzfest beschichtet.',
+        'Occhiali da lettura leggeri di forma panto, con custodia in tessuto. Disponibili da +1,0 a +3,0 a mezzi passi. Le lenti hanno un trattamento antigraffio.'),
+    'Meridian curb chain': ('Chaîne gourmette Meridian', 'Meridian Panzerkette', 'Catena grumette Meridian'),
+    'A slim curb chain in gold-plated sterling silver, 45 cm. A 3 mm curb link with a lobster clasp, plated in 18 karat gold. Wear it alone or under a shirt.': (
+        "Une fine chaîne gourmette en argent massif plaqué or, 45 cm. Une maille gourmette de 3 mm avec un fermoir mousqueton, plaquée or 18 carats. À porter seule ou sous une chemise.",
+        'Eine schmale Panzerkette aus vergoldetem Sterlingsilber, 45 cm. Ein 3-mm-Panzerglied mit Karabinerverschluss, vergoldet mit 18 Karat. Allein oder unter dem Hemd zu tragen.',
+        'Una catena grumette sottile in argento sterling dorato, 45 cm. Maglia grumette da 3 mm con chiusura a moschettone, placcata in oro 18 carati. Da portare da sola o sotto la camicia.'),
+    'Halden signet ring': ('Chevalière Halden', 'Halden Siegelring', 'Anello chevalier Halden'),
+    'A square signet ring in solid sterling silver, plain face for engraving. A 12 mm square face, polished, on a solid band. Engraving is free and takes three days.': (
+        "Une chevalière carrée en argent massif, plateau lisse à graver. Un plateau carré de 12 mm, poli, sur un anneau plein. La gravure est offerte et prend trois jours.",
+        'Ein eckiger Siegelring aus massivem Sterlingsilber, mit glatter Platte zum Gravieren. Eine 12-mm-Quadratplatte, poliert, auf einem massiven Ring. Die Gravur ist kostenlos und dauert drei Tage.',
+        "Un anello chevalier quadrato in argento sterling massiccio, con piano liscio da incidere. Piano quadrato da 12 mm, lucido, su una fascia piena. L'incisione è gratuita e richiede tre giorni."),
+    'Bruma Sol hoops': ('Créoles Bruma Sol', 'Bruma Sol Creolen', 'Cerchi Bruma Sol'),
+    'Medium hammered hoop earrings in gold-plated brass. Thirty millimetre hoops with a hinged closure, plated in 18 karat gold. Sold as a pair.': (
+        "Des créoles moyennes martelées en laiton plaqué or. Des anneaux de trente millimètres à fermeture à charnière, plaqués or 18 carats. Vendues par paire.",
+        'Mittelgroße gehämmerte Creolen aus vergoldetem Messing. Dreißig Millimeter Durchmesser, mit Scharnierverschluss, vergoldet mit 18 Karat. Als Paar verkauft.',
+        'Cerchi medi martellati in ottone dorato. Cerchi da trenta millimetri con chiusura a cerniera, placcati in oro 18 carati. Venduti in coppia.'),
+    'Coast rope bracelet': ('Bracelet corde Coast', 'Coast Segeltau-Armband', 'Bracciale in corda Coast'),
+    'A braided nylon rope bracelet with a stainless steel shackle clasp. Nylon rope from a sailmaker, with a shackle that opens with a coin. One size, adjusts with the knot.': (
+        "Un bracelet en corde de nylon tressée avec une manille en acier inoxydable. Une corde de nylon de voilier, avec une manille qui s'ouvre avec une pièce. Taille unique, réglable par le nœud.",
+        'Ein Armband aus geflochtenem Nylonseil mit Schäkelverschluss aus Edelstahl. Nylonseil vom Segelmacher, mit einem Schäkel, der sich mit einer Münze öffnet. Eine Größe, über den Knoten verstellbar.',
+        'Un bracciale in corda di nylon intrecciata con grillo in acciaio inossidabile. Corda di nylon da velaio, con un grillo che si apre con una moneta. Taglia unica, si regola con il nodo.'),
+    'Halden leather sandals': ('Sandales en cuir Halden', 'Halden Ledersandalen', 'Sandali di pelle Halden'),
+    'Flat leather sandals with two straps and a moulded footbed. Vegetable-tanned leather uppers on a cork footbed with a rubber sole. They mould to the foot in a week.': (
+        "Des sandales plates en cuir à deux brides, avec une semelle moulée. Une tige en cuir à tannage végétal sur un lit de liège et une semelle en caoutchouc. Elles épousent le pied en une semaine.",
+        'Flache Ledersandalen mit zwei Riemen und geformtem Fußbett. Pflanzlich gegerbtes Obermaterial auf einem Korkfußbett mit Gummisohle. Sie passen sich in einer Woche dem Fuß an.',
+        'Sandali bassi in pelle a due fasce, con plantare sagomato. Tomaia in pelle conciata al vegetale su plantare di sughero e suola in gomma. Si adattano al piede in una settimana.'),
+    'Harbour canvas sneakers': ('Baskets en toile Harbour', 'Harbour Canvas-Sneaker', 'Sneaker di tela Harbour'),
+    'Low canvas sneakers with a natural rubber sole and cotton laces. Heavy cotton canvas on a vulcanised natural rubber sole. Wipe clean, or machine wash cold in a bag.': (
+        "Des baskets basses en toile, semelle en caoutchouc naturel et lacets en coton. Une toile de coton épaisse sur une semelle vulcanisée en caoutchouc naturel. Un coup de chiffon, ou lavage en machine à froid dans un filet.",
+        'Niedrige Canvas-Sneaker mit Naturkautschuksohle und Baumwollschnürsenkeln. Schweres Baumwollcanvas auf einer vulkanisierten Naturkautschuksohle. Abwischen oder kalt im Beutel in der Maschine waschen.',
+        'Sneaker basse di tela, con suola in caucciù naturale e lacci di cotone. Tela di cotone pesante su una suola vulcanizzata in caucciù naturale. Si puliscono con un panno, oppure in lavatrice a freddo dentro un sacchetto.'),
+    'Halden penny loafers': ('Mocassins Halden', 'Halden Pennyloafer', 'Mocassini Halden'),
+    'Penny loafers in full-grain leather with a stacked heel. Full-grain leather, a leather sole with a rubber insert and a stacked leather heel. Made in Portugal.': (
+        "Des mocassins en cuir pleine fleur avec un talon empilé. Cuir pleine fleur, semelle en cuir avec insert en caoutchouc et talon en cuir empilé. Fabriqués au Portugal.",
+        'Pennyloafer aus Vollnarbenleder mit gestapeltem Absatz. Vollnarbenleder, eine Ledersohle mit Gummieinsatz und ein gestapelter Lederabsatz. In Portugal gefertigt.',
+        'Mocassini in pelle pieno fiore con tacco accatastato. Pelle pieno fiore, suola in cuoio con inserto in gomma e tacco in cuoio accatastato. Prodotti in Portogallo.'),
+    'Bruma Sol espadrilles': ('Espadrilles Bruma Sol', 'Bruma Sol Espadrilles', 'Espadrillas Bruma Sol'),
+    'Canvas espadrilles with a jute sole, made in Spain. Cotton canvas stitched by hand to a jute sole with a thin rubber tread. Buy them snug, they stretch.': (
+        "Des espadrilles en toile à semelle de jute, fabriquées en Espagne. Une toile de coton cousue à la main sur une semelle de jute avec une fine bande de caoutchouc. Prenez-les serrées, elles se détendent.",
+        'Espadrilles aus Canvas mit Jutesohle, in Spanien gefertigt. Baumwollcanvas, von Hand auf eine Jutesohle mit dünner Gummilaufsohle genäht. Eng kaufen, sie weiten sich.',
+        'Espadrillas di tela con suola in juta, prodotte in Spagna. Tela di cotone cucita a mano su una suola di juta con sottile battistrada in gomma. Prendile strette, si allargano.'),
+    'Fjordline chelsea boots': ('Bottines chelsea Fjordline', 'Fjordline Chelsea Boots', 'Stivaletti chelsea Fjordline'),
+    'Suede chelsea boots with a crepe sole and elastic side panels. Suede uppers on a crepe sole that softens every step. Spray them before the first wear.': (
+        "Des bottines chelsea en daim, semelle en crêpe et soufflets élastiques. Une tige en daim sur une semelle de crêpe qui adoucit chaque pas. Imperméabilisez-les avant le premier port.",
+        'Chelsea Boots aus Veloursleder mit Kreppsohle und elastischen Seiteneinsätzen. Velours-Obermaterial auf einer Kreppsohle, die jeden Schritt weicher macht. Vor dem ersten Tragen imprägnieren.',
+        'Stivaletti chelsea in camoscio, con suola in crepe ed elastici laterali. Tomaia in camoscio su una suola in crepe che ammorbidisce ogni passo. Trattali con lo spray prima di indossarli.'),
+    'Halden leather weekender': ('Sac week-end en cuir Halden', 'Halden Leder-Reisetasche', 'Borsone di pelle Halden'),
+    'A full-grain leather weekender with a brass zip and a detachable strap. Fits under the seat. Fifty centimetres wide with a cotton lining and an inside zip pocket. The leather scuffs and darkens with age.': (
+        "Un sac week-end en cuir pleine fleur, fermeture en laiton et bandoulière amovible. Il passe sous le siège. Cinquante centimètres de large, doublure en coton et poche zippée intérieure. Le cuir se patine et fonce avec le temps.",
+        'Eine Reisetasche aus Vollnarbenleder mit Messingreißverschluss und abnehmbarem Gurt. Passt unter den Sitz. Fünfzig Zentimeter breit, mit Baumwollfutter und Innenreißverschlusstasche. Das Leder bekommt Spuren und dunkelt nach.',
+        'Un borsone in pelle pieno fiore, con zip in ottone e tracolla staccabile. Entra sotto il sedile. Cinquanta centimetri di larghezza, fodera in cotone e tasca interna con zip. La pelle si segna e si scurisce con gli anni.'),
+    'Meridian crossbody bag': ('Sac bandoulière Meridian', 'Meridian Umhängetasche', 'Borsa a tracolla Meridian'),
+    'A compact leather crossbody bag with a flap and an adjustable strap. Full-grain leather with a magnetic flap and a card slot inside. The strap adjusts from 100 to 130 cm.': (
+        "Un petit sac bandoulière en cuir avec un rabat et une sangle réglable. Cuir pleine fleur, rabat aimanté et un porte-carte à l'intérieur. La sangle se règle de 100 à 130 cm.",
+        'Eine kompakte Umhängetasche aus Leder mit Überschlag und verstellbarem Gurt. Vollnarbenleder mit Magnetlasche und einem Kartenfach innen. Der Gurt lässt sich von 100 auf 130 cm einstellen.',
+        "Una piccola borsa a tracolla in pelle, con patta e tracolla regolabile. Pelle pieno fiore, patta magnetica e uno scomparto per le carte all'interno. La tracolla si regola da 100 a 130 cm."),
+    'Harbour canvas tote': ('Tote bag en toile Harbour', 'Harbour Canvas-Shopper', 'Shopper di tela Harbour'),
+    'A heavy canvas tote with leather handles and an inside pocket. A 20 oz canvas that stands on its own, with a magnetic closure. Machine wash cold, the leather handles included.': (
+        "Un tote bag en toile épaisse avec des anses en cuir et une poche intérieure. Une toile de 20 oz qui tient debout toute seule, avec une fermeture aimantée. Lavage en machine à froid, anses en cuir comprises.",
+        'Ein schwerer Canvas-Shopper mit Ledergriffen und Innentasche. Ein 20-oz-Canvas, das von allein steht, mit Magnetverschluss. Kalt in der Maschine waschen, samt Ledergriffen.',
+        'Uno shopper in tela pesante con manici di pelle e tasca interna. Una tela da 20 oz che sta in piedi da sola, con chiusura magnetica. Lavaggio in lavatrice a freddo, manici di pelle compresi.'),
+    'Fjordline cabin case': ('Valise cabine Fjordline', 'Fjordline Kabinenkoffer', 'Trolley da cabina Fjordline'),
+    'A hard-shell cabin case in recycled polycarbonate with silent wheels and a TSA lock. Fifty-five by thirty-five by twenty centimetres, 2.8 kg, with four double wheels. The shell dents and pops back.': (
+        "Une valise cabine rigide en polycarbonate recyclé, roues silencieuses et serrure TSA. Cinquante-cinq sur trente-cinq sur vingt centimètres, 2,8 kg, avec quatre roues doubles. La coque se creuse puis reprend sa forme.",
+        'Ein Hartschalen-Kabinenkoffer aus recyceltem Polycarbonat mit leisen Rollen und TSA-Schloss. Fünfundfünfzig mal fünfunddreißig mal zwanzig Zentimeter, 2,8 kg, mit vier Doppelrollen. Die Schale gibt nach und springt zurück.',
+        'Un trolley da cabina rigido in policarbonato riciclato, con ruote silenziose e serratura TSA. Cinquantacinque per trentacinque per venti centimetri, 2,8 kg, con quattro ruote doppie. Il guscio si ammacca e torna come prima.'),
+    'Coast daypack': ('Sac à dos Coast', 'Coast Tagesrucksack', 'Zaino da giorno Coast'),
+    'A 20-litre daypack in recycled nylon with a padded laptop sleeve. A padded back, a fifteen-inch laptop sleeve and a water bottle pocket. The fabric is made from recycled bottles.': (
+        "Un sac à dos de 20 litres en nylon recyclé, avec un compartiment matelassé pour ordinateur. Un dos matelassé, une housse pour portable de quinze pouces et une poche pour gourde. Le tissu est fait de bouteilles recyclées.",
+        'Ein 20-Liter-Tagesrucksack aus recyceltem Nylon mit gepolstertem Laptopfach. Ein gepolsterter Rücken, ein Fach für fünfzehn Zoll und eine Flaschentasche. Der Stoff besteht aus recycelten Flaschen.',
+        'Uno zaino da 20 litri in nylon riciclato, con scomparto imbottito per il portatile. Schienale imbottito, tasca per portatili da quindici pollici e porta borraccia. Il tessuto è fatto di bottiglie riciclate.'),
+
+    # Electronics
+    'Kestrel K2 noise-cancelling headphones': ('Casque à réduction de bruit Kestrel K2', 'Kestrel K2 Kopfhörer mit Geräuschunterdrückung', 'Cuffie con cancellazione del rumore Kestrel K2'),
+    'Over-ear headphones with adaptive noise cancelling, forty hours of battery and a flat tuning. Fold flat into a hard case, charge by USB-C, and the cancelling adapts to a plane or a train. The tuning is flat, so what you hear is the recording.': (
+        "Un casque circum-auriculaire à réduction de bruit adaptative, quarante heures d'autonomie et un réglage neutre. Il se plie à plat dans un étui rigide, se charge en USB-C, et la réduction s'adapte à l'avion ou au train. Le réglage est neutre, vous entendez donc l'enregistrement.",
+        'Ein Over-Ear-Kopfhörer mit adaptiver Geräuschunterdrückung, vierzig Stunden Akku und neutraler Abstimmung. Er faltet flach ins Hartschalenetui, lädt über USB-C, und die Unterdrückung passt sich Flugzeug oder Zug an. Die Abstimmung ist neutral, du hörst also die Aufnahme.',
+        "Cuffie circumaurali con cancellazione adattiva del rumore, quaranta ore di autonomia e una taratura neutra. Si piegano piatte nella custodia rigida, si caricano via USB-C e la cancellazione si adatta all'aereo o al treno. La taratura è neutra, quindi senti la registrazione."),
+    'Kestrel Buds': ('Écouteurs Kestrel Buds', 'Kestrel Buds', 'Auricolari Kestrel Buds'),
+    'True wireless earbuds with a six-hour charge and a case that adds three more. The buds seal well and the microphones handle a windy call. The case charges wirelessly or by USB-C.': (
+        "Des écouteurs sans fil de six heures d'autonomie, avec un boîtier qui en ajoute trois. Ils isolent bien et les micros tiennent un appel dans le vent. Le boîtier se recharge sans fil ou en USB-C.",
+        'Kabellose Ohrhörer mit sechs Stunden Laufzeit und einem Etui, das drei weitere gibt. Sie dichten gut ab und die Mikrofone halten ein Gespräch im Wind aus. Das Etui lädt kabellos oder über USB-C.',
+        "Auricolari true wireless con sei ore di carica e una custodia che ne aggiunge altre tre. Isolano bene e i microfoni reggono una chiamata con il vento. La custodia si carica senza fili o via USB-C."),
+    'Kestrel Studio in-ear monitors': ('Moniteurs intra-auriculaires Kestrel Studio', 'Kestrel Studio In-Ear-Monitore', 'Monitor in-ear Kestrel Studio'),
+    'Wired in-ear monitors with a single dynamic driver and a detachable cable. A single driver keeps the sound coherent from bass to treble. The cable unclips, so a broken cable is not a broken pair.': (
+        "Des moniteurs intra-auriculaires filaires à transducteur dynamique unique et câble détachable. Un seul transducteur garde un son cohérent des graves aux aigus. Le câble se déclipse, un câble cassé ne signifie donc pas une paire perdue.",
+        'Kabelgebundene In-Ear-Monitore mit einem einzigen dynamischen Treiber und abnehmbarem Kabel. Ein einziger Treiber hält den Klang von Bass bis Höhen stimmig. Das Kabel klickt ab, ein Kabelbruch ist also kein Totalschaden.',
+        'Monitor in-ear con cavo, driver dinamico singolo e cavo staccabile. Un solo driver mantiene il suono coerente dai bassi agli acuti. Il cavo si sgancia, quindi un cavo rotto non è un paio rotto.'),
+    'Nimbus Go speaker': ('Enceinte Nimbus Go', 'Nimbus Go Lautsprecher', 'Speaker Nimbus Go'),
+    'A pocket speaker with a real passive radiator, twelve hours of play and an IP67 rating. It survives a pool and a beach, and pairs with a second unit for stereo. Twelve hours at normal volume.': (
+        "Une enceinte de poche avec un vrai radiateur passif, douze heures de lecture et un indice IP67. Elle survit à la piscine et à la plage, et s'apparie avec une deuxième pour la stéréo. Douze heures à volume normal.",
+        'Ein Taschenlautsprecher mit echtem Passivradiator, zwölf Stunden Spielzeit und IP67. Er übersteht Pool und Strand und lässt sich mit einem zweiten zu Stereo koppeln. Zwölf Stunden bei normaler Lautstärke.',
+        "Uno speaker tascabile con un vero radiatore passivo, dodici ore di riproduzione e grado IP67. Sopravvive alla piscina e alla spiaggia, e si abbina a un secondo per lo stereo. Dodici ore a volume normale."),
+    'Nimbus Shelf active speakers': ('Enceintes actives Nimbus Shelf', 'Nimbus Shelf Aktivlautsprecher', 'Diffusori attivi Nimbus Shelf'),
+    'A pair of powered bookshelf speakers with a built-in DAC and Bluetooth. Plug in the turntable, the television or a laptop, or stream from a phone. No separate amplifier needed.': (
+        "Une paire d'enceintes de bibliothèque amplifiées, avec un DAC intégré et le Bluetooth. Branchez la platine, la télévision ou un ordinateur, ou diffusez depuis un téléphone. Aucun amplificateur séparé n'est nécessaire.",
+        'Ein Paar aktive Regallautsprecher mit eingebautem DAC und Bluetooth. Plattenspieler, Fernseher oder Laptop anschließen oder vom Handy streamen. Ein separater Verstärker ist nicht nötig.',
+        'Una coppia di diffusori da scaffale amplificati, con DAC integrato e Bluetooth. Collega il giradischi, il televisore o un portatile, oppure trasmetti dal telefono. Non serve un amplificatore a parte.'),
+    'Nimbus Spin turntable': ('Platine Nimbus Spin', 'Nimbus Spin Plattenspieler', 'Giradischi Nimbus Spin'),
+    'A belt-drive turntable with a carbon tonearm and a built-in phono stage. The phono stage switches off for people who own one already. Set up in ten minutes with the included gauge.': (
+        "Une platine à entraînement par courroie, bras en carbone et préampli phono intégré. Le préampli se désactive pour ceux qui en ont déjà un. Réglage en dix minutes avec le gabarit fourni.",
+        'Ein riemengetriebener Plattenspieler mit Carbon-Tonarm und eingebauter Phonovorstufe. Die Vorstufe lässt sich abschalten, wenn schon eine da ist. In zehn Minuten eingerichtet, mit der beiliegenden Schablone.',
+        'Un giradischi a cinghia con braccio in carbonio e stadio phono integrato. Lo stadio phono si spegne per chi ne ha già uno. Si mette a punto in dieci minuti con la dima inclusa.'),
+    'Kestrel Pocket DAC': ('DAC de poche Kestrel', 'Kestrel Pocket DAC', 'DAC tascabile Kestrel'),
+    'A USB-C headphone amplifier the size of a lighter, with a balanced output. It powers demanding headphones from a phone or a laptop and adds no noise of its own. The case is machined aluminium.': (
+        "Un amplificateur casque USB-C de la taille d'un briquet, avec une sortie symétrique. Il alimente des casques exigeants depuis un téléphone ou un ordinateur et n'ajoute aucun bruit. Le boîtier est en aluminium usiné.",
+        'Ein USB-C-Kopfhörerverstärker in Feuerzeuggröße, mit symmetrischem Ausgang. Er treibt anspruchsvolle Kopfhörer an Handy oder Laptop und fügt kein eigenes Rauschen hinzu. Das Gehäuse ist gefrästes Aluminium.',
+        'Un amplificatore per cuffie USB-C grande come un accendino, con uscita bilanciata. Pilota cuffie esigenti da telefono o portatile e non aggiunge rumore suo. La scocca è in alluminio lavorato.'),
+    'Nimbus Bar soundbar': ('Barre de son Nimbus Bar', 'Nimbus Bar Soundbar', 'Soundbar Nimbus Bar'),
+    'A compact soundbar with a wireless subwoofer and HDMI eARC. One cable to the television and the subwoofer finds the bar by itself. Dialogue mode makes voices clear at low volume.': (
+        "Une barre de son compacte avec un caisson sans fil et une prise HDMI eARC. Un seul câble vers la télévision, et le caisson trouve la barre tout seul. Le mode dialogue rend les voix claires à faible volume.",
+        'Eine kompakte Soundbar mit kabellosem Subwoofer und HDMI eARC. Ein Kabel zum Fernseher, und der Subwoofer findet die Bar von allein. Der Dialogmodus macht Stimmen auch leise verständlich.',
+        'Una soundbar compatta con subwoofer senza fili e HDMI eARC. Un solo cavo al televisore e il subwoofer trova la barra da solo. La modalità dialoghi rende chiare le voci a volume basso.'),
+    'Voltline Air 14 laptop': ('Ordinateur portable Voltline Air 14', 'Voltline Air 14 Notebook', 'Portatile Voltline Air 14'),
+    'A fourteen-inch laptop with a matte display, eighteen hours of battery and a keyboard people write on. Sixteen gigabytes of memory, a fast SSD and a case that opens with one hand. It charges from any USB-C charger.': (
+        "Un portable de quatorze pouces à écran mat, dix-huit heures d'autonomie et un clavier sur lequel on écrit vraiment. Seize gigaoctets de mémoire, un SSD rapide et un châssis qui s'ouvre d'une main. Il se recharge avec n'importe quel chargeur USB-C.",
+        'Ein Vierzehn-Zoll-Notebook mit mattem Display, achtzehn Stunden Akku und einer Tastatur, auf der man wirklich schreibt. Sechzehn Gigabyte Speicher, eine schnelle SSD und ein Gehäuse, das sich mit einer Hand öffnet. Es lädt an jedem USB-C-Netzteil.',
+        "Un portatile da quattordici pollici con schermo opaco, diciotto ore di autonomia e una tastiera su cui si scrive davvero. Sedici gigabyte di memoria, un SSD veloce e una scocca che si apre con una mano. Si carica con qualsiasi caricatore USB-C."),
+    'Voltline Pro 16 laptop': ('Ordinateur portable Voltline Pro 16', 'Voltline Pro 16 Notebook', 'Portatile Voltline Pro 16'),
+    'A sixteen-inch workstation with a 120 Hz display and quiet fans. Built for people who compile, render and edit. The fans stay quiet until the work gets heavy.': (
+        "Une station de travail de seize pouces avec un écran 120 Hz et des ventilateurs discrets. Conçue pour ceux qui compilent, rendent et montent. Les ventilateurs restent silencieux tant que la charge reste raisonnable.",
+        'Eine Sechzehn-Zoll-Workstation mit 120-Hz-Display und leisen Lüftern. Gebaut für Menschen, die kompilieren, rendern und schneiden. Die Lüfter bleiben leise, bis die Arbeit schwer wird.',
+        'Una workstation da sedici pollici con schermo a 120 Hz e ventole silenziose. Pensata per chi compila, renderizza e monta. Le ventole restano silenziose finché il lavoro non si fa pesante.'),
+    'Tessera 27 inch 4K monitor': ('Écran 4K 27 pouces Tessera', 'Tessera 27 Zoll 4K Monitor', 'Monitor 4K da 27 pollici Tessera'),
+    'A 27-inch 4K IPS display with USB-C power delivery and a matte coating. One USB-C cable carries video, data and 90 W of power to a laptop. The stand tilts, swivels and rises.': (
+        "Un écran IPS 4K de 27 pouces avec alimentation USB-C et traitement mat. Un seul câble USB-C transporte la vidéo, les données et 90 W vers un portable. Le pied s'incline, pivote et monte.",
+        'Ein 27-Zoll-4K-IPS-Display mit USB-C Power Delivery und matter Beschichtung. Ein USB-C-Kabel überträgt Bild, Daten und 90 W an ein Notebook. Der Fuß neigt, dreht und hebt sich.',
+        'Uno schermo IPS 4K da 27 pollici con alimentazione USB-C e trattamento opaco. Un solo cavo USB-C porta video, dati e 90 W al portatile. Il piedistallo si inclina, ruota e si alza.'),
+    'Tessera 34 inch ultrawide monitor': ('Écran ultra-large 34 pouces Tessera', 'Tessera 34 Zoll Ultrawide Monitor', 'Monitor ultrawide da 34 pollici Tessera'),
+    'A curved ultrawide with a 144 Hz panel and a KVM switch. Two computers, one keyboard and mouse, switched with a button. The curve keeps the corners at the same distance as the centre.': (
+        "Un écran ultra-large incurvé, dalle 144 Hz et commutateur KVM. Deux ordinateurs, un clavier et une souris, échangés d'un bouton. La courbure garde les coins à la même distance que le centre.",
+        'Ein gebogener Ultrawide mit 144-Hz-Panel und KVM-Schalter. Zwei Rechner, eine Tastatur und Maus, per Knopfdruck gewechselt. Die Krümmung hält die Ecken so weit entfernt wie die Mitte.',
+        'Un ultrawide curvo con pannello a 144 Hz e switch KVM. Due computer, una tastiera e un mouse, si cambia con un pulsante. La curvatura tiene gli angoli alla stessa distanza del centro.'),
+    'Orbit Labs 75 mechanical keyboard': ('Clavier mécanique Orbit Labs 75', 'Orbit Labs 75 mechanische Tastatur', 'Tastiera meccanica Orbit Labs 75'),
+    'A 75 percent mechanical keyboard with hot-swap switches and a gasket mount. The switches pull out without soldering, and the gasket mount softens every keystroke. Wired or Bluetooth.': (
+        "Un clavier mécanique au format 75 pour cent, switches hot-swap et montage sur joint. Les switches s'extraient sans soudure, et le montage sur joint adoucit chaque frappe. Filaire ou Bluetooth.",
+        'Eine mechanische Tastatur im 75-Prozent-Format mit Hot-Swap-Schaltern und Gasket-Mount. Die Schalter lassen sich ohne Löten ziehen, und der Gasket-Mount dämpft jeden Anschlag. Kabel oder Bluetooth.',
+        'Una tastiera meccanica in formato 75 per cento, con switch hot-swap e montaggio gasket. Gli switch si estraggono senza saldature e il gasket ammorbidisce ogni battuta. Con cavo o Bluetooth.'),
+    'Orbit Labs Glide mouse': ('Souris Orbit Labs Glide', 'Orbit Labs Glide Maus', 'Mouse Orbit Labs Glide'),
+    'A lightweight wireless mouse with a 4000 Hz polling rate and PTFE feet. Fifty-eight grams, a week of battery, and feet that glide on any mat. The receiver lives inside the mouse when not in use.': (
+        "Une souris sans fil légère, taux d'interrogation de 4000 Hz et patins en PTFE. Cinquante-huit grammes, une semaine d'autonomie et des patins qui glissent sur tous les tapis. Le récepteur se range dans la souris.",
+        'Eine leichte kabellose Maus mit 4000 Hz Abtastrate und PTFE-Gleitfüßen. Achtundfünfzig Gramm, eine Woche Akku und Füße, die auf jedem Pad gleiten. Der Empfänger wohnt in der Maus, wenn er nicht steckt.',
+        "Un mouse wireless leggero, con polling a 4000 Hz e piedini in PTFE. Cinquantotto grammi, una settimana di autonomia e piedini che scivolano su qualsiasi tappetino. Il ricevitore si ripone dentro il mouse."),
+    'Voltline Thunderbolt dock': ('Station Thunderbolt Voltline', 'Voltline Thunderbolt Dock', 'Dock Thunderbolt Voltline'),
+    'A Thunderbolt dock with two displays, ten ports and 96 W of charging. One cable from the laptop to the dock, and the desk is ready. Two 4K displays at 60 Hz.': (
+        "Une station Thunderbolt pour deux écrans, dix ports et 96 W de charge. Un câble du portable à la station, et le bureau est prêt. Deux écrans 4K à 60 Hz.",
+        'Ein Thunderbolt-Dock für zwei Displays, mit zehn Anschlüssen und 96 W Ladeleistung. Ein Kabel vom Notebook zum Dock, und der Schreibtisch ist bereit. Zwei 4K-Displays mit 60 Hz.',
+        'Un dock Thunderbolt per due schermi, con dieci porte e 96 W di ricarica. Un cavo dal portatile al dock e la scrivania è pronta. Due schermi 4K a 60 Hz.'),
+    'Voltline portable SSD': ('SSD portable Voltline', 'Voltline portable SSD', 'SSD portatile Voltline'),
+    'A rugged USB-C SSD with 2000 MB/s reads, in a rubber sleeve. Two terabytes in a case that survives a drop from two metres. The USB-C cable is in the box.': (
+        "Un SSD USB-C robuste, 2000 Mo/s en lecture, dans une gaine en caoutchouc. Deux téraoctets dans un boîtier qui survit à une chute de deux mètres. Le câble USB-C est dans la boîte.",
+        'Eine robuste USB-C-SSD mit 2000 MB/s Lesegeschwindigkeit, in einer Gummihülle. Zwei Terabyte in einem Gehäuse, das einen Sturz aus zwei Metern übersteht. Das USB-C-Kabel liegt bei.',
+        'Un SSD USB-C robusto, 2000 MB/s in lettura, in una guaina di gomma. Due terabyte in una scocca che resiste a una caduta da due metri. Il cavo USB-C è nella scatola.'),
+    'Tessera 4K webcam': ('Webcam 4K Tessera', 'Tessera 4K Webcam', 'Webcam 4K Tessera'),
+    'A 4K webcam with a large sensor and a privacy shutter. The sensor handles a dark room without grain. Slide the shutter shut and it is a lens cap, not a promise.': (
+        "Une webcam 4K à grand capteur, avec un volet de confidentialité. Le capteur tient une pièce sombre sans bruit. Fermez le volet et c'est un cache d'objectif, pas une promesse.",
+        'Eine 4K-Webcam mit großem Sensor und Sichtschutzblende. Der Sensor kommt mit einem dunklen Raum ohne Rauschen zurecht. Blende zu heißt Objektivdeckel, nicht Versprechen.',
+        "Una webcam 4K con sensore grande e otturatore per la privacy. Il sensore regge una stanza buia senza grana. Chiudi l'otturatore ed è un coperchio, non una promessa."),
+    'Halide M1 mirrorless camera': ('Appareil hybride Halide M1', 'Halide M1 spiegellose Kamera', 'Fotocamera mirrorless Halide M1'),
+    'A full-frame mirrorless body with in-body stabilisation and a quiet shutter. Twenty-four megapixels, dual card slots and a viewfinder that does not lag. The body is sealed against rain.': (
+        "Un boîtier hybride plein format avec stabilisation intégrée et obturateur silencieux. Vingt-quatre mégapixels, deux emplacements de carte et un viseur sans latence. Le boîtier est étanche à la pluie.",
+        'Ein spiegelloses Vollformatgehäuse mit Bildstabilisierung im Body und leisem Verschluss. Vierundzwanzig Megapixel, zwei Kartenfächer und ein Sucher ohne Verzögerung. Das Gehäuse ist gegen Regen abgedichtet.',
+        "Un corpo mirrorless full frame con stabilizzazione integrata e otturatore silenzioso. Ventiquattro megapixel, doppio slot per schede e un mirino senza ritardo. Il corpo è sigillato contro la pioggia."),
+    'Halide 35 mm f/1.8 lens': ('Objectif Halide 35 mm f/1,8', 'Halide 35 mm f/1,8 Objektiv', 'Obiettivo Halide 35 mm f/1,8'),
+    'A compact 35 mm prime with fast, silent focus. The one-lens travel kit. Sharp wide open, close focusing to 25 cm, and small enough for a jacket pocket. Weather sealed at the mount.': (
+        "Une focale fixe 35 mm compacte, mise au point rapide et silencieuse. Le kit de voyage à un seul objectif. Piqué dès la pleine ouverture, mise au point à 25 cm et assez petit pour une poche de veste. Joint d'étanchéité à la monture.",
+        'Eine kompakte 35-mm-Festbrennweite mit schnellem, leisem Fokus. Das Reisekit mit einem einzigen Objektiv. Schon offen scharf, Nahgrenze 25 cm und klein genug für die Jackentasche. Am Bajonett abgedichtet.',
+        'Un 35 mm fisso compatto, con messa a fuoco rapida e silenziosa. Il kit da viaggio con un solo obiettivo. Nitido già a tutta apertura, mette a fuoco a 25 cm ed è piccolo da stare in tasca. Guarnizione sulla baionetta.'),
+    'Halide 85 mm f/1.4 lens': ('Objectif Halide 85 mm f/1,4', 'Halide 85 mm f/1,4 Objektiv', 'Obiettivo Halide 85 mm f/1,4'),
+    'A portrait prime with creamy bokeh and weather sealing. Wide open it separates a face from a busy background. Focus is fast enough for children and dogs.': (
+        "Une focale fixe à portrait au bokeh crémeux et aux joints d'étanchéité. À pleine ouverture, elle détache un visage d'un fond chargé. La mise au point suffit pour les enfants et les chiens.",
+        'Eine Porträt-Festbrennweite mit cremigem Bokeh und Wetterschutz. Offen trennt sie ein Gesicht von einem unruhigen Hintergrund. Der Fokus ist schnell genug für Kinder und Hunde.',
+        'Un fisso da ritratto con bokeh cremoso e guarnizioni contro le intemperie. A tutta apertura stacca un volto da uno sfondo affollato. La messa a fuoco basta per bambini e cani.'),
+    'Halide 24-70 mm f/2.8 lens': ('Objectif Halide 24-70 mm f/2,8', 'Halide 24-70 mm f/2,8 Objektiv', 'Obiettivo Halide 24-70 mm f/2,8'),
+    'The standard zoom, sharp at every stop. Weddings, landscapes and everything between. Weather sealed, with a lock switch for the zoom ring.': (
+        "Le zoom standard, piqué à toutes les ouvertures. Mariages, paysages et tout ce qui se trouve entre les deux. Joints d'étanchéité et verrou pour la bague de zoom.",
+        'Das Standardzoom, bei jeder Blende scharf. Hochzeiten, Landschaften und alles dazwischen. Abgedichtet, mit Sperre für den Zoomring.',
+        'Lo zoom standard, nitido a ogni diaframma. Matrimoni, paesaggi e tutto quello che sta in mezzo. Guarnizioni contro le intemperie e blocco per la ghiera dello zoom.'),
+    'Halide Pocket compact camera': ('Appareil compact Halide Pocket', 'Halide Pocket Kompaktkamera', 'Fotocamera compatta Halide Pocket'),
+    'A pocket camera with a one-inch sensor and a fast lens. Better than your phone, fits the same pocket. A real zoom, a real flash and a battery that lasts a day out. Raw files, if you want them.': (
+        "Un appareil de poche à capteur d'un pouce et objectif lumineux. Mieux que votre téléphone, dans la même poche. Un vrai zoom, un vrai flash et une batterie qui tient une journée. Des fichiers raw, si vous en voulez.",
+        'Eine Taschenkamera mit Ein-Zoll-Sensor und lichtstarkem Objektiv. Besser als das Handy, passt in dieselbe Tasche. Ein echtes Zoom, ein echter Blitz und ein Akku für einen Tag draußen. Raw-Dateien, wenn du willst.',
+        'Una compatta da tasca con sensore da un pollice e obiettivo luminoso. Meglio del telefono, sta nella stessa tasca. Uno zoom vero, un flash vero e una batteria che dura una giornata fuori. File raw, se li vuoi.'),
+    'Halide Go action camera': ('Caméra daction Halide Go', 'Halide Go Actionkamera', 'Action cam Halide Go'),
+    'A waterproof action camera with 5K video and horizon lock. Waterproof to ten metres without a case. Horizon lock keeps the video level on a bike or a board.': (
+        "Une caméra d'action étanche, vidéo 5K et verrouillage d'horizon. Étanche à dix mètres sans caisson. Le verrouillage d'horizon garde l'image droite sur un vélo ou une planche.",
+        'Eine wasserdichte Actionkamera mit 5K-Video und Horizontstabilisierung. Wasserdicht bis zehn Meter ohne Gehäuse. Die Horizontstabilisierung hält das Bild auf Rad oder Board gerade.',
+        "Una action cam impermeabile, con video 5K e blocco dell'orizzonte. Impermeabile fino a dieci metri senza custodia. Il blocco dell'orizzonte tiene dritto il video in bici o sulla tavola."),
+    'Halide carbon travel tripod': ('Trépied de voyage en carbone Halide', 'Halide Carbon-Reisestativ', 'Treppiede da viaggio in carbonio Halide'),
+    'A carbon fibre tripod that folds to 40 cm and holds 10 kg. The legs fold back over the head to fit a daypack. The centre column reverses for low shots.': (
+        "Un trépied en fibre de carbone qui se plie à 40 cm et porte 10 kg. Les jambes se replient sur la rotule pour tenir dans un sac à dos. La colonne centrale s'inverse pour les prises au ras du sol.",
+        'Ein Carbonstativ, das auf 40 cm zusammenfaltet und 10 kg trägt. Die Beine klappen über den Kopf, damit es in den Tagesrucksack passt. Die Mittelsäule lässt sich für bodennahe Aufnahmen umdrehen.',
+        'Un treppiede in fibra di carbonio che si chiude a 40 cm e regge 10 kg. Le gambe si ripiegano sopra la testa per stare in uno zaino. La colonna centrale si inverte per gli scatti bassi.'),
+    'Halide sling bag': ('Sacoche Halide', 'Halide Slingtasche', 'Marsupio Halide'),
+    'A six-litre sling for a body and two lenses, with a weather flap. The camera comes out with one hand, and the flap keeps rain out. The strap swaps sides for left-handers.': (
+        "Une sacoche de six litres pour un boîtier et deux objectifs, avec un rabat anti-intempéries. L'appareil sort d'une main, et le rabat arrête la pluie. La sangle se change de côté pour les gauchers.",
+        'Eine Sechs-Liter-Slingtasche für ein Gehäuse und zwei Objektive, mit Wetterlasche. Die Kamera kommt mit einer Hand heraus, und die Lasche hält Regen ab. Der Gurt lässt sich für Linkshänder umsetzen.',
+        "Un marsupio da sei litri per un corpo e due obiettivi, con patta antipioggia. La macchina esce con una mano e la patta tiene fuori la pioggia. La tracolla si sposta di lato per i mancini."),
+    'Voltline SD card': ('Carte SD Voltline', 'Voltline SD-Karte', 'Scheda SD Voltline'),
+    'A V90 SD card for 8K video and fast bursts. Two hundred and fifty-six gigabytes with sustained writes for 8K video. Rated for ten thousand insertions.': (
+        "Une carte SD V90 pour la vidéo 8K et les rafales rapides. Deux cent cinquante-six gigaoctets avec un débit d'écriture soutenu pour la 8K. Prévue pour dix mille insertions.",
+        'Eine V90-SD-Karte für 8K-Video und schnelle Serien. Zweihundertsechsundfünfzig Gigabyte mit anhaltender Schreibrate für 8K. Für zehntausend Steckzyklen ausgelegt.',
+        'Una scheda SD V90 per video 8K e raffiche veloci. Duecentocinquantasei gigabyte con scrittura sostenuta per l8K. Prevista per diecimila inserimenti.'),
+    'Orbit Labs smart bulb': ('Ampoule connectée Orbit Labs', 'Orbit Labs Smart-Leuchtmittel', 'Lampadina smart Orbit Labs'),
+    'A colour smart bulb that works over your local network. No account. Set the colour and the schedule from the hub, with no cloud and no account. Works with a normal switch too.': (
+        "Une ampoule connectée en couleur qui fonctionne sur votre réseau local. Sans compte. Réglez la couleur et les horaires depuis le hub, sans nuage et sans compte. Elle marche aussi avec un interrupteur normal.",
+        'Ein farbiges Smart-Leuchtmittel, das über das lokale Netz läuft. Ohne Konto. Farbe und Zeitplan stellst du am Hub ein, ohne Cloud und ohne Konto. Es funktioniert auch mit einem normalen Schalter.',
+        'Una lampadina smart a colori che funziona sulla rete locale. Senza account. Imposti colore e orari dallhub, senza cloud e senza account. Va anche con un interruttore normale.'),
+    'Orbit Labs smart plug': ('Prise connectée Orbit Labs', 'Orbit Labs Smart-Steckdose', 'Presa smart Orbit Labs'),
+    'A compact plug with energy metering and a physical button. It reports watts and kilowatt hours, and the button works when the network is down. Rated for a heater.': (
+        "Une prise compacte avec mesure de consommation et bouton physique. Elle indique les watts et les kilowattheures, et le bouton fonctionne même réseau coupé. Prévue pour un radiateur.",
+        'Eine kompakte Steckdose mit Energiemessung und physischem Knopf. Sie meldet Watt und Kilowattstunden, und der Knopf funktioniert auch ohne Netz. Für einen Heizlüfter ausgelegt.',
+        'Una presa compatta con misura dei consumi e pulsante fisico. Indica watt e chilowattora, e il pulsante funziona anche con la rete giù. Adatta a una stufa.'),
+    'Nimbus Home speaker': ('Enceinte Nimbus Home', 'Nimbus Home Lautsprecher', 'Speaker Nimbus Home'),
+    'A room-filling speaker with local voice control and a mute switch that cuts power to the mics. Voice commands are processed in the room, not on a server. The mute switch is a physical cut, not a request.': (
+        "Une enceinte qui remplit la pièce, avec commande vocale locale et un interrupteur qui coupe l'alimentation des micros. Les commandes vocales sont traitées dans la pièce, pas sur un serveur. L'interrupteur coupe vraiment, ce n'est pas une demande.",
+        'Ein raumfüllender Lautsprecher mit lokaler Sprachsteuerung und einem Schalter, der die Mikrofone vom Strom trennt. Sprachbefehle werden im Raum verarbeitet, nicht auf einem Server. Der Schalter trennt wirklich, er bittet nicht darum.',
+        "Uno speaker che riempie la stanza, con comandi vocali locali e un interruttore che toglie corrente ai microfoni. I comandi vocali si elaborano nella stanza, non su un server. L'interruttore stacca davvero, non è una richiesta."),
+    'Orbit Labs video doorbell': ('Sonnette vidéo Orbit Labs', 'Orbit Labs Video-Türklingel', 'Videocitofono Orbit Labs'),
+    'A wired doorbell camera that records to a card in your home, not a cloud. Wired to the existing chime, recording to a card behind the unit. Notifications come from your own hub.': (
+        "Une sonnette caméra filaire qui enregistre sur une carte chez vous, pas dans un nuage. Raccordée au carillon existant, elle enregistre sur une carte placée derrière l'appareil. Les notifications viennent de votre propre hub.",
+        'Eine kabelgebundene Türklingelkamera, die auf eine Karte bei dir zu Hause aufzeichnet, nicht in eine Cloud. An den vorhandenen Gong angeschlossen, mit Aufzeichnung auf eine Karte hinter dem Gerät. Die Benachrichtigungen kommen von deinem eigenen Hub.',
+        "Un videocitofono cablato che registra su una scheda in casa tua, non su un cloud. Collegato al campanello esistente, registra su una scheda dietro l'unità. Le notifiche arrivano dal tuo hub."),
+    'Orbit Labs thermostat': ('Thermostat Orbit Labs', 'Orbit Labs Thermostat', 'Termostato Orbit Labs'),
+    'A learning thermostat with a rotary dial and an e-paper display. Turn the dial to set the temperature and it learns the rest. Runs on the hub, no cloud.': (
+        "Un thermostat qui apprend, avec une molette et un écran e-paper. Tournez la molette pour régler la température, il apprend le reste. Il tourne sur le hub, sans nuage.",
+        'Ein lernendes Thermostat mit Drehrad und E-Paper-Display. Am Rad die Temperatur einstellen, den Rest lernt es. Es läuft am Hub, ohne Cloud.',
+        'Un termostato che impara, con manopola e display e-paper. Giri la manopola per impostare la temperatura e il resto lo impara. Gira sullhub, senza cloud.'),
+    'Orbit Labs sensor kit': ('Kit de capteurs Orbit Labs', 'Orbit Labs Sensor-Set', 'Kit sensori Orbit Labs'),
+    'Four door sensors and two motion sensors, batteries included. Stick the sensors on doors and shelves, pair them with the hub, and the batteries last two years.': (
+        "Quatre capteurs d'ouverture et deux détecteurs de mouvement, piles comprises. Collez les capteurs sur les portes et les étagères, appairez-les au hub, et les piles durent deux ans.",
+        'Vier Türsensoren und zwei Bewegungsmelder, Batterien inklusive. Die Sensoren an Türen und Regale kleben, mit dem Hub koppeln, und die Batterien halten zwei Jahre.',
+        "Quattro sensori per le porte e due di movimento, batterie incluse. Attacchi i sensori a porte e scaffali, li abbini all'hub e le batterie durano due anni."),
+    'Orbit Labs home hub': ('Hub domestique Orbit Labs', 'Orbit Labs Home Hub', 'Hub domestico Orbit Labs'),
+    'The hub that runs your home on your own network, with Zigbee and Thread. It speaks Zigbee, Thread and Wi-Fi, stores its data on the device, and updates when you say so.': (
+        "Le hub qui pilote votre maison sur votre propre réseau, en Zigbee et Thread. Il parle Zigbee, Thread et Wi-Fi, garde ses données sur l'appareil et se met à jour quand vous le décidez.",
+        'Der Hub, der dein Zuhause im eigenen Netz steuert, mit Zigbee und Thread. Er spricht Zigbee, Thread und WLAN, speichert seine Daten auf dem Gerät und aktualisiert, wenn du es sagst.',
+        "L'hub che gestisce la casa sulla tua rete, con Zigbee e Thread. Parla Zigbee, Thread e Wi-Fi, tiene i dati sul dispositivo e si aggiorna quando lo dici tu."),
+    'Voltline Watch': ('Montre Voltline', 'Voltline Watch', 'Orologio Voltline'),
+    'A smart watch with a sapphire glass face, a week of battery and offline maps. Heart rate, sleep, GPS routes and offline maps, on a battery that lasts seven days. The face is sapphire.': (
+        "Une montre connectée à verre saphir, une semaine d'autonomie et des cartes hors ligne. Fréquence cardiaque, sommeil, traces GPS et cartes hors ligne, sur une batterie qui tient sept jours. Le verre est en saphir.",
+        'Eine Smartwatch mit Saphirglas, einer Woche Akku und Offline-Karten. Puls, Schlaf, GPS-Routen und Offline-Karten, auf einem Akku, der sieben Tage hält. Das Glas ist Saphir.',
+        "Uno smartwatch con vetro zaffiro, una settimana di autonomia e mappe offline. Battito, sonno, tracce GPS e mappe offline, su una batteria che dura sette giorni. Il vetro è zaffiro."),
+    'Voltline Band': ('Bracelet Voltline', 'Voltline Band', 'Braccialetto Voltline'),
+    'A slim tracker with sleep, heart rate and two weeks of battery. It weighs fourteen grams and tracks sleep, steps and heart rate for two weeks between charges. The strap comes in three colours.': (
+        "Un traceur fin qui suit le sommeil, la fréquence cardiaque, avec deux semaines d'autonomie. Il pèse quatorze grammes et suit le sommeil, les pas et le rythme cardiaque pendant deux semaines entre deux charges. Le bracelet existe en trois couleurs.",
+        'Ein schmaler Tracker für Schlaf, Puls und zwei Wochen Akku. Er wiegt vierzehn Gramm und zeichnet Schlaf, Schritte und Puls zwei Wochen lang auf. Das Armband gibt es in drei Farben.',
+        'Un tracker sottile che segue sonno e battito, con due settimane di autonomia. Pesa quattordici grammi e registra sonno, passi e battito per due settimane tra una carica e l altra. Il cinturino è in tre colori.'),
+    'Voltline Ring': ('Bague Voltline', 'Voltline Ring', 'Anello Voltline'),
+    'A titanium sleep ring that lasts a week, no subscription. Sleep stages, resting heart rate and temperature from a ring you forget. Charge once a week.': (
+        "Une bague de sommeil en titane qui tient une semaine, sans abonnement. Phases de sommeil, fréquence cardiaque au repos et température, depuis une bague qu'on oublie. Une charge par semaine.",
+        'Ein Schlafring aus Titan, der eine Woche hält, ohne Abo. Schlafphasen, Ruhepuls und Temperatur von einem Ring, den man vergisst. Einmal pro Woche laden.',
+        'Un anello per il sonno in titanio che dura una settimana, senza abbonamento. Fasi del sonno, battito a riposo e temperatura da un anello che dimentichi. Si carica una volta a settimana.'),
+    'Voltline leather watch strap': ('Bracelet de montre en cuir Voltline', 'Voltline Leder-Uhrenarmband', 'Cinturino di pelle Voltline'),
+    'A vegetable-tanned leather strap with a quick-release pin. Full-grain leather that softens in a week. The quick-release pin swaps it in seconds.': (
+        "Un bracelet en cuir à tannage végétal avec une barrette à ressort rapide. Un cuir pleine fleur qui s'assouplit en une semaine. La barrette rapide le change en quelques secondes.",
+        'Ein pflanzlich gegerbtes Lederarmband mit Schnellwechselsteg. Vollnarbenleder, das in einer Woche weich wird. Der Schnellwechselsteg tauscht es in Sekunden.',
+        'Un cinturino in pelle conciata al vegetale con barretta a sgancio rapido. Pelle pieno fiore che si ammorbidisce in una settimana. La barretta lo cambia in pochi secondi.'),
+    'Voltline 65 W charger': ('Chargeur Voltline 65 W', 'Voltline 65-W-Ladegerät', 'Caricatore Voltline 65 W'),
+    'A GaN charger with two USB-C ports, small enough to lose. Charges a laptop and a phone at once, from a plug the size of a matchbox. Foldable prongs.': (
+        "Un chargeur GaN à deux ports USB-C, assez petit pour se perdre. Il charge un portable et un téléphone en même temps, depuis une prise de la taille d'une boîte d'allumettes. Broches pliables.",
+        'Ein GaN-Ladegerät mit zwei USB-C-Anschlüssen, klein genug zum Verlieren. Es lädt Notebook und Handy gleichzeitig, aus einem Stecker in Streichholzschachtelgröße. Klappbare Stifte.',
+        "Un caricatore GaN con due porte USB-C, piccolo abbastanza da perdersi. Carica insieme un portatile e un telefono, da una spina grande come una scatola di fiammiferi. Spinotti pieghevoli."),
+    'Voltline braided USB-C cable': ('Câble USB-C tressé Voltline', 'Voltline USB-C-Kabel, geflochten', 'Cavo USB-C intrecciato Voltline'),
+    'A 2 m braided cable for 240 W charging and 40 Gbps data. Two metres of braided nylon, rated for the fastest laptops and displays. The connectors are aluminium.': (
+        "Un câble tressé de 2 m pour une charge de 240 W et 40 Gbit/s de données. Deux mètres de nylon tressé, prévus pour les portables et les écrans les plus rapides. Les connecteurs sont en aluminium.",
+        'Ein 2-m-Geflechtkabel für 240 W Ladeleistung und 40 Gbit/s Daten. Zwei Meter geflochtenes Nylon, ausgelegt für die schnellsten Notebooks und Displays. Die Stecker sind aus Aluminium.',
+        'Un cavo intrecciato da 2 m per ricarica a 240 W e dati a 40 Gbps. Due metri di nylon intrecciato, adatti ai portatili e agli schermi più veloci. I connettori sono in alluminio.'),
+    'Voltline 20000 power bank': ('Batterie externe Voltline 20000', 'Voltline 20000 Powerbank', 'Power bank Voltline 20000'),
+    'A 20000 mAh power bank with 65 W output and a display. Enough for a laptop and two phone charges. The display shows the percentage, not a row of dots.': (
+        "Une batterie externe de 20000 mAh, sortie 65 W et écran. De quoi charger un portable et deux téléphones. L'écran affiche le pourcentage, pas une rangée de points.",
+        'Eine 20000-mAh-Powerbank mit 65 W Ausgang und Display. Genug für ein Notebook und zwei Handyladungen. Das Display zeigt Prozent, keine Punktreihe.',
+        'Un power bank da 20000 mAh, uscita da 65 W e display. Basta per un portatile e due ricariche del telefono. Il display mostra la percentuale, non una fila di puntini.'),
+    'Tessera laptop stand': ('Support pour portable Tessera', 'Tessera Laptopständer', 'Supporto per portatile Tessera'),
+    'An aluminium stand that raises the screen to eye height and folds flat. It lifts the screen to eye height for a straight neck and folds flat for a bag. Fits laptops up to 16 inches.': (
+        "Un support en aluminium qui met l'écran à hauteur des yeux et se plie à plat. Il relève l'écran pour garder la nuque droite et se range à plat dans un sac. Il accepte les portables jusqu'à 16 pouces.",
+        'Ein Aluminiumständer, der den Bildschirm auf Augenhöhe hebt und flach zusammenklappt. Er hebt das Display auf Augenhöhe für einen geraden Nacken und passt flach in die Tasche. Für Notebooks bis 16 Zoll.',
+        "Un supporto in alluminio che porta lo schermo all'altezza degli occhi e si chiude piatto. Alza lo schermo per tenere il collo dritto e si ripiega per la borsa. Adatto a portatili fino a 16 pollici."),
+    'Orbit Labs desk mat': ('Sous-main Orbit Labs', 'Orbit Labs Schreibtischunterlage', 'Tappetino da scrivania Orbit Labs'),
+    'A felt and cork desk mat, 90 by 40 cm. Wool felt on top, cork underneath, no slipping. The keyboard and the mouse both fit with room to spare.': (
+        "Un sous-main en feutre et liège, 90 sur 40 cm. Feutre de laine dessus, liège dessous, aucun glissement. Le clavier et la souris tiennent tous les deux avec de la marge.",
+        'Eine Schreibtischunterlage aus Filz und Kork, 90 mal 40 cm. Wollfilz oben, Kork unten, kein Verrutschen. Tastatur und Maus passen beide mit Platz drumherum.',
+        'Un tappetino da scrivania in feltro e sughero, 90 per 40 cm. Feltro di lana sopra, sughero sotto, non scivola. Tastiera e mouse ci stanno entrambi con spazio in più.'),
+    'Tessera phone case': ('Coque de téléphone Tessera', 'Tessera Handyhülle', 'Cover per telefono Tessera'),
+    'A slim case in recycled polymer with a microfibre lining. Slim enough to keep the phone slim, grippy enough to survive a wet hand. Buttons stay clicky.': (
+        "Une coque fine en polymère recyclé, doublée de microfibre. Assez fine pour garder le téléphone fin, assez adhérente pour résister à une main mouillée. Les boutons restent francs.",
+        'Eine schmale Hülle aus recyceltem Polymer mit Mikrofaserfutter. Schmal genug, damit das Handy schmal bleibt, griffig genug für eine nasse Hand. Die Tasten bleiben knackig.',
+        'Una cover sottile in polimero riciclato, foderata in microfibra. Sottile quanto basta per non ingrossare il telefono, ruvida quanto basta per una mano bagnata. I tasti restano precisi.'),
+    'Tessera screen cleaning kit': ('Kit de nettoyage écran Tessera', 'Tessera Bildschirm-Reinigungsset', 'Kit per pulire gli schermi Tessera'),
+    'A spray, two cloths and a brush, for screens and lenses. Alcohol free, safe for coatings and lenses. One bottle cleans a year of screens.': (
+        "Un spray, deux chiffons et une brosse, pour les écrans et les objectifs. Sans alcool, sans danger pour les traitements et les lentilles. Un flacon nettoie une année d'écrans.",
+        'Ein Spray, zwei Tücher und ein Pinsel, für Bildschirme und Objektive. Alkoholfrei, unbedenklich für Beschichtungen und Linsen. Eine Flasche reinigt ein Jahr lang Bildschirme.',
+        'Uno spray, due panni e un pennello, per schermi e obiettivi. Senza alcol, sicuro su trattamenti e lenti. Un flacone pulisce un anno di schermi.'),
+    'Home office kit': ('Kit bureau à domicile', 'Homeoffice-Set', 'Kit per ufficio in casa'),
+    'Keyboard, mouse, laptop stand and desk mat in one order. Everything for a clean desk in one box, at a saving. Keyboard, mouse, stand and mat.': (
+        "Clavier, souris, support pour portable et sous-main en une commande. Tout pour un bureau net dans une seule boîte, à prix réduit. Clavier, souris, support et sous-main.",
+        'Tastatur, Maus, Laptopständer und Schreibtischunterlage in einer Bestellung. Alles für einen aufgeräumten Schreibtisch in einer Box, mit Ersparnis. Tastatur, Maus, Ständer und Unterlage.',
+        'Tastiera, mouse, supporto per portatile e tappetino in un solo ordine. Tutto per una scrivania in ordine in una scatola, con un risparmio. Tastiera, mouse, supporto e tappetino.'),
+    'Travel charging kit': ('Kit de charge pour le voyage', 'Reise-Ladeset', 'Kit di ricarica da viaggio'),
+    'Charger, cable and power bank, packed in a zip pouch. Charger, cable and power bank in a pouch that fits a jacket pocket. Enough for a week away.': (
+        "Chargeur, câble et batterie externe, dans une pochette zippée. Chargeur, câble et batterie dans une pochette qui tient dans une poche de veste. De quoi tenir une semaine.",
+        'Ladegerät, Kabel und Powerbank in einer Reißverschlusstasche. Ladegerät, Kabel und Powerbank in einer Tasche, die in die Jackentasche passt. Genug für eine Woche unterwegs.',
+        'Caricatore, cavo e power bank in una pochette con zip. Caricatore, cavo e power bank in una custodia che sta in tasca. Bastano per una settimana fuori.'),
+}
 
 # Every table is keyed the same way, so the builder reads one merged map per language.
 LANGUAGES = ('fr', 'de', 'it')

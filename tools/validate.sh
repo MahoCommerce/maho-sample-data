@@ -18,3 +18,23 @@ rm -f "$DB"
 ./maho sample-data:install --path "$HERE" --skip-reindex
 ./maho index:reindex:all
 ./maho cache:flush
+
+# The store view rows of packs/store/products.csv carry no sku: they belong to the last sku the
+# importer read, and _saveProducts forgets that sku at the start of every 100 row bunch. The build
+# keeps every product to the same row count so a bunch never cuts one in half. If that ever breaks,
+# products lose their translation silently, so count the gaps here instead.
+echo "checking the store view rows of every product"
+gaps=$(sqlite3 "$DB" "
+  with name as (select attribute_id from eav_attribute where attribute_code='name'
+    and entity_type_id=(select entity_type_id from eav_entity_type where entity_type_code='catalog_product')),
+  view as (select store_id from core_store where code in ('fr','de','it'))
+  select count(*) from catalog_product_entity e, view v
+  where exists (select 1 from catalog_product_entity_varchar d
+                where d.entity_id=e.entity_id and d.store_id=0 and d.attribute_id=(select attribute_id from name))
+    and not exists (select 1 from catalog_product_entity_varchar s
+                where s.entity_id=e.entity_id and s.store_id=v.store_id and s.attribute_id=(select attribute_id from name));")
+if [ "$gaps" != "0" ]; then
+  echo "FAILED: $gaps product and store view pairs have no store scoped name" >&2
+  exit 1
+fi
+echo "every product has a name on every store view"

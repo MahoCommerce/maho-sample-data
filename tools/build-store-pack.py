@@ -108,26 +108,74 @@ def categories(codes):
     return out
 
 
+# The eight attributes Maho requires on a default scope row of a file that carries their columns
+# (Mage_ImportExport_Model_Import_Entity_Product_Type_Abstract::isRowValid). The anchor row repeats
+# them from the industry pack, unchanged.
+REQUIRED = ['name', 'price', 'status', 'visibility', 'tax_class_id', 'weight', 'description', 'short_description']
+# Rows per product. A store scoped row carries no sku and belongs to the last sku the importer read,
+# but _saveProducts forgets that sku at the start of every bunch and drops the row without an error.
+# A bunch is exactly 100 rows, so every product must take the same number of rows, and that number
+# must divide 100. Five rows do: the anchor, two category slots and one row per translated store view.
+ROWS_PER_PRODUCT = 5
+CATEGORY_SLOTS = ROWS_PER_PRODUCT - 1 - len(STORE_VIEWS[1:])
+
+
+def option_labels():
+    """English option label to the label of each store view, for the value in a variant name."""
+    out = {}
+    for r in read(os.path.join(PACKS, '_shared', 'attribute_options.csv')):
+        if r.get('store_code', '') != '':
+            out.setdefault(r['label_admin'], {})[r['store_code']] = r['label']
+    return out
+
+
+def product_name(view, english, labels, names):
+    """A variant is named after its parent plus an option value, so both halves translate."""
+    if english in TABLES[view]:
+        return TABLES[view][english]
+    for label, per_view in labels.items():
+        if english.endswith(' ' + label) and english[:-len(label) - 1] in TABLES[view]:
+            return TABLES[view][english[:-len(label) - 1]] + ' ' + per_view.get(view, label)
+    if english not in names:
+        MISSING.add(english)
+    return english
+
+
 def products(codes):
-    """One row per product that adds the store website and the industry branch of its categories."""
+    """Five rows per product: the English anchor, the category slots, then one row per store view."""
+    labels = option_labels()
+    base_names = set()
     rows = []
-    for code, name in codes:
-        sku = None
-        paths = {}
+    for code, industry in codes:
+        order, data, sku = [], {}, None
         for r in read(os.path.join(PACKS, code, 'products.csv')):
             if r['sku'] != '':
                 sku = r['sku']
-                paths.setdefault(sku, [])
+                order.append(sku)
+                data[sku] = dict(row=r, cats=[])
             if sku is None or r.get('_store', '') != '':
                 continue
             if r['_category'] != '':
-                paths[sku].append(f"{name}/{r['_category']}")
-        for sku, cats in paths.items():
-            first = True
-            for cat in cats or ['']:
-                rows.append({'sku': sku if first else '', '_product_websites': WEBSITE if first else '',
-                             '_root_category': ROOT_CATEGORY if cat else '', '_category': cat})
-                first = False
+                data[sku]['cats'].append(f"{industry}/{r['_category']}")
+        for sku in order:
+            source, cats = data[sku]['row'], data[sku]['cats']
+            anchor = {'sku': sku, '_product_websites': WEBSITE}
+            for column in REQUIRED:
+                anchor[column] = source[column]
+            if cats:
+                anchor['_root_category'] = ROOT_CATEGORY
+                anchor['_category'] = cats[0]
+            rows.append(anchor)
+            # The category slots keep the row count even. An empty one carries no scope and is ignored.
+            for slot in range(CATEGORY_SLOTS):
+                cat = cats[slot + 1] if len(cats) > slot + 1 else ''
+                rows.append({'_root_category': ROOT_CATEGORY if cat else '', '_category': cat})
+            for view in STORE_VIEWS[1:]:
+                description = say(view, source['description'])
+                rows.append({'_store': view,
+                             'name': product_name(view, source['name'], labels, base_names),
+                             'description': description,
+                             'short_description': description.split('. ')[0].rstrip('.') + '.'})
     return rows
 
 
@@ -732,7 +780,10 @@ def main():
     codes = industries()
     write(os.path.join(STORE, 'categories.csv'), categories(codes),
           ['root', 'path', 'store_code', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
-    write(os.path.join(STORE, 'products.csv'), products(codes), ['sku', '_product_websites', '_root_category', '_category'])
+    rows = products(codes)
+    assert len(rows) % ROWS_PER_PRODUCT == 0, 'the product rows are no longer a whole number of products'
+    write(os.path.join(STORE, 'products.csv'), rows,
+          ['sku', '_product_websites', '_root_category', '_category', '_store'] + REQUIRED)
     write(os.path.join(STORE, 'reviews.csv'), reviews(codes), ['sku', 'store_code', 'nickname', 'title', 'detail', 'rating', 'created_at'])
 
     english = pages(STORE_CODE, copy_for(STORE_CODE, codes))
