@@ -1,5 +1,5 @@
 CODE = 'home'; ROOT = {'en': 'Home', 'fr': 'Maison', 'de': 'Wohnen', 'it': 'Casa'}; STORE_NAME = 'Hearthstone'; ATTRIBUTE_SET = 'Home'; WEIGHT = 3
-ATTRIBUTE_COLUMNS = ['room', 'material', 'color', 'dimensions']
+ATTRIBUTE_COLUMNS = ['room', 'material', 'color', 'dimensions', 'size']
 ATTRIBUTES = [
     dict(code='room', label='Room', input='multiselect', scope='global', filterable=1, filterable_in_search=1, visible_on_front=1, sets='Home', group='General', sort_order=50),
     dict(code='dimensions', label='Dimensions', input='text', scope='global', visible_on_front=1, comparable=1, sets='Home|Garden', group='General', sort_order=60),

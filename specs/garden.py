@@ -1,5 +1,5 @@
 CODE = 'garden'; ROOT = {'en': 'Garden', 'fr': 'Jardin', 'de': 'Garten', 'it': 'Giardino'}; STORE_NAME = 'Greenhaven'; ATTRIBUTE_SET = 'Garden'; WEIGHT = 2
-ATTRIBUTE_COLUMNS = ['light', 'hardiness', 'pot_size', 'material', 'dimensions']
+ATTRIBUTE_COLUMNS = ['light', 'hardiness', 'pot_size', 'material', 'dimensions', 'color', 'size']
 ATTRIBUTES = [
     dict(code='light', label='Light', input='select', scope='global', filterable=1, filterable_in_search=1, visible_on_front=1, used_in_product_listing=1, sets='Garden', group='General', sort_order=50),
     dict(code='hardiness', label='Hardiness', input='select', scope='global', filterable=1, visible_on_front=1, comparable=1, sets='Garden', group='General', sort_order=60),

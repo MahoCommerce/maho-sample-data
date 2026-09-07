@@ -15,7 +15,7 @@ rm -f "$DB"
   --db_engine sqlite --db_name "$DB" --url http://localhost:8901/ --secure_base_url http://localhost:8901/ \
   --use_secure 0 --use_secure_admin 0 --admin_lastname admin --admin_firstname admin --admin_email admin@example.com \
   --admin_username admin --admin_password validate123456 --sample_data "$HERE"
-./maho sample-data:install --path "$HERE" --skip-reindex
+./maho import:sample-data --path "$HERE" --skip-reindex
 ./maho index:reindex:all
 ./maho cache:flush
 
@@ -38,3 +38,40 @@ if [ "$gaps" != "0" ]; then
   exit 1
 fi
 echo "every product has a name on every store view"
+
+# A row that carries no sku belongs to the last sku the importer read, and the importer forgets
+# that sku at the start of every 100 row bunch. tools/build-pack.py keeps each product inside one
+# bunch, but if that ever breaks a configurable silently loses a variant, so count them here.
+echo "checking the variants and the members of every product"
+python3 - "$HERE" "$DB" <<'PY'
+import csv, glob, os, sqlite3, sys
+
+here, db = sys.argv[1], sys.argv[2]
+VARIANT = 'select c.sku from catalog_product_super_link l' \
+    ' join catalog_product_entity p on p.entity_id = l.parent_id' \
+    ' join catalog_product_entity c on c.entity_id = l.product_id where p.sku = ?'
+MEMBER = 'select c.sku from catalog_product_link k' \
+    ' join catalog_product_entity p on p.entity_id = k.product_id' \
+    ' join catalog_product_entity c on c.entity_id = k.linked_product_id' \
+    ' where k.link_type_id = 3 and p.sku = ?'
+
+wanted = {}
+for path in sorted(glob.glob(os.path.join(here, 'packs', '*', 'products.csv'))):
+    sku = None
+    for row in csv.DictReader(open(path)):
+        sku = row['sku'] or sku
+        for column, query in (('_super_products_sku', VARIANT), ('_associated_sku', MEMBER)):
+            if row.get(column):
+                wanted.setdefault((sku, query), set()).add(row[column])
+
+db = sqlite3.connect(db)
+gaps = []
+for (sku, query), children in sorted(wanted.items()):
+    have = {r[0] for r in db.execute(query, (sku,))}
+    if children - have:
+        gaps.append(f'{sku} is missing {", ".join(sorted(children - have))}')
+if gaps:
+    print('FAILED: ' + '\n        '.join(gaps), file=sys.stderr)
+    raise SystemExit(1)
+print(f'every one of the {len(wanted)} configurable and grouped products kept all its children')
+PY

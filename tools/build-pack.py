@@ -40,10 +40,56 @@ def load_spec(path):
     return module
 
 def write_csv(path, rows, header):
+    # A value with no column of its own would be dropped without a word, which is how the size of
+    # the gloves and the colour of the pots went missing. Say so instead.
+    lost = sorted({k for r in rows for k, v in r.items() if k not in header and v not in ('', None)})
+    if lost:
+        raise SystemExit(f'{path}: no column for {lost}, so those values would be lost')
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=header, lineterminator='\n', extrasaction='ignore')
         w.writeheader(); w.writerows(rows)
+
+# Mage_ImportExport reads a product file in bunches of this many rows (importexport/import/bunch_size)
+# and forgets the current sku at the start of every bunch.
+BUNCH = 100
+
+def bunch_safe(rows):
+    """Order the products so that no product is cut in half by an import bunch.
+
+    A row that carries no sku belongs to the last sku the importer read: an extra category, a child
+    of a configurable, a member of a group. The importer drops those rows without a word when a
+    bunch boundary falls between them and the row that names the sku, and the product then loses a
+    category, a variant or a member. So keep the file order, and when a product does not fit in what
+    is left of a bunch, bring forward the plain products that do.
+    """
+    groups, current = [], []
+    for row in rows:
+        if row.get('sku') and current:
+            groups.append(current); current = []
+        current.append(row)
+    if current:
+        groups.append(current)
+    # A single row with no reference to another sku can move forward without breaking anything.
+    movable = lambda g: len(g) == 1 and not g[0].get('_associated_sku') and not g[0].get('_super_products_sku')
+    out = []
+    while groups:
+        space = BUNCH - len(out) % BUNCH
+        pick = 0 if len(groups[0]) <= space else next((i for i, g in enumerate(groups) if movable(g) and len(g) <= space), None)
+        if pick is None:
+            raise SystemExit(f'no product fits the {space} rows left of an import bunch')
+        out += groups.pop(pick)
+    return out
+
+def attribute_columns(S):
+    """The attribute columns of a pack: the ones the spec lists, then any axis or attribute value a
+    product carries that the spec forgot. Every value a product sets needs a column to sit in."""
+    columns = list(S.ATTRIBUTE_COLUMNS)
+    for p in S.PRODUCTS:
+        for code in ([p['axis']] if p.get('axis') else []) + list(p.get('attributes', {})):
+            if code not in columns:
+                columns.append(code)
+    return columns
 
 def put(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -132,7 +178,7 @@ def home_html(S):
     <div data-type="maho-column">
         <div class="card card-border">
             <div class="card-body">
-                <p><span class="badge badge-error">{S.PROMO['badge']}</span></p>
+                <p><span class="badge {S.PROMO.get('badge_class', 'badge-error')}">{S.PROMO['badge']}</span></p>
                 <h2 class="card-title">{S.PROMO['title']}</h2>
                 <p>{S.PROMO['text']}</p>
                 <p><a class="btn btn-primary btn-wide" href="{{{{store url="{S.PROMO['path']}"}}}}">{S.PROMO['button']}</a></p>
@@ -281,7 +327,7 @@ def build(spec_path):
              dict(identifier='no-route', stores=c, title='404 Not Found', root_template='one_column', content_file='no-route.html', is_active=1, is_home=0)]
     write_csv(f'{root}/cms_pages.csv', pages, ['identifier', 'stores', 'title', 'root_template', 'content_file', 'is_active', 'is_home', 'meta_description'])
     # products
-    cols = ['sku', '_attribute_set', '_type', '_product_websites', '_root_category', '_category', 'name', 'price', 'special_price', 'status', 'visibility', 'tax_class_id', 'weight', 'description', 'short_description', 'qty', 'is_in_stock'] + S.ATTRIBUTE_COLUMNS + ['_media_image', 'image', 'small_image', 'thumbnail', 'url_key', '_super_products_sku', '_super_attribute_code', '_super_attribute_option', '_associated_sku', '_associated_default_qty', '_associated_position']
+    cols = ['sku', '_attribute_set', '_type', '_product_websites', '_root_category', '_category', 'name', 'price', 'special_price', 'status', 'visibility', 'tax_class_id', 'weight', 'description', 'short_description', 'qty', 'is_in_stock'] + attribute_columns(S) + ['_media_image', 'image', 'small_image', 'thumbnail', 'url_key', '_super_products_sku', '_super_attribute_code', '_super_attribute_option', '_associated_sku', '_associated_default_qty', '_associated_position']
     rows, images, reviews = [], [], []
     def base(sku, name, price, vis, desc, short, attrs, img, urlkey, ptype='simple'):
         r = dict(sku=sku, _attribute_set=S.ATTRIBUTE_SET, _type=ptype, _product_websites=c, _root_category=S.ROOT, name=name, price=price, status=1, visibility=vis,
@@ -333,7 +379,7 @@ def build(spec_path):
             rows.append({'_super_products_sku': csku, '_super_attribute_code': axis, '_super_attribute_option': v})
         for cat in cats_[1:]:
             rows.append({'_category': cat, '_root_category': S.ROOT})
-    write_csv(f'{root}/products.csv', rows, cols)
+    write_csv(f'{root}/products.csv', bunch_safe(rows), cols)
     names = ['Ada', 'Ben', 'Chloe', 'Dev', 'Elena', 'Femi', 'Greta', 'Hugo', 'Iris', 'Jonas', 'Kira', 'Leo', 'Maya', 'Noor', 'Oscar', 'Priya', 'Quinn', 'Rosa']
     k = 0
     for i, p in enumerate(S.PRODUCTS):

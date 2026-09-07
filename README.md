@@ -52,6 +52,8 @@ A manifest entry carries its own `style` for scene pictures (`SCENE_STYLE` from 
 - Website 1 carries the store views `default`, `fr`, `de` and `it`, and `general/locale/code` sets the locale of each one. The store pack translates the category tree, the product names and texts, the reviews and the pages into the three languages. `STORE_VIEWS` and `COPY` in `tools/build-store-pack.py` hold the store view list and the page copy. The catalog text lives in the spec, inside the entity it belongs to: a name, a description or a review is `{'en': ..., 'fr': ..., 'de': ..., 'it': ...}` and `tables()` in `tools/build-store-pack.py` collects them from the ten specs. `tools/build-pack.py` keeps the English form, so the industry packs stay English. A string with no translation stays in English and the build prints how many are left.
 - The store switcher pill in `design/footer/absolute_footer` stays in English on every store view.
 - Products use the Maho Import/Export layout. `_root_category` on every product row. Children before the configurable parent. One axis per configurable.
+- A row with no `sku` belongs to the last sku the importer read, and the importer forgets that sku at the start of every 100 row bunch (`importexport/import/bunch_size`). A product and the rows that follow it must therefore sit in the same bunch: `bunch_safe()` in `tools/build-pack.py` orders the generated packs that way, and a hand written pack has to keep the same rule or a configurable loses a variant without a word.
+- Every value a product sets needs a column of its own. `attribute_columns()` adds any axis or attribute the spec forgot to list in `ATTRIBUTE_COLUMNS`, and `write_csv` refuses to write a file that would drop a value.
 - Product pictures are cutouts on a transparent ground; the theme paints the tile.
 - Category pictures carry the pack code as a prefix (`food-bakery.webp`), because every pack shares `media/catalog/category/`.
 - Reviews carry one vote on the single rating `Rating` (`packs/_shared/ratings.csv` hides the distro ratings Quality, Value and Price from every store). The product list shows no per-page selector: `catalog/frontend/grid_per_page_values` holds one value.
@@ -63,4 +65,4 @@ A manifest entry carries its own `style` for scene pictures (`SCENE_STYLE` from 
 
 ## Check a change
 
-`tools/validate.sh /path/to/maho` installs a fresh SQLite Maho with this checkout, runs the import a second time, and reindexes. It must pass before a pull request.
+`tools/validate.sh /path/to/maho` installs a fresh SQLite Maho with this checkout, runs the import a second time, and reindexes. It then checks the two things the importer can lose without an error: the store view rows of every product, and the variants and members of every configurable and grouped product. It must pass before a pull request.
