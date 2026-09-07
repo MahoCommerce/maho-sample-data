@@ -1,292 +1,292 @@
 sku,store_code,nickname,title,detail,rating,created_at
 W-LINEN-SHIRT,default,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
-W-LINEN-SHIRT,fr,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
-W-LINEN-SHIRT,de,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
-W-LINEN-SHIRT,it,Ada,Exactly as pictured,"Fits true to size and the fabric feels expensive. Washed twice, no change.",5,2026-01-10 10:00:00
+W-LINEN-SHIRT,fr,Ada,Exactement comme sur la photo,"Taille juste et le tissu fait cher. Lavé deux fois, aucun changement.",5,2026-01-10 10:00:00
+W-LINEN-SHIRT,de,Ada,Genau wie abgebildet,"Fällt normal aus und der Stoff fühlt sich teuer an. Zweimal gewaschen, keine Veränderung.",5,2026-01-10 10:00:00
+W-LINEN-SHIRT,it,Ada,Esattamente come in foto,"Veste come da taglia e il tessuto sembra costoso. Lavato due volte, nessun cambiamento.",5,2026-01-10 10:00:00
 W-WRAP-TOP,default,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
-W-WRAP-TOP,fr,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
-W-WRAP-TOP,de,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
-W-WRAP-TOP,it,Dev,Ties stay put,The wrap does not come loose during the day. Shipping was quick.,4,2026-04-10 10:00:00
+W-WRAP-TOP,fr,Dev,Les liens tiennent,Le cache-cœur ne se défait pas dans la journée. Livraison rapide.,4,2026-04-10 10:00:00
+W-WRAP-TOP,de,Dev,Die Bänder halten,Das Wickelteil geht tagsüber nicht auf. Schneller Versand.,4,2026-04-10 10:00:00
+W-WRAP-TOP,it,Dev,I lacci tengono,L'incrocio non si apre durante il giorno. Spedizione veloce.,4,2026-04-10 10:00:00
 W-WRAP-TOP,default,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
-W-WRAP-TOP,fr,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
-W-WRAP-TOP,de,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
-W-WRAP-TOP,it,Elena,My new favourite,"Comfortable, light and it goes with everything I own.",5,2026-04-11 10:00:00
+W-WRAP-TOP,fr,Elena,Mon nouveau préféré,"Confortable, léger et il va avec tout ce que j'ai.",5,2026-04-11 10:00:00
+W-WRAP-TOP,de,Elena,Mein neuer Liebling,"Bequem, leicht und es passt zu allem, was ich habe.",5,2026-04-11 10:00:00
+W-WRAP-TOP,it,Elena,Il mio nuovo preferito,"Comodo, leggero e sta bene con tutto quello che ho.",5,2026-04-11 10:00:00
 W-STRAIGHT-JEAN,default,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
-W-STRAIGHT-JEAN,fr,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
-W-STRAIGHT-JEAN,de,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
-W-STRAIGHT-JEAN,it,Greta,"Good, not perfect","Nice cut and colour. The sizing runs a little large, so size down.",4,2026-01-10 10:00:00
+W-STRAIGHT-JEAN,fr,Greta,"Bien, sans être parfait","Belle coupe et belle couleur. La taille est un peu grande, prenez en dessous.",4,2026-01-10 10:00:00
+W-STRAIGHT-JEAN,de,Greta,"Gut, nicht perfekt","Schöner Schnitt und schöne Farbe. Fällt etwas groß aus, also eine Nummer kleiner wählen.",4,2026-01-10 10:00:00
+W-STRAIGHT-JEAN,it,Greta,"Buono, non perfetto","Bel taglio e bel colore. La taglia è un po' grande, prendine una in meno.",4,2026-01-10 10:00:00
 W-LINEN-DRESS,default,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
-W-LINEN-DRESS,fr,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
-W-LINEN-DRESS,de,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
-W-LINEN-DRESS,it,Jonas,Bought it for a wedding,Wore it to a summer wedding and got asked about it four times.,5,2026-04-10 10:00:00
+W-LINEN-DRESS,fr,Jonas,Acheté pour un mariage,"Porté à un mariage d'été, on m'a demandé quatre fois où je l'avais trouvé.",5,2026-04-10 10:00:00
+W-LINEN-DRESS,de,Jonas,Für eine Hochzeit gekauft,Bei einer Sommerhochzeit getragen und vier Mal darauf angesprochen worden.,5,2026-04-10 10:00:00
+W-LINEN-DRESS,it,Jonas,Comprato per un matrimonio,Indossato a un matrimonio d'estate e me lo hanno chiesto quattro volte.,5,2026-04-10 10:00:00
 W-LINEN-DRESS,default,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
-W-LINEN-DRESS,fr,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
-W-LINEN-DRESS,de,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
-W-LINEN-DRESS,it,Kira,"Creases, but that is linen",Looks best a little crumpled. Cool on a hot day and dries in an hour.,5,2026-04-11 10:00:00
+W-LINEN-DRESS,fr,Kira,"Il froisse, mais c'est du lin",Il est plus beau un peu froissé. Frais quand il fait chaud et sec en une heure.,5,2026-04-11 10:00:00
+W-LINEN-DRESS,de,Kira,"Es knittert, aber das ist Leinen",Es sieht leicht zerknittert am besten aus. Kühl an heißen Tagen und in einer Stunde trocken.,5,2026-04-11 10:00:00
+W-LINEN-DRESS,it,Kira,"Si stropiccia, ma è lino",Sta meglio un po' spiegazzato. Fresco quando fa caldo e asciuga in un'ora.,5,2026-04-11 10:00:00
 W-PLEAT-SKIRT,default,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
-W-PLEAT-SKIRT,fr,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
-W-PLEAT-SKIRT,de,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
-W-PLEAT-SKIRT,it,Maya,Packed it for three weeks,Came out of the bag ready to wear every time. Would buy again.,5,2026-01-10 10:00:00
+W-PLEAT-SKIRT,fr,Maya,Emporté pendant trois semaines,Il sortait du sac prêt à porter à chaque fois. Je rachèterai.,5,2026-01-10 10:00:00
+W-PLEAT-SKIRT,de,Maya,Drei Wochen im Koffer,Kam jedes Mal tragefertig aus der Tasche. Ich kaufe es wieder.,5,2026-01-10 10:00:00
+W-PLEAT-SKIRT,it,Maya,In valigia per tre settimane,Usciva dalla borsa pronto da indossare ogni volta. Lo ricomprerei.,5,2026-01-10 10:00:00
 M-OXFORD-SHIRT,default,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
-M-OXFORD-SHIRT,fr,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
-M-OXFORD-SHIRT,de,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
-M-OXFORD-SHIRT,it,Ada,Collar holds its shape,"Buttoned down, no curling after a dozen washes. Proper oxford cloth.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,fr,Ada,Le col garde sa forme,"Col boutonné, aucun rebord après une douzaine de lavages. Du vrai tissu oxford.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,de,Ada,Der Kragen hält die Form,"Button-down, keine Wellen nach einem Dutzend Wäschen. Echter Oxford-Stoff.",5,2026-04-10 10:00:00
+M-OXFORD-SHIRT,it,Ada,Il colletto tiene la forma,"Button-down, nessuna arricciatura dopo una dozzina di lavaggi. Vero tessuto oxford.",5,2026-04-10 10:00:00
 M-OXFORD-SHIRT,default,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
-M-OXFORD-SHIRT,fr,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
-M-OXFORD-SHIRT,de,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
-M-OXFORD-SHIRT,it,Ben,Sleeves a touch long,"Good shirt, but the sleeves are long on me. A cuff roll fixes it.",4,2026-04-11 10:00:00
+M-OXFORD-SHIRT,fr,Ben,Manches un peu longues,"Bonne chemise, mais les manches sont longues pour moi. Un revers règle le problème.",4,2026-04-11 10:00:00
+M-OXFORD-SHIRT,de,Ben,Ärmel etwas zu lang,"Gutes Hemd, aber die Ärmel sind mir zu lang. Einmal umschlagen löst das.",4,2026-04-11 10:00:00
+M-OXFORD-SHIRT,it,Ben,Maniche un po lunghe,"Bella camicia, ma le maniche sono lunghe per me. Un risvolto risolve.",4,2026-04-11 10:00:00
 M-CREW-TEE,default,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
-M-CREW-TEE,fr,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
-M-CREW-TEE,de,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
-M-CREW-TEE,it,Dev,Solid basics,"Heavy cotton, no see-through, neck has not stretched. Bought three.",4,2026-01-10 10:00:00
+M-CREW-TEE,fr,Dev,Des basiques solides,"Coton épais, pas transparent, le col n'a pas bougé. J'en ai acheté trois.",4,2026-01-10 10:00:00
+M-CREW-TEE,de,Dev,Solide Basics,"Schwere Baumwolle, nicht durchsichtig, der Ausschnitt ist nicht ausgeleiert. Drei gekauft.",4,2026-01-10 10:00:00
+M-CREW-TEE,it,Dev,Basici solidi,"Cotone pesante, non trasparente, il collo non si è allargato. Ne ho presi tre.",4,2026-01-10 10:00:00
 M-CARDIGAN,default,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
-M-CARDIGAN,fr,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
-M-CARDIGAN,de,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
-M-CARDIGAN,it,Greta,Warm without bulk,Merino at its best. Fits under a jacket and over a shirt.,4,2026-04-10 10:00:00
+M-CARDIGAN,fr,Greta,Chaud sans volume,Du mérinos au meilleur niveau. Il passe sous une veste et sur une chemise.,4,2026-04-10 10:00:00
+M-CARDIGAN,de,Greta,Warm ohne aufzutragen,Merino von seiner besten Seite. Passt unter eine Jacke und über ein Hemd.,4,2026-04-10 10:00:00
+M-CARDIGAN,it,Greta,Caldo senza volume,Merino al meglio. Sta sotto una giacca e sopra una camicia.,4,2026-04-10 10:00:00
 M-CARDIGAN,default,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
-M-CARDIGAN,fr,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
-M-CARDIGAN,de,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
-M-CARDIGAN,it,Hugo,Buttons are horn,"Real horn buttons and a proper placket. Small things, done right.",5,2026-04-11 10:00:00
+M-CARDIGAN,fr,Hugo,Des boutons en corne,"De vrais boutons en corne et une patte de boutonnage soignée. Les détails, bien faits.",5,2026-04-11 10:00:00
+M-CARDIGAN,de,Hugo,Knöpfe aus Horn,"Echte Hornknöpfe und eine ordentliche Knopfleiste. Kleine Dinge, richtig gemacht.",5,2026-04-11 10:00:00
+M-CARDIGAN,it,Hugo,Bottoni in corno,"Bottoni in vero corno e un bel cannoncino. Piccole cose, fatte bene.",5,2026-04-11 10:00:00
 M-SELVEDGE-JEAN,default,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
-M-SELVEDGE-JEAN,fr,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
-M-SELVEDGE-JEAN,de,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
-M-SELVEDGE-JEAN,it,Jonas,Stiff at first,Two weeks of wear and they gave in. Now they fit like a glove.,5,2026-01-10 10:00:00
+M-SELVEDGE-JEAN,fr,Jonas,Rigide au début,Deux semaines de port et ils se sont assouplis. Maintenant ils vont comme un gant.,5,2026-01-10 10:00:00
+M-SELVEDGE-JEAN,de,Jonas,Anfangs steif,Zwei Wochen getragen und sie haben nachgegeben. Jetzt sitzen sie wie angegossen.,5,2026-01-10 10:00:00
+M-SELVEDGE-JEAN,it,Jonas,Rigidi all'inizio,Due settimane di uso e si sono ammorbiditi. Ora calzano a pennello.,5,2026-01-10 10:00:00
 M-LINEN-BLAZER,default,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
-M-LINEN-BLAZER,fr,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
-M-LINEN-BLAZER,de,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
-M-LINEN-BLAZER,it,Maya,Travel blazer,"Rolled it in a suitcase, shook it out, wore it to dinner.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,fr,Maya,La veste de voyage,"Roulée dans une valise, secouée, portée au dîner.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,de,Maya,Der Reiseblazer,"Im Koffer gerollt, ausgeschüttelt, zum Abendessen getragen.",5,2026-04-10 10:00:00
+M-LINEN-BLAZER,it,Maya,La giacca da viaggio,"Arrotolata in valigia, scossa, indossata a cena.",5,2026-04-10 10:00:00
 M-LINEN-BLAZER,default,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
-M-LINEN-BLAZER,fr,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
-M-LINEN-BLAZER,de,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
-M-LINEN-BLAZER,it,Noor,Lining is light,"Half lined, so it breathes. Perfect for a warm office.",4,2026-04-11 10:00:00
+M-LINEN-BLAZER,fr,Noor,Doublure légère,"Demi-doublée, donc elle respire. Parfaite pour un bureau chaud.",4,2026-04-11 10:00:00
+M-LINEN-BLAZER,de,Noor,Leichtes Futter,"Halb gefüttert, also atmet er. Perfekt für ein warmes Büro.",4,2026-04-11 10:00:00
+M-LINEN-BLAZER,it,Noor,Fodera leggera,"Mezza foderata, quindi respira. Perfetta per un ufficio caldo.",4,2026-04-11 10:00:00
 A-ROUND-SUN,default,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
-A-ROUND-SUN,fr,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
-A-ROUND-SUN,de,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
-A-ROUND-SUN,it,Ada,Lenses are dark enough,Proper category three lenses and no distortion at the edges.,5,2026-01-10 10:00:00
+A-ROUND-SUN,fr,Ada,Des verres assez foncés,"De vrais verres de catégorie trois, sans déformation sur les bords.",5,2026-01-10 10:00:00
+A-ROUND-SUN,de,Ada,Die Gläser sind dunkel genug,Echte Gläser der Kategorie drei und keine Verzerrung am Rand.,5,2026-01-10 10:00:00
+A-ROUND-SUN,it,Ada,Lenti abbastanza scure,Vere lenti di categoria tre e nessuna distorsione ai bordi.,5,2026-01-10 10:00:00
 A-READING,default,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
-A-READING,fr,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
-A-READING,de,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
-A-READING,it,Dev,Cheap and cheerful,"Clear lenses, light frame, a spare pair for the car.",4,2026-04-10 10:00:00
+A-READING,fr,Dev,Simple et efficace,"Verres clairs, monture légère, une paire de secours pour la voiture.",4,2026-04-10 10:00:00
+A-READING,de,Dev,Günstig und gut,"Klare Gläser, leichter Rahmen, ein Ersatzpaar fürs Auto.",4,2026-04-10 10:00:00
+A-READING,it,Dev,Economico e allegro,"Lenti chiare, montatura leggera, un paio di scorta per l'auto.",4,2026-04-10 10:00:00
 A-READING,default,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
-A-READING,fr,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
-A-READING,de,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
-A-READING,it,Elena,Case is included,Hard case in the box. Did not expect that at this price.,5,2026-04-11 10:00:00
+A-READING,fr,Elena,L'étui est inclus,Un étui rigide dans la boîte. Je ne m'y attendais pas à ce prix.,5,2026-04-11 10:00:00
+A-READING,de,Elena,Etui ist dabei,Hartschalenetui in der Box. Damit hatte ich zu dem Preis nicht gerechnet.,5,2026-04-11 10:00:00
+A-READING,it,Elena,La custodia è inclusa,Custodia rigida nella scatola. Non me l'aspettavo a questo prezzo.,5,2026-04-11 10:00:00
 A-HOOP-EAR,default,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
-A-HOOP-EAR,fr,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
-A-HOOP-EAR,de,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
-A-HOOP-EAR,it,Greta,Light on the ear,"Hollow hoops, so no drag after a full day.",4,2026-01-10 10:00:00
+A-HOOP-EAR,fr,Greta,Légères à l'oreille,"Des créoles creuses, donc aucune tension après une journée entière.",4,2026-01-10 10:00:00
+A-HOOP-EAR,de,Greta,Leicht am Ohr,"Hohle Creolen, also kein Ziehen nach einem ganzen Tag.",4,2026-01-10 10:00:00
+A-HOOP-EAR,it,Greta,Leggeri all'orecchio,"Cerchi cavi, quindi nessun peso dopo un giorno intero.",4,2026-01-10 10:00:00
 A-CANVAS-SNEAKER,default,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
-A-CANVAS-SNEAKER,fr,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
-A-CANVAS-SNEAKER,de,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
-A-CANVAS-SNEAKER,it,Jonas,Broke in fast,Two days and no rubbing. The rubber sole grips well in the rain.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,fr,Jonas,Vite assouplies,Deux jours et plus aucun frottement. La semelle en caoutchouc accroche bien sous la pluie.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,de,Jonas,Schnell eingelaufen,Zwei Tage und kein Scheuern mehr. Die Gummisohle greift auch im Regen.,5,2026-04-10 10:00:00
+A-CANVAS-SNEAKER,it,Jonas,Si sono ammorbidite subito,Due giorni e niente sfregamento. La suola di gomma tiene bene sotto la pioggia.,5,2026-04-10 10:00:00
 A-CANVAS-SNEAKER,default,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
-A-CANVAS-SNEAKER,fr,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
-A-CANVAS-SNEAKER,de,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
-A-CANVAS-SNEAKER,it,Kira,Runs half a size big,"Great shoe, order half a size down. The white stays white with a wipe.",5,2026-04-11 10:00:00
+A-CANVAS-SNEAKER,fr,Kira,Taille une demi-pointure au-dessus,"Très bonne chaussure, prenez une demi-pointure en dessous. Le blanc reste blanc avec un coup de chiffon.",5,2026-04-11 10:00:00
+A-CANVAS-SNEAKER,de,Kira,Fällt eine halbe Nummer größer aus,"Toller Schuh, eine halbe Nummer kleiner bestellen. Das Weiß bleibt weiß, ein Wischen reicht.",5,2026-04-11 10:00:00
+A-CANVAS-SNEAKER,it,Kira,Veste mezza taglia in più,"Ottima scarpa, ordina mezza taglia in meno. Il bianco resta bianco con una passata.",5,2026-04-11 10:00:00
 A-CHELSEA,default,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
-A-CHELSEA,fr,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
-A-CHELSEA,de,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
-A-CHELSEA,it,Maya,Elastic is strong,"Slip on, slip off, and the elastic has not sagged after a winter.",5,2026-01-10 10:00:00
+A-CHELSEA,fr,Maya,L'élastique tient bien,"On les enfile, on les enlève, et l'élastique n'a pas cédé après un hiver.",5,2026-01-10 10:00:00
+A-CHELSEA,de,Maya,Das Gummi hält,"Reinschlüpfen, rausschlüpfen, und das Gummi ist nach einem Winter nicht ausgeleiert.",5,2026-01-10 10:00:00
+A-CHELSEA,it,Maya,L'elastico tiene,"Si infilano, si sfilano, e l'elastico non ha ceduto dopo un inverno.",5,2026-01-10 10:00:00
 A-TOTE,default,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
-A-TOTE,fr,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
-A-TOTE,de,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
-A-TOTE,it,Ada,Carries a laptop,"Fifteen inch laptop, a book and lunch. The straps do not dig in.",5,2026-04-10 10:00:00
+A-TOTE,fr,Ada,Il porte un ordinateur portable,"Un portable de quinze pouces, un livre et le déjeuner. Les bretelles ne rentrent pas dans les épaules.",5,2026-04-10 10:00:00
+A-TOTE,de,Ada,Trägt einen Laptop,"Fünfzehn-Zoll-Laptop, ein Buch und das Mittagessen. Die Gurte schneiden nicht ein.",5,2026-04-10 10:00:00
+A-TOTE,it,Ada,Porta un portatile,"Portatile da quindici pollici, un libro e il pranzo. Gli spallacci non segnano.",5,2026-04-10 10:00:00
 A-TOTE,default,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
-A-TOTE,fr,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
-A-TOTE,de,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
-A-TOTE,it,Ben,Canvas is thick,Stands up on its own. Wish it had an inside pocket.,4,2026-04-11 10:00:00
+A-TOTE,fr,Ben,La toile est épaisse,Il tient debout tout seul. Il manque juste une poche intérieure.,4,2026-04-11 10:00:00
+A-TOTE,de,Ben,Das Segeltuch ist dick,Steht von allein. Eine Innentasche fehlt mir.,4,2026-04-11 10:00:00
+A-TOTE,it,Ben,La tela è spessa,Sta in piedi da sola. Le manca una tasca interna.,4,2026-04-11 10:00:00
 E-HEADPHONE-ANC,default,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
-E-HEADPHONE-ANC,fr,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
-E-HEADPHONE-ANC,de,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
-E-HEADPHONE-ANC,it,Ada,Does what the chart says,The measurements matched what I heard. Rare honesty.,5,2026-01-10 10:00:00
+E-HEADPHONE-ANC,fr,Ada,Conforme à la fiche technique,Les mesures correspondaient à ce que j'entendais. Une honnêteté rare.,5,2026-01-10 10:00:00
+E-HEADPHONE-ANC,de,Ada,"Macht, was das Diagramm sagt","Die Messwerte passten zu dem, was ich gehört habe. Seltene Ehrlichkeit.",5,2026-01-10 10:00:00
+E-HEADPHONE-ANC,it,Ada,Fa quello che dice la scheda,Le misure corrispondevano a quello che ho sentito. Onestà rara.,5,2026-01-10 10:00:00
 E-SPEAKER-BT,default,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
-E-SPEAKER-BT,fr,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
-E-SPEAKER-BT,de,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
-E-SPEAKER-BT,it,Dev,"Solid, a bit pricey","Great build. You pay for the testing, and it shows.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,fr,Dev,"Solide, un peu cher","Très bonne fabrication. On paie les tests, et cela se voit.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,de,Dev,"Solide, etwas teuer","Sehr gute Verarbeitung. Man bezahlt die Tests, und das sieht man.",4,2026-04-10 10:00:00
+E-SPEAKER-BT,it,Dev,"Solido, un po caro","Ottima costruzione. Si paga il collaudo, e si vede.",4,2026-04-10 10:00:00
 E-SPEAKER-BT,default,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
-E-SPEAKER-BT,fr,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
-E-SPEAKER-BT,de,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
-E-SPEAKER-BT,it,Elena,"Fast delivery, no fuss","Arrived next day, double boxed. Works perfectly.",5,2026-04-11 10:00:00
+E-SPEAKER-BT,fr,Elena,"Livraison rapide, sans histoires","Arrivé le lendemain, en double carton. Fonctionne parfaitement.",5,2026-04-11 10:00:00
+E-SPEAKER-BT,de,Elena,"Schnelle Lieferung, ohne Umstände","Am nächsten Tag da, doppelt verpackt. Funktioniert einwandfrei.",5,2026-04-11 10:00:00
+E-SPEAKER-BT,it,Elena,"Consegna veloce, senza problemi","Arrivato il giorno dopo, in doppia scatola. Funziona perfettamente.",5,2026-04-11 10:00:00
 E-DAC,default,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
-E-DAC,fr,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
-E-DAC,de,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
-E-DAC,it,Greta,Replaced under warranty,A port failed after a year. New unit in three days.,5,2026-01-10 10:00:00
+E-DAC,fr,Greta,Remplacé sous garantie,Un port est tombé en panne après un an. Nouvel appareil en trois jours.,5,2026-01-10 10:00:00
+E-DAC,de,Greta,Auf Garantie ersetzt,Ein Anschluss fiel nach einem Jahr aus. Neues Gerät in drei Tagen.,5,2026-01-10 10:00:00
+E-DAC,it,Greta,Sostituito in garanzia,Una porta si è guastata dopo un anno. Unità nuova in tre giorni.,5,2026-01-10 10:00:00
 E-LAPTOP-16,default,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
-E-LAPTOP-16,fr,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
-E-LAPTOP-16,de,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
-E-LAPTOP-16,it,Jonas,Battery lasts all week,"Charged on Sunday, still going Friday night.",5,2026-04-10 10:00:00
+E-LAPTOP-16,fr,Jonas,La batterie tient la semaine,"Chargé le dimanche, encore en marche le vendredi soir.",5,2026-04-10 10:00:00
+E-LAPTOP-16,de,Jonas,Der Akku hält die ganze Woche,"Am Sonntag geladen, am Freitagabend läuft er noch.",5,2026-04-10 10:00:00
+E-LAPTOP-16,it,Jonas,La batteria dura tutta la settimana,"Caricato domenica, ancora acceso venerdì sera.",5,2026-04-10 10:00:00
 E-LAPTOP-16,default,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
-E-LAPTOP-16,fr,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
-E-LAPTOP-16,de,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
-E-LAPTOP-16,it,Kira,Firmware update fixed it,"Dropouts at first. One update later, rock solid.",4,2026-04-11 10:00:00
+E-LAPTOP-16,fr,Kira,La mise à jour a réglé le problème,"Des coupures au début. Une mise à jour plus tard, tout est stable.",4,2026-04-11 10:00:00
+E-LAPTOP-16,de,Kira,Das Firmware-Update hat es behoben,"Zuerst Aussetzer. Ein Update später, absolut stabil.",4,2026-04-11 10:00:00
+E-LAPTOP-16,it,Kira,L'aggiornamento ha risolto,"Interruzioni allinizio. Un aggiornamento dopo, stabilissimo.",4,2026-04-11 10:00:00
 E-KEYBOARD,default,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
-E-KEYBOARD,fr,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
-E-KEYBOARD,de,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
-E-KEYBOARD,it,Maya,Cable is too short,"Great device, but the included cable is a metre. Buy a longer one.",4,2026-01-10 10:00:00
+E-KEYBOARD,fr,Maya,Le câble est trop court,"Très bon appareil, mais le câble fourni fait un mètre. Achetez-en un plus long.",4,2026-01-10 10:00:00
+E-KEYBOARD,de,Maya,Das Kabel ist zu kurz,"Sehr gutes Gerät, aber das mitgelieferte Kabel ist einen Meter lang. Kaufen Sie ein längeres.",4,2026-01-10 10:00:00
+E-KEYBOARD,it,Maya,Il cavo è troppo corto,"Ottimo dispositivo, ma il cavo incluso è di un metro. Comprane uno più lungo.",4,2026-01-10 10:00:00
 E-SSD,default,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
-E-SSD,fr,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
-E-SSD,de,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
-E-SSD,it,Priya,Clear mids,"Vocals sit where they should. Bass is honest, not boosted.",5,2026-04-10 10:00:00
+E-SSD,fr,Priya,Des médiums nets,"Les voix sont à leur place. Les basses sont justes, pas gonflées.",5,2026-04-10 10:00:00
+E-SSD,de,Priya,Klare Mitten,"Stimmen sitzen dort, wo sie hingehören. Der Bass ist ehrlich, nicht aufgeblasen.",5,2026-04-10 10:00:00
+E-SSD,it,Priya,Medi puliti,"Le voci stanno dove devono. I bassi sono onesti, non gonfiati.",5,2026-04-10 10:00:00
 E-SSD,default,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
-E-SSD,fr,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
-E-SSD,de,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
-E-SSD,it,Quinn,No app needed,Everything works with a button. My parents could use it.,5,2026-04-11 10:00:00
+E-SSD,fr,Quinn,Pas besoin d'application,Tout marche avec un bouton. Mes parents sauraient sen servir.,5,2026-04-11 10:00:00
+E-SSD,de,Quinn,Keine App nötig,Alles funktioniert über einen Knopf. Meine Eltern könnten es bedienen.,5,2026-04-11 10:00:00
+E-SSD,it,Quinn,Nessuna app necessaria,Tutto funziona con un pulsante. I miei genitori saprebbero usarlo.,5,2026-04-11 10:00:00
 E-LENS-35,default,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
-E-LENS-35,fr,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
-E-LENS-35,de,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
-E-LENS-35,it,Ada,Runs warm,Works fine but gets warm under load. Give it some air.,3,2026-01-10 10:00:00
+E-LENS-35,fr,Ada,Il chauffe,Il fonctionne bien mais chauffe en charge. Laissez-lui de lair.,3,2026-01-10 10:00:00
+E-LENS-35,de,Ada,Wird warm,"Läuft gut, wird aber unter Last warm. Lassen Sie ihm Luft.",3,2026-01-10 10:00:00
+E-LENS-35,it,Ada,Si scalda,Funziona bene ma si scalda sotto carico. Lasciagli aria.,3,2026-01-10 10:00:00
 E-COMPACT-CAM,default,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
-E-COMPACT-CAM,fr,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
-E-COMPACT-CAM,de,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
-E-COMPACT-CAM,it,Dev,Quiet fan,I forgot it was on. That is the highest praise for a fan.,5,2026-04-10 10:00:00
+E-COMPACT-CAM,fr,Dev,Ventilateur silencieux,J'ai oublié qu'il était allumé. C'est le plus beau compliment pour un ventilateur.,5,2026-04-10 10:00:00
+E-COMPACT-CAM,de,Dev,Leiser Lüfter,"Ich habe vergessen, dass er an war. Das ist das größte Lob für einen Lüfter.",5,2026-04-10 10:00:00
+E-COMPACT-CAM,it,Dev,Ventola silenziosa,Mi ero dimenticato che era acceso. È il complimento più bello per una ventola.,5,2026-04-10 10:00:00
 E-COMPACT-CAM,default,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
-E-COMPACT-CAM,fr,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
-E-COMPACT-CAM,de,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
-E-COMPACT-CAM,it,Elena,Case is metal,"Real aluminium, not painted plastic. Feels like it will last.",5,2026-04-11 10:00:00
+E-COMPACT-CAM,fr,Elena,Le boîtier est en métal,"Du vrai aluminium, pas du plastique peint. On sent que cela va durer.",5,2026-04-11 10:00:00
+E-COMPACT-CAM,de,Elena,Das Gehäuse ist aus Metall,"Echtes Aluminium, kein lackiertes Plastik. Man merkt, dass es hält.",5,2026-04-11 10:00:00
+E-COMPACT-CAM,it,Elena,La scocca è in metallo,"Vero alluminio, non plastica verniciata. Si sente che durerà.",5,2026-04-11 10:00:00
 E-CAM-BAG,default,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
-E-CAM-BAG,fr,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
-E-CAM-BAG,de,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
-E-CAM-BAG,it,Greta,Pairing was instant,"Open the lid, tap once, done.",5,2026-01-10 10:00:00
+E-CAM-BAG,fr,Greta,Appairage immédiat,"On ouvre le couvercle, on touche une fois, cest fait.",5,2026-01-10 10:00:00
+E-CAM-BAG,de,Greta,Kopplung war sofort da,"Deckel öffnen, einmal tippen, fertig.",5,2026-01-10 10:00:00
+E-CAM-BAG,it,Greta,L'accoppiamento è stato immediato,"Apri il coperchio, tocchi una volta, fatto.",5,2026-01-10 10:00:00
 E-SMART-PLUG,default,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
-E-SMART-PLUG,fr,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
-E-SMART-PLUG,de,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
-E-SMART-PLUG,it,Jonas,Wish it had USB-C,Everything else is right. The port is from another decade.,3,2026-04-10 10:00:00
+E-SMART-PLUG,fr,Jonas,"Dommage, pas de USB-C",Tout le reste est juste. Le port vient d'une autre décennie.,3,2026-04-10 10:00:00
+E-SMART-PLUG,de,Jonas,"Schade, kein USB-C",Alles andere stimmt. Der Anschluss stammt aus einem anderen Jahrzehnt.,3,2026-04-10 10:00:00
+E-SMART-PLUG,it,Jonas,"Peccato, niente USB-C",Tutto il resto va bene. La porta viene da un altro decennio.,3,2026-04-10 10:00:00
 E-SMART-PLUG,default,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
-E-SMART-PLUG,fr,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
-E-SMART-PLUG,de,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
-E-SMART-PLUG,it,Kira,Great for calls,Colleagues stopped asking me to repeat myself.,5,2026-04-11 10:00:00
+E-SMART-PLUG,fr,Kira,Parfait pour les appels,Mes collègues ne me demandent plus de répéter.,5,2026-04-11 10:00:00
+E-SMART-PLUG,de,Kira,Super für Anrufe,"Die Kollegen bitten mich nicht mehr, mich zu wiederholen.",5,2026-04-11 10:00:00
+E-SMART-PLUG,it,Kira,Ottimo per le chiamate,I colleghi non mi chiedono più di ripetere.,5,2026-04-11 10:00:00
 E-THERMOSTAT,default,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
-E-THERMOSTAT,fr,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
-E-THERMOSTAT,de,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
-E-THERMOSTAT,it,Maya,Speaker fills the room,"Small box, big sound. Party volume without distortion.",5,2026-01-10 10:00:00
+E-THERMOSTAT,fr,Maya,Lenceinte remplit la pièce,"Petite boîte, grand son. Le volume dune fête sans distorsion.",5,2026-01-10 10:00:00
+E-THERMOSTAT,de,Maya,Der Lautsprecher füllt den Raum,"Kleine Box, großer Klang. Partylautstärke ohne Verzerrung.",5,2026-01-10 10:00:00
+E-THERMOSTAT,it,Maya,Lo speaker riempie la stanza,"Scatola piccola, suono grande. Volume da festa senza distorsione.",5,2026-01-10 10:00:00
 E-WATCH,default,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
-E-WATCH,fr,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
-E-WATCH,de,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
-E-WATCH,it,Priya,Manual is thin,"Works well, but I had to search online for the settings.",4,2026-04-10 10:00:00
+E-WATCH,fr,Priya,Le manuel est maigre,"Il marche bien, mais j'ai dû chercher les réglages en ligne.",4,2026-04-10 10:00:00
+E-WATCH,de,Priya,Die Anleitung ist dünn,"Funktioniert gut, aber die Einstellungen musste ich online suchen.",4,2026-04-10 10:00:00
+E-WATCH,it,Priya,Il manuale è scarno,"Funziona bene, ma ho dovuto cercare le impostazioni online.",4,2026-04-10 10:00:00
 E-WATCH,default,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
-E-WATCH,fr,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
-E-WATCH,de,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
-E-WATCH,it,Quinn,Lens is sharp corner to corner,Tested on a brick wall like a nerd. It passes.,5,2026-04-11 10:00:00
+E-WATCH,fr,Quinn,L'objectif est net d'un bord à l'autre,"Testé sur un mur de briques, comme un passionné. Il passe l'examen.",5,2026-04-11 10:00:00
+E-WATCH,de,Quinn,Das Objektiv ist bis in die Ecken scharf,Wie ein Nerd an einer Ziegelwand getestet. Es besteht.,5,2026-04-11 10:00:00
+E-WATCH,it,Quinn,L'obiettivo è nitido da un angolo all'altro,Provato su un muro di mattoni come un patito. Promosso.,5,2026-04-11 10:00:00
 E-WATCH-STRAP,default,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
-E-WATCH-STRAP,fr,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
-E-WATCH-STRAP,de,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
-E-WATCH-STRAP,it,Ada,"Returned, wrong size","My fault, the spec sheet was clear. Return was painless.",4,2026-01-10 10:00:00
+E-WATCH-STRAP,fr,Ada,"Retourné, mauvaise taille","De ma faute, la fiche technique était claire. Le retour a été simple.",4,2026-01-10 10:00:00
+E-WATCH-STRAP,de,Ada,"Zurückgeschickt, falsche Größe","Mein Fehler, das Datenblatt war klar. Die Rückgabe war problemlos.",4,2026-01-10 10:00:00
+E-WATCH-STRAP,it,Ada,"Reso, taglia sbagliata","Colpa mia, la scheda era chiara. Il reso è stato semplice.",4,2026-01-10 10:00:00
 E-POWERBANK,default,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
-E-POWERBANK,fr,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
-E-POWERBANK,de,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
-E-POWERBANK,it,Dev,Charges the laptop too,One cable for everything on the desk now.,5,2026-04-10 10:00:00
+E-POWERBANK,fr,Dev,Il charge aussi le portable,Un seul câble pour tout ce qui est sur le bureau.,5,2026-04-10 10:00:00
+E-POWERBANK,de,Dev,Lädt auch den Laptop,Jetzt ein Kabel für alles auf dem Schreibtisch.,5,2026-04-10 10:00:00
+E-POWERBANK,it,Dev,Carica anche il portatile,Ora un solo cavo per tutto quello che sta sulla scrivania.,5,2026-04-10 10:00:00
 E-POWERBANK,default,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
-E-POWERBANK,fr,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
-E-POWERBANK,de,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
-E-POWERBANK,it,Elena,Slight hiss at idle,Only with sensitive earphones and at full gain. Fine otherwise.,4,2026-04-11 10:00:00
+E-POWERBANK,fr,Elena,Un léger souffle au repos,"Seulement avec des écouteurs sensibles et à plein gain. Sinon, parfait.",4,2026-04-11 10:00:00
+E-POWERBANK,de,Elena,Leichtes Rauschen im Leerlauf,Nur mit empfindlichen Ohrhörern und bei voller Verstärkung. Sonst gut.,4,2026-04-11 10:00:00
+E-POWERBANK,it,Elena,Un leggero fruscio a riposo,Solo con auricolari sensibili e a guadagno massimo. Per il resto va bene.,4,2026-04-11 10:00:00
 E-PHONE-CASE,default,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
-E-PHONE-CASE,fr,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
-E-PHONE-CASE,de,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
-E-PHONE-CASE,it,Greta,Bought two,"One for the office, one for home. No regrets.",5,2026-01-10 10:00:00
+E-PHONE-CASE,fr,Greta,J'en ai acheté deux,"Un pour le bureau, un pour la maison. Aucun regret.",5,2026-01-10 10:00:00
+E-PHONE-CASE,de,Greta,Zwei gekauft,"Einen fürs Büro, einen für zu Hause. Keine Reue.",5,2026-01-10 10:00:00
+E-PHONE-CASE,it,Greta,Ne ho presi due,"Uno per l'ufficio, uno per casa. Nessun rimpianto.",5,2026-01-10 10:00:00
 E-TRAVEL-KIT,default,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
-E-TRAVEL-KIT,fr,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
-E-TRAVEL-KIT,de,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
-E-TRAVEL-KIT,it,Jonas,Buttons feel cheap,"Sound is great, the plastic buttons are not.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,fr,Jonas,Les boutons font bon marché,"Le son est excellent, les boutons en plastique non.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,de,Jonas,Die Knöpfe wirken billig,"Der Klang ist super, die Plastikknöpfe nicht.",3,2026-04-10 10:00:00
+E-TRAVEL-KIT,it,Jonas,I pulsanti sembrano economici,"Il suono è ottimo, i pulsanti di plastica no.",3,2026-04-10 10:00:00
 E-TRAVEL-KIT,default,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
-E-TRAVEL-KIT,fr,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
-E-TRAVEL-KIT,de,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
-E-TRAVEL-KIT,it,Kira,Setup took five minutes,"Plugged in, updated, done before the coffee was ready.",5,2026-04-11 10:00:00
+E-TRAVEL-KIT,fr,Kira,Installation en cinq minutes,"Branché, mis à jour, terminé avant que le café soit prêt.",5,2026-04-11 10:00:00
+E-TRAVEL-KIT,de,Kira,Einrichtung dauerte fünf Minuten,"Eingesteckt, aktualisiert, fertig, bevor der Kaffee durch war.",5,2026-04-11 10:00:00
+E-TRAVEL-KIT,it,Kira,Configurazione in cinque minuti,"Collegato, aggiornato, finito prima che il caffè fosse pronto.",5,2026-04-11 10:00:00
 F-OLIVE-OIL,default,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
-F-OLIVE-OIL,fr,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
-F-OLIVE-OIL,de,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
-F-OLIVE-OIL,it,Ada,Tastes like the real thing,"Bright, fresh and clearly made in small batches. Will reorder.",5,2026-01-10 10:00:00
+F-OLIVE-OIL,fr,Ada,Le goût du vrai,"Vif, frais et clairement fait en petites quantités. Je recommanderai.",5,2026-01-10 10:00:00
+F-OLIVE-OIL,de,Ada,Schmeckt nach dem Echten,"Frisch, lebendig und klar in kleinen Mengen gemacht. Ich bestelle wieder.",5,2026-01-10 10:00:00
+F-OLIVE-OIL,it,Ada,Sa di vero,"Vivo, fresco e chiaramente fatto in piccole quantità. Ordinerò ancora.",5,2026-01-10 10:00:00
 F-APRICOT-JAM,default,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
-F-APRICOT-JAM,fr,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
-F-APRICOT-JAM,de,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
-F-APRICOT-JAM,it,Dev,"Good, a little pricey","Quality is there, but you pay for it. Worth it for a weekend.",4,2026-04-10 10:00:00
+F-APRICOT-JAM,fr,Dev,"Bon, un peu cher","La qualité est là, mais elle se paie. Cela vaut le coup pour un week-end.",4,2026-04-10 10:00:00
+F-APRICOT-JAM,de,Dev,"Gut, etwas teuer","Die Qualität stimmt, aber man zahlt dafür. Für ein Wochenende lohnt es sich.",4,2026-04-10 10:00:00
+F-APRICOT-JAM,it,Dev,"Buono, un po caro","La qualità c'è, ma si paga. Ne vale la pena per un fine settimana.",4,2026-04-10 10:00:00
 F-APRICOT-JAM,default,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
-F-APRICOT-JAM,fr,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
-F-APRICOT-JAM,de,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
-F-APRICOT-JAM,it,Elena,Arrived cold and fast,Packed with ice packs and a note. Everything was perfect.,5,2026-04-11 10:00:00
+F-APRICOT-JAM,fr,Elena,Arrivé froid et vite,Emballé avec des blocs de glace et un mot. Tout était parfait.,5,2026-04-11 10:00:00
+F-APRICOT-JAM,de,Elena,Kam kalt und schnell an,Mit Kühlakkus und einer Notiz verpackt. Alles war perfekt.,5,2026-04-11 10:00:00
+F-APRICOT-JAM,it,Elena,Arrivato freddo e in fretta,Imballato con siberini e un biglietto. Tutto perfetto.,5,2026-04-11 10:00:00
 F-TOMATO-PASSATA,default,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
-F-TOMATO-PASSATA,fr,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
-F-TOMATO-PASSATA,de,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
-F-TOMATO-PASSATA,it,Greta,Weekly staple now,This has replaced the supermarket version in our house.,5,2026-01-10 10:00:00
+F-TOMATO-PASSATA,fr,Greta,Un incontournable de la semaine,Cela a remplacé la version du supermarché chez nous.,5,2026-01-10 10:00:00
+F-TOMATO-PASSATA,de,Greta,Jetzt ein wöchentlicher Klassiker,Das hat bei uns die Supermarktversion ersetzt.,5,2026-01-10 10:00:00
+F-TOMATO-PASSATA,it,Greta,Ormai un fisso della settimana,Ha sostituito la versione del supermercato a casa nostra.,5,2026-01-10 10:00:00
 F-BAGUETTE,default,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
-F-BAGUETTE,fr,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
-F-BAGUETTE,de,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
-F-BAGUETTE,it,Jonas,Peppery finish,"Green and grassy, with a proper pepper kick at the end.",5,2026-04-10 10:00:00
+F-BAGUETTE,fr,Jonas,Une finale poivrée,"Vert et herbacé, avec un vrai coup de poivre à la fin.",5,2026-04-10 10:00:00
+F-BAGUETTE,de,Jonas,Pfeffriger Abgang,"Grün und grasig, mit einem echten Pfefferkick am Ende.",5,2026-04-10 10:00:00
+F-BAGUETTE,it,Jonas,Finale pepato,"Verde ed erbaceo, con una vera spinta di pepe alla fine.",5,2026-04-10 10:00:00
 F-BAGUETTE,default,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
-F-BAGUETTE,fr,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
-F-BAGUETTE,de,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
-F-BAGUETTE,it,Kira,Bread was still warm,"Well, almost. Same-day delivery from the oven is a marvel.",5,2026-04-11 10:00:00
+F-BAGUETTE,fr,Kira,Le pain était encore tiède,"Enfin, presque. La livraison le jour même depuis le four est une merveille.",5,2026-04-11 10:00:00
+F-BAGUETTE,de,Kira,Das Brot war noch warm,"Naja, fast. Lieferung am selben Tag direkt aus dem Ofen ist ein Wunder.",5,2026-04-11 10:00:00
+F-BAGUETTE,it,Kira,Il pane era ancora caldo,"Beh, quasi. La consegna in giornata dal forno è una meraviglia.",5,2026-04-11 10:00:00
 F-RYE-LOAF,default,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
-F-RYE-LOAF,fr,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
-F-RYE-LOAF,de,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
-F-RYE-LOAF,it,Maya,Jar was half full,"Tastes great, but the jar looked short. Check the weight, not the glass.",3,2026-01-10 10:00:00
+F-RYE-LOAF,fr,Maya,Le pot était à moitié plein,"C'est très bon, mais le pot semblait peu rempli. Regardez le poids, pas le verre.",3,2026-01-10 10:00:00
+F-RYE-LOAF,de,Maya,Das Glas war halb voll,"Schmeckt super, aber das Glas wirkte knapp gefüllt. Achten Sie auf das Gewicht, nicht auf das Glas.",3,2026-01-10 10:00:00
+F-RYE-LOAF,it,Maya,Il vasetto era mezzo pieno,"Buonissimo, ma il vasetto sembrava poco pieno. Guarda il peso, non il vetro.",3,2026-01-10 10:00:00
 F-AGED-CHEDDAR,default,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
-F-AGED-CHEDDAR,fr,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
-F-AGED-CHEDDAR,de,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
-F-AGED-CHEDDAR,it,Priya,Kids ate the crusts,That has never happened. Buying every week.,5,2026-04-10 10:00:00
+F-AGED-CHEDDAR,fr,Priya,Les enfants ont mangé les croûtes,Cela n'était jamais arrivé. J'en achète toutes les semaines.,5,2026-04-10 10:00:00
+F-AGED-CHEDDAR,de,Priya,Die Kinder haben die Kruste gegessen,Das ist noch nie passiert. Ich kaufe es jede Woche.,5,2026-04-10 10:00:00
+F-AGED-CHEDDAR,it,Priya,I bambini hanno mangiato le croste,Non era mai successo. Lo compro ogni settimana.,5,2026-04-10 10:00:00
 F-AGED-CHEDDAR,default,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
-F-AGED-CHEDDAR,fr,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
-F-AGED-CHEDDAR,de,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
-F-AGED-CHEDDAR,it,Quinn,Strong coffee,Dark and chocolatey. Not for people who like it light.,4,2026-04-11 10:00:00
+F-AGED-CHEDDAR,fr,Quinn,Un café puissant,Foncé et chocolaté. Pas pour ceux qui laiment léger.,4,2026-04-11 10:00:00
+F-AGED-CHEDDAR,de,Quinn,Starker Kaffee,"Dunkel und schokoladig. Nichts für Leute, die es hell mögen.",4,2026-04-11 10:00:00
+F-AGED-CHEDDAR,it,Quinn,Caffè forte,Scuro e cioccolatoso. Non per chi lo ama leggero.,4,2026-04-11 10:00:00
 F-PECORINO,default,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
-F-PECORINO,fr,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
-F-PECORINO,de,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
-F-PECORINO,it,Ada,Cheese needs a warning,It is glorious and it stinks out the fridge. Double wrap it.,5,2026-01-10 10:00:00
+F-PECORINO,fr,Ada,Le fromage mérite un avertissement,Il est magnifique et il empeste le frigo. Emballez-le deux fois.,5,2026-01-10 10:00:00
+F-PECORINO,de,Ada,Der Käse braucht eine Warnung,Er ist herrlich und stinkt den Kühlschrank aus. Doppelt einpacken.,5,2026-01-10 10:00:00
+F-PECORINO,it,Ada,Il formaggio merita un avviso,È magnifico e appesta il frigo. Avvolgilo due volte.,5,2026-01-10 10:00:00
 F-CHORIZO,default,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
-F-CHORIZO,fr,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
-F-CHORIZO,de,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
-F-CHORIZO,it,Dev,Perfect crate,Sent as a housewarming gift. They messaged me a photo.,5,2026-04-10 10:00:00
+F-CHORIZO,fr,Dev,Un coffret parfait,Envoyé comme cadeau de pendaison de crémaillère. Ils m'ont envoyé une photo.,5,2026-04-10 10:00:00
+F-CHORIZO,de,Dev,Perfekte Kiste,Als Einweihungsgeschenk verschickt. Sie haben mir ein Foto geschickt.,5,2026-04-10 10:00:00
+F-CHORIZO,it,Dev,Cassetta perfetta,Mandata come regalo per la casa nuova. Mi hanno inviato una foto.,5,2026-04-10 10:00:00
 F-CHORIZO,default,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
-F-CHORIZO,fr,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
-F-CHORIZO,de,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
-F-CHORIZO,it,Elena,Too sweet for me,Good quality soda but sweeter than I hoped.,3,2026-04-11 10:00:00
+F-CHORIZO,fr,Elena,Trop sucré pour moi,Un soda de bonne qualité mais plus sucré que je l'espérais.,3,2026-04-11 10:00:00
+F-CHORIZO,de,Elena,Mir zu süß,"Gute Limonade, aber süßer als erhofft.",3,2026-04-11 10:00:00
+F-CHORIZO,it,Elena,Troppo dolce per me,Bibita di buona qualità ma più dolce di quanto sperassi.,3,2026-04-11 10:00:00
 F-ETHIOPIA,default,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
-F-ETHIOPIA,fr,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
-F-ETHIOPIA,de,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
-F-ETHIOPIA,it,Greta,Pasta holds the sauce,"Bronze cut, rough surface. The difference is real.",5,2026-01-10 10:00:00
+F-ETHIOPIA,fr,Greta,Les pâtes accrochent la sauce,"Tréfilée au bronze, surface rugueuse. La différence est réelle.",5,2026-01-10 10:00:00
+F-ETHIOPIA,de,Greta,Die Pasta hält die Sauce,"Bronzegezogen, raue Oberfläche. Der Unterschied ist echt.",5,2026-01-10 10:00:00
+F-ETHIOPIA,it,Greta,La pasta tiene il sugo,"Trafilata al bronzo, superficie ruvida. La differenza è vera.",5,2026-01-10 10:00:00
 F-GREEN-TEA,default,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
-F-GREEN-TEA,fr,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
-F-GREEN-TEA,de,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
-F-GREEN-TEA,it,Jonas,Delivery missed the slot,"Came a day late. Still cold, still good, but plan a day ahead.",3,2026-04-10 10:00:00
+F-GREEN-TEA,fr,Jonas,La livraison a manqué le créneau,"Arrivé un jour en retard. Toujours froid, toujours bon, mais prévoyez un jour d'avance.",3,2026-04-10 10:00:00
+F-GREEN-TEA,de,Jonas,Die Lieferung verpasste das Zeitfenster,"Kam einen Tag zu spät. Immer noch kalt, immer noch gut, aber planen Sie einen Tag Puffer ein.",3,2026-04-10 10:00:00
+F-GREEN-TEA,it,Jonas,La consegna ha mancato la fascia,"Arrivato un giorno tardi. Ancora freddo, ancora buono, ma calcola un giorno in più.",3,2026-04-10 10:00:00
 F-GREEN-TEA,default,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
-F-GREEN-TEA,fr,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
-F-GREEN-TEA,de,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
-F-GREEN-TEA,it,Kira,"Honey is set, not runny",Set honey with a floral taste. Spread it thick.,5,2026-04-11 10:00:00
+F-GREEN-TEA,fr,Kira,"Le miel est crémeux, pas liquide",Un miel crémeux au goût floral. Étalez-le généreusement.,5,2026-04-11 10:00:00
+F-GREEN-TEA,de,Kira,"Der Honig ist fest, nicht flüssig",Fester Honig mit blumigem Geschmack. Dick aufstreichen.,5,2026-04-11 10:00:00
+F-GREEN-TEA,it,Kira,"Il miele è cremoso, non liquido",Miele cremoso dal gusto floreale. Spalmalo abbondante.,5,2026-04-11 10:00:00
 F-APPLE-JUICE,default,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
-F-APPLE-JUICE,fr,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
-F-APPLE-JUICE,de,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
-F-APPLE-JUICE,it,Maya,Breakfast is sorted,"Granola, jam and coffee in one order. Mornings are better.",5,2026-01-10 10:00:00
+F-APPLE-JUICE,fr,Maya,Le petit-déjeuner est réglé,"Granola, confiture et café en une commande. Les matins sont meilleurs.",5,2026-01-10 10:00:00
+F-APPLE-JUICE,de,Maya,Das Frühstück ist geregelt,"Granola, Marmelade und Kaffee in einer Bestellung. Die Morgen sind besser.",5,2026-01-10 10:00:00
+F-APPLE-JUICE,it,Maya,La colazione è risolta,"Granola, marmellata e caffè in un solo ordine. Le mattine sono migliori.",5,2026-01-10 10:00:00
 F-KOMBUCHA,default,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
-F-KOMBUCHA,fr,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
-F-KOMBUCHA,de,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
-F-KOMBUCHA,it,Priya,Cured ham sliced thin,Paper thin and packed flat. Melted on warm bread.,5,2026-04-10 10:00:00
+F-KOMBUCHA,fr,Priya,Du jambon sec tranché fin,Fin comme du papier et emballé à plat. Il a fondu sur du pain chaud.,5,2026-04-10 10:00:00
+F-KOMBUCHA,de,Priya,Dünn geschnittener Schinken,Hauchdünn und flach verpackt. Auf warmem Brot geschmolzen.,5,2026-04-10 10:00:00
+F-KOMBUCHA,it,Priya,Prosciutto tagliato sottile,Sottile come carta e confezionato piatto. Si è sciolto sul pane caldo.,5,2026-04-10 10:00:00
 F-KOMBUCHA,default,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
-F-KOMBUCHA,fr,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
-F-KOMBUCHA,de,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
-F-KOMBUCHA,it,Quinn,Bitter chocolate,"Very dark. I like it, my partner does not.",4,2026-04-11 10:00:00
+F-KOMBUCHA,fr,Quinn,Un chocolat amer,"Très noir. Je l'aime, mon conjoint non.",4,2026-04-11 10:00:00
+F-KOMBUCHA,de,Quinn,Bittere Schokolade,"Sehr dunkel. Mir gefällt sie, meinem Partner nicht.",4,2026-04-11 10:00:00
+F-KOMBUCHA,it,Quinn,Cioccolato amaro,"Molto fondente. A me piace, al mio partner no.",4,2026-04-11 10:00:00
 F-VERMOUTH,default,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
-F-VERMOUTH,fr,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
-F-VERMOUTH,de,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
-F-VERMOUTH,it,Ada,Great for a picnic,Everything travelled well in the crate and the ice lasted.,5,2026-01-10 10:00:00
+F-VERMOUTH,fr,Ada,Parfait pour un pique-nique,Tout a bien voyagé dans le coffret et la glace a tenu.,5,2026-01-10 10:00:00
+F-VERMOUTH,de,Ada,Super für ein Picknick,Alles hat die Reise in der Kiste gut überstanden und das Eis hielt.,5,2026-01-10 10:00:00
+F-VERMOUTH,it,Ada,Ottimo per un picnic,Tutto ha viaggiato bene nella cassetta e il ghiaccio ha tenuto.,5,2026-01-10 10:00:00
 F-BREAKFAST-BOX,default,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
-F-BREAKFAST-BOX,fr,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
-F-BREAKFAST-BOX,de,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
-F-BREAKFAST-BOX,it,Dev,Tea is fragrant,"Loose leaf, big leaves, three steeps from one spoon.",5,2026-04-10 10:00:00
+F-BREAKFAST-BOX,fr,Dev,Un thé parfumé,"En vrac, grandes feuilles, trois infusions avec une cuillère.",5,2026-04-10 10:00:00
+F-BREAKFAST-BOX,de,Dev,Der Tee duftet,"Lose, große Blätter, drei Aufgüsse aus einem Löffel.",5,2026-04-10 10:00:00
+F-BREAKFAST-BOX,it,Dev,Il tè è profumato,"Sfuso, foglie grandi, tre infusioni da un cucchiaio.",5,2026-04-10 10:00:00
 F-BREAKFAST-BOX,default,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
-F-BREAKFAST-BOX,fr,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
-F-BREAKFAST-BOX,de,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
-F-BREAKFAST-BOX,it,Elena,Wine surprised me,Did not know the producer. Now I do.,5,2026-04-11 10:00:00
+F-BREAKFAST-BOX,fr,Elena,Le vin m'a surpris,Je ne connaissais pas le producteur. Maintenant si.,5,2026-04-11 10:00:00
+F-BREAKFAST-BOX,de,Elena,Der Wein hat mich überrascht,Ich kannte den Erzeuger nicht. Jetzt schon.,5,2026-04-11 10:00:00
+F-BREAKFAST-BOX,it,Elena,Il vino mi ha sorpreso,Non conoscevo il produttore. Ora sì.,5,2026-04-11 10:00:00
 F-TARALLI,default,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
-F-TARALLI,fr,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
-F-TARALLI,de,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
-F-TARALLI,it,Greta,Portion is small,"Delicious, but two people finished it in one go.",4,2026-01-10 10:00:00
+F-TARALLI,fr,Greta,La portion est petite,"Délicieux, mais à deux nous l'avons fini d'un coup.",4,2026-01-10 10:00:00
+F-TARALLI,de,Greta,Die Portion ist klein,"Köstlich, aber zu zweit war es in einem Zug weg.",4,2026-01-10 10:00:00
+F-TARALLI,it,Greta,La porzione è piccola,"Delizioso, ma in due lo abbiamo finito in una volta.",4,2026-01-10 10:00:00
 F-GRANOLA,default,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
-F-GRANOLA,fr,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
-F-GRANOLA,de,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
-F-GRANOLA,it,Jonas,Olive oil for cooking too,I bought the litre for the pan and the small bottle for salads.,5,2026-04-10 10:00:00
+F-GRANOLA,fr,Jonas,De l'huile d'olive pour la cuisson aussi,J'ai pris le litre pour la poêle et la petite bouteille pour les salades.,5,2026-04-10 10:00:00
+F-GRANOLA,de,Jonas,Olivenöl auch zum Kochen,Ich habe den Liter für die Pfanne und die kleine Flasche für Salate gekauft.,5,2026-04-10 10:00:00
+F-GRANOLA,it,Jonas,Olio d'oliva anche per cucinare,Ho preso il litro per la padella e la bottiglietta per le insalate.,5,2026-04-10 10:00:00
 F-GRANOLA,default,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
-F-GRANOLA,fr,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
-F-GRANOLA,de,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
-F-GRANOLA,it,Kira,Repeat order,Third crate. The team remembers the note about no nuts.,5,2026-04-11 10:00:00
+F-GRANOLA,fr,Kira,Nouvelle commande,Troisième coffret. L'équipe se souvient de la note sans fruits à coque.,5,2026-04-11 10:00:00
+F-GRANOLA,de,Kira,Nachbestellung,Dritte Kiste. Das Team erinnert sich an die Notiz ohne Nüsse.,5,2026-04-11 10:00:00
+F-GRANOLA,it,Kira,Riordino,Terza cassetta. Il team ricorda la nota senza frutta secca.,5,2026-04-11 10:00:00
 B-SALT-HOUSES,default,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00
 B-SALT-HOUSES,fr,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00
 B-SALT-HOUSES,de,Ada,Could not put it down,Finished it in two nights. The recommendation was spot on.,5,2026-01-10 10:00:00

@@ -132,7 +132,8 @@ def products(codes):
 
 
 def reviews(codes):
-    """A review belongs to one store view, so every store view of the website gets its own row."""
+    """A review belongs to one store view, so every store view of the website gets its own row,
+    with its own title and body. Maho has no translated review: it has a review per store."""
     rows = []
     for code, name in codes:
         path = os.path.join(PACKS, code, 'reviews.csv')
@@ -142,6 +143,8 @@ def reviews(codes):
             for view in STORE_VIEWS:
                 row = dict(r)
                 row['store_code'] = view
+                row['title'] = say(view, r['title'])
+                row['detail'] = say(view, r['detail'])
                 rows.append(row)
     return rows
 
