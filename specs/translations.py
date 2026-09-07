@@ -1811,6 +1811,233 @@ PRODUCTS = {
         "Chargeur, câble et batterie externe, dans une pochette zippée. Chargeur, câble et batterie dans une pochette qui tient dans une poche de veste. De quoi tenir une semaine.",
         'Ladegerät, Kabel und Powerbank in einer Reißverschlusstasche. Ladegerät, Kabel und Powerbank in einer Tasche, die in die Jackentasche passt. Genug für eine Woche unterwegs.',
         'Caricatore, cavo e power bank in una pochette con zip. Caricatore, cavo e power bank in una custodia che sta in tasca. Bastano per una settimana fuori.'),
+
+    # Food
+    'Puglia extra virgin olive oil': ("Huile d'olive vierge extra des Pouilles", 'Natives Olivenöl extra aus Apulien', "Olio extravergine di oliva pugliese"),
+    'Cold-pressed from Coratina olives within hours of picking. Peppery, green and best raw on bread and greens. Pressed in November and bottled dark to keep the flavour. Use the small bottle for salads and the litre for the pan.': (
+        "Pressée à froid à partir d'olives Coratina quelques heures après la récolte. Poivrée, verte et meilleure crue, sur du pain et des légumes. Pressée en novembre et mise en bouteille sombre pour garder le goût. La petite bouteille pour les salades, le litre pour la poêle.",
+        'Kalt gepresst aus Coratina-Oliven, wenige Stunden nach der Ernte. Pfeffrig, grün und roh am besten, auf Brot und Gemüse. Im November gepresst und dunkel abgefüllt, damit der Geschmack bleibt. Die kleine Flasche für Salate, den Liter für die Pfanne.',
+        "Spremuto a freddo da olive Coratina poche ore dopo la raccolta. Pepato, verde e al meglio a crudo, su pane e verdure. Spremuto a novembre e imbottigliato scuro per tenere il sapore. La bottiglietta per le insalate, il litro per la padella."),
+    'Bronze-cut rigatoni': ('Rigatoni tréfilés au bronze', 'Bronzegezogene Rigatoni', 'Rigatoni trafilati al bronzo'),
+    'Slow-dried durum wheat pasta cut through bronze dies, so the sauce clings. Dried for two days at a low temperature, which keeps the wheat flavour. Ten minutes in salted water.': (
+        "Des pâtes de blé dur séchées lentement et tréfilées au bronze, pour que la sauce accroche. Séchées deux jours à basse température, ce qui garde le goût du blé. Dix minutes dans l'eau salée.",
+        'Hartweizenpasta, langsam getrocknet und durch Bronzematrizen gezogen, damit die Sauce haftet. Zwei Tage bei niedriger Temperatur getrocknet, das erhält den Weizengeschmack. Zehn Minuten in Salzwasser.',
+        'Pasta di grano duro essiccata lentamente e trafilata al bronzo, così il sugo si attacca. Essiccata due giorni a bassa temperatura, che tiene il sapore del grano. Dieci minuti in acqua salata.'),
+    'Gragnano spaghetti': ('Spaghetti de Gragnano', 'Gragnano Spaghetti', 'Spaghetti di Gragnano'),
+    'Long, slow-dried spaghetti from Gragnano, with the bite to hold a carbonara. Made from Italian durum wheat and mountain water. Eleven minutes for al dente.': (
+        "Des spaghetti longs de Gragnano, séchés lentement, avec la tenue qu'il faut pour une carbonara. Faits de blé dur italien et d'eau de montagne. Onze minutes pour l'al dente.",
+        'Lange, langsam getrocknete Spaghetti aus Gragnano, mit dem Biss für eine Carbonara. Aus italienischem Hartweizen und Bergwasser. Elf Minuten für al dente.',
+        'Spaghetti lunghi di Gragnano, essiccati lentamente, con la tenuta giusta per una carbonara. Fatti con grano duro italiano e acqua di montagna. Undici minuti per l al dente.'),
+    'Apricot jam': ("Confiture d'abricot", 'Aprikosenmarmelade', 'Marmellata di albicocche'),
+    'Whole apricots cooked in copper with cane sugar and nothing else. Sixty percent fruit, set softly, with pieces of apricot in every spoon. Keep in the fridge once open.': (
+        "Des abricots entiers cuits au chaudron de cuivre avec du sucre de canne, et rien d'autre. Soixante pour cent de fruits, une prise souple, des morceaux d'abricot dans chaque cuillère. À garder au frais une fois ouverte.",
+        'Ganze Aprikosen im Kupferkessel mit Rohrzucker gekocht, sonst nichts. Sechzig Prozent Frucht, weich geliert, mit Aprikosenstücken in jedem Löffel. Nach dem Öffnen kühl lagern.',
+        "Albicocche intere cotte in rame con zucchero di canna e niente altro. Sessanta per cento di frutta, presa morbida, con pezzi di albicocca in ogni cucchiaio. Dopo l apertura tenere in frigo."),
+    'Black fig jam': ('Confiture de figues noires', 'Schwarze Feigenmarmelade', 'Marmellata di fichi neri'),
+    'Late-summer black figs with a squeeze of lemon. Made for cheese. Dark, sticky and not too sweet. A spoon beside a hard cheese or on warm toast.': (
+        "Des figues noires de fin d'été avec un trait de citron. Faite pour le fromage. Sombre, collante et pas trop sucrée. Une cuillère à côté d'un fromage à pâte dure ou sur un toast chaud.",
+        'Schwarze Feigen vom Spätsommer mit einem Spritzer Zitrone. Für Käse gemacht. Dunkel, klebrig und nicht zu süß. Ein Löffel neben einem Hartkäse oder auf warmem Toast.',
+        "Fichi neri di fine estate con una spruzzata di limone. Fatta per il formaggio. Scura, appiccicosa e non troppo dolce. Un cucchiaio accanto a un formaggio stagionato o su un crostino caldo."),
+    'Wildflower honey': ('Miel de fleurs sauvages', 'Wildblütenhonig', 'Miele di fiori di campo'),
+    'Raw honey from hives on a hillside of thyme and heather. Unfiltered, crystallises with time. Never heated above hive temperature, so it sets over the winter. Warm the jar in water to bring it back.': (
+        "Un miel cru de ruches posées sur une colline de thym et de bruyère. Non filtré, il cristallise avec le temps. Jamais chauffé au-delà de la température de la ruche, il se fige donc en hiver. Réchauffez le pot au bain-marie pour le rendre liquide.",
+        'Roher Honig aus Bienenstöcken an einem Hang voller Thymian und Heide. Ungefiltert, kristallisiert mit der Zeit. Nie über Stocktemperatur erhitzt, deshalb wird er im Winter fest. Das Glas im Wasserbad erwärmen, dann wird er wieder flüssig.',
+        "Miele crudo da arnie su una collina di timo ed erica. Non filtrato, cristallizza con il tempo. Mai scaldato oltre la temperatura dell'arnia, quindi d'inverno si rapprende. Scalda il vasetto a bagnomaria per riportarlo liquido."),
+    'San Marzano passata': ('Passata de San Marzano', 'San-Marzano-Passata', 'Passata di San Marzano'),
+    'Sieved San Marzano tomatoes in a glass bottle, picked ripe and nothing added. Bottled the day the tomatoes are picked, with a leaf of basil. Enough for two pans of sauce.': (
+        "Des tomates San Marzano tamisées en bouteille de verre, cueillies mûres et sans rien ajouté. Mises en bouteille le jour de la récolte, avec une feuille de basilic. De quoi faire deux casseroles de sauce.",
+        'Passierte San-Marzano-Tomaten in der Glasflasche, reif gepflückt und ohne Zusätze. Am Erntetag abgefüllt, mit einem Basilikumblatt. Genug für zwei Töpfe Sauce.',
+        'Pomodori San Marzano passati in bottiglia di vetro, raccolti maturi e senza aggiunte. Imbottigliati il giorno della raccolta, con una foglia di basilico. Bastano per due pentole di sugo.'),
+    'Flaky sea salt': ('Sel de mer en flocons', 'Meersalzflocken', 'Sale marino in fiocchi'),
+    'Pyramid flakes harvested from Atlantic salt pans. Finishing salt, not for the pot. The flakes crush between the fingers over a finished dish. A tub lasts a year in most kitchens.': (
+        "Des flocons en pyramide récoltés dans des marais salants de l'Atlantique. Un sel de finition, pas un sel de cuisson. Les flocons s'écrasent entre les doigts sur un plat terminé. Une boîte dure un an dans la plupart des cuisines.",
+        'Pyramidenflocken aus atlantischen Salzgärten. Ein Finishing-Salz, nichts für den Topf. Die Flocken zerdrückt man zwischen den Fingern über dem fertigen Gericht. Eine Dose hält in den meisten Küchen ein Jahr.',
+        "Fiocchi a piramide raccolti nelle saline dell'Atlantico. Un sale da finitura, non da pentola. I fiocchi si sbriciolano tra le dita sul piatto finito. Una confezione dura un anno nella maggior parte delle cucine."),
+    'Country sourdough': ('Pain au levain de campagne', 'Bauernbrot mit Sauerteig', 'Pane di campagna a lievito madre'),
+    'A 48-hour sourdough with a dark crust and an open crumb. Wheat, water, salt and time. Baked before dawn, packed warm, delivered the same day. It keeps for four days in a cloth.': (
+        "Un pain au levain de 48 heures, croûte foncée et mie alvéolée. Farine, eau, sel et temps. Cuit avant l'aube, emballé tiède, livré le jour même. Il se garde quatre jours dans un linge.",
+        'Ein 48-Stunden-Sauerteigbrot mit dunkler Kruste und offener Krume. Weizen, Wasser, Salz und Zeit. Vor Sonnenaufgang gebacken, warm verpackt, am selben Tag geliefert. In einem Tuch hält es vier Tage.',
+        "Un pane a lievito madre di 48 ore, con crosta scura e mollica alveolata. Farina, acqua, sale e tempo. Cotto prima dell'alba, confezionato caldo, consegnato in giornata. Si conserva quattro giorni in un canovaccio."),
+    'Baguette tradition': ('Baguette de tradition', 'Baguette Tradition', 'Baguette tradizionale'),
+    'A long-fermented baguette with a thin crust that shatters. Made with a poolish left overnight, so the crumb is creamy. Best eaten the day it arrives.': (
+        "Une baguette à longue fermentation, avec une croûte fine qui éclate. Faite avec une poolish laissée toute la nuit, la mie est donc crémeuse. À manger le jour de la livraison.",
+        'Eine lang geführte Baguette mit dünner Kruste, die splittert. Mit einem über Nacht geführten Poolish gemacht, deshalb ist die Krume cremig. Am besten am Liefertag essen.',
+        'Una baguette a lunga fermentazione, con crosta sottile che si sbriciola. Fatta con una poolish lasciata tutta la notte, così la mollica è cremosa. Da mangiare il giorno che arriva.'),
+    'Butter croissants': ('Croissants au beurre', 'Buttercroissants', 'Croissant al burro'),
+    'Six croissants laminated with cultured butter. Best warmed for five minutes. Twenty-seven layers of butter and dough, proved overnight. They freeze well and bake from frozen.': (
+        "Six croissants feuilletés au beurre de baratte. Meilleurs réchauffés cinq minutes. Vingt-sept couches de beurre et de pâte, pointées toute la nuit. Ils se congèlent bien et se cuisent surgelés.",
+        'Sechs Croissants, touriert mit Sauerrahmbutter. Am besten fünf Minuten aufgewärmt. Siebenundzwanzig Schichten Butter und Teig, über Nacht geführt. Sie lassen sich gut einfrieren und tiefgefroren backen.',
+        'Sei croissant sfogliati con burro di panna acida. Al meglio scaldati cinque minuti. Ventisette strati di burro e impasto, lievitati tutta la notte. Si congelano bene e si cuociono da surgelati.'),
+    'Seeded rye loaf': ('Pain de seigle aux graines', 'Roggenbrot mit Saaten', 'Pane di segale ai semi'),
+    'Dense rye with sunflower and pumpkin seeds. Keeps for a week. A dense loaf that slices thin and toasts well. Good with butter, better with cheese.': (
+        "Un seigle dense aux graines de tournesol et de courge. Il se garde une semaine. Un pain dense qui se coupe fin et se grille bien. Bon avec du beurre, meilleur avec du fromage.",
+        'Ein dichtes Roggenbrot mit Sonnenblumen- und Kürbiskernen. Es hält eine Woche. Ein dichter Laib, der sich dünn schneiden und gut toasten lässt. Gut mit Butter, besser mit Käse.',
+        'Una segale densa con semi di girasole e zucca. Si conserva una settimana. Un pane compatto che si taglia sottile e si tosta bene. Buono con il burro, meglio con il formaggio.'),
+    'Gluten-free seed loaf': ('Pain aux graines sans gluten', 'Glutenfreies Saatenbrot', 'Pane ai semi senza glutine'),
+    'A buckwheat and seed loaf with no gluten and no compromise on crust. Baked in a separate kitchen, so it is safe for coeliacs. Toast it and the crust comes alive.': (
+        "Un pain de sarrasin et de graines, sans gluten et sans compromis sur la croûte. Cuit dans une cuisine séparée, il convient donc aux cœliaques. Grillez-le et la croûte se réveille.",
+        'Ein Brot aus Buchweizen und Saaten, ohne Gluten und ohne Kompromiss bei der Kruste. In einer eigenen Küche gebacken, also sicher für Zöliakiebetroffene. Getoastet erwacht die Kruste.',
+        'Un pane di grano saraceno e semi, senza glutine e senza rinunce sulla crosta. Cotto in una cucina separata, quindi sicuro per i celiaci. Tostalo e la crosta si risveglia.'),
+    'Cardamom buns': ('Brioches à la cardamome', 'Kardamomschnecken', 'Girelle al cardamomo'),
+    'Six twisted buns with cardamom sugar and a pearl sugar top. Freshly ground cardamom in the dough and the sugar. Warm them for three minutes before serving.': (
+        "Six brioches torsadées au sucre de cardamome, avec du sucre perlé dessus. De la cardamome fraîchement moulue dans la pâte et dans le sucre. Réchauffez-les trois minutes avant de servir.",
+        'Sechs gedrehte Schnecken mit Kardamomzucker und Hagelzucker obenauf. Frisch gemahlener Kardamom im Teig und im Zucker. Vor dem Servieren drei Minuten aufwärmen.',
+        'Sei girelle intrecciate con zucchero al cardamomo e granella sopra. Cardamomo macinato fresco nell impasto e nello zucchero. Scaldale tre minuti prima di servirle.'),
+    'Cave-aged cheddar': ('Cheddar affiné en cave', 'Höhlengereifter Cheddar', 'Cheddar affinato in grotta'),
+    'Clothbound cheddar aged eighteen months in a stone cave. Crumbly, sharp, sweet at the end. Made from the milk of one herd and turned by hand in the cave. Cut to order, about 250 g.': (
+        "Un cheddar sous toile affiné dix-huit mois dans une cave de pierre. Friable, puissant, sucré en fin de bouche. Fait du lait d'un seul troupeau et retourné à la main dans la cave. Coupé à la commande, environ 250 g.",
+        'Ein in Tuch gereifter Cheddar, achtzehn Monate in einer Steinhöhle. Bröckelig, kräftig, am Ende süß. Aus der Milch einer einzigen Herde, in der Höhle von Hand gewendet. Auf Bestellung geschnitten, etwa 250 g.',
+        "Un cheddar fasciato nella tela e affinato diciotto mesi in una grotta di pietra. Friabile, deciso, dolce sul finale. Fatto con il latte di una sola mandria e rivoltato a mano nella grotta. Tagliato su ordinazione, circa 250 g."),
+    'Manchego 12 months': ('Manchego 12 mois', 'Manchego, 12 Monate', 'Manchego 12 mesi'),
+    'Sheep milk cheese aged a year. Nutty and firm, for slicing with quince. From the raw milk of Manchega sheep, with a natural rind. Slice thin and serve at room temperature.': (
+        "Un fromage de brebis affiné un an. Fruit sec et ferme, à trancher avec de la pâte de coing. Au lait cru de brebis manchega, avec une croûte naturelle. Tranchez-le fin et servez-le à température ambiante.",
+        'Ein Schafskäse, ein Jahr gereift. Nussig und fest, in Scheiben mit Quittenbrot. Aus der Rohmilch von Manchega-Schafen, mit Naturrinde. Dünn schneiden und bei Raumtemperatur servieren.',
+        'Un formaggio di pecora stagionato un anno. Di nocciola e compatto, da affettare con la cotognata. Dal latte crudo di pecore manchega, con crosta naturale. Affettalo sottile e servilo a temperatura ambiente.'),
+    'Farmhouse brie': ('Brie fermier', 'Bauernhof-Brie', 'Brie di fattoria'),
+    'A soft, bloomy-rind brie from raw milk. Ripe at the edges, chalky in the middle. About 400 g, sold ripe. Leave it out for an hour before serving and the middle softens.': (
+        "Un brie au lait cru à croûte fleurie. Fait sur les bords, encore crayeux au cœur. Environ 400 g, vendu à point. Sortez-le une heure avant de servir et le cœur s'assouplit.",
+        'Ein Brie aus Rohmilch mit Weißschimmelrinde. Am Rand reif, in der Mitte kreidig. Etwa 400 g, reif verkauft. Eine Stunde vor dem Servieren herausnehmen, dann wird die Mitte weich.',
+        'Un brie a latte crudo con crosta fiorita. Maturo sui bordi, ancora gessoso al centro. Circa 400 g, venduto a punto. Tiralo fuori un ora prima di servirlo e il cuore si ammorbidisce.'),
+    'Pecorino romano': ('Pecorino romano', 'Pecorino Romano', 'Pecorino romano'),
+    'Salty sheep milk cheese for grating over pasta. Aged ten months, hard and salty. Grate it over pasta or shave it over broad beans.': (
+        "Un fromage de brebis salé à râper sur les pâtes. Affiné dix mois, dur et salé. Râpez-le sur des pâtes ou taillez-le en copeaux sur des fèves.",
+        'Ein salziger Schafskäse zum Reiben über Pasta. Zehn Monate gereift, hart und salzig. Über Pasta reiben oder über Saubohnen hobeln.',
+        'Un formaggio di pecora sapido da grattugiare sulla pasta. Stagionato dieci mesi, duro e salato. Grattugialo sulla pasta o taglialo a scaglie sulle fave.'),
+    'Iberico ham, sliced': ('Jambon ibérique, tranché', 'Iberico-Schinken, geschnitten', 'Prosciutto iberico, affettato'),
+    'Acorn-fed Iberico ham, hand sliced and vacuum packed. Cured for thirty-six months in the mountain air. Eighty grams, sliced by hand the day it ships.': (
+        "Un jambon ibérique nourri au gland, tranché à la main et emballé sous vide. Affiné trente-six mois à l'air de la montagne. Quatre-vingts grammes, tranchés à la main le jour de l'expédition.",
+        'Iberico-Schinken von eichelgefütterten Schweinen, von Hand geschnitten und vakuumiert. Sechsunddreißig Monate in der Bergluft gereift. Achtzig Gramm, am Versandtag von Hand geschnitten.',
+        "Prosciutto iberico da maiali nutriti con ghiande, affettato a mano e confezionato sottovuoto. Stagionato trentasei mesi nell'aria di montagna. Ottanta grammi, affettati a mano il giorno della spedizione."),
+    'Fennel salami': ('Saucisson au fenouil', 'Fenchelsalami', 'Salame al finocchio'),
+    'A coarse pork salami with wild fennel seed, air dried for eight weeks. One whole salami of about 300 g. Peel the casing and slice thick.': (
+        "Un saucisson de porc à grain épais, aux graines de fenouil sauvage, séché à l'air pendant huit semaines. Un saucisson entier d'environ 300 g. Retirez la peau et coupez épais.",
+        'Eine grobe Schweinesalami mit wildem Fenchelsamen, acht Wochen luftgetrocknet. Eine ganze Salami von etwa 300 g. Die Pelle abziehen und dick schneiden.',
+        'Un salame di maiale a grana grossa con semi di finocchietto selvatico, essiccato all aria per otto settimane. Un salame intero di circa 300 g. Togli il budello e taglia spesso.'),
+    'Cured chorizo': ('Chorizo sec', 'Luftgetrockneter Chorizo', 'Chorizo stagionato'),
+    'Smoked paprika chorizo, cured whole. Slice thin or cook in chunks. About 250 g, mild smoke, a little heat. Fry it in chunks and use the red oil for eggs.': (
+        "Un chorizo au paprika fumé, séché entier. À trancher fin ou à cuire en morceaux. Environ 250 g, fumé doux, un peu relevé. Faites-le revenir en morceaux et servez-vous de l'huile rouge pour les œufs.",
+        'Ein Chorizo mit geräuchertem Paprika, im Ganzen gereift. Dünn schneiden oder in Stücken braten. Etwa 250 g, milder Rauch, etwas Schärfe. In Stücken anbraten und das rote Öl für Eier nutzen.',
+        "Un chorizo al paprika affumicato, stagionato intero. Da affettare sottile o da cuocere a pezzi. Circa 250 g, affumicatura dolce, un po' piccante. Rosolalo a pezzi e usa l'olio rosso per le uova."),
+    'Marinated olives': ('Olives marinées', 'Marinierte Oliven', 'Olive marinate'),
+    'Green and black olives in oil with lemon peel and thyme. A 300 g jar of mixed olives, with stones. Drain and warm them for a minute before serving.': (
+        "Des olives vertes et noires à l'huile, avec du zeste de citron et du thym. Un bocal de 300 g d'olives mélangées, avec noyaux. Égouttez-les et réchauffez-les une minute avant de servir.",
+        'Grüne und schwarze Oliven in Öl mit Zitronenschale und Thymian. Ein 300-g-Glas gemischte Oliven, mit Kern. Abtropfen lassen und vor dem Servieren eine Minute erwärmen.',
+        'Olive verdi e nere sott olio, con scorza di limone e timo. Un vasetto da 300 g di olive miste, con il nocciolo. Scolale e scaldale un minuto prima di servirle.'),
+    'Espresso blend': ('Mélange espresso', 'Espressomischung', 'Miscela espresso'),
+    'Brazil and Ethiopia, roasted dark enough for milk and bright enough without. Roasted on Mondays and shipped in the same week. Whole bean or ground for espresso, moka or filter.': (
+        "Brésil et Éthiopie, torréfiés assez foncés pour le lait et assez vifs sans. Torréfiés le lundi et expédiés dans la semaine. En grains ou moulus pour l'espresso, la moka ou le filtre.",
+        'Brasilien und Äthiopien, dunkel genug für Milch und hell genug ohne. Montags geröstet und in derselben Woche versandt. Ganze Bohne oder gemahlen für Espresso, Moka oder Filter.',
+        'Brasile ed Etiopia, tostati abbastanza scuri per il latte e abbastanza vivi senza. Tostati il lunedì e spediti nella stessa settimana. In grani o macinati per espresso, moka o filtro.'),
+    'Ethiopia single origin': ('Éthiopie pure origine', 'Äthiopien Single Origin', 'Etiopia monorigine'),
+    'Washed Yirgacheffe with jasmine and citrus. Roasted light for filter. Grown at two thousand metres and washed at the mill. Brew at fifteen to one for filter.': (
+        "Un Yirgacheffe lavé, aux notes de jasmin et d'agrumes. Torréfaction claire pour le filtre. Cultivé à deux mille mètres et lavé à la station. Dosez à quinze pour un en filtre.",
+        'Ein gewaschener Yirgacheffe mit Jasmin und Zitrus. Hell geröstet für Filter. Auf zweitausend Metern angebaut und in der Aufbereitungsanlage gewaschen. Für Filter fünfzehn zu eins dosieren.',
+        'Uno Yirgacheffe lavato, con note di gelsomino e agrumi. Tostatura chiara per il filtro. Coltivato a duemila metri e lavato alla stazione. Dosa quindici a uno per il filtro.'),
+    'Swiss water decaf': ('Décaféiné à l eau', 'Entkoffeiniert mit Wasser', 'Decaffeinato ad acqua'),
+    'A Colombian decaffeinated with water only. Chocolate and red fruit. The caffeine is removed with water alone, so the flavour stays. Nobody notices it is decaf.': (
+        "Un colombien décaféiné à l'eau seule. Chocolat et fruits rouges. La caféine est retirée à l'eau, le goût reste donc. Personne ne remarque que c'est un décaféiné.",
+        'Ein Kolumbianer, nur mit Wasser entkoffeiniert. Schokolade und rote Früchte. Das Koffein wird allein mit Wasser entzogen, der Geschmack bleibt. Niemand merkt, dass es entkoffeiniert ist.',
+        'Un colombiano decaffeinato solo con acqua. Cioccolato e frutti rossi. La caffeina si toglie con la sola acqua, quindi il sapore resta. Nessuno si accorge che è decaffeinato.'),
+    'Earl Grey loose leaf': ('Earl Grey en vrac', 'Earl Grey, lose', 'Earl Grey sfuso'),
+    'Ceylon black tea with cold-pressed bergamot oil. Big leaves and real bergamot, not flavouring. Three minutes at ninety-five degrees.': (
+        "Un thé noir de Ceylan à l'huile de bergamote pressée à froid. De grandes feuilles et de la vraie bergamote, pas un arôme. Trois minutes à quatre-vingt-quinze degrés.",
+        'Ein Ceylon-Schwarztee mit kaltgepresstem Bergamottöl. Große Blätter und echte Bergamotte, kein Aroma. Drei Minuten bei fünfundneunzig Grad.',
+        'Un tè nero di Ceylon con olio di bergamotto spremuto a freddo. Foglie grandi e bergamotto vero, non aroma. Tre minuti a novantacinque gradi.'),
+    'Sencha green tea': ('Thé vert sencha', 'Sencha Grüntee', 'Tè verde sencha'),
+    'First-flush sencha, grassy and sweet. Brew at 70 degrees. Steamed and rolled leaves from the spring harvest. Sixty seconds for the first cup, longer for the second.': (
+        "Un sencha de première récolte, herbacé et doux. Infusez à 70 degrés. Des feuilles étuvées et roulées de la récolte de printemps. Soixante secondes pour la première tasse, plus longtemps pour la seconde.",
+        'Ein Sencha der ersten Ernte, grasig und süß. Bei 70 Grad aufgießen. Gedämpfte und gerollte Blätter der Frühjahrsernte. Sechzig Sekunden für die erste Tasse, länger für die zweite.',
+        'Un sencha di primo raccolto, erbaceo e dolce. Infusione a 70 gradi. Foglie cotte al vapore e arrotolate dal raccolto di primavera. Sessanta secondi per la prima tazza, di più per la seconda.'),
+    'Chamomile flowers': ('Fleurs de camomille', 'Kamillenblüten', 'Fiori di camomilla'),
+    'Whole dried chamomile flowers for a calm evening cup. Whole flowers, not dust, from a farm in the hills. Five minutes covered in a pot.': (
+        "Des fleurs de camomille entières séchées, pour une tasse du soir apaisante. Des fleurs entières, pas de la poussière, d'une ferme des collines. Cinq minutes à couvert dans une théière.",
+        'Ganze getrocknete Kamillenblüten für eine ruhige Tasse am Abend. Ganze Blüten, kein Staub, von einem Hof in den Hügeln. Fünf Minuten zugedeckt in der Kanne.',
+        'Fiori di camomilla interi essiccati, per una tazza serale che calma. Fiori interi, non polvere, da una fattoria di collina. Cinque minuti coperti in teiera.'),
+    'Drinking chocolate flakes': ('Copeaux de chocolat chaud', 'Trinkschokoladen-Flocken', 'Scaglie di cioccolata da bere'),
+    'Seventy percent dark chocolate flakes for the pan, not the kettle. Two spoons per cup, heated slowly with milk. Made from a single-estate cacao.': (
+        "Des copeaux de chocolat noir à soixante-dix pour cent, pour la casserole et non la bouilloire. Deux cuillères par tasse, chauffées doucement avec du lait. Faits d'un cacao d'un seul domaine.",
+        'Siebzigprozentige Zartbitterflocken für den Topf, nicht für den Wasserkocher. Zwei Löffel pro Tasse, langsam mit Milch erhitzt. Aus dem Kakao eines einzigen Guts.',
+        'Scaglie di cioccolato fondente al settanta per cento, per il pentolino e non per il bollitore. Due cucchiai a tazza, scaldati piano con il latte. Fatte con cacao di una sola tenuta.'),
+    'Cloudy apple juice': ('Jus de pomme trouble', 'Naturtrüber Apfelsaft', 'Succo di mela torbido'),
+    'Pressed from orchard apples, unfiltered and pasteurised gently. Pressed in the autumn from six old varieties. Cloudy because nothing is filtered out.': (
+        "Pressé à partir de pommes de verger, non filtré et pasteurisé en douceur. Pressé à l'automne à partir de six variétés anciennes. Il est trouble parce que rien n'est filtré.",
+        'Aus Streuobstäpfeln gepresst, ungefiltert und schonend pasteurisiert. Im Herbst aus sechs alten Sorten gepresst. Naturtrüb, weil nichts herausgefiltert wird.',
+        'Spremuto da mele di frutteto, non filtrato e pastorizzato con delicatezza. Spremuto in autunno da sei varietà antiche. È torbido perché non si filtra niente.'),
+    'Sicilian lemonade': ('Limonade sicilienne', 'Sizilianische Limonade', 'Limonata siciliana'),
+    'Sparkling lemonade with Sicilian lemons and cane sugar, not too sweet. Real lemon juice, cane sugar and water, carbonated in the bottle. Serve very cold.': (
+        "Une limonade pétillante aux citrons de Sicile et au sucre de canne, pas trop sucrée. Du vrai jus de citron, du sucre de canne et de l'eau, gazéifiés en bouteille. À servir très frais.",
+        'Eine prickelnde Limonade mit sizilianischen Zitronen und Rohrzucker, nicht zu süß. Echter Zitronensaft, Rohrzucker und Wasser, in der Flasche karbonisiert. Sehr kalt servieren.',
+        "Una limonata frizzante con limoni di Sicilia e zucchero di canna, non troppo dolce. Succo di limone vero, zucchero di canna e acqua, carbonata in bottiglia. Da servire molto fredda."),
+    'Fiery ginger beer': ('Bière de gingembre relevée', 'Feuriges Ingwerbier', 'Ginger beer piccante'),
+    'Fermented ginger beer with a real kick. Fresh root ginger, fermented for three days. Drink it alone or with a dark rum.': (
+        "Une bière de gingembre fermentée qui a du répondant. Du gingembre frais, fermenté trois jours. À boire seule ou avec un rhum ambré.",
+        'Ein fermentiertes Ingwerbier mit echtem Biss. Frische Ingwerwurzel, drei Tage fermentiert. Pur trinken oder mit einem dunklen Rum.',
+        'Una ginger beer fermentata che pizzica davvero. Zenzero fresco, fermentato tre giorni. Da bere da sola o con un rum scuro.'),
+    'Hibiscus kombucha': ('Kombucha à l hibiscus', 'Hibiskus-Kombucha', 'Kombucha allibisco'),
+    'Live kombucha with hibiscus and lime. Keep it cold. A live drink with a light fizz and a sour finish. Store it cold and open it slowly.': (
+        "Un kombucha vivant à l'hibiscus et au citron vert. À garder au froid. Une boisson vivante, légèrement pétillante, à la finale acidulée. Conservez-la au froid et ouvrez-la doucement.",
+        'Ein lebendiger Kombucha mit Hibiskus und Limette. Kalt halten. Ein lebendiges Getränk mit leichter Kohlensäure und säuerlichem Abgang. Kalt lagern und langsam öffnen.',
+        "Un kombucha vivo con ibisco e lime. Da tenere al freddo. Una bevanda viva con una leggera effervescenza e un finale acidulo. Conservala al freddo e aprila piano."),
+    'Douro red': ('Rouge du Douro', 'Douro Rotwein', 'Rosso del Douro'),
+    'A field blend from old vines in the Douro. Dark fruit, soft tannin, open an hour early. Touriga and friends from vines older than the winemaker. Decant it and drink it with grilled meat.': (
+        "Un assemblage de vieilles vignes du Douro. Fruits noirs, tanins souples, à ouvrir une heure avant. Touriga et compagnie, de vignes plus vieilles que le vigneron. Carafez-le et buvez-le avec une viande grillée.",
+        'Ein Gemischter Satz von alten Reben im Douro. Dunkle Frucht, weiches Tannin, eine Stunde vorher öffnen. Touriga und Freunde von Reben, die älter sind als der Winzer. Dekantieren und zu Gegrilltem trinken.',
+        'Un uvaggio di vecchie vigne del Douro. Frutta scura, tannino morbido, da aprire un ora prima. Touriga e compagni da viti più vecchie del produttore. Decantalo e bevilo con la carne alla griglia.'),
+    'Vinho verde': ('Vinho verde', 'Vinho Verde', 'Vinho verde'),
+    'Light, dry and faintly sparkling. The summer bottle. Low in alcohol, high in freshness, with a slight prickle. Serve ice cold with fish.': (
+        "Léger, sec et légèrement perlant. La bouteille de l'été. Peu d'alcool, beaucoup de fraîcheur, avec un petit picotement. À servir glacé avec du poisson.",
+        'Leicht, trocken und leicht prickelnd. Die Sommerflasche. Wenig Alkohol, viel Frische, mit einem kleinen Kribbeln. Eiskalt zu Fisch servieren.',
+        'Leggero, secco e appena frizzante. La bottiglia dell estate. Poco alcol, molta freschezza, con un piccolo pizzicore. Servilo ghiacciato con il pesce.'),
+    'Rosso vermouth': ('Vermouth rouge', 'Roter Wermut', 'Vermouth rosso'),
+    'A bittersweet vermouth with wormwood and orange peel. Serve on ice with a twist. Made on a white wine base with twenty botanicals. Keep it in the fridge once open.': (
+        "Un vermouth doux-amer à l'absinthe et au zeste d'orange. À servir sur glace avec un zeste. Élaboré sur une base de vin blanc avec vingt plantes. À garder au frais une fois ouvert.",
+        'Ein bittersüßer Wermut mit Wermutkraut und Orangenschale. Auf Eis mit einer Zeste servieren. Auf Weißweinbasis mit zwanzig Botanicals gemacht. Nach dem Öffnen im Kühlschrank aufbewahren.',
+        "Un vermouth agrodolce con assenzio e scorza d'arancia. Da servire con ghiaccio e una scorza. Fatto su base di vino bianco con venti botaniche. Dopo l'apertura tienilo in frigo."),
+    'Oil and vinegar set': ('Coffret huile et vinaigre', 'Öl-und-Essig-Set', 'Set olio e aceto'),
+    'Our Puglia oil with a twelve-year balsamic, boxed together. The two bottles our kitchen reaches for most, in a wooden box. A gift that gets used.': (
+        "Notre huile des Pouilles avec un balsamique de douze ans, réunis dans un coffret. Les deux bouteilles que notre cuisine attrape le plus souvent, dans une boîte en bois. Un cadeau qui sert.",
+        'Unser apulisches Öl mit einem zwölfjährigen Balsamico, zusammen in einer Kiste. Die zwei Flaschen, nach denen unsere Küche am häufigsten greift, in einer Holzkiste. Ein Geschenk, das benutzt wird.',
+        "Il nostro olio pugliese con un balsamico di dodici anni, insieme in una cassetta. Le due bottiglie che la nostra cucina usa di più, in una cassetta di legno. Un regalo che si usa."),
+    'Balsamic vinegar 12 years': ('Vinaigre balsamique 12 ans', 'Balsamico, 12 Jahre', 'Aceto balsamico 12 anni'),
+    'Aged in a series of wooden casks. Thick, sweet, a few drops at a time. Aged in oak, chestnut and cherry casks. Use it drop by drop on cheese, strawberries or a steak.': (
+        "Vieilli dans une batterie de fûts de bois. Épais, sucré, quelques gouttes à la fois. Vieilli en fûts de chêne, de châtaignier et de cerisier. Utilisez-le goutte à goutte sur un fromage, des fraises ou une pièce de viande.",
+        'In einer Reihe von Holzfässern gereift. Dickflüssig, süß, ein paar Tropfen auf einmal. In Eichen-, Kastanien- und Kirschfässern gereift. Tropfenweise über Käse, Erdbeeren oder ein Steak.',
+        'Invecchiato in una batteria di botti di legno. Denso, dolce, poche gocce alla volta. Invecchiato in botti di rovere, castagno e ciliegio. Usalo goccia a goccia su formaggio, fragole o una bistecca.'),
+    'Breakfast crate': ('Coffret petit-déjeuner', 'Frühstückskiste', 'Cassetta colazione'),
+    'Croissants, honey, apricot jam and a bag of espresso in a wooden crate. Everything for a slow Sunday morning, packed the night before it ships. The crate is a nice thing to keep.': (
+        "Croissants, miel, confiture d'abricot et un paquet d'espresso dans une caisse en bois. Tout pour un dimanche matin sans hâte, préparé la veille de l'expédition. La caisse est agréable à garder.",
+        'Croissants, Honig, Aprikosenmarmelade und ein Beutel Espresso in einer Holzkiste. Alles für einen langsamen Sonntagmorgen, am Abend vor dem Versand gepackt. Die Kiste behält man gern.',
+        'Croissant, miele, marmellata di albicocche e un pacchetto di espresso in una cassetta di legno. Tutto per una domenica mattina senza fretta, preparata la sera prima della spedizione. La cassetta è bella da tenere.'),
+    'Cheese board crate': ('Coffret plateau de fromages', 'Käsebrett-Kiste', 'Cassetta tagliere di formaggi'),
+    'Cheddar, manchego, brie and fig jam, cut and packed cold. Four cheeses and a jam that suits them all, with tasting notes. Serves six as a course.': (
+        "Cheddar, manchego, brie et confiture de figues, coupés et emballés au froid. Quatre fromages et une confiture qui va avec tous, avec des notes de dégustation. Pour six personnes en plateau.",
+        'Cheddar, Manchego, Brie und Feigenmarmelade, geschnitten und kalt verpackt. Vier Käse und eine Marmelade, die zu allen passt, mit Verkostungsnotizen. Reicht für sechs als Gang.',
+        'Cheddar, manchego, brie e marmellata di fichi, tagliati e confezionati al freddo. Quattro formaggi e una marmellata che sta bene con tutti, con note di degustazione. Per sei persone come portata.'),
+    'Aperitivo crate': ('Coffret apéritif', 'Aperitivo-Kiste', 'Cassetta aperitivo'),
+    'Vermouth, olives, fennel salami and a bag of taralli. The hour before dinner, in a box. Serve the vermouth on ice with an orange peel.': (
+        "Vermouth, olives, saucisson au fenouil et un paquet de taralli. L'heure d'avant le dîner, dans une boîte. Servez le vermouth sur glace avec un zeste d'orange.",
+        'Wermut, Oliven, Fenchelsalami und ein Beutel Taralli. Die Stunde vor dem Abendessen, in einer Kiste. Den Wermut auf Eis mit einer Orangenschale servieren.',
+        "Vermouth, olive, salame al finocchio e un pacchetto di taralli. L'ora prima di cena, in una cassetta. Servi il vermouth con ghiaccio e una scorza d'arancia."),
+    'Fennel taralli': ('Taralli au fenouil', 'Fenchel-Taralli', 'Taralli al finocchio'),
+    'Crunchy ring biscuits with fennel seed and olive oil, for the aperitivo hour. Baked twice, so they stay crunchy for weeks. A 250 g bag.': (
+        "De petits anneaux croquants aux graines de fenouil et à l'huile d'olive, pour l'apéritif. Cuits deux fois, ils restent croquants des semaines. Un sachet de 250 g.",
+        'Knusprige Ringe mit Fenchelsamen und Olivenöl, für die Aperitivo-Stunde. Zweimal gebacken, deshalb bleiben sie wochenlang knusprig. Ein 250-g-Beutel.',
+        "Anelli croccanti con semi di finocchio e olio d'oliva, per l'ora dell'aperitivo. Cotti due volte, così restano croccanti per settimane. Un sacchetto da 250 g."),
+    'Marcona almonds': ('Amandes Marcona', 'Marcona-Mandeln', 'Mandorle Marcona'),
+    'Fried in olive oil and salted. The bar snack. Flat, sweet almonds from Spain, fried and salted lightly. A 200 g bag.': (
+        "Frites à l'huile d'olive et salées. Le grignotage de comptoir. Des amandes plates et douces d'Espagne, frites et légèrement salées. Un sachet de 200 g.",
+        'In Olivenöl frittiert und gesalzen. Der Snack an der Bar. Flache, süße Mandeln aus Spanien, frittiert und leicht gesalzen. Ein 200-g-Beutel.',
+        "Fritte nell'olio d'oliva e salate. Lo snack da bancone. Mandorle piatte e dolci dalla Spagna, fritte e salate appena. Un sacchetto da 200 g."),
+    'Dark chocolate bar 72%': ('Tablette de chocolat noir 72 %', 'Zartbitterschokolade 72 %', 'Tavoletta fondente 72%'),
+    'Single-estate cacao, stone ground, seventy-two percent. A 70 g bar with a clean snap and a long finish. Stone ground, so the texture is slightly rough.': (
+        "Un cacao d'un seul domaine, broyé à la meule de pierre, à soixante-douze pour cent. Une tablette de 70 g à la cassure nette et à la longue finale. Broyée à la pierre, la texture est légèrement râpeuse.",
+        'Kakao von einem einzigen Gut, auf Stein gemahlen, zweiundsiebzig Prozent. Eine 70-g-Tafel mit sauberem Bruch und langem Abgang. Auf Stein gemahlen, daher ist die Textur leicht rau.',
+        'Cacao di una sola tenuta, macinato a pietra, settantadue per cento. Una tavoletta da 70 g con uno spacco netto e un finale lungo. Macinata a pietra, quindi la texture è leggermente ruvida.'),
+    'Maple pecan granola': ('Granola érable et noix de pécan', 'Ahorn-Pekan-Granola', 'Granola acero e pecan'),
+    'Oats, pecans and maple, baked in small trays until the clusters hold. A 500 g bag with real clusters and not too much sugar. Pecans in every handful.': (
+        "Avoine, noix de pécan et sirop d'érable, cuits en petites plaques jusqu'à ce que les grappes tiennent. Un sachet de 500 g avec de vraies grappes et peu de sucre. Des noix de pécan dans chaque poignée.",
+        'Hafer, Pekannüsse und Ahornsirup, in kleinen Blechen gebacken, bis die Cluster halten. Ein 500-g-Beutel mit echten Clustern und nicht zu viel Zucker. Pekannüsse in jeder Handvoll.',
+        "Avena, noci pecan e sciroppo d'acero, cotti in piccole teglie finché i grumi tengono. Un sacchetto da 500 g con grumi veri e poco zucchero. Pecan in ogni manciata."),
 }
 
 # Every table is keyed the same way, so the builder reads one merged map per language.
