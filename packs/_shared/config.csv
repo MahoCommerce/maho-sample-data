@@ -1,5 +1,10 @@
 path,value,scope,scope_code
 web/url/use_store,1,default,
+crawlers/robots/base_rules,Disallow: /,default,
+crawlers/robots/include_sitemaps,0,default,
+crawlers/robots/content_signal_search,no,default,
+crawlers/robots/content_signal_ai_input,no,default,
+design/head/default_robots,"NOINDEX,NOFOLLOW",default,
 customer/account_share/scope,0,default,
 customer/address/middlename_show,0,default,
 catalog/frontend/list_mode,grid,default,
