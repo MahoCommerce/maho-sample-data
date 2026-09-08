@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds packs/store from the ten industry packs.
 
-The store pack is the "Maho Store" website on the maho/default theme: every product of every
+The store pack is the "Maho Store" website on the base/default theme: every product of every
 industry, one category tree with one branch per industry, every review, and the home page that
 links to the ten industry stores. Run it after any industry pack changes.
 
