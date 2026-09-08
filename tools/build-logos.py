@@ -16,7 +16,7 @@ FONTS = os.path.join(ROOT, 'tools', '.fonts')
 # code: (name, font slug, weight, icon colour, dark icon colour, text colour, dark text colour, Tabler icon)
 STORES = {
     'fashion': ('Maison Maho', 'instrument-serif', 400, '#131312', '#f4f2ee', '#131312', '#f4f2ee', 'hanger'),
-    'electronics': ('Voltline', 'geist', 600, '#0668cf', '#79b8ff', '#1d1d1f', '#f2f2f4', 'bolt'),
+    'electronics': ('Voltline', 'michroma', 400, '#141416', '#ececf0', '#141416', '#ececf0', 'bolt'),
     'food': ('Harvest & Hearth', 'bricolage-grotesque', 700, '#c53f21', '#f0875e', '#2e2a22', '#f5f0e6', 'wheat'),
     'books': ('Folio', 'literata', 600, '#12727a', '#7fc4c9', '#26221a', '#f3eee4', 'book-2'),
     'jewelry': ('Aurelie', 'bodoni-moda', 500, '#1e1a13', '#efe9dc', '#1e1a13', '#efe9dc', 'diamond'),
@@ -84,7 +84,7 @@ TYPE = {
     'beauty': dict(caps=False, tracking=0.02),
     'books': dict(caps=False, tracking=0.0),
     'garden': dict(caps=False, tracking=0.01),
-    'electronics': dict(caps=True, tracking=0.06),
+    'electronics': dict(caps=True, tracking=0.08),
     'food': dict(caps=False, tracking=0.0, accent='&'),
     'home': dict(caps=False, tracking=0.0),
     'sports': dict(caps=True, tracking=0.04),
