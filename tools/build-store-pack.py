@@ -791,7 +791,11 @@ def privacy(t):
 
 def demo_notice(t):
     text, link = t['notice'], t['notice_link']
-    return f'''<p>{text}<a href="#switch-store">{link}</a></p>
+    # The admin shows this same block in a div.demo-notice, and the store switcher
+    # is not there. The rule hides the link in the admin, but not in the storefront,
+    # where the block sits in an aside.global-site-notice.
+    return f'''<style>div.demo-notice a[href="#switch-store"] {{ display: none; }}</style>
+<p>{text}<a href="#switch-store">{link}</a></p>
 '''
 
 
