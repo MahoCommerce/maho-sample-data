@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+jewelry-0001,jewelry,8379,processing,greta.books@example.com,Greta,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,J-JEWELRY-DISH:1|J-HOOP-SMALL-SILVER:1|J-SAPPHIRE-SOL-48:1|J-PEARL-PENDANT:2
+jewelry-0002,jewelry,8288,complete,jamie.foster29@example.org,Jamie,Foster,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,J-RING-BOX:2
+jewelry-0003,jewelry,7174,complete,skyler.price35@example.org,Skyler,Price,88 Harbor View,Seattle,Washington,98109,US,555-0141,J-VINTAGE-50:1
+jewelry-0004,jewelry,6106,processing,avery.collins12@example.org,Avery,Collins,742 Sunset Boulevard,Los Angeles,California,90028,US,555-0144,J-VINTAGE-54:1
+jewelry-0005,jewelry,5496,complete,wendy.ross@example.com,Wendy,Ross,44 Magnolia Way,Atlanta,Georgia,30305,US,555-0122,J-HOOP-SMALL-SILVER:1
+jewelry-0006,jewelry,5410,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,J-PEARL-PENDANT:1|J-BAND-THIN-48:1
+jewelry-0007,jewelry,5058,complete,jonas.jewelry@example.com,Jonas,Demo,1450 Birch Street,Austin,Texas,78704,US,555-0140,J-WEDDING-BAND-56:1|J-PEARL-BRACELET:2
+jewelry-0008,jewelry,5045,complete,ben.fashion@example.com,Ben,Demo,1450 Birch Street,Austin,Texas,78704,US,555-0140,J-ETERNITY-58:1|J-SIGNET-52:1|J-HALO-48:1
+jewelry-0009,jewelry,4741,complete,tessa.garden@example.com,Tessa,Demo,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,J-ETERNITY-54:2|J-SIGNET-52:1
+jewelry-0010,jewelry,4184,complete,skyler.price34@example.org,Skyler,Price,88 Harbor View,Seattle,Washington,98109,US,555-0141,J-BAND-HAMMER-48:1
+jewelry-0011,jewelry,4086,complete,skyler.price66@example.org,Skyler,Price,1450 Birch Street,Austin,Texas,78704,US,555-0140,J-ETERNITY-54:3
+jewelry-0012,jewelry,3010,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,J-SAPPHIRE-SOL-52:1
+jewelry-0013,jewelry,2702,complete,hannah.kim@example.com,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,55401,US,555-0108,J-HOOP-SMALL-GOLD:1
+jewelry-0014,jewelry,2249,complete,yara.nassar@example.com,Yara,Nassar,230 Cedar Street,Seattle,Washington,98121,US,555-0124,J-DOT-STUD:1|J-ETERNITY-58:2
+jewelry-0015,jewelry,1902,complete,finley.ward43@example.org,Finley,Ward,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,J-HOOP-SMALL-GOLD:1
+jewelry-0016,jewelry,1708,complete,rafael.ortiz@example.com,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,78702,US,555-0117,J-ETERNITY-58:1
+jewelry-0017,jewelry,1635,complete,hugo.books@example.com,Hugo,Demo,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,J-SAPPHIRE-SOL-56:1|J-ETERNITY-52:2
+jewelry-0018,jewelry,1574,complete,quinn.harper49@example.org,Quinn,Harper,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,J-BAND-HAMMER-54:1
+jewelry-0019,jewelry,974,canceled,uma.srinivasan@example.com,Uma,Srinivasan,125 Mission Street,San Francisco,California,94105,US,555-0120,J-PEARL-PENDANT:1
+jewelry-0020,jewelry,163,processing,noor.home@example.com,Noor,Demo,1450 Birch Street,Austin,Texas,78704,US,555-0140,J-PEARL-PENDANT:1

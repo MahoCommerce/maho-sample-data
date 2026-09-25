@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+fashion-0001,fashion,8493,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,W-PLEAT-SKIRT-BLACK:1|W-STRAIGHT-JEAN-BLACK:1|A-BACKPACK:1
+fashion-0002,fashion,8025,complete,caleb.nguyen@example.com,Caleb,Nguyen,903 Pine Street,Seattle,Washington,98101,US,555-0103,W-PLEAT-SKIRT-OATMEAL:2
+fashion-0003,fashion,7524,complete,ada.fashion@example.com,Ada,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,A-HOOP-EAR:2
+fashion-0004,fashion,6866,complete,jamie.foster10@example.org,Jamie,Foster,88 Harbor View,Seattle,Washington,98109,US,555-0141,A-CABIN-CASE-BLACK:2
+fashion-0005,fashion,6550,complete,dana.whitfield@example.com,Dana,Whitfield,55 Elm Court,Denver,Colorado,80202,US,555-0104,M-OXFORD-SHIRT-BLUE:3|A-BACKPACK:1
+fashion-0006,fashion,5793,complete,kira.beauty@example.com,Kira,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,W-PLEAT-SKIRT-BLACK:1
+fashion-0007,fashion,5787,processing,parker.bishop74@example.org,Parker,Bishop,29 Larimer Street,Denver,Colorado,80205,US,555-0145,A-CABIN-CASE-BLACK:1|A-LEATHER-SANDAL-BLACK:1
+fashion-0008,fashion,5105,canceled,laura.bennett@example.com,Laura,Bennett,39 Alder Street,Portland,Oregon,97205,US,555-0112,W-PLEAT-SKIRT-OATMEAL:2
+fashion-0009,fashion,4609,complete,paige.sullivan@example.com,Paige,Sullivan,760 High Street,Columbus,Ohio,43215,US,555-0116,W-STRAIGHT-JEAN-BLUE-DARK:1|W-PLEAT-SKIRT-OATMEAL:2
+fashion-0010,fashion,3119,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,A-BACKPACK:2|A-ESPADRILLE-39:1
+fashion-0011,fashion,2326,complete,harper.diaz48@example.org,Harper,Diaz,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,W-STRIPE-TEE-RED:1
+fashion-0012,fashion,2217,complete,oscar.sports@example.com,Oscar,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,A-TOTE-BLUE-DARK:1|A-AVIATOR:1
+fashion-0013,fashion,2184,complete,ada.fashion@example.com,Ada,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,W-PLEAT-SKIRT-OATMEAL:1|A-CROSSBODY-BLACK:2
+fashion-0014,fashion,2085,complete,avery.collins77@example.org,Avery,Collins,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,A-CROSSBODY-TAN:1
+fashion-0015,fashion,1931,complete,drew.sandoval58@example.org,Drew,Sandoval,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,W-PLEAT-SKIRT-OATMEAL:1|M-CARGO-SHORT-40:1
+fashion-0016,fashion,1320,complete,ada.fashion@example.com,Ada,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,W-PLEAT-SKIRT-OATMEAL:2
+fashion-0017,fashion,1056,complete,reese.walker97@example.org,Reese,Walker,510 Hudson Street,New York,New York,10014,US,555-0146,W-PLEAT-SKIRT-BLACK:1|M-FLANNEL-SHIRT-XL:2
+fashion-0018,fashion,979,canceled,jamie.foster88@example.org,Jamie,Foster,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,A-LEATHER-SANDAL-BLACK:2
+fashion-0019,fashion,505,complete,drew.sandoval21@example.org,Drew,Sandoval,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,W-PLEAT-SKIRT-BLACK:1|W-STRIPE-TEE-RED:2
+fashion-0020,fashion,373,closed,jamie.foster31@example.org,Jamie,Foster,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,M-OXFORD-SHIRT-WHITE:1|A-CABIN-CASE-BLACK:1

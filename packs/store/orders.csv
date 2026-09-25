@@ -1,0 +1,101 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+store-0001,default,8675,complete,aaron.blake@example.com,Aaron,Blake,418 Maple Avenue,Austin,Texas,78701,US,555-0101,S-BLOCKS:2|K-CARDIGAN-OATMEAL:1|G-CLEANSE-OIL:1
+store-0002,default,8615,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,G-CLEANSE-OIL:1
+store-0003,default,8314,complete,alex.morgan64@example.org,Alex,Morgan,510 Hudson Street,New York,New York,10014,US,555-0146,J-ETERNITY-48:1|E-SMART-PLUG:1|W-WIDE-TROUSER-KHAKI:1
+store-0004,default-fr,8081,complete,julien.lefevre@example.com,Julien,Lefèvre,8 quai Saint-Antoine,Lyon,Rhône,69002,FR,04 72 00 45 67,E-WATCH-STRAP-BROWN:1
+store-0005,default-fr,8035,complete,lucas.petit56@example.org,Lucas,Petit,40 rue Sainte-Catherine,Bordeaux,Gironde,33000,FR,05 56 00 33 44,M-FLANNEL-SHIRT-S:2|N-GRASS:1
+store-0006,default,7908,complete,quinn.harper52@example.org,Quinn,Harper,29 Larimer Street,Denver,Colorado,80205,US,555-0145,B-SMALL-THINGS-HARDCOVER:1
+store-0007,default,7843,complete,laura.bennett@example.com,Laura,Bennett,39 Alder Street,Portland,Oregon,97205,US,555-0112,F-MANCHEGO:1
+store-0008,default,7676,complete,rowan.pierce74@example.org,Rowan,Pierce,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,S-BLOCKS:1|N-RAISED-BED:2|G-NIACINAMIDE:1|J-ETERNITY-54:2
+store-0009,default,7633,canceled,isaac.moreno@example.com,Isaac,Moreno,620 Van Buren Street,Phoenix,Arizona,85004,US,555-0109,G-CLEANSE-OIL:1|A-LOAFER-BROWN:1
+store-0010,default,7553,complete,dana.whitfield@example.com,Dana,Whitfield,55 Elm Court,Denver,Colorado,80202,US,555-0104,F-MANCHEGO:3
+store-0011,default,7532,complete,cameron.lowe25@example.org,Cameron,Lowe,510 Hudson Street,New York,New York,10014,US,555-0146,B-BOOKMARKS:2|G-CLEANSE-OIL:1|N-GRASS:2
+store-0012,default-fr,7354,complete,julien.lefevre@example.com,Julien,Lefèvre,8 quai Saint-Antoine,Lyon,Rhône,69002,FR,04 72 00 45 67,H-GLASSES:1
+store-0013,default,7319,complete,parker.bishop93@example.org,Parker,Bishop,88 Harbor View,Seattle,Washington,98109,US,555-0141,F-BRONZE-PASTA-1-KG:1
+store-0014,default,7144,complete,aaron.blake@example.com,Aaron,Blake,418 Maple Avenue,Austin,Texas,78701,US,555-0101,M-OXFORD-SHIRT-WHITE:1
+store-0015,default,6970,complete,finley.ward36@example.org,Finley,Ward,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,E-SD-CARD-128-GB:1
+store-0016,default,6753,complete,jamie.foster24@example.org,Jamie,Foster,510 Hudson Street,New York,New York,10014,US,555-0146,E-DOCK:2|H-MIRROR:3
+store-0017,default-it,6551,complete,giulia.ricci@example.com,Giulia,Ricci,Via Tortona 15,Milano,,20144,IT,02 5550 1234,H-BOOKCASE:1
+store-0018,default-de,6533,complete,sophie.richter25@example.org,Sophie,Richter,Kastanienallee 24,Berlin,Berlin,10435,DE,030 5550211,K-SHELF:2|J-DOT-STUD:2|S-BOTTLE-WHITE:1
+store-0019,default,6455,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,S-BOTTLE-WHITE:1
+store-0020,default,6256,complete,quinn.harper31@example.org,Quinn,Harper,742 Sunset Boulevard,Los Angeles,California,90028,US,555-0144,K-DUNGAREES-BROWN:1|F-ESPRESSO-1-KG:1
+store-0021,default,6180,complete,marcus.reed@example.com,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,27601,US,555-0113,S-GOGGLES-BLUE:1|J-ETERNITY-48:1
+store-0022,default,6130,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,S-STRAP:1
+store-0023,default,6036,closed,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,H-SIDE-TABLE:1
+store-0024,default,6017,closed,marcus.reed@example.com,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,27601,US,555-0113,K-GIFT-CARD:1|E-WATCH-STRAP-BROWN:1
+store-0025,default-de,5921,complete,leon.meyer42@example.org,Leon,Meyer,Leopoldstraße 58,München,Bayern,80802,DE,089 5550233,M-FLANNEL-SHIRT-S:1
+store-0026,default,5890,complete,parker.bishop42@example.org,Parker,Bishop,300 Wabash Avenue,Chicago,Illinois,60611,US,555-0142,N-BENCH:1|E-DAC:1
+store-0027,default,5848,complete,finley.ward21@example.org,Finley,Ward,1450 Birch Street,Austin,Texas,78704,US,555-0140,B-CITY-WATER-HARDCOVER:1|H-PENDANT-ONE-SIZE:1|J-ETERNITY-50:2
+store-0028,default,5839,complete,elijah.brooks@example.com,Elijah,Brooks,1210 Lake Shore Drive,Chicago,Illinois,60601,US,555-0105,G-VIT-C-50-ML:1
+store-0029,default,5660,complete,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,E-SMART-PLUG:1
+store-0030,default,5617,complete,ada.fashion@example.com,Ada,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,N-GRASS:1|F-CHAMOMILE:1|H-BATH-MAT:1
+store-0031,default,5021,complete,oscar.sports@example.com,Oscar,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-CLEANSE-OIL:1|F-ALMONDS:2|N-CALATHEA:2|F-OLIVES:2
+store-0032,default,5013,complete,harper.diaz92@example.org,Harper,Diaz,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,K-CARDIGAN-PINK:1|H-DINING-TABLE-WALNUT:1|A-CABIN-CASE-BLACK:1|J-EMERALD-PENDANT:1
+store-0033,default,4976,complete,hannah.kim@example.com,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,55401,US,555-0108,M-KNIT-BLAZER-S:1|K-GIFT-CARD:1
+store-0034,default,4958,complete,finley.ward68@example.org,Finley,Ward,88 Harbor View,Seattle,Washington,98109,US,555-0141,E-SMART-PLUG:2
+store-0035,default-de,4958,complete,mia.becker@example.com,Mia,Becker,Lange Reihe 40,Hamburg,Hamburg,20099,DE,040 5550167,J-GIFT-CARD:1|G-GIFT-CARD:1
+store-0036,default,4637,complete,reese.walker45@example.org,Reese,Walker,510 Hudson Street,New York,New York,10014,US,555-0146,J-ETERNITY-56:1
+store-0037,default,4572,complete,rowan.pierce51@example.org,Rowan,Pierce,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,K-SOCKS-23:1|J-MOONSTONE-RING-54:1
+store-0038,default,4553,complete,fatima.rahman@example.com,Fatima,Rahman,8 Beacon Lane,Boston,Massachusetts,02108,US,555-0106,B-SMALL-THINGS-PAPERBACK:1
+store-0039,default,4414,canceled,rowan.pierce68@example.org,Rowan,Pierce,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,S-TRAIL-SHOE-BLACK:1|F-LEMONADE-6-PACK:1
+store-0040,default,4304,complete,greta.books@example.com,Greta,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,S-JUMP-ROPE:1
+store-0041,default-de,4300,complete,felix.wagner@example.com,Felix,Wagner,Sendlinger Straße 12,München,Bayern,80331,DE,089 5550145,K-TEE-GREEN:1
+store-0042,default,4149,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,B-PAPER-BIRDS:1|E-SMART-PLUG:1|J-ETERNITY-52:1
+store-0043,default,4081,complete,rowan.pierce34@example.org,Rowan,Pierce,29 Larimer Street,Denver,Colorado,80205,US,555-0145,J-PEARL-PENDANT:1|W-STRIPE-TEE-BLUE:2
+store-0044,default,3895,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,S-BOTTLE-WHITE:1|B-SMALL-THINGS-E-BOOK:1
+store-0045,default,3632,complete,leo.beauty@example.com,Leo,Demo,1450 Birch Street,Austin,Texas,78704,US,555-0140,B-SPACE-KIDS:2
+store-0046,default,3593,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,J-CORD-BRACELET-BLUE-DARK:1
+store-0047,default,3546,complete,alex.morgan33@example.org,Alex,Morgan,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,S-BOTTLE-BLUE:1|B-BREAD-BOOK:2
+store-0048,default,3473,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,W-PLEAT-SKIRT-OATMEAL:1|N-GRASS:1|S-GLOVES-L:2|S-BOTTLE-BLUE:1
+store-0049,default,3454,complete,avery.collins94@example.org,Avery,Collins,29 Larimer Street,Denver,Colorado,80205,US,555-0145,F-CHORIZO:1
+store-0050,default,3436,complete,drew.sandoval92@example.org,Drew,Sandoval,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,M-LINEN-BLAZER-BLUE-DARK:1|H-CUSHION-OATMEAL:2
+store-0051,default,3429,complete,jordan.hayes80@example.org,Jordan,Hayes,510 Hudson Street,New York,New York,10014,US,555-0146,S-BANDS:3
+store-0052,default,3355,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,N-KNEELER:2
+store-0053,default,3296,complete,quinn.harper91@example.org,Quinn,Harper,300 Wabash Avenue,Chicago,Illinois,60611,US,555-0142,N-TOMATO-SEED:1
+store-0054,default,3277,complete,jordan.hayes16@example.org,Jordan,Hayes,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,J-SIGNET-52:1|B-BREAD-BOOK:1
+store-0055,default,3275,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,F-ESPRESSO-250-G:1|G-EDP-CEDAR-50-ML:2
+store-0056,default,3099,complete,harper.diaz15@example.org,Harper,Diaz,1450 Birch Street,Austin,Texas,78704,US,555-0140,N-BEAN-SEED:2
+store-0057,default,2938,closed,jordan.hayes51@example.org,Jordan,Hayes,510 Hudson Street,New York,New York,10014,US,555-0146,N-SPADE:1|J-ETERNITY-56:1|H-GLASSES:2
+store-0058,default,2733,complete,avery.collins96@example.org,Avery,Collins,29 Larimer Street,Denver,Colorado,80205,US,555-0145,B-ATLAS-WALKS:2|J-CUFF-HAMMER:1
+store-0059,default-it,2653,complete,giulia.ricci@example.com,Giulia,Ricci,Via Tortona 15,Milano,,20144,IT,02 5550 1234,N-TOMATO-SEED:1|F-OLIVES:1
+store-0060,default-fr,2534,complete,mathis.garnier@example.com,Mathis,Garnier,5 rue de la République,Marseille,Bouches-du-Rhône,13001,FR,04 91 00 23 45,K-PICTURE-BOOK:1|B-PLAGUE-YEAR:1|W-STRIPE-TEE-BLUE:1|F-HOT-CHOC:1
+store-0061,default,2447,complete,dev.electronics@example.com,Dev,Demo,1450 Birch Street,Austin,Texas,78704,US,555-0140,H-MIRROR:1
+store-0062,default,2387,complete,zoe.mitchell@example.com,Zoe,Mitchell,87 Trailhead Road,Boulder,Colorado,80302,US,555-0125,N-BENCH:1
+store-0063,default,2303,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,G-CLEANSE-OIL:1|K-PICTURE-BOOK:2
+store-0064,default,2276,complete,ada.fashion@example.com,Ada,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,H-MATTRESS-TOPPER:1|J-DROP-TOPAZ:3|N-FERN-12-CM:2|F-CHAMOMILE:1
+store-0065,default,2226,complete,skyler.price77@example.org,Skyler,Price,1450 Birch Street,Austin,Texas,78704,US,555-0140,B-BIRD-GUIDE:1|F-ALMONDS:2
+store-0066,default,2096,complete,kira.beauty@example.com,Kira,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,S-BENCH:2|N-FICUS-30-CM:2|G-BODY-WASH-CEDAR:1
+store-0067,default,1963,complete,casey.porter34@example.org,Casey,Porter,1450 Birch Street,Austin,Texas,78704,US,555-0140,G-MICELLAR:1|B-EMPIRE-TEA:1
+store-0068,default,1887,canceled,marcus.reed@example.com,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,27601,US,555-0113,H-GLASSES:2|G-NIACINAMIDE:2
+store-0069,default,1847,complete,rafael.ortiz@example.com,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,78702,US,555-0117,B-BOOKMARKS:1|N-LETTUCE-SEED:2
+store-0070,default,1650,complete,morgan.ellis71@example.org,Morgan,Ellis,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,H-BASKET:2
+store-0071,default,1613,complete,emerson.shaw26@example.org,Emerson,Shaw,510 Hudson Street,New York,New York,10014,US,555-0146,E-SD-CARD-512-GB:1|F-HOT-CHOC:1|J-ETERNITY-56:2
+store-0072,default-de,1503,complete,mia.becker@example.com,Mia,Becker,Lange Reihe 40,Hamburg,Hamburg,20099,DE,040 5550167,K-SHELF:1|S-HELMET-RED:1
+store-0073,default,1479,canceled,harper.diaz33@example.org,Harper,Diaz,1450 Birch Street,Austin,Texas,78704,US,555-0140,J-DIAMOND-STUD:1
+store-0074,default-fr,1446,complete,mathis.garnier@example.com,Mathis,Garnier,5 rue de la République,Marseille,Bouches-du-Rhône,13001,FR,04 91 00 23 45,K-BALANCE-BIKE-RED:1|A-CANVAS-SNEAKER-GREEN:1
+store-0075,default-fr,1405,complete,julien.lefevre@example.com,Julien,Lefèvre,8 quai Saint-Antoine,Lyon,Rhône,69002,FR,04 72 00 45 67,N-GRASS:2|G-FACE-OIL-UNSCENTED:1
+store-0076,default-fr,1216,complete,lea.moreau@example.com,Léa,Moreau,22 cours de l'Intendance,Bordeaux,Gironde,33000,FR,05 56 00 78 90,F-ESPRESSO-1-KG:1|E-SMART-SPEAKER-GREY:1|N-TOMATO-SEED:1|G-DAY-CREAM-50-ML:1
+store-0077,default,1174,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,E-SD-CARD-512-GB:2|J-ETERNITY-58:1|G-CLEANSE-OIL:1
+store-0078,default,1142,complete,quinn.kids@example.com,Quinn,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-EXFOLIANT:1
+store-0079,default,1086,complete,taylor.brooks65@example.org,Taylor,Brooks,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,N-TOMATO-SEED:1|J-ETERNITY-50:3|E-DAC:3
+store-0080,default,1066,complete,chloe.electronics@example.com,Chloe,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,S-BANDS:1
+store-0081,default,1063,complete,taylor.brooks92@example.org,Taylor,Brooks,510 Hudson Street,New York,New York,10014,US,555-0146,G-EDP-CEDAR-30-ML:1|N-TOMATO-SEED:2
+store-0082,default-de,1037,complete,felix.wagner@example.com,Felix,Wagner,Sendlinger Straße 12,München,Bayern,80331,DE,089 5550145,S-TRAINING-TEE-GREY:1|A-CABIN-CASE-SILVER:1
+store-0083,default,974,complete,aaron.blake@example.com,Aaron,Blake,418 Maple Avenue,Austin,Texas,78701,US,555-0101,E-THERMOSTAT:1|J-ETERNITY-56:1
+store-0084,default-it,938,closed,lorenzo.gallo84@example.org,Lorenzo,Gallo,Via Santo Stefano 22,Bologna,,40125,IT,051 5550 8901,E-THERMOSTAT:1|A-BACKPACK:1|W-WRAP-TOP-L:1
+store-0085,default,777,complete,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,H-PENDANT-ONE-SIZE:1|H-TABLE-LAMP-WHITE:1
+store-0086,default,763,complete,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,N-GRASS:1|E-MONITOR-34:1
+store-0087,default-it,652,complete,luca.romano@example.com,Luca,Romano,Borgo San Frediano 7,Firenze,,50124,IT,055 5550 4567,G-EDP-CEDAR-50-ML:1|W-WRAP-TOP-L:1|J-HOOP-SMALL-SILVER:1
+store-0088,default,638,closed,liam.carter@example.com,Liam,Carter,12 Willow Bend,Naperville,Illinois,60540,US,555-0126,N-SECATEURS:1
+store-0089,default,633,complete,avery.collins48@example.org,Avery,Collins,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,N-BENCH:2|N-GRASS:1
+store-0090,default,616,complete,hannah.kim@example.com,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,55401,US,555-0108,N-TOMATO-SEED:1|G-LIGHT-LOTION:1
+store-0091,default,598,complete,parker.bishop19@example.org,Parker,Bishop,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,K-CARDIGAN-PINK:3
+store-0092,default,582,complete,rafael.ortiz@example.com,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,78702,US,555-0117,K-PICTURE-BOOK:2|J-ETERNITY-54:1|B-READING-LIGHT:1
+store-0093,default-it,467,processing,matteo.greco33@example.org,Matteo,Greco,Via del Governo Vecchio 5,Roma,,00186,IT,06 5550 7890,E-SMART-PLUG:2|S-TOWEL-GREY:1
+store-0094,default-it,466,complete,lorenzo.gallo12@example.org,Lorenzo,Gallo,Via del Governo Vecchio 5,Roma,,00186,IT,06 5550 7890,K-PICTURE-BOOK:1
+store-0095,default-de,337,canceled,paul.hoffmann@example.com,Paul,Hoffmann,Ehrenstraße 9,Köln,Nordrhein-Westfalen,50672,DE,0221 5550189,H-WARDROBE:1|H-PENDANT-ONE-SIZE:2|E-MOUSE-WHITE:1|K-MOBILE:2
+store-0096,default,77,processing,rowan.pierce78@example.org,Rowan,Pierce,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,E-THERMOSTAT:2
+store-0097,default-de,67,processing,sophie.richter17@example.org,Sophie,Richter,Ottenser Hauptstraße 6,Hamburg,Hamburg,22765,DE,040 5550255,E-DAC:1
+store-0098,default-fr,23,processing,theo.laurent81@example.org,Théo,Laurent,17 rue Mercière,Lyon,Rhône,69002,FR,04 72 00 11 22,W-PLEAT-SKIRT-OATMEAL:2
+store-0099,default-fr,12,pending,mathis.garnier@example.com,Mathis,Garnier,5 rue de la République,Marseille,Bouches-du-Rhône,13001,FR,04 91 00 23 45,E-LENS-85:2
+store-0100,default-de,1,processing,leon.meyer38@example.org,Leon,Meyer,Ottenser Hauptstraße 6,Hamburg,Hamburg,22765,DE,040 5550255,B-BREAD-BOOK:1

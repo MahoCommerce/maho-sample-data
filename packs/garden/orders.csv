@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+garden-0001,garden,8543,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,N-GARLIC:1|N-TOMATO-SEED:1
+garden-0002,garden,7861,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,N-TOMATO-SEED:1|N-DAFFODIL-BULBS:1
+garden-0003,garden,7643,canceled,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,N-PILEA:1
+garden-0004,garden,7533,complete,drew.sandoval55@example.org,Drew,Sandoval,88 Harbor View,Seattle,Washington,98109,US,555-0141,N-GRASS:1
+garden-0005,garden,7461,complete,reese.walker59@example.org,Reese,Walker,510 Hudson Street,New York,New York,10014,US,555-0146,N-RAISED-BED:1|N-TOMATO-SEED:1|N-DECK-CHAIR:1|N-HYDRANGEA-17-CM:1
+garden-0006,garden,7152,complete,laura.bennett@example.com,Laura,Bennett,39 Alder Street,Portland,Oregon,97205,US,555-0112,N-PARASOL-GREEN:1
+garden-0007,garden,6494,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,N-CACTUS-SET:1|N-ROSEMARY:1
+garden-0008,garden,5421,complete,yara.nassar@example.com,Yara,Nassar,230 Cedar Street,Seattle,Washington,98121,US,555-0124,N-TOMATO-SEED:1|N-GRASS:2|N-FERN-17-CM:2
+garden-0009,garden,5015,complete,marcus.reed@example.com,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,27601,US,555-0113,N-RAISED-BED:2
+garden-0010,garden,4382,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,N-TOMATO-SEED:1
+garden-0011,garden,4170,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,N-TOMATO-SEED:1|N-BENCH:1|N-GRASS:1
+garden-0012,garden,3587,canceled,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,N-TOMATO-SEED:1|N-SWEET-PEA:1
+garden-0013,garden,3530,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,N-GRASS:1|N-TULIP-BULBS-9-CM:1
+garden-0014,garden,3217,canceled,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,N-FERN-OUTDOOR:2|N-TOMATO-SEED:1|N-BENCH:1
+garden-0015,garden,2215,canceled,harper.diaz17@example.org,Harper,Diaz,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,N-SECATEURS:1
+garden-0016,garden,1494,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,N-BENCH:1|N-GRASS:1
+garden-0017,garden,1440,complete,riley.chen98@example.org,Riley,Chen,742 Sunset Boulevard,Los Angeles,California,90028,US,555-0144,N-TOMATO-SEED:1|N-FERN-17-CM:1|N-SECATEURS:1
+garden-0018,garden,1147,complete,emerson.shaw59@example.org,Emerson,Shaw,29 Larimer Street,Denver,Colorado,80205,US,555-0145,N-BENCH:1
+garden-0019,garden,912,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,N-BISTRO-SET-BLACK:1
+garden-0020,garden,628,complete,uma.srinivasan@example.com,Uma,Srinivasan,125 Mission Street,San Francisco,California,94105,US,555-0120,N-SWEET-PEA:1

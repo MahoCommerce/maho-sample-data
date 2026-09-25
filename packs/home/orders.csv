@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+home-0001,home,6214,closed,rowan.pierce81@example.org,Rowan,Pierce,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,H-BOWLS-GREY:1|H-PENDANT-ONE-SIZE:2
+home-0002,home,3651,complete,zoe.mitchell@example.com,Zoe,Mitchell,87 Trailhead Road,Boulder,Colorado,80302,US,555-0125,H-WARDROBE:1
+home-0003,home,3166,complete,emerson.shaw59@example.org,Emerson,Shaw,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,H-DUVET:1|H-MATTRESS-TOPPER:1|H-RATTAN-PENDANT:1|H-BASKET:2
+home-0004,home,2972,complete,cameron.lowe46@example.org,Cameron,Lowe,300 Wabash Avenue,Chicago,Illinois,60611,US,555-0142,H-MIRROR:1|H-BOARD:1
+home-0005,home,2636,complete,jonas.jewelry@example.com,Jonas,Demo,300 Wabash Avenue,Chicago,Illinois,60611,US,555-0142,H-MIRROR:1|H-PENDANT-ONE-SIZE:1
+home-0006,home,2204,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,H-CANDLE-HOLDER:1|H-LINEN-SHEETS-WHITE:1
+home-0007,home,2142,complete,greta.books@example.com,Greta,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,H-BENCH:1
+home-0008,home,1820,complete,yara.nassar@example.com,Yara,Nassar,230 Cedar Street,Seattle,Washington,98121,US,555-0124,H-MIRROR:1|H-PENDANT-ONE-SIZE:1|H-BASKET:1
+home-0009,home,1816,complete,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,H-PENDANT-ONE-SIZE:1|H-MIRROR:1
+home-0010,home,1293,complete,jordan.hayes41@example.org,Jordan,Hayes,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,H-PLATES-GREEN:2
+home-0011,home,1292,pending,rafael.ortiz@example.com,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,78702,US,555-0117,H-GLASSES:3|H-WOOL-BLANKET-GREY:1
+home-0012,home,1134,closed,maya.home@example.com,Maya,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,H-PENDANT-ONE-SIZE:1|H-DINING-CHAIR-BLACK:1
+home-0013,home,1113,complete,emerson.shaw28@example.org,Emerson,Shaw,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,H-BASKET:1|H-OTTOMAN:2
+home-0014,home,1098,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,H-GLASSES:2|H-OTTOMAN:1|H-PENDANT-ONE-SIZE:3
+home-0015,home,895,complete,rosa.kids@example.com,Rosa,Demo,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,H-COFFEE-TABLE-ASH:1
+home-0016,home,865,complete,jamie.foster55@example.org,Jamie,Foster,1450 Birch Street,Austin,Texas,78704,US,555-0140,H-MATTRESS-TOPPER:2|H-OTTOMAN:1|H-FLOOR-LAMP:1
+home-0017,home,193,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,H-OTTOMAN:1
+home-0018,home,146,processing,beatriz.castillo@example.com,Beatriz,Castillo,27 Harbor Road,San Diego,California,92101,US,555-0102,H-COFFEE-TABLE-ASH:1
+home-0019,home,117,complete,yara.nassar@example.com,Yara,Nassar,230 Cedar Street,Seattle,Washington,98121,US,555-0124,H-MIRROR:1
+home-0020,home,3,processing,rafael.ortiz@example.com,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,78702,US,555-0117,H-PENDANT-ONE-SIZE:1

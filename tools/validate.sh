@@ -75,3 +75,42 @@ if gaps:
     raise SystemExit(1)
 print(f'every one of the {len(wanted)} configurable and grouped products kept all its children')
 PY
+
+# The orders are placed through the quote service, and the import runs twice above. Every row of an
+# orders.csv must be one order in the status it asks for, the stock must be the stock of products.csv,
+# and the dashboard bestsellers need the aggregated statistics.
+echo "checking the orders, the stock and the statistics"
+python3 - "$HERE" "$DB" <<'PY'
+import csv, glob, os, sqlite3, sys
+
+here, db = sys.argv[1], sys.argv[2]
+db = sqlite3.connect(db)
+wanted, skus = {}, set()
+for path in sorted(glob.glob(os.path.join(here, 'packs', '*', 'orders.csv'))):
+    for row in csv.DictReader(open(path)):
+        wanted[row['reference']] = row['status']
+        skus.update(item.rsplit(':', 1)[0] for item in row['items'].split('|'))
+have = dict(db.execute('select ext_order_id, status from sales_flat_order where ext_order_id is not null'))
+gaps = [f'{ref} is {have.get(ref, "missing")}, not {status}' for ref, status in sorted(wanted.items()) if have.get(ref) != status]
+extra = sorted(set(have) - set(wanted))
+if extra:
+    gaps.append(f'{len(extra)} orders that no orders.csv names, such as {extra[0]}')
+
+stock = {}
+for path in sorted(glob.glob(os.path.join(here, 'packs', '*', 'products.csv'))):
+    for row in csv.DictReader(open(path)):
+        if row['sku'] in skus and row.get('qty'):
+            stock[row['sku']] = float(row['qty'])
+for sku, qty in sorted(stock.items()):
+    now = db.execute('select s.qty from cataloginventory_stock_item s join catalog_product_entity p'
+                     ' on p.entity_id = s.product_id where p.sku = ?', (sku,)).fetchone()
+    if now is None or float(now[0]) != qty:
+        gaps.append(f'{sku} has a stock of {now[0] if now else "nothing"}, not {qty:g}')
+
+if not db.execute('select count(*) from sales_bestsellers_aggregated_yearly').fetchone()[0]:
+    gaps.append('the bestsellers statistics are empty')
+if gaps:
+    print('FAILED: ' + '\n        '.join(gaps), file=sys.stderr)
+    raise SystemExit(1)
+print(f'every one of the {len(wanted)} orders has its status, {len(stock)} products kept their stock, and the bestsellers are aggregated')
+PY

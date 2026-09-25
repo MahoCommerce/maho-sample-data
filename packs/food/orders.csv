@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+food-0001,food,8604,complete,jordan.hayes68@example.org,Jordan,Hayes,88 Harbor View,Seattle,Washington,98109,US,555-0141,F-ESPRESSO-1-KG:1
+food-0002,food,7507,complete,jasmine.patel@example.com,Jasmine,Patel,14 Music Row,Nashville,Tennessee,37203,US,555-0110,F-OIL-VINEGAR-SET:2|F-HOT-CHOC:1|F-TOMATO-PASSATA:1
+food-0003,food,7028,complete,elena.food@example.com,Elena,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,F-CHORIZO:1
+food-0004,food,6837,canceled,skyler.price32@example.org,Skyler,Price,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,F-HONEY-250-G:1
+food-0005,food,4995,complete,oscar.sports@example.com,Oscar,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,F-ESPRESSO-250-G:1|F-HOT-CHOC:1
+food-0006,food,3759,canceled,avery.collins37@example.org,Avery,Collins,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,F-CHORIZO:3
+food-0007,food,3632,closed,priya.sports@example.com,Priya,Demo,88 Harbor View,Seattle,Washington,98109,US,555-0141,F-GINGER-BEER-500-G:2|F-CHORIZO:1|F-TOMATO-PASSATA:2
+food-0008,food,2865,canceled,taylor.brooks51@example.org,Taylor,Brooks,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,F-ALMONDS:1|F-ESPRESSO-250-G:1
+food-0009,food,2846,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,F-CHORIZO:1|F-ESPRESSO-500-G:2
+food-0010,food,2695,complete,finley.ward26@example.org,Finley,Ward,510 Hudson Street,New York,New York,10014,US,555-0146,F-CHORIZO:1|F-ESPRESSO-250-G:2
+food-0011,food,2678,complete,elijah.brooks@example.com,Elijah,Brooks,1210 Lake Shore Drive,Chicago,Illinois,60601,US,555-0105,F-GINGER-BEER-6-PACK:1
+food-0012,food,2675,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,F-CHORIZO:1|F-FOCACCIA:2|F-ALMONDS:1|F-ESPRESSO-1-KG:2
+food-0013,food,2430,complete,skyler.price90@example.org,Skyler,Price,1450 Birch Street,Austin,Texas,78704,US,555-0140,F-ESPRESSO-1-KG:1
+food-0014,food,2058,complete,elena.food@example.com,Elena,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,F-CHORIZO:1
+food-0015,food,1498,complete,reese.walker35@example.org,Reese,Walker,300 Wabash Avenue,Chicago,Illinois,60611,US,555-0142,F-GINGER-BEER-500-G:1
+food-0016,food,1316,complete,tyler.grant@example.com,Tyler,Grant,61 Pearl Street,Denver,Colorado,80203,US,555-0119,F-ESPRESSO-1-KG:1|F-ALMONDS:1|F-GINGER-BEER-6-PACK:1
+food-0017,food,1056,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,F-ESPRESSO-1-KG:1|F-ALMONDS:1|F-TOMATO-PASSATA:2|F-CHORIZO:1
+food-0018,food,1021,complete,jamie.foster26@example.org,Jamie,Foster,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,F-FOCACCIA:1|F-TOMATO-PASSATA:1|F-CHAMOMILE:1
+food-0019,food,612,complete,finley.ward66@example.org,Finley,Ward,29 Larimer Street,Denver,Colorado,80205,US,555-0145,F-FOCACCIA:1|F-OLIVES:1|F-BRONZE-PASTA-500-G:2
+food-0020,food,13,processing,quinn.harper15@example.org,Quinn,Harper,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,F-ALMONDS:1

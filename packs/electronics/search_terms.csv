@@ -1,0 +1,23 @@
+store_code,query_text,popularity,num_results,hours_ago
+electronics,voltline,118,12,1
+electronics,orbit,67,9,11
+electronics,pocket,52,2,11
+electronics,kestrel,44,4,458
+electronics,lens,28,3,293
+electronics,tessera,24,6,359
+electronics,home,30,9,368
+electronics,halide,20,8,309
+electronics,monitor,23,3,345
+electronics,laptop,17,3,448
+electronics,labs,15,9,149
+electronics,accessories,15,16,549
+electronics,cameras,16,9,191
+electronics,smart home,16,8,655
+electronics,speaker,16,3,91
+electronics,camera,14,9,358
+electronics,audio,14,9,444
+electronics,nimbus,10,5,448
+electronics,computing,11,11,355
+electronics,pokcet,6,0,401
+electronics,ksetrel,3,0,334
+electronics,nimubs,5,0,468

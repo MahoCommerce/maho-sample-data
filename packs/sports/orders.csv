@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+sports-0001,sports,6864,processing,jordan.hayes23@example.org,Jordan,Hayes,1450 Birch Street,Austin,Texas,78704,US,555-0140,S-BLOCKS:1
+sports-0002,sports,6105,complete,laura.bennett@example.com,Laura,Bennett,39 Alder Street,Portland,Oregon,97205,US,555-0112,S-BLOCKS:1|S-BOTTLE-BLACK:2|S-KETTLEBELL-16:1
+sports-0003,sports,4980,complete,jasmine.patel@example.com,Jasmine,Patel,14 Music Row,Nashville,Tennessee,37203,US,555-0110,S-BOTTLE-BLACK:1|S-STRAP:1
+sports-0004,sports,4896,complete,liam.carter@example.com,Liam,Carter,12 Willow Bend,Naperville,Illinois,60540,US,555-0126,S-MASSAGE-BALL:1|S-TOWEL-BLUE:2|S-GOGGLES-SILVER:1
+sports-0005,sports,4261,complete,parker.bishop52@example.org,Parker,Bishop,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,S-BOTTLE-BLACK:1|S-BANDS:1
+sports-0006,sports,4037,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,S-BOTTLE-BLUE:3|S-RACE-SHOE-45:1|S-STRAP:1|S-BANDS:1
+sports-0007,sports,3750,complete,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,S-JERSEY-RED:1|S-BOTTLE-BLACK:2|S-ROLLER:2
+sports-0008,sports,3630,complete,morgan.ellis64@example.org,Morgan,Ellis,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,S-BLOCKS:2
+sports-0009,sports,3462,complete,hannah.kim@example.com,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,55401,US,555-0108,S-BIKE-LIGHT:1|S-BOTTLE-BLUE:1
+sports-0010,sports,1940,closed,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,S-BLOCKS:2
+sports-0011,sports,1420,closed,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,S-RUN-SOCKS-39:1
+sports-0012,sports,1336,complete,reese.walker95@example.org,Reese,Walker,510 Hudson Street,New York,New York,10014,US,555-0146,S-BOTTLE-WHITE:1|S-GILET-YELLOW:1|S-ROLLER:1
+sports-0013,sports,1285,complete,alex.morgan60@example.org,Alex,Morgan,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,S-BOTTLE-BLUE:1|S-SHELL-RED:1
+sports-0014,sports,1212,complete,riley.chen47@example.org,Riley,Chen,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,S-BOTTLE-BLACK:2|S-BANDS:1|S-YOGA-MAT:2
+sports-0015,sports,1148,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,S-GILET-YELLOW:1
+sports-0016,sports,1075,complete,avery.collins17@example.org,Avery,Collins,742 Sunset Boulevard,Los Angeles,California,90028,US,555-0144,S-BLOCKS:1
+sports-0017,sports,1063,complete,riley.chen52@example.org,Riley,Chen,88 Harbor View,Seattle,Washington,98109,US,555-0141,S-FLEECE-BLUE-DARK:1
+sports-0018,sports,460,processing,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,S-BLOCKS:1
+sports-0019,sports,340,complete,parker.bishop86@example.org,Parker,Bishop,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,S-FLEECE-GREEN:1
+sports-0020,sports,10,processing,dev.electronics@example.com,Dev,Demo,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,S-BANDS:1

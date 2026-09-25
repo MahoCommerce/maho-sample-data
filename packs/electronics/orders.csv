@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+electronics-0001,electronics,7954,complete,zoe.mitchell@example.com,Zoe,Mitchell,87 Trailhead Road,Boulder,Colorado,80302,US,555-0125,E-THERMOSTAT:1
+electronics-0002,electronics,7007,complete,jamie.foster49@example.org,Jamie,Foster,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,E-SMART-PLUG:1
+electronics-0003,electronics,6658,complete,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,E-SD-CARD-128-GB:1|E-THERMOSTAT:1
+electronics-0004,electronics,6622,processing,beatriz.castillo@example.com,Beatriz,Castillo,27 Harbor Road,San Diego,California,92101,US,555-0102,E-HEADPHONE-ANC-GREEN:1|E-LENS-85:1
+electronics-0005,electronics,6499,canceled,quinn.harper41@example.org,Quinn,Harper,1450 Birch Street,Austin,Texas,78704,US,555-0140,E-SMART-PLUG:2|E-THERMOSTAT:1|E-SMART-BULB:1
+electronics-0006,electronics,6454,canceled,alex.morgan54@example.org,Alex,Morgan,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,E-SMART-PLUG:1
+electronics-0007,electronics,6382,canceled,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,E-WIRED-IEM:1|E-THERMOSTAT:1|E-CABLE-C-GREY:1|E-DAC:2
+electronics-0008,electronics,6314,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,E-DAC:1|E-WIRED-IEM:2|E-BOOKSHELF:1
+electronics-0009,electronics,6307,complete,reese.walker56@example.org,Reese,Walker,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,E-DAC:2|E-SMART-SPEAKER-GREY:1
+electronics-0010,electronics,5315,complete,parker.bishop19@example.org,Parker,Bishop,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,E-LENS-35:1|E-SMART-PLUG:1
+electronics-0011,electronics,5155,complete,avery.collins34@example.org,Avery,Collins,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,E-WEBCAM:1
+electronics-0012,electronics,5063,complete,gavin.oneill@example.com,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,30303,US,555-0107,E-KEYBOARD-WHITE:1|E-SMART-PLUG:1
+electronics-0013,electronics,5063,complete,greta.books@example.com,Greta,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,E-SMART-PLUG:1
+electronics-0014,electronics,5046,complete,chloe.electronics@example.com,Chloe,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,E-SMART-PLUG:1
+electronics-0015,electronics,4339,complete,riley.chen26@example.org,Riley,Chen,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,E-LENS-2470:3|E-CAM-BAG-CHARCOAL:1|E-DAC:2|E-SD-CARD-256-GB:1
+electronics-0016,electronics,4124,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,E-TURNTABLE:2|E-WATCH-STRAP-BLACK:1|E-LAPTOP-16-1-TB:1|E-DAC:1
+electronics-0017,electronics,4078,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,E-WATCH-STRAP-BLACK:1
+electronics-0018,electronics,2480,complete,quinn.harper45@example.org,Quinn,Harper,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,E-SMART-PLUG:1
+electronics-0019,electronics,1925,closed,rafael.ortiz@example.com,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,78702,US,555-0117,E-THERMOSTAT:2
+electronics-0020,electronics,9,processing,nadia.haddad@example.com,Nadia,Haddad,18 State Street,Madison,Wisconsin,53703,US,555-0114,E-SMART-PLUG:1

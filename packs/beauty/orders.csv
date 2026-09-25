@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+beauty-0001,beauty,8607,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,G-CANDLE-FIG:1
+beauty-0002,beauty,7763,complete,beatriz.castillo@example.com,Beatriz,Castillo,27 Harbor Road,San Diego,California,92101,US,555-0102,G-EXFOLIANT:1
+beauty-0003,beauty,6958,complete,kira.beauty@example.com,Kira,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-CLEANSE-OIL:1
+beauty-0004,beauty,6204,complete,hannah.kim@example.com,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,55401,US,555-0108,G-EXFOLIANT:2
+beauty-0005,beauty,6120,complete,quinn.harper94@example.org,Quinn,Harper,29 Larimer Street,Denver,Colorado,80205,US,555-0145,G-EXFOLIANT:2
+beauty-0006,beauty,5049,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-EXFOLIANT:2
+beauty-0007,beauty,5035,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-CLEANSE-OIL:1|G-EXFOLIANT:2
+beauty-0008,beauty,4634,complete,cameron.lowe14@example.org,Cameron,Lowe,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,G-EXFOLIANT:1
+beauty-0009,beauty,4211,complete,finley.ward39@example.org,Finley,Ward,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,G-EDP-FIG-30-ML:2|G-EDP-CEDAR-30-ML:1|G-GUA-SHA:1
+beauty-0010,beauty,3715,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,G-CLEANSE-OIL:1
+beauty-0011,beauty,2442,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-PEPTIDE:1
+beauty-0012,beauty,2239,complete,skyler.price31@example.org,Skyler,Price,88 Harbor View,Seattle,Washington,98109,US,555-0141,G-CLEANSE-OIL:3|G-CANDLE-FIG:1|G-DAY-CREAM-50-ML:2
+beauty-0013,beauty,1847,complete,casey.porter27@example.org,Casey,Porter,29 Larimer Street,Denver,Colorado,80205,US,555-0145,G-HAND-CREAM-CITRUS:1
+beauty-0014,beauty,1274,complete,sam.garden@example.com,Sam,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-EXFOLIANT:1|G-CANDLE-FIG:1
+beauty-0015,beauty,1059,complete,jamie.foster18@example.org,Jamie,Foster,1450 Birch Street,Austin,Texas,78704,US,555-0140,G-EDP-FIG-30-ML:1|G-DISCOVERY:3
+beauty-0016,beauty,850,complete,quinn.harper44@example.org,Quinn,Harper,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,G-VIT-C-50-ML:1
+beauty-0017,beauty,623,complete,skyler.price73@example.org,Skyler,Price,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,G-EDP-CEDAR-30-ML:1
+beauty-0018,beauty,252,complete,tessa.garden@example.com,Tessa,Demo,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,G-HEADBAND:2|G-CLEANSE-OIL:1
+beauty-0019,beauty,176,complete,kira.beauty@example.com,Kira,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,G-CLEANSE-OIL:1
+beauty-0020,beauty,21,pending,rowan.pierce62@example.org,Rowan,Pierce,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,G-LIGHT-LOTION:1

@@ -1,0 +1,21 @@
+reference,store_code,hours_ago,status,email,firstname,lastname,street,city,region,postcode,country_id,telephone,items
+kids-0001,kids,8422,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,K-GIFT-CARD:1|K-WELLIES-GREEN:2|K-PICTURE-BOOK:1
+kids-0002,kids,8018,complete,dana.whitfield@example.com,Dana,Whitfield,55 Elm Court,Denver,Colorado,80202,US,555-0104,K-SCOOTER-BLUE:1
+kids-0003,kids,7159,complete,jamie.foster25@example.org,Jamie,Foster,88 Harbor View,Seattle,Washington,98109,US,555-0141,K-GIFT-CARD:1|K-DUNGAREES-BLUE-DARK:1
+kids-0004,kids,6778,complete,victor.lang@example.com,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,02138,US,555-0121,K-SAND-SET:1
+kids-0005,kids,6609,complete,quinn.kids@example.com,Quinn,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,K-PICTURE-BOOK:1|K-MUSLINS-OATMEAL:1|K-CAR-SET:1
+kids-0006,kids,6361,canceled,grace.holloway@example.com,Grace,Holloway,305 Orchard Lane,Portland,Oregon,97214,US,555-0127,K-SOCKS-19:1|K-STACKER:1
+kids-0007,kids,6294,complete,jordan.hayes87@example.org,Jordan,Hayes,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,K-WELLIES-YELLOW:1|K-RABBIT-GREY:1
+kids-0008,kids,5725,complete,ben.fashion@example.com,Ben,Demo,29 Larimer Street,Denver,Colorado,80205,US,555-0145,K-WELLIES-YELLOW:3|K-BALANCE-BIKE-GREEN:2|K-CRAFT-KIT:1
+kids-0009,kids,4653,complete,oscar.sports@example.com,Oscar,Demo,12 Market Street,Portland,Oregon,97201,US,555-0100,K-GIFT-CARD:2
+kids-0010,kids,4478,complete,sophie.tanner@example.com,Sophie,Tanner,480 Bleecker Street,New York,New York,10014,US,555-0118,K-LEGGINGS-GREY:2
+kids-0011,kids,4338,complete,marcus.reed@example.com,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,27601,US,555-0113,K-CAR-SET:1|K-DRESS-92:1|K-PICTURE-BOOK:1
+kids-0012,kids,4019,complete,reese.walker40@example.org,Reese,Walker,410 Hawthorne Boulevard,Portland,Oregon,97214,US,555-0149,K-CAR-SET:1
+kids-0013,kids,3243,complete,rosa.kids@example.com,Rosa,Demo,1450 Birch Street,Austin,Texas,78704,US,555-0140,K-PICTURE-BOOK:1
+kids-0014,kids,2603,canceled,rosa.kids@example.com,Rosa,Demo,17 Commonwealth Avenue,Boston,Massachusetts,02116,US,555-0143,K-COT:1|K-PICTURE-BOOK:2|K-DRESS-92:1
+kids-0015,kids,2435,complete,jordan.hayes22@example.org,Jordan,Hayes,1450 Birch Street,Austin,Texas,78704,US,555-0140,K-SHELF:1
+kids-0016,kids,2374,complete,jordan.hayes18@example.org,Jordan,Hayes,1450 Birch Street,Austin,Texas,78704,US,555-0140,K-CARDIGAN-PINK:3
+kids-0017,kids,742,complete,harper.diaz98@example.org,Harper,Diaz,1200 Broadway,Nashville,Tennessee,37203,US,555-0148,K-PICTURE-BOOK:1|K-BEDTIME-BOOK:1|K-CAR-SET:1
+kids-0018,kids,730,complete,paige.sullivan@example.com,Paige,Sullivan,760 High Street,Columbus,Ohio,43215,US,555-0116,K-SHELF:1
+kids-0019,kids,441,complete,skyler.price79@example.org,Skyler,Price,65 Ponce de Leon Avenue,Atlanta,Georgia,30308,US,555-0147,K-PICTURE-BOOK:1|K-GIFT-CARD:1|K-SHELF:2
+kids-0020,kids,14,canceled,aaron.blake@example.com,Aaron,Blake,418 Maple Avenue,Austin,Texas,78701,US,555-0101,K-PICTURE-BOOK:1
