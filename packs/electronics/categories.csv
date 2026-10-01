@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Electronics,,Electronics,1,1,1,,,,,"Audio, computing, cameras and smart home gear, tested by people who use it.",,
 Electronics,audio,Audio,1,1,1,1,PRODUCTS_AND_PAGE,landing-audio,electronics-audio.webp,,Audio | Voltline,"Headphones, earbuds and speakers with honest sound."
 Electronics,computing,Computing,1,1,1,2,PRODUCTS_AND_PAGE,landing-computing,electronics-computing.webp,,Computing | Voltline,"Laptops, keyboards and displays for long days."

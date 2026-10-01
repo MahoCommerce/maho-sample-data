@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Home,,Home,1,1,1,,,,,"Furniture, textiles and objects for a calm home, made by workshops we visit.",,
 Home,furniture,Furniture,1,1,1,1,PRODUCTS_AND_PAGE,landing-furniture,home-furniture.webp,,Furniture | Hearthstone,"Solid wood tables, chairs and storage, built to be repaired."
 Home,seating,Seating,1,1,1,2,PRODUCTS_AND_PAGE,landing-seating,home-seating.webp,,Seating | Hearthstone,Sofas and armchairs with replaceable covers.

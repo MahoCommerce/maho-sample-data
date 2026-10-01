@@ -1,4 +1,4 @@
-root,path,store_code,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,_store,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Default Category,,,Default Category,1,1,1,,,,,"Every product of the ten Maho demo stores, on the default theme.",,
 Default Category,,default-fr,Catégorie par défaut,,,,,,,,"Tous les produits des dix boutiques de démonstration Maho, sur le thème par défaut.",,
 Default Category,,default-de,Standardkategorie,,,,,,,,"Jedes Produkt der zehn Maho-Demoshops, auf dem Standard-Theme.",,

@@ -297,22 +297,22 @@ def build(spec_path):
     root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'packs', S.CODE)
     c = S.CODE
     # categories
-    cats = [dict(root=S.ROOT, path='', name=S.ROOT, is_active=1, include_in_menu=1, is_anchor=1, description=S.ROOT_DESCRIPTION)]
+    cats = [dict(_root=S.ROOT, _path='', name=S.ROOT, is_active=1, include_in_menu=1, is_anchor=1, description=S.ROOT_DESCRIPTION)]
     blocks = []
     for i, cat in enumerate(S.CATEGORIES):
         block = f'landing-{slug(cat["path"])}'
-        cats.append(dict(root=S.ROOT, path=cat['path'], name=cat['name'], is_active=1, include_in_menu=1, is_anchor=1, position=i + 1,
+        cats.append(dict(_root=S.ROOT, _path=cat['path'], name=cat['name'], is_active=1, include_in_menu=1, is_anchor=1, position=i + 1,
                          display_mode='PRODUCTS_AND_PAGE', landing_page=block, image=f'{c}-{slug(cat["path"])}.webp', description='',
                          meta_title=f"{cat['name']} | {S.STORE_NAME}", meta_description=cat['description']))
         for j, sub in enumerate(cat.get('children', [])):
-            cats.append(dict(root=S.ROOT, path=f"{cat['path']}/{sub['path']}", name=sub['name'], is_active=1, include_in_menu=1, is_anchor=1, position=j + 1, description=sub.get('description', '')))
+            cats.append(dict(_root=S.ROOT, _path=f"{cat['path']}/{sub['path']}", name=sub['name'], is_active=1, include_in_menu=1, is_anchor=1, position=j + 1, description=sub.get('description', '')))
         blocks.append(dict(identifier=block, stores=c, title=f"Category landing: {cat['name']}", content_file=f'{block}.html', is_active=1))
         put(f'{root}/content/{block}.html', landing_html(S, cat))
-    names = {c['path']: c['name'] for c in cats if c['path']}
+    names = {c['_path']: c['name'] for c in cats if c['_path']}
     def named(path):
         parts = path.split('/')
         return '/'.join(names['/'.join(parts[:k + 1])] for k in range(len(parts)))
-    write_csv(f'{root}/categories.csv', cats, ['root', 'path', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
+    write_csv(f'{root}/categories.csv', cats, ['_root', '_path', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
     blocks.append(dict(identifier='footer_links_company', stores=c, title='Footer Links Company', content_file='footer-links-company.html', is_active=1))
     put(f'{root}/content/footer-links-company.html', FOOTER_LINKS)
     write_csv(f'{root}/cms_blocks.csv', blocks, ['identifier', 'stores', 'title', 'content_file', 'is_active'])

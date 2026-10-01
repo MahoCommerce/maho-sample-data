@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Food,,Food,1,1,1,,,,,Small-batch food from farms and makers we know by name.,,
 Food,pantry,Pantry,1,1,1,1,PRODUCTS_AND_PAGE,landing-pantry,food-pantry.webp,,Pantry | Harvest & Hearth,"Olive oil, pasta, grains and preserves for every day."
 Food,bakery,Bakery,1,1,1,2,PRODUCTS_AND_PAGE,landing-bakery,food-bakery.webp,,Bakery | Harvest & Hearth,"Bread and pastries baked before dawn, shipped the same day."

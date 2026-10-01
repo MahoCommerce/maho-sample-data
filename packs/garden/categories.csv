@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Garden,,Garden,1,1,1,,,,,"Plants, seeds, pots and tools from a nursery that grows what it sells.",,
 Garden,houseplants,Houseplants,1,1,1,1,PRODUCTS_AND_PAGE,landing-houseplants,garden-houseplants.webp,,Houseplants | Greenhaven,"Grown in our glasshouse, shipped with roots intact."
 Garden,outdoor-plants,Outdoor Plants,1,1,1,2,PRODUCTS_AND_PAGE,landing-outdoor-plants,garden-outdoor-plants.webp,,Outdoor Plants | Greenhaven,"Perennials, shrubs and trees for beds and pots."

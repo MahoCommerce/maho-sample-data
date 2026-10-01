@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Beauty,,Beauty,1,1,1,,,,,"Skincare, body care and fragrance made in small batches with short ingredient lists.",,
 Beauty,cleansers,Cleansers,1,1,1,1,PRODUCTS_AND_PAGE,landing-cleansers,beauty-cleansers.webp,,Cleansers | Glow Atelier,"Balms, gels and oils that take the day off gently."
 Beauty,serums,Serums,1,1,1,2,PRODUCTS_AND_PAGE,landing-serums,beauty-serums.webp,,Serums | Glow Atelier,"Concentrated actives, one at a time."

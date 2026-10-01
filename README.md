@@ -26,6 +26,8 @@ The install order is fixed: shared stores, attribute sets, attributes with optio
 
 The column lists live in the Maho importers under `lib/Maho/Import/Importer/`. Products and customers use the Import/Export layout with two rules: `_root_category` is required on every product row that sets `_category`, and `_media_attribute_id` must not be present. Picture paths in `products.csv` are relative to the pack's `media/import/` folder.
 
+`categories.csv` uses the Import/Export category layout. `_root` is the name of the root category, and `_path` is the url keys below it, joined by a slash. An empty `_path` is the root category itself. A row with a `_store` carries the text of that store view and never creates a category. The files leave out `category_id` and `parent_id`, because an id differs from one install to the next.
+
 A row of `attributes.csv` with a `store_code` sets the label of that store view: `code`, `label` and `store_code` are filled in, every other cell stays empty. The same goes for `attribute_options.csv`, where the store row also names the admin label in `label_admin`.
 
 Scope everything by code, never by id. Config macros: `{{attribute_id:code}}`, `{{attribute_ids:a,b}}`, `{{category_id:Root/url-key}}`, `{{cms_block_id:identifier}}`, `{{store_id:code}}`, `{{store_url:code}}`.

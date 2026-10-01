@@ -117,19 +117,19 @@ def translated(rows, fields):
 
 
 def categories(codes):
-    rows = [dict(root=ROOT_CATEGORY, path='', name=ROOT_CATEGORY, is_active=1, include_in_menu=1, is_anchor=1,
+    rows = [dict(_root=ROOT_CATEGORY, _path='', name=ROOT_CATEGORY, is_active=1, include_in_menu=1, is_anchor=1,
                  description='Every product of the ten Maho demo stores, on the default theme.')]
     intro = root_descriptions(codes)
     for position, (code, name) in enumerate(codes, 1):
         image = f'store-{code}.webp'
         if not os.path.exists(os.path.join(STORE, 'media', 'catalog', 'category', image)):
             image = ''
-        rows.append(dict(root=ROOT_CATEGORY, path=code, name=name, is_active=1, include_in_menu=1, is_anchor=1,
+        rows.append(dict(_root=ROOT_CATEGORY, _path=code, name=name, is_active=1, include_in_menu=1, is_anchor=1,
                          position=position, display_mode='PRODUCTS', image=image, description=intro[code]))
         for sub in read(os.path.join(PACKS, code, 'categories.csv')):
-            if sub['path'] == '':
+            if sub['_path'] == '':
                 continue
-            rows.append(dict(root=ROOT_CATEGORY, path=f"{code}/{sub['path']}", name=sub['name'],
+            rows.append(dict(_root=ROOT_CATEGORY, _path=f"{code}/{sub['_path']}", name=sub['name'],
                              is_active=sub['is_active'], include_in_menu=sub['include_in_menu'], is_anchor=sub['is_anchor'],
                              position=sub['position'], display_mode='PRODUCTS', description=sub['description']))
     # A store row only carries the text, so it never creates a category or moves one.
@@ -140,7 +140,7 @@ def categories(codes):
             name, description = say(view, row['name']), say(view, row.get('description', ''))
             if name == row['name'] and description == row.get('description', ''):
                 continue
-            out.append(dict(root=row['root'], path=row['path'], store_code=view, name=name, description=description))
+            out.append(dict(_root=row['_root'], _path=row['_path'], _store=view, name=name, description=description))
     return out
 
 
@@ -598,7 +598,7 @@ def root_descriptions(codes):
     out = {}
     for code, name in codes:
         for r in read(os.path.join(PACKS, code, 'categories.csv')):
-            if r['path'] == '':
+            if r['_path'] == '':
                 out[code] = r['description']
     return out
 
@@ -822,7 +822,7 @@ def pages(view, t):
 def main():
     codes = industries()
     write(os.path.join(STORE, 'categories.csv'), categories(codes),
-          ['root', 'path', 'store_code', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
+          ['_root', '_path', '_store', 'name', 'is_active', 'include_in_menu', 'is_anchor', 'position', 'display_mode', 'landing_page', 'image', 'description', 'meta_title', 'meta_description'])
     rows = products(codes)
     assert len(rows) % ROWS_PER_PRODUCT == 0, 'the product rows are no longer a whole number of products'
     write(os.path.join(STORE, 'products.csv'), rows,
