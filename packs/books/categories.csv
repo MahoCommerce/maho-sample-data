@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Books,,Books,1,1,1,,,,,An independent bookshop with a short shelf and long opinions.,,
 Books,fiction,Fiction,1,1,1,1,PRODUCTS_AND_PAGE,landing-fiction,books-fiction.webp,,Fiction | Folio,"Novels and short stories, new and worth rereading."
 Books,crime,Crime & Thrillers,1,1,1,2,PRODUCTS_AND_PAGE,landing-crime,books-crime.webp,,Crime & Thrillers | Folio,"Detectives, heists and the people who get away with it."

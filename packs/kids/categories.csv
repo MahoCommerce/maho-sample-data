@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Kids,,Kids,1,1,1,,,,,"Toys, clothes and things for small rooms, chosen to last more than one child.",,
 Kids,toys,Toys,1,1,1,1,PRODUCTS_AND_PAGE,landing-toys,kids-toys.webp,,Toys | Little Lark,"Wooden and soft toys, from rattles to construction sets."
 Kids,clothing,Clothing,1,1,1,2,PRODUCTS_AND_PAGE,landing-clothing,kids-clothing.webp,,Clothing | Little Lark,Organic cotton basics in sizes 62 to 128.

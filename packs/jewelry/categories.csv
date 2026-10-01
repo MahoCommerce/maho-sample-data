@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Jewelry,,Jewelry,1,1,1,,,,,"Fine and everyday jewelry, made in a small workshop from recycled metals.",,
 Jewelry,rings,Rings,1,1,1,1,PRODUCTS_AND_PAGE,landing-rings,jewelry-rings.webp,,Rings | Aurelie,"Bands, stacking rings and stones set by hand."
 Jewelry,necklaces,Necklaces,1,1,1,2,PRODUCTS_AND_PAGE,landing-necklaces,jewelry-necklaces.webp,,Necklaces | Aurelie,"Chains, pendants and pearls for every neckline."

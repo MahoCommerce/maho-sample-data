@@ -292,11 +292,11 @@ def store_texts():
     categories = {language: {} for language in LANGUAGE.values()}
     english = {}
     for row in read(os.path.join(PACKS, STORE, 'categories.csv')):
-        key = (row['root'], row['path'])
-        if not row['store_code']:
+        key = (row['_root'], row['_path'])
+        if not row['_store']:
             english[key] = row['name']
         elif key in english:
-            categories[LANGUAGE[row['store_code']]][english[key]] = row['name']
+            categories[LANGUAGE[row['_store']]][english[key]] = row['name']
     return names, categories
 
 

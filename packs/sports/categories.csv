@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Sports,,Sports,1,1,1,,,,,"Gear for running, cycling, the gym and the trail, tested by people who train.",,
 Sports,running,Running,1,1,1,1,PRODUCTS_AND_PAGE,landing-running,sports-running.webp,,Running | Stride,"Shoes, jackets and shorts for road and trail."
 Sports,cycling,Cycling,1,1,1,2,PRODUCTS_AND_PAGE,landing-cycling,sports-cycling.webp,,Cycling | Stride,"Jerseys, bibs, helmets and the small things."

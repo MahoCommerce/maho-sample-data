@@ -1,4 +1,4 @@
-root,path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
+_root,_path,name,is_active,include_in_menu,is_anchor,position,display_mode,landing_page,image,description,meta_title,meta_description
 Fashion,,Fashion,1,1,1,,,,,Travel-wear and lifestyle pieces for the journey.,,
 Fashion,women,Women,1,1,1,2,PAGE,category-landing-women,fashion-women.webp,,,
 Fashion,women/new-arrivals,New Arrivals,1,1,1,1,PRODUCTS,,,,,
