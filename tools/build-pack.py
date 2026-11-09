@@ -113,10 +113,10 @@ def home_html(S):
             </colgroup>
             <tbody>
                 <tr>
-                    <td colspan="1" rowspan="1" style="width: 1%; padding-right: 0.75rem; vertical-align: middle;">
+                    <td style="width: 1%; padding-right: 0.75rem; vertical-align: middle;">
                         <p>{{{{icon name="{icon}" size="32"}}}}</p>
                     </td>
-                    <td colspan="1" rowspan="1" style="vertical-align: middle;">
+                    <td style="vertical-align: middle;">
                         <p><strong>{title}</strong><br />{text}</p>
                     </td>
                 </tr>
