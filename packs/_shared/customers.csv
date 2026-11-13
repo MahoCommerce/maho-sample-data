@@ -1,61 +1,61 @@
-email,_website,_store,firstname,lastname,group_id,password,_address_firstname,_address_lastname,_address_street,_address_city,_address_region,_address_country_id,_address_postcode,_address_telephone,_address_default_billing_,_address_default_shipping_
-ada.fashion@example.com,fashion,fashion,Ada,Demo,1,Password123!,Ada,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-ben.fashion@example.com,fashion,fashion,Ben,Demo,1,Password123!,,,,,,,,,,
-chloe.electronics@example.com,electronics,electronics,Chloe,Demo,1,Password123!,Chloe,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-dev.electronics@example.com,electronics,electronics,Dev,Demo,1,Password123!,,,,,,,,,,
-elena.food@example.com,food,food,Elena,Demo,1,Password123!,Elena,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-femi.food@example.com,food,food,Femi,Demo,1,Password123!,,,,,,,,,,
-greta.books@example.com,books,books,Greta,Demo,1,Password123!,Greta,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-hugo.books@example.com,books,books,Hugo,Demo,1,Password123!,,,,,,,,,,
-iris.jewelry@example.com,jewelry,jewelry,Iris,Demo,1,Password123!,Iris,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-jonas.jewelry@example.com,jewelry,jewelry,Jonas,Demo,1,Password123!,,,,,,,,,,
-kira.beauty@example.com,beauty,beauty,Kira,Demo,1,Password123!,Kira,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-leo.beauty@example.com,beauty,beauty,Leo,Demo,1,Password123!,,,,,,,,,,
-maya.home@example.com,home,home,Maya,Demo,1,Password123!,Maya,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-noor.home@example.com,home,home,Noor,Demo,1,Password123!,,,,,,,,,,
-oscar.sports@example.com,sports,sports,Oscar,Demo,1,Password123!,Oscar,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-priya.sports@example.com,sports,sports,Priya,Demo,1,Password123!,,,,,,,,,,
-quinn.kids@example.com,kids,kids,Quinn,Demo,1,Password123!,Quinn,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-rosa.kids@example.com,kids,kids,Rosa,Demo,1,Password123!,,,,,,,,,,
-sam.garden@example.com,garden,garden,Sam,Demo,1,Password123!,Sam,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
-tessa.garden@example.com,garden,garden,Tessa,Demo,1,Password123!,,,,,,,,,,
-aaron.blake@example.com,base,default,Aaron,Blake,1,Password123!,Aaron,Blake,418 Maple Avenue,Austin,Texas,US,78701,555-0101,1,1
-beatriz.castillo@example.com,base,default,Beatriz,Castillo,1,Password123!,Beatriz,Castillo,27 Harbor Road,San Diego,California,US,92101,555-0102,1,1
-caleb.nguyen@example.com,base,default,Caleb,Nguyen,1,Password123!,Caleb,Nguyen,903 Pine Street,Seattle,Washington,US,98101,555-0103,1,1
-dana.whitfield@example.com,base,default,Dana,Whitfield,1,Password123!,Dana,Whitfield,55 Elm Court,Denver,Colorado,US,80202,555-0104,1,1
-elijah.brooks@example.com,base,default,Elijah,Brooks,1,Password123!,Elijah,Brooks,1210 Lake Shore Drive,Chicago,Illinois,US,60601,555-0105,1,1
-fatima.rahman@example.com,base,default,Fatima,Rahman,1,Password123!,Fatima,Rahman,8 Beacon Lane,Boston,Massachusetts,US,02108,555-0106,1,1
-gavin.oneill@example.com,base,default,Gavin,O'Neill,1,Password123!,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,US,30303,555-0107,1,1
-hannah.kim@example.com,base,default,Hannah,Kim,1,Password123!,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,US,55401,555-0108,1,1
-isaac.moreno@example.com,base,default,Isaac,Moreno,1,Password123!,Isaac,Moreno,620 Van Buren Street,Phoenix,Arizona,US,85004,555-0109,1,1
-jasmine.patel@example.com,base,default,Jasmine,Patel,1,Password123!,Jasmine,Patel,14 Music Row,Nashville,Tennessee,US,37203,555-0110,1,1
-kevin.walsh@example.com,base,default,Kevin,Walsh,1,Password123!,Kevin,Walsh,2200 Walnut Street,Philadelphia,Pennsylvania,US,19103,555-0111,1,1
-laura.bennett@example.com,base,default,Laura,Bennett,1,Password123!,Laura,Bennett,39 Alder Street,Portland,Oregon,US,97205,555-0112,1,1
-marcus.reed@example.com,base,default,Marcus,Reed,1,Password123!,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,US,27601,555-0113,1,1
-nadia.haddad@example.com,base,default,Nadia,Haddad,1,Password123!,Nadia,Haddad,18 State Street,Madison,Wisconsin,US,53703,555-0114,1,1
-owen.fischer@example.com,fashion,fashion,Owen,Fischer,1,Password123!,Owen,Fischer,95 Canyon Road,Salt Lake City,Utah,US,84111,555-0115,1,1
-paige.sullivan@example.com,fashion,fashion,Paige,Sullivan,1,Password123!,Paige,Sullivan,760 High Street,Columbus,Ohio,US,43215,555-0116,1,1
-rafael.ortiz@example.com,electronics,electronics,Rafael,Ortiz,1,Password123!,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,US,78702,555-0117,1,1
-sophie.tanner@example.com,electronics,electronics,Sophie,Tanner,1,Password123!,Sophie,Tanner,480 Bleecker Street,New York,New York,US,10014,555-0118,1,1
-tyler.grant@example.com,food,food,Tyler,Grant,1,Password123!,Tyler,Grant,61 Pearl Street,Denver,Colorado,US,80203,555-0119,1,1
-uma.srinivasan@example.com,food,food,Uma,Srinivasan,1,Password123!,Uma,Srinivasan,125 Mission Street,San Francisco,California,US,94105,555-0120,1,1
-victor.lang@example.com,books,books,Victor,Lang,1,Password123!,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,US,02138,555-0121,1,1
-wendy.ross@example.com,jewelry,jewelry,Wendy,Ross,1,Password123!,Wendy,Ross,44 Magnolia Way,Atlanta,Georgia,US,30305,555-0122,1,1
-xavier.cole@example.com,beauty,beauty,Xavier,Cole,1,Password123!,Xavier,Cole,1501 Ocean Avenue,San Diego,California,US,92109,555-0123,1,1
-yara.nassar@example.com,home,home,Yara,Nassar,1,Password123!,Yara,Nassar,230 Cedar Street,Seattle,Washington,US,98121,555-0124,1,1
-zoe.mitchell@example.com,sports,sports,Zoe,Mitchell,1,Password123!,Zoe,Mitchell,87 Trailhead Road,Boulder,Colorado,US,80302,555-0125,1,1
-liam.carter@example.com,kids,kids,Liam,Carter,1,Password123!,Liam,Carter,12 Willow Bend,Naperville,Illinois,US,60540,555-0126,1,1
-grace.holloway@example.com,garden,garden,Grace,Holloway,1,Password123!,Grace,Holloway,305 Orchard Lane,Portland,Oregon,US,97214,555-0127,1,1
-noah.petersen@example.com,sports,sports,Noah,Petersen,1,Password123!,Noah,Petersen,66 Lakeview Terrace,Minneapolis,Minnesota,US,55408,555-0128,1,1
-camille.martin@example.com,base,default-fr,Camille,Martin,1,Password123!,Camille,Martin,14 rue Oberkampf,Paris,Paris,FR,75011,01 45 00 12 34,1,1
-julien.lefevre@example.com,base,default-fr,Julien,Lefèvre,1,Password123!,Julien,Lefèvre,8 quai Saint-Antoine,Lyon,Rhône,FR,69002,04 72 00 45 67,1,1
-lea.moreau@example.com,base,default-fr,Léa,Moreau,1,Password123!,Léa,Moreau,22 cours de l'Intendance,Bordeaux,Gironde,FR,33000,05 56 00 78 90,1,1
-mathis.garnier@example.com,base,default-fr,Mathis,Garnier,1,Password123!,Mathis,Garnier,5 rue de la République,Marseille,Bouches-du-Rhône,FR,13001,04 91 00 23 45,1,1
-lena.schneider@example.com,base,default-de,Lena,Schneider,1,Password123!,Lena,Schneider,Torstraße 101,Berlin,Berlin,DE,10119,030 5550123,1,1
-felix.wagner@example.com,base,default-de,Felix,Wagner,1,Password123!,Felix,Wagner,Sendlinger Straße 12,München,Bayern,DE,80331,089 5550145,1,1
-mia.becker@example.com,base,default-de,Mia,Becker,1,Password123!,Mia,Becker,Lange Reihe 40,Hamburg,Hamburg,DE,20099,040 5550167,1,1
-paul.hoffmann@example.com,base,default-de,Paul,Hoffmann,1,Password123!,Paul,Hoffmann,Ehrenstraße 9,Köln,Nordrhein-Westfalen,DE,50672,0221 5550189,1,1
-giulia.ricci@example.com,base,default-it,Giulia,Ricci,1,Password123!,Giulia,Ricci,Via Tortona 15,Milano,,IT,20144,02 5550 1234,1,1
-marco.bianchi@example.com,base,default-it,Marco,Bianchi,1,Password123!,Marco,Bianchi,Via dei Serpenti 30,Roma,,IT,00184,06 5550 2345,1,1
-chiara.esposito@example.com,base,default-it,Chiara,Esposito,1,Password123!,Chiara,Esposito,Via Po 18,Torino,,IT,10123,011 5550 3456,1,1
-luca.romano@example.com,base,default-it,Luca,Romano,1,Password123!,Luca,Romano,Borgo San Frediano 7,Firenze,,IT,50124,055 5550 4567,1,1
+email,_website,_store,firstname,lastname,group_id,password_hash,_address_firstname,_address_lastname,_address_street,_address_city,_address_region,_address_country_id,_address_postcode,_address_telephone,_address_default_billing_,_address_default_shipping_
+ada.fashion@example.com,fashion,fashion,Ada,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Ada,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+ben.fashion@example.com,fashion,fashion,Ben,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+chloe.electronics@example.com,electronics,electronics,Chloe,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Chloe,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+dev.electronics@example.com,electronics,electronics,Dev,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+elena.food@example.com,food,food,Elena,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Elena,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+femi.food@example.com,food,food,Femi,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+greta.books@example.com,books,books,Greta,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Greta,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+hugo.books@example.com,books,books,Hugo,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+iris.jewelry@example.com,jewelry,jewelry,Iris,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Iris,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+jonas.jewelry@example.com,jewelry,jewelry,Jonas,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+kira.beauty@example.com,beauty,beauty,Kira,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Kira,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+leo.beauty@example.com,beauty,beauty,Leo,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+maya.home@example.com,home,home,Maya,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Maya,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+noor.home@example.com,home,home,Noor,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+oscar.sports@example.com,sports,sports,Oscar,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Oscar,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+priya.sports@example.com,sports,sports,Priya,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+quinn.kids@example.com,kids,kids,Quinn,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Quinn,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+rosa.kids@example.com,kids,kids,Rosa,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+sam.garden@example.com,garden,garden,Sam,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Sam,Demo,12 Market Street,Portland,Oregon,US,97201,555-0100,1,1
+tessa.garden@example.com,garden,garden,Tessa,Demo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,,,,,,,,,,
+aaron.blake@example.com,base,default,Aaron,Blake,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Aaron,Blake,418 Maple Avenue,Austin,Texas,US,78701,555-0101,1,1
+beatriz.castillo@example.com,base,default,Beatriz,Castillo,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Beatriz,Castillo,27 Harbor Road,San Diego,California,US,92101,555-0102,1,1
+caleb.nguyen@example.com,base,default,Caleb,Nguyen,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Caleb,Nguyen,903 Pine Street,Seattle,Washington,US,98101,555-0103,1,1
+dana.whitfield@example.com,base,default,Dana,Whitfield,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Dana,Whitfield,55 Elm Court,Denver,Colorado,US,80202,555-0104,1,1
+elijah.brooks@example.com,base,default,Elijah,Brooks,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Elijah,Brooks,1210 Lake Shore Drive,Chicago,Illinois,US,60601,555-0105,1,1
+fatima.rahman@example.com,base,default,Fatima,Rahman,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Fatima,Rahman,8 Beacon Lane,Boston,Massachusetts,US,02108,555-0106,1,1
+gavin.oneill@example.com,base,default,Gavin,O'Neill,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Gavin,O'Neill,341 Peachtree Street,Atlanta,Georgia,US,30303,555-0107,1,1
+hannah.kim@example.com,base,default,Hannah,Kim,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Hannah,Kim,77 Nicollet Mall,Minneapolis,Minnesota,US,55401,555-0108,1,1
+isaac.moreno@example.com,base,default,Isaac,Moreno,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Isaac,Moreno,620 Van Buren Street,Phoenix,Arizona,US,85004,555-0109,1,1
+jasmine.patel@example.com,base,default,Jasmine,Patel,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Jasmine,Patel,14 Music Row,Nashville,Tennessee,US,37203,555-0110,1,1
+kevin.walsh@example.com,base,default,Kevin,Walsh,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Kevin,Walsh,2200 Walnut Street,Philadelphia,Pennsylvania,US,19103,555-0111,1,1
+laura.bennett@example.com,base,default,Laura,Bennett,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Laura,Bennett,39 Alder Street,Portland,Oregon,US,97205,555-0112,1,1
+marcus.reed@example.com,base,default,Marcus,Reed,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Marcus,Reed,506 Oak Park Drive,Raleigh,North Carolina,US,27601,555-0113,1,1
+nadia.haddad@example.com,base,default,Nadia,Haddad,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Nadia,Haddad,18 State Street,Madison,Wisconsin,US,53703,555-0114,1,1
+owen.fischer@example.com,fashion,fashion,Owen,Fischer,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Owen,Fischer,95 Canyon Road,Salt Lake City,Utah,US,84111,555-0115,1,1
+paige.sullivan@example.com,fashion,fashion,Paige,Sullivan,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Paige,Sullivan,760 High Street,Columbus,Ohio,US,43215,555-0116,1,1
+rafael.ortiz@example.com,electronics,electronics,Rafael,Ortiz,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Rafael,Ortiz,3 Riverside Drive,Austin,Texas,US,78702,555-0117,1,1
+sophie.tanner@example.com,electronics,electronics,Sophie,Tanner,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Sophie,Tanner,480 Bleecker Street,New York,New York,US,10014,555-0118,1,1
+tyler.grant@example.com,food,food,Tyler,Grant,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Tyler,Grant,61 Pearl Street,Denver,Colorado,US,80203,555-0119,1,1
+uma.srinivasan@example.com,food,food,Uma,Srinivasan,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Uma,Srinivasan,125 Mission Street,San Francisco,California,US,94105,555-0120,1,1
+victor.lang@example.com,books,books,Victor,Lang,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Victor,Lang,9 Harvard Street,Cambridge,Massachusetts,US,02138,555-0121,1,1
+wendy.ross@example.com,jewelry,jewelry,Wendy,Ross,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Wendy,Ross,44 Magnolia Way,Atlanta,Georgia,US,30305,555-0122,1,1
+xavier.cole@example.com,beauty,beauty,Xavier,Cole,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Xavier,Cole,1501 Ocean Avenue,San Diego,California,US,92109,555-0123,1,1
+yara.nassar@example.com,home,home,Yara,Nassar,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Yara,Nassar,230 Cedar Street,Seattle,Washington,US,98121,555-0124,1,1
+zoe.mitchell@example.com,sports,sports,Zoe,Mitchell,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Zoe,Mitchell,87 Trailhead Road,Boulder,Colorado,US,80302,555-0125,1,1
+liam.carter@example.com,kids,kids,Liam,Carter,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Liam,Carter,12 Willow Bend,Naperville,Illinois,US,60540,555-0126,1,1
+grace.holloway@example.com,garden,garden,Grace,Holloway,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Grace,Holloway,305 Orchard Lane,Portland,Oregon,US,97214,555-0127,1,1
+noah.petersen@example.com,sports,sports,Noah,Petersen,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Noah,Petersen,66 Lakeview Terrace,Minneapolis,Minnesota,US,55408,555-0128,1,1
+camille.martin@example.com,base,default-fr,Camille,Martin,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Camille,Martin,14 rue Oberkampf,Paris,Paris,FR,75011,01 45 00 12 34,1,1
+julien.lefevre@example.com,base,default-fr,Julien,Lefèvre,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Julien,Lefèvre,8 quai Saint-Antoine,Lyon,Rhône,FR,69002,04 72 00 45 67,1,1
+lea.moreau@example.com,base,default-fr,Léa,Moreau,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Léa,Moreau,22 cours de l'Intendance,Bordeaux,Gironde,FR,33000,05 56 00 78 90,1,1
+mathis.garnier@example.com,base,default-fr,Mathis,Garnier,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Mathis,Garnier,5 rue de la République,Marseille,Bouches-du-Rhône,FR,13001,04 91 00 23 45,1,1
+lena.schneider@example.com,base,default-de,Lena,Schneider,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Lena,Schneider,Torstraße 101,Berlin,Berlin,DE,10119,030 5550123,1,1
+felix.wagner@example.com,base,default-de,Felix,Wagner,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Felix,Wagner,Sendlinger Straße 12,München,Bayern,DE,80331,089 5550145,1,1
+mia.becker@example.com,base,default-de,Mia,Becker,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Mia,Becker,Lange Reihe 40,Hamburg,Hamburg,DE,20099,040 5550167,1,1
+paul.hoffmann@example.com,base,default-de,Paul,Hoffmann,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Paul,Hoffmann,Ehrenstraße 9,Köln,Nordrhein-Westfalen,DE,50672,0221 5550189,1,1
+giulia.ricci@example.com,base,default-it,Giulia,Ricci,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Giulia,Ricci,Via Tortona 15,Milano,,IT,20144,02 5550 1234,1,1
+marco.bianchi@example.com,base,default-it,Marco,Bianchi,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Marco,Bianchi,Via dei Serpenti 30,Roma,,IT,00184,06 5550 2345,1,1
+chiara.esposito@example.com,base,default-it,Chiara,Esposito,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Chiara,Esposito,Via Po 18,Torino,,IT,10123,011 5550 3456,1,1
+luca.romano@example.com,base,default-it,Luca,Romano,1,$2y$12$jTdxrAXTrGVzu9CVDgkwQO3HeSH.o0YEm.ASyERmtAO4HsSizYwa6,Luca,Romano,Borgo San Frediano 7,Firenze,,IT,50124,055 5550 4567,1,1

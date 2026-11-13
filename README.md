@@ -30,6 +30,8 @@ The column lists live in the Maho importers under `lib/Maho/Import/Importer/`. P
 
 A row of `attributes.csv` with a `store_code` sets the label of that store view: `code`, `label` and `store_code` are filled in, every other cell stays empty. The same goes for `attribute_options.csv`, where the store row also names the admin label in `label_admin`.
 
+Every customer of `customers.csv` has the password `Password123!`. The file gives its bcrypt hash in `password_hash`, not the password: the import hashes a `password` cell at cost 12, which takes a third of a second for each customer. To change the password, write the hash of the new one with `php -r 'echo password_hash("NewPassword", PASSWORD_BCRYPT, ["cost" => 12]);'`.
+
 Scope everything by code, never by id. Config macros: `{{attribute_id:code}}`, `{{attribute_ids:a,b}}`, `{{category_id:Root/url-key}}`, `{{cms_block_id:identifier}}`, `{{store_id:code}}`, `{{store_url:code}}`.
 
 The activity files give the admin dashboard something to show. A date in them is an age: `hours_ago` counts back from the moment of the import, so a fresh install always has orders in the last day, the last week and the last year.
